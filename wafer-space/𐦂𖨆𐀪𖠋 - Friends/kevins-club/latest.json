@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T04:05:16.9879106+00:00",
+  "exportedAt": "2026-11-15T11:29:15.2473244+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -969,7 +969,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 2,
+          "count": 3,
           "users": [
             {
               "id": "543162393413287956",
@@ -988,6 +988,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+            },
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
             }
           ]
         }
@@ -1716,7 +1725,29 @@
       "attachments": [],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE02",
+            "code": "joy",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f602-168C5.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            }
+          ]
+        }
+      ],
       "mentions": [
         {
           "id": "596068704471482370",
@@ -2413,7 +2444,72 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571452437666070629",
+      "type": "Default",
+      "timestamp": "2026-11-15T09:10:57.314+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Awesome to see everyone lighting up in this chat. \n@asic destroyer Looking great!!!",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "❤️",
+            "code": "heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/2764-A3D25.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "840182560252624916",
+          "name": "logic_destroyer",
+          "discriminator": "0000",
+          "nickname": "asic destroyer",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 61
+  "messageCount": 62
 }

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T03:18:30.2562244+00:00",
+  "exportedAt": "2026-11-15T10:41:59.0268744+00:00",
   "messages": [
     {
       "id": "1567040582021545994",
@@ -374,7 +374,109 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571449400780259439",
+      "type": "Reply",
+      "timestamp": "2026-11-15T08:58:53.264+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah, Sorry about that. \nhttps://www.youtube.com/c/unexpectedmaker had a video where he was losing his mind about parts flipping out during indexing. I had some similar things going on and probebly looked the same during that time. \nI have been doing some meta analyses on various things and this kinda popped out. \nWe're getting many extra wafers this round due to the error of only getting 6 prototyping wafers at first instead of the full 50",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1571449400306442321",
+          "url": "2026-11_media/image-6989A.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 152414
+        }
+      ],
+      "embeds": [
+        {
+          "title": "Unexpected Maker",
+          "url": "https://www.youtube.com/c/unexpectedmaker",
+          "timestamp": null,
+          "description": "Hi, I'm Seon, the Unexpected Maker.\nI love working with my hands and with my mind, learning new things and making cool stuff. I'm into electronics, micro-controllers, power tools, laser cutters & 3D printing. I write Arduino libraries and play with RGB LEDs, ESP8266, ESP32 and SAMD micro-controllers. \nMy aim is to inspire as many people as I can...",
+          "thumbnail": {
+            "url": "2026-11_media/AIdro_kMdwckU8YGYfJUfYhsLBfAzSwwUBaGq8H7qG-DBAD3",
+            "width": 900,
+            "height": 900
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1570163540499632260",
+        "channelId": "1419841819138854993",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571449806495293524",
+      "type": "Default",
+      "timestamp": "2026-11-15T09:00:29.994+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The majority of the above were false negatives on the pocket check (die was ok, but check failed) \nVarious camera/ lighting improvements are in the works as well.",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 8
+  "messageCount": 10
 }

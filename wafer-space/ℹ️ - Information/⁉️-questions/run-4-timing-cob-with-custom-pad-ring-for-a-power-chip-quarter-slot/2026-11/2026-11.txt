@@ -90,6 +90,8 @@ Afaik the 'standard' COB add-on is only applicable for default padring, breakout
 [2026-11-14 11:51 p.m.] mithro_
 Correct
 
+{Reactions}
+👍
 
 [2026-11-14 11:52 p.m.] mithro_
 I don't have the time, money or patience to deal with more than just the current slot sizes. You can contract @stuart  & @geonzee 's new outerfab.com if you want something custom.
@@ -99,6 +101,28 @@ I don't have the time, money or patience to deal with more than just the current
 Got it, thanks Tim! We'll go custom and talk to Outerfab.
 
 
+[2026-11-15 7:43 a.m.] 246tnt
+@uoıʇɐlndoԀsƃuıɯoʎʍ To be clear, what you said "using some signals pads for power" is fine, that still fits in the "standard COB".  The pad location doesn't change, the bonding doesn't change, the pcb doesn't change so it's all fine. You just have to live with the thinner tracks and no decoupling for those added power pads.
+
+
+[2026-11-15 7:45 a.m.] 246tnt
+See https://github.com/wafer-space/chip-on-board-wire-bonded-pcbs/blob/main/docs/renders/run-2/1x1-cob/1x1-mezzanine/top.png
+
+
+[2026-11-15 7:45 a.m.] 246tnt
+https://github.com/wafer-space/chip-on-board-wire-bonded-pcbs/blob/main/docs/renders/run-2/1x1-cob/1x1-mezzanine/top.png?raw=true
+
+{Embed}
+https://github.com/wafer-space/chip-on-board-wire-bonded-pcbs/blob/main/docs/renders/run-2/1x1-cob/1x1-mezzanine/top.png?raw=true
+2026-11_media/top-80C51.png
+
+
+[2026-11-15 7:46 a.m.] 246tnt
+You can see the difference between the signal wires and the ones meant for power.
+
+{Reactions}
+💜
+
 ==============================================================
-Exported 21 message(s)
+Exported 25 message(s)
 ==============================================================

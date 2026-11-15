@@ -60,6 +60,29 @@ some of the dies (few) of the tape of `FC01` I was sent have left their pockets.
 Notably at least one left towards the sprockets and the end one left towards the adjacent cut of the tape.
 
 
+[2026-11-15 8:58 a.m.] anfroholic
+Yeah, Sorry about that. 
+https://www.youtube.com/c/unexpectedmaker had a video where he was losing his mind about parts flipping out during indexing. I had some similar things going on and probebly looked the same during that time. 
+I have been doing some meta analyses on various things and this kinda popped out. 
+We're getting many extra wafers this round due to the error of only getting 6 prototyping wafers at first instead of the full 50
+
+{Attachments}
+2026-11_media/image-6989A.png
+
+{Embed}
+https://www.youtube.com/c/unexpectedmaker
+Unexpected Maker
+Hi, I'm Seon, the Unexpected Maker.
+I love working with my hands and with my mind, learning new things and making cool stuff. I'm into electronics, micro-controllers, power tools, laser cutters & 3D printing. I write Arduino libraries and play with RGB LEDs, ESP8266, ESP32 and SAMD micro-controllers. 
+My aim is to inspire as many people as I can...
+2026-11_media/AIdro_kMdwckU8YGYfJUfYhsLBfAzSwwUBaGq8H7qG-DBAD3
+
+
+[2026-11-15 9:00 a.m.] anfroholic
+The majority of the above were false negatives on the pocket check (die was ok, but check failed) 
+Various camera/ lighting improvements are in the works as well.
+
+
 ==============================================================
-Exported 8 message(s)
+Exported 10 message(s)
 ==============================================================

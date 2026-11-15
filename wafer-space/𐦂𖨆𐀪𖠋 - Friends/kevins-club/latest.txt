@@ -145,7 +145,7 @@ if we get enough information as to the drawn layers/masks for there to e.g. LVS-
 KianV Legacy now reaches 9 - 10 MIPS at 45–50 MHz, with 6.4% less logic area. Cache tests show 8–25% fewer cycles, and burst-fill reduces stalls by 23%. I also fixed several bugs I discovered over the past year while working on my newer CPU design. Further optimizations are underway.
 
 {Reactions}
-🔥 (2)
+🔥 (3)
 
 [2026-11-13 7:42 p.m.] logic_destroyer
 
@@ -252,6 +252,8 @@ my 16-year-old brain is too stupid for this (well, I *can* set it up in workflow
 [2026-11-14 10:25 a.m.] logic_destroyer
 I'm definitely not going back to 5V. No way.
 
+{Reactions}
+😂
 
 [2026-11-14 10:36 a.m.] logic_destroyer
 Should I rather tape out in WS04?
@@ -342,6 +344,13 @@ Mmm ... although looking at the PDN in that project, it's pretty bad.
 Yeah, it was hard enough getting it to hook up to power at all. For BOAT I'll improve this with a custom PDN script if necessary.
 
 
+[2026-11-15 9:10 a.m.] anfroholic
+Awesome to see everyone lighting up in this chat. 
+@asic destroyer Looking great!!!
+
+{Reactions}
+❤️
+
 ==============================================================
-Exported 61 message(s)
+Exported 62 message(s)
 ==============================================================

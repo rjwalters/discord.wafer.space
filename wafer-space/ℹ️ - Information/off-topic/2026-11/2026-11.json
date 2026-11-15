@@ -8,15 +8,15 @@
     "id": "1361349523724570943",
     "type": "GuildTextChat",
     "categoryId": "1361349523724570936",
-    "category": "ℹ️ - Information",
-    "name": "\uD83E\uDD2A-off-topic",
+    "category": "\u2139\ufe0f - Information",
+    "name": "\ud83e\udd2a-off-topic",
     "topic": "Discussions ***unrelated*** to wafer.space or unconnected to IC design.\n\nPrefer <#1361349523724570941> for any IC design or wafer.space related chatter."
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T02:31:43.0316452+00:00",
+  "exportedAt": "2026-11-15T09:54:54.8952915+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -43,7 +43,7 @@
         {
           "emoji": {
             "id": "",
-            "name": "\uD83D\uDC9C",
+            "name": "\ud83d\udc9c",
             "code": "purple_heart",
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f49c-71A75.svg"
@@ -95,7 +95,7 @@
         {
           "emoji": {
             "id": "",
-            "name": "\uD83D\uDE4C",
+            "name": "\ud83d\ude4c",
             "code": "raised_hands",
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f64c-7C820.svg"
@@ -187,7 +187,7 @@
         {
           "emoji": {
             "id": "",
-            "name": "\uD83D\uDC40",
+            "name": "\ud83d\udc40",
             "code": "eyes",
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f440-6C64D.svg"
@@ -198,17 +198,406 @@
               "id": "1161210755169919007",
               "name": "sudonet",
               "discriminator": "0000",
-              "nickname": "судонет",
+              "nickname": "\u0441\u0443\u0434\u043e\u043d\u0435\u0442",
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/8110c0bef2c397e8cedb3a71a18ae1fd-97CD9.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\ud83d\udc9c",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "anfroholic",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
             }
           ]
         }
       ],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571446347612291233",
+      "type": "Default",
+      "timestamp": "2026-11-15T08:46:45.332+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hey all, finally got home and have had a bit of time to get situated. I'll try to share a bunch more stuff over the next few days. \nFirst up, as a part of KiCon, [NextPCB](https://www.nextpcb.com/) hosted and took us on a tour of their new facility. It was pretty amazing.",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1571446339269558384",
+          "url": "https://media.githubusercontent.com/media/wafer-space/discord.wafer.space/master/large_media/wafer-space/%E2%84%B9%EF%B8%8F%20-%20Information/off-topic/2026-11/2026-11_media/20261105_113911-E007D.mp4",
+          "fileName": "20261105_113911.mp4",
+          "fileSizeBytes": 77631400,
+          "originalUrl": "2026-11_media/20261105_113911-E007D.mp4"
+        },
+        {
+          "id": "1571446342457229412",
+          "url": "2026-11_media/20261105_111041-BB51F.jpg",
+          "fileName": "20261105_111041.jpg",
+          "fileSizeBytes": 1983111
+        },
+        {
+          "id": "1571446342956359750",
+          "url": "2026-11_media/20261105_111203-B89C1.jpg",
+          "fileName": "20261105_111203.jpg",
+          "fileSizeBytes": 1993861
+        },
+        {
+          "id": "1571446343379980421",
+          "url": "2026-11_media/20261105_112449-F792C.jpg",
+          "fileName": "20261105_112449.jpg",
+          "fileSizeBytes": 2047503
+        },
+        {
+          "id": "1571446343954731068",
+          "url": "2026-11_media/20261105_113114-6EA7A.jpg",
+          "fileName": "20261105_113114.jpg",
+          "fileSizeBytes": 1998110
+        },
+        {
+          "id": "1571446344407580783",
+          "url": "2026-11_media/20261105_113311-83026.jpg",
+          "fileName": "20261105_113311.jpg",
+          "fileSizeBytes": 2312924
+        },
+        {
+          "id": "1571446345053638736",
+          "url": "2026-11_media/20261105_113408-EA50D.jpg",
+          "fileName": "20261105_113408.jpg",
+          "fileSizeBytes": 3695901
+        },
+        {
+          "id": "1571446346089766972",
+          "url": "2026-11_media/20261105_113849-AB21E.jpg",
+          "fileName": "20261105_113849.jpg",
+          "fileSizeBytes": 2534691
+        },
+        {
+          "id": "1571446346630828052",
+          "url": "2026-11_media/20261105_114425-CFF04.jpg",
+          "fileName": "20261105_114425.jpg",
+          "fileSizeBytes": 1571479
+        },
+        {
+          "id": "1571446347268231249",
+          "url": "2026-11_media/20261105_114429-8EAB8.jpg",
+          "fileName": "20261105_114429.jpg",
+          "fileSizeBytes": 2074107
+        }
+      ],
+      "embeds": [
+        {
+          "title": "PCB Prototype & Fabrication Manufacturer - NEXTPCB",
+          "url": "https://www.nextpcb.com/",
+          "timestamp": null,
+          "description": "24-hr PCB prototypes to mass production. 32-layer HDI, turnkey PCBA, free DFM/DFA, IPC-certified QC. Zero MOQ, 160+ countries served. Get an instant quote.",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571447025101181008",
+      "type": "Default",
+      "timestamp": "2026-11-15T08:49:26.858+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1571447020030402683",
+          "url": "2026-11_media/20261105_114534-2BBD5.jpg",
+          "fileName": "20261105_114534.jpg",
+          "fileSizeBytes": 2018475
+        },
+        {
+          "id": "1571447020638445780",
+          "url": "2026-11_media/20261105_114603-0665A.jpg",
+          "fileName": "20261105_114603.jpg",
+          "fileSizeBytes": 2926871
+        },
+        {
+          "id": "1571447021150273628",
+          "url": "2026-11_media/20261105_114609-D44C2.jpg",
+          "fileName": "20261105_114609.jpg",
+          "fileSizeBytes": 2230275
+        },
+        {
+          "id": "1571447021829754921",
+          "url": "2026-11_media/20261105_114642-42496.jpg",
+          "fileName": "20261105_114642.jpg",
+          "fileSizeBytes": 1771530
+        },
+        {
+          "id": "1571447022333206528",
+          "url": "2026-11_media/20261105_115052-32685.jpg",
+          "fileName": "20261105_115052.jpg",
+          "fileSizeBytes": 1943141
+        },
+        {
+          "id": "1571447022945570816",
+          "url": "2026-11_media/20261105_115248-8DE3D.jpg",
+          "fileName": "20261105_115248.jpg",
+          "fileSizeBytes": 1888410
+        },
+        {
+          "id": "1571447023385841734",
+          "url": "2026-11_media/20261105_115313-137F6.jpg",
+          "fileName": "20261105_115313.jpg",
+          "fileSizeBytes": 1987909
+        },
+        {
+          "id": "1571447023864127498",
+          "url": "2026-11_media/20261105_115315-31BC4.jpg",
+          "fileName": "20261105_115315.jpg",
+          "fileSizeBytes": 1945764
+        },
+        {
+          "id": "1571447024325361674",
+          "url": "2026-11_media/20261105_115505-4B994.jpg",
+          "fileName": "20261105_115505.jpg",
+          "fileSizeBytes": 1647661
+        },
+        {
+          "id": "1571447024812032060",
+          "url": "2026-11_media/20261105_115453-A6085.jpg",
+          "fileName": "20261105_115453.jpg",
+          "fileSizeBytes": 1419390
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571447636207083520",
+      "type": "Default",
+      "timestamp": "2026-11-15T08:51:52.557+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1571447630892892180",
+          "url": "2026-11_media/20261105_120822-8E216.jpg",
+          "fileName": "20261105_120822.jpg",
+          "fileSizeBytes": 1623684
+        },
+        {
+          "id": "1571447631413121084",
+          "url": "2026-11_media/20261105_120842-038DE.jpg",
+          "fileName": "20261105_120842.jpg",
+          "fileSizeBytes": 2219492
+        },
+        {
+          "id": "1571447632037945374",
+          "url": "2026-11_media/20261105_121420-CE81B.jpg",
+          "fileName": "20261105_121420.jpg",
+          "fileSizeBytes": 2301560
+        },
+        {
+          "id": "1571447632579006524",
+          "url": "2026-11_media/20261105_121525-876E9.jpg",
+          "fileName": "20261105_121525.jpg",
+          "fileSizeBytes": 2349968
+        },
+        {
+          "id": "1571447633099362344",
+          "url": "2026-11_media/20261105_121651-690C3.jpg",
+          "fileName": "20261105_121651.jpg",
+          "fileSizeBytes": 1729453
+        },
+        {
+          "id": "1571447633619324948",
+          "url": "2026-11_media/20261105_131748-203E0.jpg",
+          "fileName": "20261105_131748.jpg",
+          "fileSizeBytes": 5286469
+        },
+        {
+          "id": "1571447634244272168",
+          "url": "2026-11_media/20261105_144735-5C295.jpg",
+          "fileName": "20261105_144735.jpg",
+          "fileSizeBytes": 2701723
+        },
+        {
+          "id": "1571447634835546246",
+          "url": "2026-11_media/20261105_144747-BDFB5.jpg",
+          "fileName": "20261105_144747.jpg",
+          "fileSizeBytes": 1945423
+        },
+        {
+          "id": "1571447635351699606",
+          "url": "2026-11_media/20261105_150427-4C8A3.jpg",
+          "fileName": "20261105_150427.jpg",
+          "fileSizeBytes": 5990687
+        },
+        {
+          "id": "1571447635913605351",
+          "url": "2026-11_media/20261105_150505-B1FCE.jpg",
+          "fileName": "20261105_150505.jpg",
+          "fileSizeBytes": 1820422
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571450253377282068",
+      "type": "Default",
+      "timestamp": "2026-11-15T09:02:16.539+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Kinda spammy, I know, discord only let's you put 10 images at once. \nI'd be happy to answer any questions about any of these. \nEnjoy \ud83d\ude42",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1571450239431348264",
+          "url": "2026-11_media/20261105_150616-BA35B.jpg",
+          "fileName": "20261105_150616.jpg",
+          "fileSizeBytes": 5293282
+        },
+        {
+          "id": "1571450240249364651",
+          "url": "2026-11_media/20261105_150619-38EB7.jpg",
+          "fileName": "20261105_150619.jpg",
+          "fileSizeBytes": 1906743
+        },
+        {
+          "id": "1571450241511858186",
+          "url": "2026-11_media/20261105_112725-EEDF6.mp4",
+          "fileName": "20261105_112725.mp4",
+          "fileSizeBytes": 36203151
+        },
+        {
+          "id": "1571450244112056380",
+          "url": "2026-11_media/20261105_112650-DFA3C.mp4",
+          "fileName": "20261105_112650.mp4",
+          "fileSizeBytes": 38207886
+        },
+        {
+          "id": "1571450247425818675",
+          "url": "https://media.githubusercontent.com/media/wafer-space/discord.wafer.space/master/large_media/wafer-space/%E2%84%B9%EF%B8%8F%20-%20Information/off-topic/2026-11/2026-11_media/20261105_114930-35455.mp4",
+          "fileName": "20261105_114930.mp4",
+          "fileSizeBytes": 68402471,
+          "originalUrl": "2026-11_media/20261105_114930-35455.mp4"
+        },
+        {
+          "id": "1571450251611475998",
+          "url": "2026-11_media/20261105_115055-241DF.mp4",
+          "fileName": "20261105_115055.mp4",
+          "fileSizeBytes": 36320941
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\ud83d\ude42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
     }
   ],
-  "messageCount": 4
+  "messageCount": 8
 }
