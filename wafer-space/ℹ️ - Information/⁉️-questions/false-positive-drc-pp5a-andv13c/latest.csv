@@ -29,3 +29,5 @@ Seems not to reproduce on my build VM.
 I'm updating my local klayout to check if that's the difference.","",""
 "596068704471482370","246tnt","2026-11-07T22:28:55.9580000+00:00","Ok, seems like the `PP5.a` are fixed by KLayout update.
 Doesn't fix the `V1.3c` though and those are not fixed by flat mode or anything.","",""
+"596068704471482370","246tnt","2026-11-15T15:03:19.6730000+00:00","@Leo Moser (mole99) Any updated on the Vn.3c issues ?","",""
+"323371864074485771","mole99","2026-11-15T16:13:29.4380000+00:00","Sorry, I didn't get to it yet. I have it on my list and will likely get to it by Tuesday.","","👌 (1)"

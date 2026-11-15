@@ -334,6 +334,21 @@ cheap/easy/handy or something.
 I think this makes sense
 
 
+[2026-11-15 12:43 p.m.] TTBot#6027
+New tapeout: @oileron submitted RV32E-tiny + FP16 CORDIC (https://github.com/Citroe/FpCord-Tiny)
+
+{Embed}
+https://github.com/Citroe/FpCord-Tiny
+GitHub - Citroe/FpCord-Tiny: TinyTapeout of a tiny fpu-cordic coproc
+TinyTapeout of a tiny fpu-cordic coproc. Contribute to Citroe/FpCord-Tiny development by creating an account on GitHub.
+2026-11_media/FpCord-Tiny-C341D
+
+
+[2026-11-15 1:58 p.m.] anfroholic
+This does exist. 
+You will have one soon?? I think I have one in my bag for you
+
+
 ==============================================================
-Exported 35 message(s)
+Exported 37 message(s)
 ==============================================================

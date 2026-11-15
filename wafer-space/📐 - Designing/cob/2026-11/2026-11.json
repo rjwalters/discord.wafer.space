@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T11:07:35.2787768+00:00",
+  "exportedAt": "2026-11-15T18:21:57.6835567+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -1261,8 +1261,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f49c-71A75.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
+            {
+              "id": "323371864074485771",
+              "name": "mole99",
+              "discriminator": "0000",
+              "nickname": "mole99",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+            },
             {
               "id": "691780627338625077",
               "name": "rebelmike",

@@ -100,6 +100,16 @@ Ok, seems like the `PP5.a` are fixed by KLayout update.
 Doesn't fix the `V1.3c` though and those are not fixed by flat mode or anything.
 
 
+[2026-11-15 3:03 p.m.] 246tnt
+@Leo Moser (mole99) Any updated on the Vn.3c issues ?
+
+
+[2026-11-15 4:13 p.m.] mole99
+Sorry, I didn't get to it yet. I have it on my list and will likely get to it by Tuesday.
+
+{Reactions}
+👌
+
 ==============================================================
-Exported 17 message(s)
+Exported 19 message(s)
 ==============================================================
