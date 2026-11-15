@@ -87,6 +87,18 @@ Perfect, thanks! Is the COB board design (schematic/layout) available somewhere?
 Afaik the 'standard' COB add-on is only applicable for default padring, breakout board and bonding. Any deviation from this would be custom. @Tim 'mithro' Ansell is this correct and is there any further info on wafer.space re this?
 
 
+[2026-11-14 11:51 p.m.] mithro_
+Correct
+
+
+[2026-11-14 11:52 p.m.] mithro_
+I don't have the time, money or patience to deal with more than just the current slot sizes. You can contract @stuart  & @geonzee 's new outerfab.com if you want something custom.
+
+
+[2026-11-15 1:07 a.m.] wyomingspopulation
+Got it, thanks Tim! We'll go custom and talk to Outerfab.
+
+
 ==============================================================
-Exported 18 message(s)
+Exported 21 message(s)
 ==============================================================
