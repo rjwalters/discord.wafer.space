@@ -59,7 +59,7 @@ it would be great to get the physical silicon questions answered this way, if po
 "840182560252624916","logic_destroyer","2026-11-13T23:24:38.4330000+00:00","I just need to swap the chip and change the CH32 clock to 48 MHz. Then we’ll have three times the CPU power.","2026-11_media/HXB-7MHXEAEBcqm-4A599.png",""
 "656862288099409940","baragonaru","2026-11-14T07:25:15.2560000+00:00","Really cool to see. by the way, i'd be interested in building this into a laptop or similar one day, so if you have any thoughts on how to do graphics it's interesting. perhaps a second chip, idk.","",""
 "840182560252624916","logic_destroyer","2026-11-14T08:24:49.1080000+00:00","Thanks! But this is a microcontroller-class CPU with late 80s / early 90s Unix performance. It's a simple multicycle design, optimized for the limited area and resources of GF180MCU. Not really a laptop CPU.","",""
-"1161210755169919007","sudonet","2026-11-14T08:40:39.7830000+00:00","Still way cooler than anything i will ever make","","❤️ (1)"
+"1161210755169919007","sudonet","2026-11-14T08:40:39.7830000+00:00","Still way cooler than anything i will ever make","","❤️ (2)"
 "840182560252624916","logic_destroyer","2026-11-14T09:22:51.2260000+00:00","The GDSII passed DRC, LVS, antenna, density, XOR, and power-connectivity checks, with setup and hold timing met across all nine corners at 45 MHz and an estimated all-corner STA
   Fmax of 46.61 MHz.","2026-11_media/image-7E813.png",""
 "1161210755169919007","sudonet","2026-11-14T09:34:25.5530000+00:00","lot of sram macros! `:D`","",""

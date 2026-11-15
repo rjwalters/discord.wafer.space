@@ -201,7 +201,7 @@ Thanks! But this is a microcontroller-class CPU with late 80s / early 90s Unix p
 Still way cooler than anything i will ever make
 
 {Reactions}
-❤️
+❤️ (2)
 
 [2026-11-14 9:22 a.m.] logic_destroyer
 The GDSII passed DRC, LVS, antenna, density, XOR, and power-connectivity checks, with setup and hold timing met across all nine corners at 45 MHz and an estimated all-corner STA

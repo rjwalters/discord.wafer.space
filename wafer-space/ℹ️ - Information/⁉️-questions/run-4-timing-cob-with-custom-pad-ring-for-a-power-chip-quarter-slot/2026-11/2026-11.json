@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-14T17:09:22.7153664+00:00",
+  "exportedAt": "2026-11-14T21:54:10.9661473+00:00",
   "messages": [
     {
       "id": "1570909716207505539",
@@ -573,7 +573,58 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1571279961225043969",
+      "type": "Reply",
+      "timestamp": "2026-11-14T21:45:35.726+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Afaik the 'standard' COB add-on is only applicable for default padring, breakout board and bonding. Any deviation from this would be custom. @Tim 'mithro' Ansell is this correct and is there any further info on wafer.space re this?",
+      "author": {
+        "id": "1184268085822238821",
+        "name": "saladchap",
+        "discriminator": "0000",
+        "nickname": "stuart",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/4938353f83780f56050d92be930226f8-BA286.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        },
+        {
+          "id": "913146020798562314",
+          "name": "wyomingspopulation",
+          "discriminator": "0000",
+          "nickname": "uoıʇɐlndoԀsƃuıɯoʎʍ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/00500421b32e2f455945bff85cd13884-5C3BC.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571166155006279854",
+        "channelId": "1570909716207505539",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 17
+  "messageCount": 18
 }

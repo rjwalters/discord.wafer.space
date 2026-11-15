@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-14T18:57:29.6644435+00:00",
+  "exportedAt": "2026-11-14T23:42:44.7461215+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -1310,8 +1310,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/2764-A3D25.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
+            {
+              "id": "656862288099409940",
+              "name": "baragonaru",
+              "discriminator": "0000",
+              "nickname": "baragonaru",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+            },
             {
               "id": "840182560252624916",
               "name": "logic_destroyer",

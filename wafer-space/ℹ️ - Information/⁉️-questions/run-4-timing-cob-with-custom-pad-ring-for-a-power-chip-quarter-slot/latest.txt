@@ -83,6 +83,10 @@ That's fine. Those signals will have thinner traces though. ( The default pads f
 Perfect, thanks! Is the COB board design (schematic/layout) available somewhere? Want to check trace widths and where the decoupling caps connect so we can plan which nodes go on which pads.
 
 
+[2026-11-14 9:45 p.m.] saladchap
+Afaik the 'standard' COB add-on is only applicable for default padring, breakout board and bonding. Any deviation from this would be custom. @Tim 'mithro' Ansell is this correct and is there any further info on wafer.space re this?
+
+
 ==============================================================
-Exported 17 message(s)
+Exported 18 message(s)
 ==============================================================
