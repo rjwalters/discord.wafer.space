@@ -293,6 +293,47 @@ You can calculate the numbers to put into the SPICE model btw; you need to speci
 (Or just make them have like 10u long channels.)
 
 
+[2026-11-16 4:51 a.m.] brookieoz
+Feel free to ignore this brainstorming / curiosity post because it's barely tangentially related
+
+But I've been thinking about possible ways of getting around the capacitor mismatch problem for the parallel capacitor bank idea I had, like by say wrapping an opamp around the capacitor's input in some way that gives it a buffer and/or autozeroing capability to remove possible distortions / tones. I'd have to do some math on it and considering how sensitive the human ear is, this might just be a fool's errand
+
+
+[2026-11-16 4:54 a.m.] brookieoz
+Honestly that's part of the beauty of the BBD, every sample passes through the same transform and therefore any mismatch between components gets applied to every sample
+
+
+[2026-11-16 6:06 a.m.] namibj
+you're targeting stuff for human ears?
+Just use DSP tech, not BBD's.....
+
+{Reactions}
+😂
+
+[2026-11-16 6:07 a.m.] namibj
+It's comparatively trivial to build a self-calibrating 4th-order SDM ADC and DAC for human ear audio signals.
+
+
+[2026-11-16 6:09 a.m.] namibj
+(If you employ digital pre-distortion tech, you can get those to exceed 100 dB SNDR.)
+
+
+[2026-11-16 6:17 a.m.] brookieoz
+I have a soft spot for analog solutions, can you blame me 🤣
+
+
+[2026-11-16 6:17 a.m.] namibj
+sadly yeah if it comes to human ears 🙁
+
+
+[2026-11-16 6:19 a.m.] namibj
+hi-fi audio is one of the highest-SNR demanding common analog tasks, especially regarding spurious tones.
+
+
+[2026-11-16 6:26 a.m.] namibj
+@brookieoz I can DM you a paper regarding some potentially less-digital-izable stuff wafer.space dies could be quite useful for... (monolithic energy harvesting + high-efficiency "preamp" for switch transistors that get driven to almost full-on sorta like an LDO's pass transistor)
+
+
 ==============================================================
-Exported 50 message(s)
+Exported 59 message(s)
 ==============================================================

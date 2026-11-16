@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-16T02:35:54.0741535+00:00",
+  "exportedAt": "2026-11-16T10:07:40.5191197+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -638,7 +638,92 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1571809863439487087",
+      "type": "Default",
+      "timestamp": "2026-11-16T08:51:14.259+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1571797407925010453",
+        "channelId": "1421438370319437896",
+        "guildId": "1421438369044627478"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571810499828650005",
+      "type": "Default",
+      "timestamp": "2026-11-16T08:53:45.986+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1563553431724232805",
+        "channelId": "1421438370319437896",
+        "guildId": "1421438369044627478"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571810501208449175",
+      "type": "Default",
+      "timestamp": "2026-11-16T08:53:46.315+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "State as of October 24th:",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 9
+  "messageCount": 12
 }

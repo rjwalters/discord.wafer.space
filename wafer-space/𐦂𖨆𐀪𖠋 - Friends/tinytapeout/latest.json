@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-16T04:11:29.8026739+00:00",
+  "exportedAt": "2026-11-16T11:42:51.170313+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -2576,7 +2576,239 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571844160900702228",
+      "type": "Default",
+      "timestamp": "2026-11-16T11:07:31.411+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: @tnt submitted tnt's recreation of a 555 on GF180mcu (https://github.com/smunaut/tt_tnt_gf_555)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - smunaut/tt_tnt_gf_555: Classic 555 Timer recreated on GF18...",
+          "url": "https://github.com/smunaut/tt_tnt_gf_555",
+          "timestamp": null,
+          "description": "Classic 555 Timer recreated on GF180mcu for Tiny Tapeout - smunaut/tt_tnt_gf_555",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/tt_tnt_gf_555-A808F",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571845696452042804",
+      "type": "Default",
+      "timestamp": "2026-11-16T11:13:37.515+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: James Ross submitted Glyph Mode (https://github.com/htfab/ttboat26_vga_glyph_mode) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Fhtfab%2Fttboat26_vga_glyph_mode&ref=04d6b1544e26fd0577bec49219f888b06bbb5089>)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - htfab/ttboat26_vga_glyph_mode",
+          "url": "https://github.com/htfab/ttboat26_vga_glyph_mode",
+          "timestamp": null,
+          "description": "Contribute to htfab/ttboat26_vga_glyph_mode development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ttboat26_vga_glyph_mode-6B075",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571849953892900894",
+      "type": "Default",
+      "timestamp": "2026-11-16T11:30:32.568+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: @Christoph submitted TT GF180mcuD Testbuffer (https://github.com/christoph-weiser/ttgf0p3-submission)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - christoph-weiser/ttgf0p3-submission: Submission repository...",
+          "url": "https://github.com/christoph-weiser/ttgf0p3-submission",
+          "timestamp": null,
+          "description": "Submission repository for tiny tapeout ttgf0p3. Contribute to christoph-weiser/ttgf0p3-submission development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ttgf0p3-submission-69192",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1340064544567070720",
+          "name": "christoph_36502",
+          "discriminator": "0000",
+          "nickname": "Christoph",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/8f2f2e5b02fa09674ff1e308e6ddd24f-2EEA5.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571852081873162330",
+      "type": "Default",
+      "timestamp": "2026-11-16T11:38:59.918+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: @Matt Venn submitted VGA clock (https://github.com/mattvenn/GF180-VGA-clock-waferspace)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - mattvenn/GF180-VGA-clock-waferspace",
+          "url": "https://github.com/mattvenn/GF180-VGA-clock-waferspace",
+          "timestamp": null,
+          "description": "Contribute to mattvenn/GF180-VGA-clock-waferspace development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/6f35dc11-d1a0-4525-baa1-5a148b736a9a-05743",
+            "width": 1735,
+            "height": 1303
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "492702620759228416",
+          "name": "mattvenn",
+          "discriminator": "0000",
+          "nickname": "Matt Venn",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/aa8560ba40f1f3d339d044dee6970630-97A62.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 51
+  "messageCount": 55
 }

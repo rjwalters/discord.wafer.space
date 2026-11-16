@@ -110,3 +110,15 @@ I suggest you look at the gain in the ""middle"" of the BBD vs. measuring at the
 Also as I mentioned maybe try to use poly2 with 3 phases for an actual CCD structure vs. this?
 You can calculate the numbers to put into the SPICE model btw; you need to specify channel width/length and source and drain area and perimeter; there are forumulas in xschem that try to calculate you typical source/drain area/perimeter values from finger count and sizing; note that due to overlap, the intermediate devices can be simulated with only half the area and perimeter specified because one's drain is the next one's source.","",""
 "262706220073222144","namibj","2026-11-16T01:22:14.2250000+00:00","(Or just make them have like 10u long channels.)","",""
+"155452674286813194","brookieoz","2026-11-16T04:51:45.0850000+00:00","Feel free to ignore this brainstorming / curiosity post because it's barely tangentially related
+
+But I've been thinking about possible ways of getting around the capacitor mismatch problem for the parallel capacitor bank idea I had, like by say wrapping an opamp around the capacitor's input in some way that gives it a buffer and/or autozeroing capability to remove possible distortions / tones. I'd have to do some math on it and considering how sensitive the human ear is, this might just be a fool's errand","",""
+"155452674286813194","brookieoz","2026-11-16T04:54:17.6830000+00:00","Honestly that's part of the beauty of the BBD, every sample passes through the same transform and therefore any mismatch between components gets applied to every sample","",""
+"262706220073222144","namibj","2026-11-16T06:06:57.8690000+00:00","you're targeting stuff for human ears?
+Just use DSP tech, not BBD's.....","","😂 (1)"
+"262706220073222144","namibj","2026-11-16T06:07:58.3600000+00:00","It's comparatively trivial to build a self-calibrating 4th-order SDM ADC and DAC for human ear audio signals.","",""
+"262706220073222144","namibj","2026-11-16T06:09:16.2770000+00:00","(If you employ digital pre-distortion tech, you can get those to exceed 100 dB SNDR.)","",""
+"155452674286813194","brookieoz","2026-11-16T06:17:06.8940000+00:00","I have a soft spot for analog solutions, can you blame me 🤣","",""
+"262706220073222144","namibj","2026-11-16T06:17:53.9070000+00:00","sadly yeah if it comes to human ears 🙁","",""
+"262706220073222144","namibj","2026-11-16T06:19:40.6350000+00:00","hi-fi audio is one of the highest-SNR demanding common analog tasks, especially regarding spurious tones.","",""
+"262706220073222144","namibj","2026-11-16T06:26:45.3160000+00:00","@brookieoz I can DM you a paper regarding some potentially less-digital-izable stuff wafer.space dies could be quite useful for... (monolithic energy harvesting + high-efficiency ""preamp"" for switch transistors that get driven to almost full-on sorta like an LDO's pass transistor)","",""

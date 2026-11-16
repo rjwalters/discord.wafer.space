@@ -440,6 +440,46 @@ Contribute to GreenBlueFish/Tapeout_one development by creating an account on Gi
 2026-11_media/Tapeout_one-BD030
 
 
+[2026-11-16 11:07 a.m.] TTBot#6027
+New tapeout: @tnt submitted tnt's recreation of a 555 on GF180mcu (https://github.com/smunaut/tt_tnt_gf_555)
+
+{Embed}
+https://github.com/smunaut/tt_tnt_gf_555
+GitHub - smunaut/tt_tnt_gf_555: Classic 555 Timer recreated on GF18...
+Classic 555 Timer recreated on GF180mcu for Tiny Tapeout - smunaut/tt_tnt_gf_555
+2026-11_media/tt_tnt_gf_555-A808F
+
+
+[2026-11-16 11:13 a.m.] TTBot#6027
+New tapeout: James Ross submitted Glyph Mode (https://github.com/htfab/ttboat26_vga_glyph_mode) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Fhtfab%2Fttboat26_vga_glyph_mode&ref=04d6b1544e26fd0577bec49219f888b06bbb5089>)
+
+{Embed}
+https://github.com/htfab/ttboat26_vga_glyph_mode
+GitHub - htfab/ttboat26_vga_glyph_mode
+Contribute to htfab/ttboat26_vga_glyph_mode development by creating an account on GitHub.
+2026-11_media/ttboat26_vga_glyph_mode-6B075
+
+
+[2026-11-16 11:30 a.m.] TTBot#6027
+New tapeout: @Christoph submitted TT GF180mcuD Testbuffer (https://github.com/christoph-weiser/ttgf0p3-submission)
+
+{Embed}
+https://github.com/christoph-weiser/ttgf0p3-submission
+GitHub - christoph-weiser/ttgf0p3-submission: Submission repository...
+Submission repository for tiny tapeout ttgf0p3. Contribute to christoph-weiser/ttgf0p3-submission development by creating an account on GitHub.
+2026-11_media/ttgf0p3-submission-69192
+
+
+[2026-11-16 11:38 a.m.] TTBot#6027
+New tapeout: @Matt Venn submitted VGA clock (https://github.com/mattvenn/GF180-VGA-clock-waferspace)
+
+{Embed}
+https://github.com/mattvenn/GF180-VGA-clock-waferspace
+GitHub - mattvenn/GF180-VGA-clock-waferspace
+Contribute to mattvenn/GF180-VGA-clock-waferspace development by creating an account on GitHub.
+2026-11_media/6f35dc11-d1a0-4525-baa1-5a148b736a9a-05743
+
+
 ==============================================================
-Exported 51 message(s)
+Exported 55 message(s)
 ==============================================================

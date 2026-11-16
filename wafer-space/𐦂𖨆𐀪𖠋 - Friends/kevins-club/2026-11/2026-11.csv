@@ -103,3 +103,6 @@ it would be great to get the physical silicon questions answered this way, if po
 
 For freework motherboards i am in favor of  any approach that gets progressively more of the chips based on open designs over time, including platform contrller, various random logic ICs, and the core compute/graphics...","","💜 (1)"
 "1232935707782152264","velvetundergroundandy","2026-11-15T22:26:59.2570000+00:00","maybe @Leo Moser (mole99) 's FPGA on Run2 could work to replace a lot of our current chips on the Freework","",""
+"323371864074485771","mole99","2026-11-16T10:08:45.8850000+00:00","The chip has 48 I/Os available to the FPGA, which is plenty for most management stuff.
+
+I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.","",""

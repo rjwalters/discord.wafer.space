@@ -377,6 +377,12 @@ For freework motherboards i am in favor of  any approach that gets progressively
 maybe @Leo Moser (mole99) 's FPGA on Run2 could work to replace a lot of our current chips on the Freework
 
 
+[2026-11-16 10:08 a.m.] mole99
+The chip has 48 I/Os available to the FPGA, which is plenty for most management stuff.
+
+I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.
+
+
 ==============================================================
-Exported 67 message(s)
+Exported 68 message(s)
 ==============================================================
