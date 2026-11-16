@@ -349,6 +349,97 @@ This does exist.
 You will have one soon?? I think I have one in my bag for you
 
 
+[2026-11-15 7:23 p.m.] TTBot#6027
+New tapeout: Kosmas Wernhard submitted LIF Neuron PE (CSNN accelerator) (https://github.com/Strider93/tt_verilog_TTGF26c_LIF)
+
+{Embed}
+https://github.com/Strider93/tt_verilog_TTGF26c_LIF
+GitHub - Strider93/tt_verilog_TTGF26c_LIF
+Contribute to Strider93/tt_verilog_TTGF26c_LIF development by creating an account on GitHub.
+2026-11_media/tt_verilog_TTGF26c_LIF-09C44
+
+
+[2026-11-15 8:51 p.m.] TTBot#6027
+New tapeout: maria mathai submitted 298a test counter (https://github.com/mariamathai29/298a_repo)
+
+{Embed}
+https://github.com/mariamathai29/298a_repo
+GitHub - mariamathai29/298a_repo
+Contribute to mariamathai29/298a_repo development by creating an account on GitHub.
+2026-11_media/298a_repo-3622D
+
+
+[2026-11-15 9:21 p.m.] namibj
+Supposedly @tnt own such an adapter.
+
+
+[2026-11-15 9:22 p.m.] namibj
+The tt native COB is the supposed (and if done as a batch, also the cheap) option.
+
+
+[2026-11-15 9:24 p.m.] carlfk
+Im not sure it is cheaper if w.s does 50k parts and tt is 1k parts.
+
+
+[2026-11-15 9:25 p.m.] carlfk
+I think it is worth knowing the math.
+
+
+[2026-11-15 9:28 p.m.] 246tnt
+I'm not really sure what problem you're trying to solve ...
+
+
+[2026-11-15 9:28 p.m.] namibj
+TT does more than 1k, and AFAIK there's reason for the TT breakout board to work with all the TT COBs (even if those are QFN soldered not COB-wire-bonded).
+
+
+[2026-11-15 9:29 p.m.] carlfk
+I don't think TT does 1k of the same die
+
+
+[2026-11-15 9:29 p.m.] TTBot#6027
+New tapeout: Daniel Wang submitted Daniel Tapeout (https://github.com/Daniel6872/Tiny-Tapeout)
+
+{Embed}
+https://github.com/Daniel6872/Tiny-Tapeout
+GitHub - Daniel6872/Tiny-Tapeout
+Contribute to Daniel6872/Tiny-Tapeout development by creating an account on GitHub.
+2026-11_media/Tiny-Tapeout-297FA
+
+
+[2026-11-15 9:31 p.m.] 246tnt
+We bond whatever we need with some extra for error margin 🤷
+
+
+[2026-11-15 9:39 p.m.] TTBot#6027
+New tapeout: Hamza Soofi, Gurpal Johal, Mohil Kadakia, Ayaan Tunio submitted TinyFIR: SPI-Programmable 8-Tap FIR Filter (https://github.com/MohilKadakia/298A-FIR-DSP)
+
+{Embed}
+https://github.com/MohilKadakia/298A-FIR-DSP
+GitHub - MohilKadakia/298A-FIR-DSP
+Contribute to MohilKadakia/298A-FIR-DSP development by creating an account on GitHub.
+2026-11_media/298A-FIR-DSP-16140
+
+
+[2026-11-15 10:41 p.m.] TTBot#6027
+New tapeout: Aaron Sun, Noah Webster submitted Pong VGA (https://github.com/aarons763/298A) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Faarons763%2F298A&ref=fbd4ca33ace7f4ec34dc024aea72d878b25e3403>)
+
+{Embed}
+https://github.com/aarons763/298A
+GitHub - aarons763/298A
+Contribute to aarons763/298A development by creating an account on GitHub.
+
+
+[2026-11-15 11:24 p.m.] TTBot#6027
+New tapeout: ECE 298A submitted Tiny Tapeout VGA Interface (https://github.com/GreenBlueFish/Tapeout_one) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2FGreenBlueFish%2FTapeout_one&ref=138342b207cb49be7f7ee37dd3296fdc69cfda2e>)
+
+{Embed}
+https://github.com/GreenBlueFish/Tapeout_one
+GitHub - GreenBlueFish/Tapeout_one
+Contribute to GreenBlueFish/Tapeout_one development by creating an account on GitHub.
+2026-11_media/Tapeout_one-BD030
+
+
 ==============================================================
-Exported 37 message(s)
+Exported 51 message(s)
 ==============================================================

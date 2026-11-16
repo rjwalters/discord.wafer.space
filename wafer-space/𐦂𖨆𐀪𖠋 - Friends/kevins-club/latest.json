@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T18:43:36.5125042+00:00",
+  "exportedAt": "2026-11-16T00:02:55.4250669+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -969,7 +969,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 3,
+          "count": 4,
           "users": [
             {
               "id": "543162393413287956",
@@ -997,6 +997,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            },
+            {
+              "id": "1232935707782152264",
+              "name": "velvetundergroundandy",
+              "discriminator": "0000",
+              "nickname": "Paul",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
             }
           ]
         }
@@ -1128,7 +1137,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
             {
               "id": "840182560252624916",
@@ -1138,6 +1147,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            },
+            {
+              "id": "1232935707782152264",
+              "name": "velvetundergroundandy",
+              "discriminator": "0000",
+              "nickname": "Paul",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
             }
           ]
         }
@@ -2482,7 +2500,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/2764-A3D25.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
             {
               "id": "840182560252624916",
@@ -2492,6 +2510,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            },
+            {
+              "id": "1232935707782152264",
+              "name": "velvetundergroundandy",
+              "discriminator": "0000",
+              "nickname": "Paul",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
             }
           ]
         }
@@ -2509,7 +2536,194 @@
         }
       ],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571622242931056673",
+      "type": "Default",
+      "timestamp": "2026-11-15T20:25:42.044+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "maybe it can be the platform controller in our open source motherboard!",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571623260238647309",
+      "type": "Default",
+      "timestamp": "2026-11-15T20:29:44.589+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Kevin is working on a multiple protocol transceiver chip on the upcoming run, perhaps we could combine that with Kian V to make a genuinely good microcontroller",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571623315900993589",
+      "type": "Default",
+      "timestamp": "2026-11-15T20:29:57.86+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "and then use that in the freework as a platform controller",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571637071943049279",
+      "type": "Default",
+      "timestamp": "2026-11-15T21:24:37.556+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The multi-protocol transciever is a high risk chip that takes the full die and is highly unlikely to be fully functional (but will be neat if it works) \n\nFor freework motherboards i am in favor of  any approach that gets progressively more of the chips based on open designs over time, including platform contrller, various random logic ICs, and the core compute/graphics...",
+      "author": {
+        "id": "656862288099409940",
+        "name": "baragonaru",
+        "discriminator": "0000",
+        "nickname": "baragonaru",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571652765774651424",
+      "type": "Default",
+      "timestamp": "2026-11-15T22:26:59.257+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "maybe @Leo Moser (mole99) 's FPGA on Run2 could work to replace a lot of our current chips on the Freework",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "323371864074485771",
+          "name": "mole99",
+          "discriminator": "0000",
+          "nickname": "Leo Moser (mole99)",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 62
+  "messageCount": 67
 }

@@ -21,6 +21,25 @@ Right now I'm trying (even larger) time gaps in break-before-make, but there is 
 Is this about transistor sizes? Are commercial BBDs on a different PDK? Any ideas?
 
 
+[2026-11-15 8:17 p.m.] archit3ch
+Die shots of commercial BBDs do not support the buffer-per-transfer hypothesis, although there are visible output buffers after the entire chain.
+
+
+[2026-11-15 8:40 p.m.] namibj
+Can you share schematic/layout of your trials?
+
+
+[2026-11-15 8:59 p.m.] namibj
+@Archit3ch (George) Oh, also: please try to replicate your testbench behavior on IHP SG13 (G2 or CMOS5L variant shouldn't matter to demonstrate base function, I think, as this shouldn't require dnwell to work/exist as a concept), because that uses different mosfet models (PSP 103 instead of BSIM4) which AFAIK put waaaay more emphasis on charge conservation.
+
+The working idea behind it is that the positive charge on the gate poly sucks the interesting/signal-coding negative charge in the trench below along, if you use at least 3 clock phases that overlap and that each have less than 50% duty cycle.
+Assuming n-channel operation; reverse polarities if it'd be p-channel operation instead. I don't know which of the two carriers would realistically exhibit longer useful lifetime here, though.
+
+
+[2026-11-15 9:00 p.m.] brookieoz
+Part of me is curious about the comparison between a true bucket brigade delay where you have N buckets where every charge goes through every bucket vs N parallel buckets that get rotated through
+
+
 ==============================================================
-Exported 1 message(s)
+Exported 5 message(s)
 ==============================================================

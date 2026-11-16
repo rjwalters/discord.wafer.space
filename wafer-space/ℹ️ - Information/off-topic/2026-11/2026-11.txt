@@ -98,6 +98,10 @@ https://media.githubusercontent.com/media/wafer-space/discord.wafer.space/master
 2026-11_media/20261105_115055-241DF.mp4
 
 
+[2026-11-15 9:17 p.m.] namibj
+Also: https://cds.cern.ch/record/1352700/files/JINST5.C11008.pdf (`doi:10.1088/1748-0221/5/11/C11008`).
+
+
 ==============================================================
-Exported 8 message(s)
+Exported 9 message(s)
 ==============================================================

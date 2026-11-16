@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T17:09:31.8195778+00:00",
+  "exportedAt": "2026-11-15T22:28:48.2902237+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -597,7 +597,48 @@
           "imageUrl": "2026-11_media/1f642-83E8A.svg"
         }
       ]
+    },
+    {
+      "id": "1571635277296963684",
+      "type": "Reply",
+      "timestamp": "2026-11-15T21:17:29.679+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Also: https://cds.cern.ch/record/1352700/files/JINST5.C11008.pdf (`doi:10.1088/1748-0221/5/11/C11008`).",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571083926842376275",
+        "channelId": "1361349523724570943",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 8
+  "messageCount": 9
 }

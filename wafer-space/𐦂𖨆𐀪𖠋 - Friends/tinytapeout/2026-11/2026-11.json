@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T18:44:54.3673644+00:00",
+  "exportedAt": "2026-11-16T00:04:14.2954809+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -1969,7 +1969,614 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1571606643656105984",
+      "type": "Default",
+      "timestamp": "2026-11-15T19:23:42.887+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Kosmas Wernhard submitted LIF Neuron PE (CSNN accelerator) (https://github.com/Strider93/tt_verilog_TTGF26c_LIF)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - Strider93/tt_verilog_TTGF26c_LIF",
+          "url": "https://github.com/Strider93/tt_verilog_TTGF26c_LIF",
+          "timestamp": null,
+          "description": "Contribute to Strider93/tt_verilog_TTGF26c_LIF development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/tt_verilog_TTGF26c_LIF-09C44",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571628650661552138",
+      "type": "Default",
+      "timestamp": "2026-11-15T20:51:09.766+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: maria mathai submitted 298a test counter (https://github.com/mariamathai29/298a_repo)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - mariamathai29/298a_repo",
+          "url": "https://github.com/mariamathai29/298a_repo",
+          "timestamp": null,
+          "description": "Contribute to mariamathai29/298a_repo development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/298a_repo-3622D",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571636233329709180",
+      "type": "Reply",
+      "timestamp": "2026-11-15T21:21:17.615+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Supposedly @tnt own such an adapter.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        },
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1570866961250779217",
+        "channelId": "1409664261952639098",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571636524854808690",
+      "type": "Reply",
+      "timestamp": "2026-11-15T21:22:27.12+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The tt native COB is the supposed (and if done as a batch, also the cheap) option.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1570867405272653855",
+        "channelId": "1409664261952639098",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571637032109871186",
+      "type": "Reply",
+      "timestamp": "2026-11-15T21:24:28.059+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Im not sure it is cheaper if w.s does 50k parts and tt is 1k parts.",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571636524854808690",
+        "channelId": "1409664261952639098",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571637300339933266",
+      "type": "Default",
+      "timestamp": "2026-11-15T21:25:32.01+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think it is worth knowing the math.",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571637999656247489",
+      "type": "Default",
+      "timestamp": "2026-11-15T21:28:18.74+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm not really sure what problem you're trying to solve ...",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571638066400206979",
+      "type": "Reply",
+      "timestamp": "2026-11-15T21:28:34.653+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "TT does more than 1k, and AFAIK there's reason for the TT breakout board to work with all the TT COBs (even if those are QFN soldered not COB-wire-bonded).",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571637032109871186",
+        "channelId": "1409664261952639098",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571638274181566467",
+      "type": "Default",
+      "timestamp": "2026-11-15T21:29:24.192+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I don't think TT does 1k of the same die",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571638381019004939",
+      "type": "Default",
+      "timestamp": "2026-11-15T21:29:49.664+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Daniel Wang submitted Daniel Tapeout (https://github.com/Daniel6872/Tiny-Tapeout)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - Daniel6872/Tiny-Tapeout",
+          "url": "https://github.com/Daniel6872/Tiny-Tapeout",
+          "timestamp": null,
+          "description": "Contribute to Daniel6872/Tiny-Tapeout development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/Tiny-Tapeout-297FA",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571638698573832295",
+      "type": "Default",
+      "timestamp": "2026-11-15T21:31:05.375+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "We bond whatever we need with some extra for error margin \uD83E\uDD37",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDD37",
+          "code": "person_shrugging",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f937-19884.svg"
+        }
+      ]
+    },
+    {
+      "id": "1571640732392100000",
+      "type": "Default",
+      "timestamp": "2026-11-15T21:39:10.275+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Hamza Soofi, Gurpal Johal, Mohil Kadakia, Ayaan Tunio submitted TinyFIR: SPI-Programmable 8-Tap FIR Filter (https://github.com/MohilKadakia/298A-FIR-DSP)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - MohilKadakia/298A-FIR-DSP",
+          "url": "https://github.com/MohilKadakia/298A-FIR-DSP",
+          "timestamp": null,
+          "description": "Contribute to MohilKadakia/298A-FIR-DSP development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/298A-FIR-DSP-16140",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571656474269323385",
+      "type": "Default",
+      "timestamp": "2026-11-15T22:41:43.431+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Aaron Sun, Noah Webster submitted Pong VGA (https://github.com/aarons763/298A) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Faarons763%2F298A&ref=fbd4ca33ace7f4ec34dc024aea72d878b25e3403>)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - aarons763/298A",
+          "url": "https://github.com/aarons763/298A",
+          "timestamp": null,
+          "description": "Contribute to aarons763/298A development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571667336430231742",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:24:53.172+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: ECE 298A submitted Tiny Tapeout VGA Interface (https://github.com/GreenBlueFish/Tapeout_one) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2FGreenBlueFish%2FTapeout_one&ref=138342b207cb49be7f7ee37dd3296fdc69cfda2e>)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - GreenBlueFish/Tapeout_one",
+          "url": "https://github.com/GreenBlueFish/Tapeout_one",
+          "timestamp": null,
+          "description": "Contribute to GreenBlueFish/Tapeout_one development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/Tapeout_one-BD030",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 37
+  "messageCount": 51
 }

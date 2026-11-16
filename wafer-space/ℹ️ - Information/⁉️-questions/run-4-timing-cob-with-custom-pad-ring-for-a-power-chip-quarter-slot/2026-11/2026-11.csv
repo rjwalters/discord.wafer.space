@@ -32,3 +32,24 @@ Thanks!","",""
 "596068704471482370","246tnt","2026-11-15T07:45:36.2490000+00:00","See https://github.com/wafer-space/chip-on-board-wire-bonded-pcbs/blob/main/docs/renders/run-2/1x1-cob/1x1-mezzanine/top.png","",""
 "596068704471482370","246tnt","2026-11-15T07:45:49.0000000+00:00","https://github.com/wafer-space/chip-on-board-wire-bonded-pcbs/blob/main/docs/renders/run-2/1x1-cob/1x1-mezzanine/top.png?raw=true","",""
 "596068704471482370","246tnt","2026-11-15T07:46:13.0810000+00:00","You can see the difference between the signal wires and the ones meant for power.","","💜 (1)"
+"262706220073222144","namibj","2026-11-15T20:36:14.6000000+00:00","As mentioned previously, it might be helpful to share a public reference quote for a representative deviation, broken down just enough to let people feel a bit how much of a cost impact the various aspects of those changes are. 
+
+For example, a quote for ""standard but the PCB layout is different but it still fits the same fixture and it has the same bond geometry"" and/or ""quarter standard but we skip bonding of one/two/three sides with no other changes to the bond geometry"".
+
+Not because necessarily those are exactly what the people want, but because they show how affordable customization with only very minor NRE costs over top of the default-COB-offer baseline are.
+
+I'm assuming you're handling the manufacturing of the default-COB-offer for wafer.space and mithro is willing to let you do that under contract terms where you'd be allowed to recycle ""the shared NRE work from producing that default-COB-offer"" for customized COB offerings sold to wafer.space customers.
+
+Perhaps even offer a reasonable fee structure as a ""list price"" (subject to negotiation) that partially encodes the labor-saving measures of the bulk edits of linear pad arrays and/or similar aspects so a customer could calculate themselves an expected rough list price for e.g. a 3 sided die with one of those sides densified to make up for the lost signal pads (vs. the default-COB-offer for that very slot), considering that such a change would open up a good chunk of extra core area that could be critical shortly before GDS deadline if, say, a design flaw came up and the sudden fix for it doesn't allow for enough interactive tuning of RTL and PnR.
+
+Being able to quickly calculate an expected cost for the ""custom bonding to unlock extra core area to lessen PnR density pressure, making timing closure on the adjusted design much easier"" escape-hatch from a risky tapeout, would IMO be very useful.","",""
+"913146020798562314","wyomingspopulation","2026-11-15T21:42:00.9770000+00:00","Thanks, that clears it up! Re-using signal pads for power works for us. I dug through the run-2 0p5x0p5-cob KiCad files and have a few follow-ups:
+
+1. Will the Run 4 quarter-slot COB board be the same as run-2/0p5x0p5-cob, or is it changing?
+2. Is there a pad-to-net table (which die pads go to VDD_CORE_1, VDD_IO_1/2/3 and the 4 analog lines), or should I read it from the KiCad files?
+3. Is it OK to use several signal pads in parallel for one higher-current node (we'd tie them together on our carrier board)? Any issue with the ESD cells in the default ring when doing that?
+4. What bond wire do you use (gold/aluminum, diameter), and roughly what current per wire do you consider safe?
+5. Is there a max current you'd recommend through one of the 0.1 mm signal traces?
+6. Are the 0201 cap footprints populated by default, and could we pick the values?
+
+Thanks again!","",""

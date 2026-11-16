@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T16:54:50.0082854+00:00",
+  "exportedAt": "2026-11-15T22:14:14.7347579+00:00",
   "messages": [
     {
       "id": "1570909716207505539",
@@ -906,7 +906,89 @@
       ],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571624896063348759",
+      "type": "Reply",
+      "timestamp": "2026-11-15T20:36:14.6+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "As mentioned previously, it might be helpful to share a public reference quote for a representative deviation, broken down just enough to let people feel a bit how much of a cost impact the various aspects of those changes are. \n\nFor example, a quote for \"standard but the PCB layout is different but it still fits the same fixture and it has the same bond geometry\" and/or \"quarter standard but we skip bonding of one/two/three sides with no other changes to the bond geometry\".\n\nNot because necessarily those are exactly what the people want, but because they show how affordable customization with only very minor NRE costs over top of the default-COB-offer baseline are.\n\nI'm assuming you're handling the manufacturing of the default-COB-offer for wafer.space and mithro is willing to let you do that under contract terms where you'd be allowed to recycle \"the shared NRE work from producing that default-COB-offer\" for customized COB offerings sold to wafer.space customers.\n\nPerhaps even offer a reasonable fee structure as a \"list price\" (subject to negotiation) that partially encodes the labor-saving measures of the bulk edits of linear pad arrays and/or similar aspects so a customer could calculate themselves an expected rough list price for e.g. a 3 sided die with one of those sides densified to make up for the lost signal pads (vs. the default-COB-offer for that very slot), considering that such a change would open up a good chunk of extra core area that could be critical shortly before GDS deadline if, say, a design flaw came up and the sudden fix for it doesn't allow for enough interactive tuning of RTL and PnR.\n\nBeing able to quickly calculate an expected cost for the \"custom bonding to unlock extra core area to lessen PnR density pressure, making timing closure on the adjusted design much easier\" escape-hatch from a risky tapeout, would IMO be very useful.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1184268085822238821",
+          "name": "saladchap",
+          "discriminator": "0000",
+          "nickname": "stuart",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/4938353f83780f56050d92be930226f8-BA286.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571279961225043969",
+        "channelId": "1570909716207505539",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571641448368185518",
+      "type": "Reply",
+      "timestamp": "2026-11-15T21:42:00.977+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thanks, that clears it up! Re-using signal pads for power works for us. I dug through the run-2 0p5x0p5-cob KiCad files and have a few follow-ups:\n\n1. Will the Run 4 quarter-slot COB board be the same as run-2/0p5x0p5-cob, or is it changing?\n2. Is there a pad-to-net table (which die pads go to VDD_CORE_1, VDD_IO_1/2/3 and the 4 analog lines), or should I read it from the KiCad files?\n3. Is it OK to use several signal pads in parallel for one higher-current node (we'd tie them together on our carrier board)? Any issue with the ESD cells in the default ring when doing that?\n4. What bond wire do you use (gold/aluminum, diameter), and roughly what current per wire do you consider safe?\n5. Is there a max current you'd recommend through one of the 0.1 mm signal traces?\n6. Are the 0201 cap footprints populated by default, and could we pick the values?\n\nThanks again!",
+      "author": {
+        "id": "913146020798562314",
+        "name": "wyomingspopulation",
+        "discriminator": "0000",
+        "nickname": "uoıʇɐlndoԀsƃuıɯoʎʍ",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/00500421b32e2f455945bff85cd13884-5C3BC.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571430544246440059",
+        "channelId": "1570909716207505539",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 25
+  "messageCount": 27
 }

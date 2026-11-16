@@ -145,7 +145,7 @@ if we get enough information as to the drawn layers/masks for there to e.g. LVS-
 KianV Legacy now reaches 9 - 10 MIPS at 45–50 MHz, with 6.4% less logic area. Cache tests show 8–25% fewer cycles, and burst-fill reduces stalls by 23%. I also fixed several bugs I discovered over the past year while working on my newer CPU design. Further optimizations are underway.
 
 {Reactions}
-🔥 (3)
+🔥 (4)
 
 [2026-11-13 7:42 p.m.] logic_destroyer
 
@@ -169,7 +169,7 @@ KianV Legacy running Linux 7.4-rc2
 This is super cool asic destroyer!!!
 
 {Reactions}
-🔥
+🔥 (2)
 
 [2026-11-13 11:22 p.m.] logic_destroyer
 
@@ -349,8 +349,34 @@ Awesome to see everyone lighting up in this chat.
 @asic destroyer Looking great!!!
 
 {Reactions}
-❤️
+❤️ (2)
+
+[2026-11-15 8:25 p.m.] velvetundergroundandy
+maybe it can be the platform controller in our open source motherboard!
+
+
+[2026-11-15 8:29 p.m.] velvetundergroundandy
+Kevin is working on a multiple protocol transceiver chip on the upcoming run, perhaps we could combine that with Kian V to make a genuinely good microcontroller
+
+
+[2026-11-15 8:29 p.m.] velvetundergroundandy
+and then use that in the freework as a platform controller
+
+{Reactions}
+👍
+
+[2026-11-15 9:24 p.m.] baragonaru
+The multi-protocol transciever is a high risk chip that takes the full die and is highly unlikely to be fully functional (but will be neat if it works) 
+
+For freework motherboards i am in favor of  any approach that gets progressively more of the chips based on open designs over time, including platform contrller, various random logic ICs, and the core compute/graphics...
+
+{Reactions}
+💜
+
+[2026-11-15 10:26 p.m.] velvetundergroundandy
+maybe @Leo Moser (mole99) 's FPGA on Run2 could work to replace a lot of our current chips on the Freework
+
 
 ==============================================================
-Exported 62 message(s)
+Exported 67 message(s)
 ==============================================================

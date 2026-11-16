@@ -49,11 +49,11 @@ it would be great to get the physical silicon questions answered this way, if po
 "596068704471482370","246tnt","2026-11-11T09:42:55.3880000+00:00","@Tim 'mithro' Ansell And maybe the fab e-test data 😁  🤣","",""
 "262706220073222144","namibj","2026-11-11T12:26:17.1750000+00:00","if we get enough information as to the drawn layers/masks for there to e.g. LVS-extract SPICE or even do such manually if necessary for some tooling reasons, it should help notably.","",""
 "840182560252624916","logic_destroyer","2026-11-13T17:49:06.7770000+00:00","@Paul @baragonaru","2026-11_media/image-3B7B6.png",""
-"840182560252624916","logic_destroyer","2026-11-13T17:49:39.0450000+00:00","KianV Legacy now reaches 9 - 10 MIPS at 45–50 MHz, with 6.4% less logic area. Cache tests show 8–25% fewer cycles, and burst-fill reduces stalls by 23%. I also fixed several bugs I discovered over the past year while working on my newer CPU design. Further optimizations are underway.","","🔥 (3)"
+"840182560252624916","logic_destroyer","2026-11-13T17:49:39.0450000+00:00","KianV Legacy now reaches 9 - 10 MIPS at 45–50 MHz, with 6.4% less logic area. Cache tests show 8–25% fewer cycles, and burst-fill reduces stalls by 23%. I also fixed several bugs I discovered over the past year while working on my newer CPU design. Further optimizations are underway.","","🔥 (4)"
 "840182560252624916","logic_destroyer","2026-11-13T19:42:06.5590000+00:00","","2026-11_media/image-8382B.png",""
 "840182560252624916","logic_destroyer","2026-11-13T19:47:27.6960000+00:00","KianV Legacy running Linux 7.4-rc2","",""
 "840182560252624916","logic_destroyer","2026-11-13T19:47:53.7960000+00:00","","2026-11_media/image-C71F5.png",""
-"656862288099409940","baragonaru","2026-11-13T19:55:34.9300000+00:00","This is super cool asic destroyer!!!","","🔥 (1)"
+"656862288099409940","baragonaru","2026-11-13T19:55:34.9300000+00:00","This is super cool asic destroyer!!!","","🔥 (2)"
 "840182560252624916","logic_destroyer","2026-11-13T23:22:12.2660000+00:00","","2026-11_media/Screencast_from_2026-11-14_00-20-25-6C207.mp4",""
 "840182560252624916","logic_destroyer","2026-11-13T23:23:04.1590000+00:00","This is how the ASIC would behave on real hardware, accessed via a Telnet session.","",""
 "840182560252624916","logic_destroyer","2026-11-13T23:24:38.4330000+00:00","I just need to swap the chip and change the CH32 clock to 48 MHz. Then we’ll have three times the CPU power.","2026-11_media/HXB-7MHXEAEBcqm-4A599.png",""
@@ -95,4 +95,11 @@ it would be great to get the physical silicon questions answered this way, if po
 "596068704471482370","246tnt","2026-11-14T16:16:57.7000000+00:00","Mmm ... although looking at the PDN in that project, it's pretty bad.","",""
 "323371864074485771","mole99","2026-11-14T16:24:34.7190000+00:00","Yeah, it was hard enough getting it to hook up to power at all. For BOAT I'll improve this with a custom PDN script if necessary.","",""
 "756011607603019777","anfroholic","2026-11-15T09:10:57.3140000+00:00","Awesome to see everyone lighting up in this chat. 
-@asic destroyer Looking great!!!","","❤️ (1)"
+@asic destroyer Looking great!!!","","❤️ (2)"
+"1232935707782152264","velvetundergroundandy","2026-11-15T20:25:42.0440000+00:00","maybe it can be the platform controller in our open source motherboard!","",""
+"1232935707782152264","velvetundergroundandy","2026-11-15T20:29:44.5890000+00:00","Kevin is working on a multiple protocol transceiver chip on the upcoming run, perhaps we could combine that with Kian V to make a genuinely good microcontroller","",""
+"1232935707782152264","velvetundergroundandy","2026-11-15T20:29:57.8600000+00:00","and then use that in the freework as a platform controller","","👍 (1)"
+"656862288099409940","baragonaru","2026-11-15T21:24:37.5560000+00:00","The multi-protocol transciever is a high risk chip that takes the full die and is highly unlikely to be fully functional (but will be neat if it works) 
+
+For freework motherboards i am in favor of  any approach that gets progressively more of the chips based on open designs over time, including platform contrller, various random logic ICs, and the core compute/graphics...","","💜 (1)"
+"1232935707782152264","velvetundergroundandy","2026-11-15T22:26:59.2570000+00:00","maybe @Leo Moser (mole99) 's FPGA on Run2 could work to replace a lot of our current chips on the Freework","",""
