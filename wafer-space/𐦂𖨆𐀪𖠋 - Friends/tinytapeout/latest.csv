@@ -76,3 +76,15 @@ You will have one soon?? I think I have one in my bag for you","",""
 "1167741026950197258","TTBot#6027","2026-11-16T11:13:37.5150000+00:00","New tapeout: James Ross submitted Glyph Mode (https://github.com/htfab/ttboat26_vga_glyph_mode) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Fhtfab%2Fttboat26_vga_glyph_mode&ref=04d6b1544e26fd0577bec49219f888b06bbb5089>)","",""
 "1167741026950197258","TTBot#6027","2026-11-16T11:30:32.5680000+00:00","New tapeout: @Christoph submitted TT GF180mcuD Testbuffer (https://github.com/christoph-weiser/ttgf0p3-submission)","",""
 "1167741026950197258","TTBot#6027","2026-11-16T11:38:59.9180000+00:00","New tapeout: @Matt Venn submitted VGA clock (https://github.com/mattvenn/GF180-VGA-clock-waferspace)","",""
+"1167741026950197258","TTBot#6027","2026-11-16T12:51:39.1740000+00:00","New tapeout: @urish submitted USB CDC (Serial) Device (https://github.com/urish/tt-usbcdc-device)","",""
+"1167741026950197258","TTBot#6027","2026-11-16T14:59:40.4000000+00:00","New tapeout: @toivoh submitted Underflow Cubed [GF180 version] (https://github.com/toivoh/tt26-demo-4tile) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Ftoivoh%2Ftt26-demo-4tile&ref=fff626d11d4a31099f3ef4d9b5a125a1ee860a21>)","",""
+"1167741026950197258","TTBot#6027","2026-11-16T15:01:49.6400000+00:00","✅ smunaut reported @Essen's [Until heat death do us part](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_coldbrew) as working: Works, I receive the packets, visible on `wireshark` and also the provided tool.
+Didn't try to send config packets because no tooling was provided.
+TX phase works in both case, I guess the random delay ended up in a position where both are valid.","","❤️ (1)"
+"1167741026950197258","TTBot#6027","2026-11-16T17:09:27.9870000+00:00","New tapeout: John Long submitted Audio DSP (https://github.com/1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine)","",""
+"1167741026950197258","TTBot#6027","2026-11-16T17:36:56.8610000+00:00","New tapeout: Ronson Zhao, Robin Yan submitted Serialized SPONGENT-88 Hash Accelerator (https://github.com/somethingjade/ece298a-ronson-robin)","",""
+"756011607603019777","anfroholic","2026-11-16T18:51:43.5660000+00:00","TT GDS in date must be looming 😂 
+Cool to see them all rolling in. Way to go TT team!!","","🎉 (1)"
+"492702620759228416","mattvenn","2026-11-16T20:50:32.6950000+00:00","this is mostly preparing the BOAT chip","",""
+"492702620759228416","mattvenn","2026-11-16T20:50:44.7640000+00:00","https://tinytapeout.com/news/ttboat26/","",""
+"1167741026950197258","TTBot#6027","2026-11-16T22:24:42.3050000+00:00","New tapeout: @the gecko submitted 8-bit-counter (https://github.com/TheRealGecko/8-bit-counter)","",""

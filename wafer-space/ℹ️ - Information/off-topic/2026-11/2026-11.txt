@@ -114,6 +114,49 @@ Also: https://cds.cern.ch/record/1352700/files/JINST5.C11008.pdf (`doi:10.1088/1
 State as of October 24th:
 
 
+[2026-11-16 3:59 p.m.] anfroholic
+Cool, what is this? Seems forwarded from a server I can't see?
+
+
+[2026-11-16 6:41 p.m.] namibj
+https://github.com/0x23/MicroManipulatorStepper
+
+{Embed}
+https://github.com/0x23/MicroManipulatorStepper
+GitHub - 0x23/MicroManipulatorStepper: A sub-micrometer 3D motion c...
+A sub-micrometer 3D motion control plattform. Contribute to 0x23/MicroManipulatorStepper development by creating an account on GitHub.
+2026-11_media/MicroManipulatorStepper-92EEF
+
+
+[2026-11-16 6:42 p.m.] namibj
+We're talking like sub-200$ in parts plus some small 3D prints for the hexapod.
+
+
+[2026-11-16 6:43 p.m.] namibj
+the 3DOF version has a working volume of 23x23x23 mm.
+
+
+[2026-11-16 6:44 p.m.] anfroholic
+Ok, yeah, I've seen that before.
+
+
+[2026-11-16 7:44 p.m.] namibj
+But my forwarded is about the 6-DOF evolution of that.
+It should be capable of the motion stage parts for COB assembly (incoming dies from the tape, theoretically including wire bonding though realistically that latter would probably be done with a more-dedicated machine or at least a second unit that has a wire bonding head attached instead of a micro-PnP head).
+
+
+[2026-11-16 7:54 p.m.] essen__
+Oh wow, these are so cool. 
+Any chance we can switch locations, Texas has great BBQ 😏
+
+
+[2026-11-16 7:58 p.m.] anfroholic
+I'm back in Chicago now, so we're about the same distance :)
+I would enjoy some barbeque though 😂
+
+{Reactions}
+🤣
+
 ==============================================================
-Exported 12 message(s)
+Exported 20 message(s)
 ==============================================================

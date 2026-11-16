@@ -201,7 +201,7 @@ Thanks! But this is a microcontroller-class CPU with late 80s / early 90s Unix p
 Still way cooler than anything i will ever make
 
 {Reactions}
-❤️ (2)
+❤️ (3)
 
 [2026-11-14 9:22 a.m.] logic_destroyer
 The GDSII passed DRC, LVS, antenna, density, XOR, and power-connectivity checks, with setup and hold timing met across all nine corners at 45 MHz and an estimated all-corner STA
@@ -382,7 +382,23 @@ The chip has 48 I/Os available to the FPGA, which is plenty for most management 
 
 I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.
 
+{Reactions}
+💜 (2)
+
+[2026-11-16 5:47 p.m.] velvetundergroundandy
+Maybe!
+
+
+[2026-11-16 5:47 p.m.] velvetundergroundandy
+We can call this week
+
+
+[2026-11-16 8:15 p.m.] mole99
+@Paul Actually, I hadn't meant one of your slots. On Run 2, a number of people didn't submit a design for their paid slots, so we filled them up with open-source designs. The same will probably happen for Run 3, too.
+
+However, I might be interested in a guaranteed slot. I've sent you a DM.
+
 
 ==============================================================
-Exported 68 message(s)
+Exported 71 message(s)
 ==============================================================

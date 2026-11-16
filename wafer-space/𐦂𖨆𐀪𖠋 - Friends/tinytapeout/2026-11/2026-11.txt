@@ -480,6 +480,90 @@ Contribute to mattvenn/GF180-VGA-clock-waferspace development by creating an acc
 2026-11_media/6f35dc11-d1a0-4525-baa1-5a148b736a9a-05743
 
 
+[2026-11-16 12:51 p.m.] TTBot#6027
+New tapeout: @urish submitted USB CDC (Serial) Device (https://github.com/urish/tt-usbcdc-device)
+
+{Embed}
+https://github.com/urish/tt-usbcdc-device
+GitHub - urish/tt-usbcdc-device: USB CDC IP hardened for Tiny Tapeout
+USB CDC IP hardened for Tiny Tapeout. Contribute to urish/tt-usbcdc-device development by creating an account on GitHub.
+2026-11_media/48d940ec-c304-4513-828d-bc3ba3f8c542-CEF8C
+
+
+[2026-11-16 2:59 p.m.] TTBot#6027
+New tapeout: @toivoh submitted Underflow Cubed [GF180 version] (https://github.com/toivoh/tt26-demo-4tile) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Ftoivoh%2Ftt26-demo-4tile&ref=fff626d11d4a31099f3ef4d9b5a125a1ee860a21>)
+
+{Embed}
+https://github.com/toivoh/tt26-demo-4tile
+GitHub - toivoh/tt26-demo-4tile: Underflow Cubed - My contribution ...
+Underflow Cubed - My contribution to the four tile demo category of the Tiny Tapeout TTSKY26a demo competition - toivoh/tt26-demo-4tile
+2026-11_media/tt26-demo-4tile-FA298
+
+
+[2026-11-16 3:01 p.m.] TTBot#6027
+✅ smunaut reported @Essen's [Until heat death do us part](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_coldbrew) as working: Works, I receive the packets, visible on `wireshark` and also the provided tool.
+Didn't try to send config packets because no tooling was provided.
+TX phase works in both case, I guess the random delay ended up in a position where both are valid.
+
+{Embed}
+https://www.tinytapeout.com/chips/ttgf0p3/tt_um_coldbrew
+99 Until heat death do us part - Tiny Tapeout
+Counting until the heat death of the universe, broadcasting counter value every second over ethernet.
+2026-11_media/social-preview-5A250
+
+{Reactions}
+❤️
+
+[2026-11-16 5:09 p.m.] TTBot#6027
+New tapeout: John Long submitted Audio DSP (https://github.com/1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine)
+
+{Embed}
+https://github.com/1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine
+GitHub - 1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine
+Contribute to 1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine development by creating an account on GitHub.
+
+
+[2026-11-16 5:36 p.m.] TTBot#6027
+New tapeout: Ronson Zhao, Robin Yan submitted Serialized SPONGENT-88 Hash Accelerator (https://github.com/somethingjade/ece298a-ronson-robin)
+
+{Embed}
+https://github.com/somethingjade/ece298a-ronson-robin
+GitHub - somethingjade/ece298a-ronson-robin
+Contribute to somethingjade/ece298a-ronson-robin development by creating an account on GitHub.
+2026-11_media/ece298a-ronson-robin-B0FB7
+
+
+[2026-11-16 6:51 p.m.] anfroholic
+TT GDS in date must be looming 😂 
+Cool to see them all rolling in. Way to go TT team!!
+
+{Reactions}
+🎉
+
+[2026-11-16 8:50 p.m.] mattvenn
+this is mostly preparing the BOAT chip
+
+
+[2026-11-16 8:50 p.m.] mattvenn
+https://tinytapeout.com/news/ttboat26/
+
+{Embed}
+https://tinytapeout.com/news/ttboat26/
+We're building the Tiny Tapeout BOAT - Tiny Tapeout
+In partnership with wafer.space, we're bringing together the best designs from the community on one shared chip!
+2026-11_media/thumbnail-E9C7B.jpg
+
+
+[2026-11-16 10:24 p.m.] TTBot#6027
+New tapeout: @the gecko submitted 8-bit-counter (https://github.com/TheRealGecko/8-bit-counter)
+
+{Embed}
+https://github.com/TheRealGecko/8-bit-counter
+GitHub - TheRealGecko/8-bit-counter
+Contribute to TheRealGecko/8-bit-counter development by creating an account on GitHub.
+2026-11_media/8-bit-counter-95D31
+
+
 ==============================================================
-Exported 55 message(s)
+Exported 64 message(s)
 ==============================================================

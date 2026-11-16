@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-16T11:41:33.1942025+00:00",
+  "exportedAt": "2026-11-16T22:35:21.6686472+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -1337,7 +1337,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/2764-A3D25.svg"
           },
-          "count": 2,
+          "count": 3,
           "users": [
             {
               "id": "656862288099409940",
@@ -1347,6 +1347,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+            },
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
             },
             {
               "id": "840182560252624916",
@@ -2752,7 +2761,38 @@
       "attachments": [],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            },
+            {
+              "id": "1232935707782152264",
+              "name": "velvetundergroundandy",
+              "discriminator": "0000",
+              "nickname": "Paul",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+            }
+          ]
+        }
+      ],
       "mentions": [
         {
           "id": "1232935707782152264",
@@ -2771,7 +2811,100 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1571944738591084687",
+      "type": "Default",
+      "timestamp": "2026-11-16T17:47:11.001+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Maybe!",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571944780055715861",
+      "type": "Default",
+      "timestamp": "2026-11-16T17:47:20.887+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "We can call this week",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571982081674706977",
+      "type": "Default",
+      "timestamp": "2026-11-16T20:15:34.286+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Paul Actually, I hadn't meant one of your slots. On Run 2, a number of people didn't submit a design for their paid slots, so we filled them up with open-source designs. The same will probably happen for Run 3, too.\n\nHowever, I might be interested in a guaranteed slot. I've sent you a DM.",
+      "author": {
+        "id": "323371864074485771",
+        "name": "mole99",
+        "discriminator": "0000",
+        "nickname": "Leo Moser (mole99)",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 68
+  "messageCount": 71
 }

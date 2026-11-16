@@ -59,7 +59,7 @@ it would be great to get the physical silicon questions answered this way, if po
 "840182560252624916","logic_destroyer","2026-11-13T23:24:38.4330000+00:00","I just need to swap the chip and change the CH32 clock to 48 MHz. Then we’ll have three times the CPU power.","2026-11_media/HXB-7MHXEAEBcqm-4A599.png",""
 "656862288099409940","baragonaru","2026-11-14T07:25:15.2560000+00:00","Really cool to see. by the way, i'd be interested in building this into a laptop or similar one day, so if you have any thoughts on how to do graphics it's interesting. perhaps a second chip, idk.","",""
 "840182560252624916","logic_destroyer","2026-11-14T08:24:49.1080000+00:00","Thanks! But this is a microcontroller-class CPU with late 80s / early 90s Unix performance. It's a simple multicycle design, optimized for the limited area and resources of GF180MCU. Not really a laptop CPU.","",""
-"1161210755169919007","sudonet","2026-11-14T08:40:39.7830000+00:00","Still way cooler than anything i will ever make","","❤️ (2)"
+"1161210755169919007","sudonet","2026-11-14T08:40:39.7830000+00:00","Still way cooler than anything i will ever make","","❤️ (3)"
 "840182560252624916","logic_destroyer","2026-11-14T09:22:51.2260000+00:00","The GDSII passed DRC, LVS, antenna, density, XOR, and power-connectivity checks, with setup and hold timing met across all nine corners at 45 MHz and an estimated all-corner STA
   Fmax of 46.61 MHz.","2026-11_media/image-7E813.png",""
 "1161210755169919007","sudonet","2026-11-14T09:34:25.5530000+00:00","lot of sram macros! `:D`","",""
@@ -105,4 +105,9 @@ For freework motherboards i am in favor of  any approach that gets progressively
 "1232935707782152264","velvetundergroundandy","2026-11-15T22:26:59.2570000+00:00","maybe @Leo Moser (mole99) 's FPGA on Run2 could work to replace a lot of our current chips on the Freework","",""
 "323371864074485771","mole99","2026-11-16T10:08:45.8850000+00:00","The chip has 48 I/Os available to the FPGA, which is plenty for most management stuff.
 
-I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.","",""
+I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.","","💜 (2)"
+"1232935707782152264","velvetundergroundandy","2026-11-16T17:47:11.0010000+00:00","Maybe!","",""
+"1232935707782152264","velvetundergroundandy","2026-11-16T17:47:20.8870000+00:00","We can call this week","",""
+"323371864074485771","mole99","2026-11-16T20:15:34.2860000+00:00","@Paul Actually, I hadn't meant one of your slots. On Run 2, a number of people didn't submit a design for their paid slots, so we filled them up with open-source designs. The same will probably happen for Run 3, too.
+
+However, I might be interested in a guaranteed slot. I've sent you a DM.","",""

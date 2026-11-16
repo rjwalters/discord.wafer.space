@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-16T11:42:51.170313+00:00",
+  "exportedAt": "2026-11-16T22:37:08.3430842+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -2808,7 +2808,492 @@
         }
       ],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571870365917908992",
+      "type": "Default",
+      "timestamp": "2026-11-16T12:51:39.174+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: @urish submitted USB CDC (Serial) Device (https://github.com/urish/tt-usbcdc-device)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - urish/tt-usbcdc-device: USB CDC IP hardened for Tiny Tapeout",
+          "url": "https://github.com/urish/tt-usbcdc-device",
+          "timestamp": null,
+          "description": "USB CDC IP hardened for Tiny Tapeout. Contribute to urish/tt-usbcdc-device development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/48d940ec-c304-4513-828d-bc3ba3f8c542-CEF8C",
+            "width": 1536,
+            "height": 1024
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "732347216412278825",
+          "name": "urish",
+          "discriminator": "0000",
+          "nickname": "urish",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571902583314845849",
+      "type": "Default",
+      "timestamp": "2026-11-16T14:59:40.4+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: @toivoh submitted Underflow Cubed [GF180 version] (https://github.com/toivoh/tt26-demo-4tile) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Ftoivoh%2Ftt26-demo-4tile&ref=fff626d11d4a31099f3ef4d9b5a125a1ee860a21>)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - toivoh/tt26-demo-4tile: Underflow Cubed - My contribution ...",
+          "url": "https://github.com/toivoh/tt26-demo-4tile",
+          "timestamp": null,
+          "description": "Underflow Cubed - My contribution to the four tile demo category of the Tiny Tapeout TTSKY26a demo competition - toivoh/tt26-demo-4tile",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/tt26-demo-4tile-FA298",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "469746297906397215",
+          "name": "possible_realities",
+          "discriminator": "0000",
+          "nickname": "toivoh",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/1-B2132.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571903125386952814",
+      "type": "Default",
+      "timestamp": "2026-11-16T15:01:49.64+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "✅ smunaut reported @Essen's [Until heat death do us part](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_coldbrew) as working: Works, I receive the packets, visible on `wireshark` and also the provided tool.\nDidn't try to send config packets because no tooling was provided.\nTX phase works in both case, I guess the random delay ended up in a position where both are valid.",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "99 Until heat death do us part - Tiny Tapeout",
+          "url": "https://www.tinytapeout.com/chips/ttgf0p3/tt_um_coldbrew",
+          "timestamp": null,
+          "description": "Counting until the heat death of the universe, broadcasting counter value every second over ethernet.",
+          "thumbnail": {
+            "url": "2026-11_media/social-preview-5A250",
+            "width": 1200,
+            "height": 630
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "❤️",
+            "code": "heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/2764-A3D25.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "509798510170865675",
+              "name": "essen__",
+              "discriminator": "0000",
+              "nickname": "Essen",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "509798510170865675",
+          "name": "essen__",
+          "discriminator": "0000",
+          "nickname": "Essen",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571935246822285494",
+      "type": "Default",
+      "timestamp": "2026-11-16T17:09:27.987+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: John Long submitted Audio DSP (https://github.com/1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - 1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine",
+          "url": "https://github.com/1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine",
+          "timestamp": null,
+          "description": "Contribute to 1RyanChen1/ECE_298A_Configurable_Audio_DSP_Engine development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571942162700959766",
+      "type": "Default",
+      "timestamp": "2026-11-16T17:36:56.861+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Ronson Zhao, Robin Yan submitted Serialized SPONGENT-88 Hash Accelerator (https://github.com/somethingjade/ece298a-ronson-robin)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - somethingjade/ece298a-ronson-robin",
+          "url": "https://github.com/somethingjade/ece298a-ronson-robin",
+          "timestamp": null,
+          "description": "Contribute to somethingjade/ece298a-ronson-robin development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ece298a-ronson-robin-B0FB7",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571960981305819249",
+      "type": "Default",
+      "timestamp": "2026-11-16T18:51:43.566+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "TT GDS in date must be looming \uD83D\uDE02 \nCool to see them all rolling in. Way to go TT team!!",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83C\uDF89",
+            "code": "tada",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f389-5C738.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "492702620759228416",
+              "name": "mattvenn",
+              "discriminator": "0000",
+              "nickname": "Matt Venn",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/aa8560ba40f1f3d339d044dee6970630-97A62.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE02",
+          "code": "joy",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f602-168C5.svg"
+        }
+      ]
+    },
+    {
+      "id": "1571990883040235632",
+      "type": "Default",
+      "timestamp": "2026-11-16T20:50:32.695+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "this is mostly preparing the BOAT chip",
+      "author": {
+        "id": "492702620759228416",
+        "name": "mattvenn",
+        "discriminator": "0000",
+        "nickname": "Matt Venn",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/aa8560ba40f1f3d339d044dee6970630-97A62.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571990933661032448",
+      "type": "Default",
+      "timestamp": "2026-11-16T20:50:44.764+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://tinytapeout.com/news/ttboat26/",
+      "author": {
+        "id": "492702620759228416",
+        "name": "mattvenn",
+        "discriminator": "0000",
+        "nickname": "Matt Venn",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/aa8560ba40f1f3d339d044dee6970630-97A62.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "We're building the Tiny Tapeout BOAT - Tiny Tapeout",
+          "url": "https://tinytapeout.com/news/ttboat26/",
+          "timestamp": null,
+          "description": "In partnership with wafer.space, we're bringing together the best designs from the community on one shared chip!",
+          "thumbnail": {
+            "url": "2026-11_media/thumbnail-E9C7B.jpg",
+            "width": 1200,
+            "height": 630
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572014579221930186",
+      "type": "Default",
+      "timestamp": "2026-11-16T22:24:42.305+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: @the gecko submitted 8-bit-counter (https://github.com/TheRealGecko/8-bit-counter)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - TheRealGecko/8-bit-counter",
+          "url": "https://github.com/TheRealGecko/8-bit-counter",
+          "timestamp": null,
+          "description": "Contribute to TheRealGecko/8-bit-counter development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/8-bit-counter-95D31",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 55
+  "messageCount": 64
 }

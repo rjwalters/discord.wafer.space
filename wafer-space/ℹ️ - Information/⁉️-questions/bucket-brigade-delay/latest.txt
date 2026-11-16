@@ -334,6 +334,38 @@ hi-fi audio is one of the highest-SNR demanding common analog tasks, especially 
 @brookieoz I can DM you a paper regarding some potentially less-digital-izable stuff wafer.space dies could be quite useful for... (monolithic energy harvesting + high-efficiency "preamp" for switch transistors that get driven to almost full-on sorta like an LDO's pass transistor)
 
 
+[2026-11-16 1:49 p.m.] brookieoz
+Yeah sure, I'm curious
+
+
+[2026-11-16 2:28 p.m.] archit3ch
+yeah, from my perspective, a BBD is "classical desirable sound". so "just use a CCD" isn't gonna work. i've also had a guitar pedal company ask me to investigate BBDs
+
+
+[2026-11-16 2:39 p.m.] archit3ch
+i did an ablation:
+- 🟢 smaller XCLK helps
+- 🟡 no XDUMMY: modest improvement, can be combined with the above
+- 🔴 no XISO: makes things worse
+- 🔴 no internal resets: worse startup, doesn't change history
+
+
+[2026-11-16 6:07 p.m.] namibj
+I was suggesting you turn all on at the start for startup/reset, instead of sticking a spare transistor on each.
+
+
+[2026-11-16 6:07 p.m.] namibj
+CCD literally is BBD tho
+
+
+[2026-11-16 6:08 p.m.] namibj
+you just dual-purpose the storage caps and the XCLK gates
+
+
+[2026-11-16 6:09 p.m.] namibj
+(at the cost of needing 3 phases)
+
+
 ==============================================================
-Exported 59 message(s)
+Exported 66 message(s)
 ==============================================================

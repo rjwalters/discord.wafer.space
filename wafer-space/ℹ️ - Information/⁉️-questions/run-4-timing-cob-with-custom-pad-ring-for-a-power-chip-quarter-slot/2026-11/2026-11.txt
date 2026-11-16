@@ -69,7 +69,7 @@ i mean, it does say "default padring"
 + @Archit3ch (George) happy to help with any custom COB needs, please DM or email bonding@outerfab.com
 
 {Reactions}
-👍
+👍 (2)
 
 [2026-11-14 2:13 p.m.] wyomingspopulation
 Thanks, super helpful! Just to confirm: if we keep the default padring and only swap some signal pads to extra VDD/VSS in the same positions, does that still count as the default padring for wafer.space’s COB add-on?
@@ -156,6 +156,10 @@ The caps are populated; it's iirc 0.8mil al wire; trace current limits will depe
 If you need/want much more than the reasonable power from the bond wires because you're doing a low-loss switched-mode power converter, you _might_ consider helping working towards qualifying a flip-chip option rated for considerably higher current than the thin wire bonds; there's the `FC01` test dies from Run2; particularly if you have any affordable way (especially there should be a path to scaling it to one-or-more slots of Run4 undergoing the process with their full quantity, post-dicing (||only exception w.r.t. pre/post dicing would be if it's cheap enough and won't conflict with the COB processing for the other slots, in which case doing it pre-dicing might possibly be discussed||)) to plate the existing aluminium pads up in thickness to form bumps which could then via their raised structure define flip-chip bond areas.
 
 
+[2026-11-16 1:29 p.m.] 0xaef
+We're designing a motherboard with a single 70-pin socket meant to take quarter, half and full-slot CoBs. In the run-2 files the 14×16 mm outline and connector position match across sizes. Will Run 3 and Run 4 keep the run-2 board outline and connector pinout, including after the NextPCB move?
+
+
 ==============================================================
-Exported 28 message(s)
+Exported 29 message(s)
 ==============================================================
