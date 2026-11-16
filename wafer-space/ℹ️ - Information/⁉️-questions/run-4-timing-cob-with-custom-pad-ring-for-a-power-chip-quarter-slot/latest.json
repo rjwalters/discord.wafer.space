@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T22:14:14.7347579+00:00",
+  "exportedAt": "2026-11-16T02:21:13.3445167+00:00",
   "messages": [
     {
       "id": "1570909716207505539",
@@ -988,7 +988,48 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1571681794732986419",
+      "type": "Reply",
+      "timestamp": "2026-11-16T00:22:20.3+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The caps are populated; it's iirc 0.8mil al wire; trace current limits will depend on thermal surroundings.\n\nIf you need/want much more than the reasonable power from the bond wires because you're doing a low-loss switched-mode power converter, you _might_ consider helping working towards qualifying a flip-chip option rated for considerably higher current than the thin wire bonds; there's the `FC01` test dies from Run2; particularly if you have any affordable way (especially there should be a path to scaling it to one-or-more slots of Run4 undergoing the process with their full quantity, post-dicing (||only exception w.r.t. pre/post dicing would be if it's cheap enough and won't conflict with the COB processing for the other slots, in which case doing it pre-dicing might possibly be discussed||)) to plate the existing aluminium pads up in thickness to form bumps which could then via their raised structure define flip-chip bond areas.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "913146020798562314",
+          "name": "wyomingspopulation",
+          "discriminator": "0000",
+          "nickname": "uoıʇɐlndoԀsƃuıɯoʎʍ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/00500421b32e2f455945bff85cd13884-5C3BC.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571641448368185518",
+        "channelId": "1570909716207505539",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 27
+  "messageCount": 28
 }

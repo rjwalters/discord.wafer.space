@@ -19,3 +19,94 @@ Is this about transistor sizes? Are commercial BBDs on a different PDK? Any idea
 The working idea behind it is that the positive charge on the gate poly sucks the interesting/signal-coding negative charge in the trench below along, if you use at least 3 clock phases that overlap and that each have less than 50% duty cycle.
 Assuming n-channel operation; reverse polarities if it'd be p-channel operation instead. I don't know which of the two carriers would realistically exhibit longer useful lifetime here, though.","",""
 "155452674286813194","brookieoz","2026-11-15T21:00:28.1190000+00:00","Part of me is curious about the comparison between a true bucket brigade delay where you have N buckets where every charge goes through every bucket vs N parallel buckets that get rotated through","",""
+"211112896833257472","archit3ch","2026-11-15T23:24:17.6070000+00:00","This is 4 buckets. I only had a schematic, so the layout is generated for review and not final.","2026-11_media/firehawk-bbd-four-position-review-14D77.pdf",""
+"211112896833257472","archit3ch","2026-11-15T23:25:25.6360000+00:00","What do you mean rotated through? If you want the most delay time, you have to connect all N buckets serially.","",""
+"262706220073222144","namibj","2026-11-15T23:29:29.4240000+00:00","https://tinyurl.com/yzhvzbjo hmmmm","",""
+"155452674286813194","brookieoz","2026-11-15T23:29:49.8280000+00:00","so basically with a bucket brigade delay you need to be pretty careful with the charge transfer doing odd-even-odd-even","2026-11_media/image-83B79.png",""
+"262706220073222144","namibj","2026-11-15T23:30:55.0370000+00:00","(from https://www.reddit.com/r/AskElectronics/comments/qvoe98/what_would_happen_if_you_tried_to_build_a_bucket/ )","2026-11_media/what-would-happen-if-you-tried-to-build-a--E8E54.png",""
+"155452674286813194","brookieoz","2026-11-15T23:31:41.1260000+00:00","but basically I was curious about this","2026-11_media/image-FEC46.png",""
+"211112896833257472","archit3ch","2026-11-15T23:34:57.8940000+00:00","seems like that would divide the transferred voltage across the destination buckets? 🤔","",""
+"155452674286813194","brookieoz","2026-11-15T23:35:42.4560000+00:00","not really, thinking more like you clock c1 then wait n cycles then clock the voltage to the output","","👍 (1)"
+"155452674286813194","brookieoz","2026-11-15T23:35:56.0140000+00:00","so you're still doing a ""delay"" but you're basically running down a huge bank of capacitors","",""
+"155452674286813194","brookieoz","2026-11-15T23:37:21.5240000+00:00","the idea is you take the analog input, sample & hold it on the intermediate capacitors for n cycles for your delay
+
+the output probably needs to be reset every time or else there'll be some weird charge sharing effect","",""
+"211112896833257472","archit3ch","2026-11-15T23:37:52.0210000+00:00","wouldn't that cause leakage if you hang 1024 (or however many) closed gates on the input node?","",""
+"262706220073222144","namibj","2026-11-15T23:38:06.1440000+00:00","Hmmm yeah.... 
+it's just a charge pump that is wired to just forward, after all. No _inherent need_ to fuse the charge storage with the switched channel like the VLSI monolithic CCD.","",""
+"155452674286813194","brookieoz","2026-11-15T23:38:33.4400000+00:00","each capacitor only sees two switches for the purposes of leakage","",""
+"155452674286813194","brookieoz","2026-11-15T23:38:50.4600000+00:00","The output might be a little dicier though","",""
+"262706220073222144","namibj","2026-11-15T23:38:50.8090000+00:00","issue 1: input capacitance of left switches adds up.
+issue 2: output capacitance of right switches sadds up.","","👆 (1)"
+"211112896833257472","archit3ch","2026-11-15T23:38:56.2230000+00:00","i kinda made it work by buffering per-bucket-transfer... but nobody does this 😅","",""
+"155452674286813194","brookieoz","2026-11-15T23:39:37.0910000+00:00","just gotta design an input buffer that can drive the parasitic capacitances of n open switches + 1 cap","",""
+"155452674286813194","brookieoz","2026-11-15T23:39:56.3350000+00:00","I don't expect that to be massive amounts of capacitance","",""
+"262706220073222144","namibj","2026-11-15T23:40:05.8380000+00:00","Please check your sim settings for your simulation that claims you get those `-0.74%` gain error per transfer.","",""
+"211112896833257472","archit3ch","2026-11-15T23:40:23.7910000+00:00","hmmm. but it's leaking for 1024 cycles, compared to 1 for the serial design","",""
+"262706220073222144","namibj","2026-11-15T23:40:24.8870000+00:00","it _really_ adds up.","",""
+"262706220073222144","namibj","2026-11-15T23:40:57.8710000+00:00","also can't just nicely layout as a comfy CCD.","",""
+"155452674286813194","brookieoz","2026-11-15T23:41:29.3830000+00:00","really? I thought overlap capacitance for an open switch would be on the order of like tens of femto","",""
+"155452674286813194","brookieoz","2026-11-15T23:42:19.0370000+00:00","so if you've got a thousand of these it should be on the order of 20pF","",""
+"155452674286813194","brookieoz","2026-11-15T23:42:56.8540000+00:00","that said, the charge sharing on the output is gonna get weird but I feel like just putting a gain into the output amplifier might be able to deal with that 🤷‍♂️","",""
+"211112896833257472","archit3ch","2026-11-15T23:43:30.6650000+00:00","i said above this is a BBD, not a CCD. if we're going for historical accuracy, we need to model the correct kind of device","",""
+"155452674286813194","brookieoz","2026-11-15T23:44:00.3660000+00:00","that said, mismatch between the capacitor banks is a horrible issue with this because it'll cause tones at the period of the whole delay, that's probably why they don't do this haha","",""
+"211112896833257472","archit3ch","2026-11-15T23:44:17.2030000+00:00","uh, yeah, that part was weird. any suggestions?","",""
+"262706220073222144","namibj","2026-11-15T23:50:39.5190000+00:00","GIven you already split the charge pump clocks from the transsistor/tgate clocks, maybe delete your `XISO`, delete that XDUMMY, make the `XCLK` 0.5/0.5 instead of 2.0/0.5, and get rid of the remaining initialization transistors as well; if you want to initialize, then anomalously turn both clock phases on.","",""
+"211112896833257472","archit3ch","2026-11-15T23:51:59.3610000+00:00","according to Sangster's 1970 paper: ""parasitic capacitance at the intermediate node retains charge"". it's the MIDpoint node at the ASCII schematic i posted","",""
+"262706220073222144","namibj","2026-11-15T23:52:00.8940000+00:00","in the iirc named `.spiceinit` file you have around there are tolerances called out; I _think_ you can override them in the currently specific/acitive netlist though.","",""
+"262706220073222144","namibj","2026-11-15T23:53:41.8020000+00:00","well, sorta, yeah? But like, they also assume you use a transistor gate clock also for the plate drive, I think?","","👍 (1)"
+"211112896833257472","archit3ch","2026-11-15T23:54:34.3730000+00:00","in addition, BSIM4 should also retain charge (it just gets lost into parasitics here)","",""
+"262706220073222144","namibj","2026-11-15T23:57:22.5780000+00:00","Hmmm....
+Yeah I'd rather try to do a real CCD, I think, with fingers wide enough to sufficciently dominate over the mandatory SD gaps between poly2 fingers due to minimum DRC legal spacing.
+And then run a 3-phase clock with like 40% duty cycle. Not sure if I'd do it as pmos or nmos, probably would try both and see.
+jI'd think doing it like 3~15 u long channel and about 2~4 times as wide a channel as the minimum gap between channels (minimum COMP to COMP spacing where the channels share a rectangular poly2 finger that overlap all/both the channels).","",""
+"262706220073222144","namibj","2026-11-16T00:01:22.3330000+00:00","```
+DF.2a
+
+Min Channel Width
+
+0.22 (3.3V)
+
+0.3 (5/6V)
+```
+and
+```
+DF.3a
+
+Min. COMP Space.
+
+0.28 (3.3V)
+
+0.36 (5/6V)
+```","",""
+"262706220073222144","namibj","2026-11-16T00:01:55.4880000+00:00","```
+DF.6
+
+Min. COMP extend beyond gate (it also means source/drain overhang)
+
+0.24 (3.3V)
+
+0.4 (5/6V)
+```","",""
+"262706220073222144","namibj","2026-11-16T00:04:26.1830000+00:00","```
+PL.3a
+
+Space on COMP
+
+Space on Field
+
+0.24 (for all voltages)
+
+0.24 (for all voltages)
+```","",""
+"211112896833257472","archit3ch","2026-11-16T00:06:35.4880000+00:00","you mean i should tighten tolerances? nothing to do with SPICE initialization, i assume","",""
+"262706220073222144","namibj","2026-11-16T00:08:56.1340000+00:00","So it _appears_ that between 0.24 and 0.6 wide spaces between poly2 lines (`PL.3b* Poly2 Space on COMP for low active sheet resistivity (guideline)`) and then yeah, some 5-ish wide poly2 lines giving correspondingly 5u long channels, and considering that DF.3a, say, approximately 1u wide channels, should be reasonable, at least for starters.","",""
+"262706220073222144","namibj","2026-11-16T00:11:37.7950000+00:00","the max distance to a well tap would be done sideways and rolled into putting down poly2 contacts often enough considering the decent sheet resistivity of the gate poly and the immense capacitive load experienced through them which should operate with an RC time constant that's related to approximately 1/10th clock period, and is a far enough multiple below that to give the expected reasonable-ness levels of charge tolerance","",""
+"262706220073222144","namibj","2026-11-16T00:11:55.4650000+00:00","specifically, tighten absolute charge tolerance","","👌 (1)"
+"211112896833257472","archit3ch","2026-11-16T00:44:19.8380000+00:00","from ngspice default `CHGTOL=1e-14 C` to `CHGTOL=1e-16 C` there is no difference. we get some “timestep too small” aborts below that, but it still agrees on the cases where it finishes","",""
+"211112896833257472","archit3ch","2026-11-16T00:46:49.2500000+00:00","also, the  −0.7435% gain error (=0.992565x) per transfer was an old number that assumed driving a load. the schematic i gave you has 0.996945 gain across 3 transfers","",""
+"262706220073222144","namibj","2026-11-16T01:21:30.9770000+00:00","hmmmm....
+I suggest you look at the gain in the ""middle"" of the BBD vs. measuring at the start/end, to measure aspects that are inherent to the BBD itself vs. having to think about (de) embedding the harness.
+Also as I mentioned maybe try to use poly2 with 3 phases for an actual CCD structure vs. this?
+You can calculate the numbers to put into the SPICE model btw; you need to specify channel width/length and source and drain area and perimeter; there are forumulas in xschem that try to calculate you typical source/drain area/perimeter values from finger count and sizing; note that due to overlap, the intermediate devices can be simulated with only half the area and perimeter specified because one's drain is the next one's source.","",""
+"262706220073222144","namibj","2026-11-16T01:22:14.2250000+00:00","(Or just make them have like 10u long channels.)","",""

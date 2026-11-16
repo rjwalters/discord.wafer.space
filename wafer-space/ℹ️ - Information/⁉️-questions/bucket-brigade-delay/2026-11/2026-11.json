@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-15T21:40:11.7498058+00:00",
+  "exportedAt": "2026-11-16T01:47:15.1442966+00:00",
   "messages": [
     {
       "id": "1570885229223215147",
@@ -169,7 +169,1616 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1571667187259674694",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:24:17.607+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is 4 buckets. I only had a schematic, so the layout is generated for review and not final.",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [
+        {
+          "id": "1571667186781650954",
+          "url": "2026-11_media/firehawk-bbd-four-position-review-14D77.pdf",
+          "fileName": "firehawk-bbd-four-position-review.pdf",
+          "fileSizeBytes": 103550
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571625915451052043",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571667472594112645",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:25:25.636+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What do you mean rotated through? If you want the most delay time, you have to connect all N buckets serially.",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571630992563904555",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571668495114969088",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:29:29.424+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://tinyurl.com/yzhvzbjo hmmmm",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571668580695539903",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:29:49.828+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so basically with a bucket brigade delay you need to be pretty careful with the charge transfer doing odd-even-odd-even",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [
+        {
+          "id": "1571668580397748265",
+          "url": "2026-11_media/image-83B79.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 46467
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571668854201909391",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:30:55.037+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(from https://www.reddit.com/r/AskElectronics/comments/qvoe98/what_would_happen_if_you_tried_to_build_a_bucket/ )",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1571668853975683183",
+          "url": "2026-11_media/what-would-happen-if-you-tried-to-build-a--E8E54.png",
+          "fileName": "what-would-happen-if-you-tried-to-build-a-bucket-brigade-v0-t4mwa9khd2081.png",
+          "fileSizeBytes": 49434
+        }
+      ],
+      "embeds": [
+        {
+          "title": "What would happen if you tried to build a bucket brigade delay with...",
+          "url": "https://www.reddit.com/r/AskElectronics/comments/qvoe98/what_would_happen_if_you_tried_to_build_a_bucket/",
+          "timestamp": null,
+          "description": "",
+          "color": "#FF4500",
+          "author": {
+            "name": "r/AskElectronics",
+            "url": "https://www.reddit.com/r/AskElectronics/"
+          },
+          "image": {
+            "url": "2026-11_media/qvoe98-35F81",
+            "width": 1120,
+            "height": 584
+          },
+          "footer": {
+            "text": "Reddit",
+            "iconUrl": "2026-11_media/favicon-96x96-E73BB.png"
+          },
+          "images": [
+            {
+              "url": "2026-11_media/qvoe98-35F81",
+              "width": 1120,
+              "height": 584
+            }
+          ],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1571668495114969088",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571669047513190573",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:31:41.126+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "but basically I was curious about this",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [
+        {
+          "id": "1571669047240687716",
+          "url": "2026-11_media/image-FEC46.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 71555
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571669872818126991",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:34:57.894+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "seems like that would divide the transferred voltage across the destination buckets? \uD83E\uDD14",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571669047513190573",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDD14",
+          "code": "thinking",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f914-15707.svg"
+        }
+      ]
+    },
+    {
+      "id": "1571670059724841034",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:35:42.456+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "not really, thinking more like you clock c1 then wait n cycles then clock the voltage to the output",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670116591079455",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:35:56.014+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so you're still doing a \"delay\" but you're basically running down a huge bank of capacitors",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670475246145627",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:37:21.524+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "the idea is you take the analog input, sample & hold it on the intermediate capacitors for n cycles for your delay\n\nthe output probably needs to be reset every time or else there'll be some weird charge sharing effect",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670603159703604",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:37:52.021+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "wouldn't that cause leakage if you hang 1024 (or however many) closed gates on the input node?",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571670475246145627",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670662395994113",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:38:06.144+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmmm yeah.... \nit's just a charge pump that is wired to just forward, after all. No _inherent need_ to fuse the charge storage with the switched channel like the VLSI monolithic CCD.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571667187259674694",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670776883576926",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:38:33.44+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "each capacitor only sees two switches for the purposes of leakage",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571670603159703604",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670848270770237",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:38:50.46+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The output might be a little dicier though",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670849734312118",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:38:50.809+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "issue 1: input capacitance of left switches adds up.\nissue 2: output capacitance of right switches sadds up.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC46",
+            "code": "point_up_2",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f446-9CC34.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571669047513190573",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571670872442540147",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:38:56.223+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i kinda made it work by buffering per-bucket-transfer... but nobody does this \uD83D\uDE05",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE05",
+          "code": "sweat_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f605-42B43.svg"
+        }
+      ]
+    },
+    {
+      "id": "1571671043855097907",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:39:37.091+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "just gotta design an input buffer that can drive the parasitic capacitances of n open switches + 1 cap",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571670849734312118",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671124570415174",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:39:56.335+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I don't expect that to be massive amounts of capacitance",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671164429017160",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:40:05.838+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Please check your sim settings for your simulation that claims you get those `-0.74%` gain error per transfer.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671239729086515",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:40:23.791+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hmmm. but it's leaking for 1024 cycles, compared to 1 for the serial design",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571670776883576926",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671244326174813",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:40:24.887+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it _really_ adds up.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571671124570415174",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671382671237143",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:40:57.871+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "also can't just nicely layout as a comfy CCD.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671514841882738",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:41:29.383+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "really? I thought overlap capacitance for an open switch would be on the order of like tens of femto",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571671244326174813",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671723106111520",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:42:19.037+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so if you've got a thousand of these it should be on the order of 20pF",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571671881721979041",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:42:56.854+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "that said, the charge sharing on the output is gonna get weird but I feel like just putting a gain into the output amplifier might be able to deal with that \uD83E\uDD37‍♂️",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDD37",
+          "code": "person_shrugging",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f937-19884.svg"
+        }
+      ]
+    },
+    {
+      "id": "1571672023535591557",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:43:30.665+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i said above this is a BBD, not a CCD. if we're going for historical accuracy, we need to model the correct kind of device",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571671382671237143",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571672148110479512",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:44:00.366+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "that said, mismatch between the capacitor banks is a horrible issue with this because it'll cause tones at the period of the whole delay, that's probably why they don't do this haha",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571672218729980019",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:44:17.203+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "uh, yeah, that part was weird. any suggestions?",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571671164429017160",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571673822279508083",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:50:39.519+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "GIven you already split the charge pump clocks from the transsistor/tgate clocks, maybe delete your `XISO`, delete that XDUMMY, make the `XCLK` 0.5/0.5 instead of 2.0/0.5, and get rid of the remaining initialization transistors as well; if you want to initialize, then anomalously turn both clock phases on.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571674157161254933",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:51:59.361+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "according to Sangster's 1970 paper: \"parasitic capacitance at the intermediate node retains charge\". it's the MIDpoint node at the ASCII schematic i posted",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1570885229223215147",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571674163591118990",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:52:00.894+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "in the iirc named `.spiceinit` file you have around there are tolerances called out; I _think_ you can override them in the currently specific/acitive netlist though.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571672218729980019",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571674586829824053",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:53:41.802+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "well, sorta, yeah? But like, they also assume you use a transistor gate clock also for the plate drive, I think?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571674157161254933",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571674807328841802",
+      "type": "Default",
+      "timestamp": "2026-11-15T23:54:34.373+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "in addition, BSIM4 should also retain charge (it just gets lost into parasitics here)",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571675512831615137",
+      "type": "Reply",
+      "timestamp": "2026-11-15T23:57:22.578+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmmm....\nYeah I'd rather try to do a real CCD, I think, with fingers wide enough to sufficciently dominate over the mandatory SD gaps between poly2 fingers due to minimum DRC legal spacing.\nAnd then run a 3-phase clock with like 40% duty cycle. Not sure if I'd do it as pmos or nmos, probably would try both and see.\njI'd think doing it like 3~15 u long channel and about 2~4 times as wide a channel as the minimum gap between channels (minimum COMP to COMP spacing where the channels share a rectangular poly2 finger that overlap all/both the channels).",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571672148110479512",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571676518436831314",
+      "type": "Default",
+      "timestamp": "2026-11-16T00:01:22.333+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```\nDF.2a\n\nMin Channel Width\n\n0.22 (3.3V)\n\n0.3 (5/6V)\n```\nand\n```\nDF.3a\n\nMin. COMP Space.\n\n0.28 (3.3V)\n\n0.36 (5/6V)\n```",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571676657498984551",
+      "type": "Default",
+      "timestamp": "2026-11-16T00:01:55.488+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```\nDF.6\n\nMin. COMP extend beyond gate (it also means source/drain overhang)\n\n0.24 (3.3V)\n\n0.4 (5/6V)\n```",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571677289559752847",
+      "type": "Default",
+      "timestamp": "2026-11-16T00:04:26.183+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```\nPL.3a\n\nSpace on COMP\n\nSpace on Field\n\n0.24 (for all voltages)\n\n0.24 (for all voltages)\n```",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571677831904235572",
+      "type": "Reply",
+      "timestamp": "2026-11-16T00:06:35.488+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "you mean i should tighten tolerances? nothing to do with SPICE initialization, i assume",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571674163591118990",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571678421816180827",
+      "type": "Default",
+      "timestamp": "2026-11-16T00:08:56.134+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So it _appears_ that between 0.24 and 0.6 wide spaces between poly2 lines (`PL.3b* Poly2 Space on COMP for low active sheet resistivity (guideline)`) and then yeah, some 5-ish wide poly2 lines giving correspondingly 5u long channels, and considering that DF.3a, say, approximately 1u wide channels, should be reasonable, at least for starters.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571679099871559741",
+      "type": "Default",
+      "timestamp": "2026-11-16T00:11:37.795+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "the max distance to a well tap would be done sideways and rolled into putting down poly2 contacts often enough considering the decent sheet resistivity of the gate poly and the immense capacitive load experienced through them which should operate with an RC time constant that's related to approximately 1/10th clock period, and is a far enough multiple below that to give the expected reasonable-ness levels of charge tolerance",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571679173984915539",
+      "type": "Reply",
+      "timestamp": "2026-11-16T00:11:55.465+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "specifically, tighten absolute charge tolerance",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4C",
+            "code": "ok_hand",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44c-59547.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571677831904235572",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571687329276624897",
+      "type": "Default",
+      "timestamp": "2026-11-16T00:44:19.838+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "from ngspice default `CHGTOL=1e-14 C` to `CHGTOL=1e-16 C` there is no difference. we get some “timestep too small” aborts below that, but it still agrees on the cases where it finishes",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571687955955982409",
+      "type": "Default",
+      "timestamp": "2026-11-16T00:46:49.25+00:00",
+      "timestampEdited": "2026-11-16T00:48:50.659+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "also, the  −0.7435% gain error (=0.992565x) per transfer was an old number that assumed driving a load. the schematic i gave you has 0.996945 gain across 3 transfers",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571696687351734346",
+      "type": "Reply",
+      "timestamp": "2026-11-16T01:21:30.977+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hmmmm....\nI suggest you look at the gain in the \"middle\" of the BBD vs. measuring at the start/end, to measure aspects that are inherent to the BBD itself vs. having to think about (de) embedding the harness.\nAlso as I mentioned maybe try to use poly2 with 3 phases for an actual CCD structure vs. this?\nYou can calculate the numbers to put into the SPICE model btw; you need to specify channel width/length and source and drain area and perimeter; there are forumulas in xschem that try to calculate you typical source/drain area/perimeter values from finger count and sizing; note that due to overlap, the intermediate devices can be simulated with only half the area and perimeter specified because one's drain is the next one's source.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1571687955955982409",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1571696868746993695",
+      "type": "Default",
+      "timestamp": "2026-11-16T01:22:14.225+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(Or just make them have like 10u long channels.)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 5
+  "messageCount": 50
 }

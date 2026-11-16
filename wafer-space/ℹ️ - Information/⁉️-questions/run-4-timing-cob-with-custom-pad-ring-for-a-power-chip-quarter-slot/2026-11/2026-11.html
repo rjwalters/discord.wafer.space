@@ -51,6 +51,18 @@ Being able to quickly calculate an expected cost for the &quot;custom bonding to
 6. Are the 0201 cap footprints populated by default, and could we pick the values?
 
 Thanks again!</span></div></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1571681794732986419 class=chatlog__message-container data-message-id=1571681794732986419><div class=chatlog__message><div class=chatlog__message-aside><div class=chatlog__reply-symbol></div><img class=chatlog__avatar src=2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__reply><img class=chatlog__reply-avatar src=2026-11_media/00500421b32e2f455945bff85cd13884-5C3BC.png alt=Avatar loading=lazy><div class=chatlog__reply-author title=wyomingspopulation>uoıʇɐlndoԀsƃuıɯoʎʍ</div><div class=chatlog__reply-content><span class=chatlog__reply-link onclick="scrollToMessage(event,'1571641448368185518')"> Thanks, that clears it up! Re-using signal pads for power works for us. I dug through the run-2 0p5x0p5-cob KiCad files and have a few follow-ups:
+
+1. Will the Run 4 quarter-slot COB board be the same as run-2/0p5x0p5-cob, or is it changing?
+2. Is there a pad-to-net table (which die pads go to VDD_CORE_1, VDD_IO_1/2/3 and the 4 analog lines), or should I read it from the KiCad files?
+3. Is it OK to use several signal pads in parallel for one higher-current node (we&#39;d tie them together on our carrier board)? Any issue with the ESD cells in the default ring when doing that?
+4. What bond wire do you use (gold/aluminum, diameter), and roughly what current per wire do you consider safe?
+5. Is there a max current you&#39;d recommend through one of the 0.1 mm signal traces?
+6. Are the 0201 cap footprints populated by default, and could we pick the values?
+
+Thanks again! </span></div></div><div class=chatlog__header><span class=chatlog__author title=namibj data-user-id=262706220073222144>namibj</span> <span class=chatlog__timestamp title="Monday, November 16, 2026 12:22 a.m."><a href=#chatlog__message-container-1571681794732986419>2026-11-16 12:22 a.m.</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>The caps are populated; it&#39;s iirc 0.8mil al wire; trace current limits will depend on thermal surroundings.
+
+If you need/want much more than the reasonable power from the bond wires because you&#39;re doing a low-loss switched-mode power converter, you <em>might</em> consider helping working towards qualifying a flip-chip option rated for considerably higher current than the thin wire bonds; there&#39;s the <code class="chatlog__markdown-pre chatlog__markdown-pre--inline">FC01</code> test dies from Run2; particularly if you have any affordable way (especially there should be a path to scaling it to one-or-more slots of Run4 undergoing the process with their full quantity, post-dicing (<span class="chatlog__markdown-spoiler chatlog__markdown-spoiler--hidden" onclick="showSpoiler(event, this)">only exception w.r.t. pre/post dicing would be if it&#39;s cheap enough and won&#39;t conflict with the COB processing for the other slots, in which case doing it pre-dicing might possibly be discussed</span>)) to plate the existing aluminium pads up in thickness to form bumps which could then via their raised structure define flip-chip bond areas.</span></div></div></div></div></div>
 
 </div>
-<div class=postamble><div class=postamble__entry>Exported 27 message(s)</div><div class=postamble__entry>Timezone: UTC+0</div></div>
+<div class=postamble><div class=postamble__entry>Exported 28 message(s)</div><div class=postamble__entry>Timezone: UTC+0</div></div>
