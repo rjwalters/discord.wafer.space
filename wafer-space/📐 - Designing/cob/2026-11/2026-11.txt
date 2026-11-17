@@ -195,6 +195,179 @@ I thought these renders looked kinda neat, so figured I'd share.
 Is this a HyperRAM or PSRAM with some other interface? And will it become a standard packaging option in the future runs? 😃
 
 
+[2026-11-17 10:10 a.m.] mithro_
+That is super fancy looking!
+
+
+[2026-11-17 10:12 a.m.] anfroholic
+To call this standard packaging would be incorrect. But allowing anyone to *actually make something like this* is the real goal!
+
+{Reactions}
+👍
+
+[2026-11-17 10:13 a.m.] anfroholic
+Should have a bunch to publish in an hour? You know me 😜
+
+
+[2026-11-17 10:16 a.m.] anfroholic
+Also I think the desired exchange format should be XML
+-# yes, I am actually serious
+
+
+[2026-11-17 11:47 a.m.] anfroholic
+Looks like I'm putting some chips on the table regarding wirebonding exchange formats.
+
+Currently have a few problems we need to solve. Right now everything is built around humans reading pictures. And in the age of AI, I think our formats should become more human-centric anyways.
+
+### The premise
+A picture is *already* the accepted exchange format today. So keep the picture as an SVG *(which is just XML under the hood)*, and embed wirebonding data directly as key/value pairs in the raw XML.
+Proposed format is `myboard.wb.svg`
+> Humans get what they want.
+> Machines can read what they want.
+
+What we've got so far:
+- **Footprint export:** generates 3D models you can add to your board alongside your GDS (see attached). I'm also working on embedding the SVG data directly into the footprint itself.
+- **GDS import:** finds the paths in your GDS and uses their names to help you create symbols and nets.
+- **Multiple die and stacked die** support.
+- **Any bond topology:** board to die, die to die, and everything in between.
+- **import/export** of wb.svg files directly
+- ...plus a bunch of other fun little tools.
+
+Links and more info:
+**App:** https://anfroholic.github.io/wirebonding.svg
+**Repo:** https://github.com/anfroholic/wirebonding.svg
+
+Feedback, ideas and issues are all welcome.
+
+Example data:
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:wb="urn:wbx:0.1" viewBox="-300 -500 19000 15600"
+     wb:version="0.1" wb:units="um" wb:design="wafer.space 1x1 logo die" wb:rev="A"
+     wb:rule-wire-gap="60" wb:rule-edge-clear="40">
+
+  <!-- The board: an outline, and a land per bond finger. 1 unit = 1 µm, so this land is 250 × 1000 µm. -->
+  <g>
+    <rect x="0" y="0" width="13000" height="13000" class="sub" wb:kind="outline" wb:name="SUB"/>
+    <rect x="3175" y="10700" width="250" height="1000" class="cu"
+          wb:kind="land" wb:name="L1" wb:net="clk_PAD" wb:finish="ENIG"/>
+    <circle cx="900" cy="12100" r="250" class="cu" wb:kind="fiducial" wb:name="F1" wb:role="align" wb:datum="B"/>
+  </g>
+
+  <!-- The die, placed by its transform. Inside it, coordinates are the die's own, y up as in its GDS. -->
+  <g transform="translate(4534 9061) scale(1 -1)" wb:kind="die" wb:name="U1" wb:gds-cell="chip_top" wb:pad-layer="37/0">
+    <rect x="0" y="0" width="3932" height="5122" class="die" wb:kind="outline"/>
+    <g transform="scale(1 -1)"><title>U1 artwork</title>
+      <image x="0" y="-5122" width="3932" height="5122" href="data:image/png;base64,iVBORw0KGgo…"/>
+    </g>
+    <rect x="496" y="28" width="60" height="60" class="pad" wb:kind="pad" wb:name="1" wb:net="clk_PAD"/>
+  </g>
+
+  <!-- A wire from die pad U1.1 to land L1. stroke-width is the wire's diameter: 20 µm. -->
+  <line x1="5060" y1="9003" x2="3300" y2="11000" stroke-width="20" class="w sig"
+        wb:kind="wire" wb:name="W01" wb:from="U1.1" wb:to="L1" wb:profile="STD20"
+        wb:seq="1" wb:tier="1" wb:net="clk_PAD"/>
+
+  <!-- How the wire loops: a parametric profile that fits any span, drawn beside the plan. -->
+  <g wb:kind="profile" wb:name="STD20" wb:material="Au" wb:style="ball-wedge" wb:dir="forward"
+     wb:moves="180/0 30/12% -20/35%" wb:interp="spline" wb:ref-span="1000">…</g>
+
+  <!-- Heights: the section view. Each rectangle's height is that layer's thickness: a 280 µm die. -->
+  <rect x="4534" y="-305" width="3932" height="280" wb:kind="layer" wb:name="U1" wb:role="die" wb:material="Si"/>
+
+  <!-- Where the die may land: a position tolerance to datums A, B and C. -->
+  <g wb:kind="tolerance" wb:applies-to="U1" wb:char="position" wb:tol="50" wb:modifier="CZ" wb:datums="A B C">…</g>
+</svg>
+```
+
+{Attachments}
+2026-11_media/example-10EFE.png
+2026-11_media/example_hero-A5451.png
+2026-11_media/image-E5283.png
+2026-11_media/eurosynth_hero-A55D0.png
+2026-11_media/stacked_hero-EA0A6.png
+
+{Embed}
+https://github.com/anfroholic/wirebonding.svg
+GitHub - anfroholic/wirebonding.svg: wirebond.svg (.wb.svg) is an o...
+wirebond.svg (.wb.svg) is an open format for handing wire bond designs from PCB designers to bonding houses. It opens in any browser as a true-scale diagram and tools read it as data. Wire Bond Ben...
+2026-11_media/wirebonding-E1585.svg
+
+
+[2026-11-17 11:55 a.m.] 246tnt
+I'm not a big fan ... because now you can have a SVG that encodes different things in the visual you see and the data the machine reads ...
+
+
+[2026-11-17 11:56 a.m.] anfroholic
+Only partially, location data is encoded directly as units
+
+{Reactions}
+👌
+
+[2026-11-17 11:59 a.m.] anfroholic
+Also thank you  for the constructive criticism. It's the only way it will work!
+
+
+[2026-11-17 12:02 p.m.] 246tnt
+Ok yeah, reading more in detail the example I see. From the description I thought the machine readable data was a duplicate set in the SVG attribute independent from the actual drawing stuff.
+
+{Reactions}
+💯
+
+[2026-11-17 12:04 p.m.] anfroholic
+It's that tie-in is the only reason I think it's reasonable
+
+{Reactions}
+💯
+
+[2026-11-17 12:06 p.m.] 246tnt
+You still have `wb:from="U1.1" wb:to="L1"` which AFAICT could not match what the coordinate indicate right ?
+
+
+[2026-11-17 12:07 p.m.] 246tnt
+So, one of the two should be speced as "informational only" and not be the source of truth.
+
+
+[2026-11-17 12:08 p.m.] anfroholic
+> A wire from die pad U1.1 to land L1
+Those just happen to be the names of the pads
+
+
+[2026-11-17 12:08 p.m.] 246tnt
+What I imagine is someone changing a wire in a normal SVG editor ... and it just keeps the old attribute and then you have a line that connects a land to a pad visually and then `wb:from/to` attribute that indicate a different connection.
+
+
+[2026-11-17 12:09 p.m.] 246tnt
+And if the tooling on the wire bonder side uses those attributes and the definition of land/pad geometry, you have an issue.
+
+
+[2026-11-17 12:10 p.m.] anfroholic
+Yeah? I mean, I guess that's true. 
+There's no actual need for that data to be there. It could be taken out and wouldn't change anything
+
+{Attachments}
+2026-11_media/image-6EA80.png
+
+
+[2026-11-17 12:11 p.m.] tholin
+Pinout on the mezzanine didn’t change, right?
+
+
+[2026-11-17 12:11 p.m.] anfroholic
+Nope
+
+
+[2026-11-17 12:11 p.m.] tholin
+Okay, very good
+
+
+[2026-11-17 12:12 p.m.] tholin
+As long as I can still plug the breakouts into the PCBs I already designed, its good.
+
+
+[2026-11-17 12:12 p.m.] anfroholic
+Basically we have a new facility working on these and they wanted 6x2 panels and different edges and stuff, so meta things are the only real changes, pinouts and everything remain compatible
+
+
 ==============================================================
-Exported 38 message(s)
+Exported 59 message(s)
 ==============================================================

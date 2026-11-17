@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-17T05:53:20.264774+00:00",
+  "exportedAt": "2026-11-17T15:17:42.244657+00:00",
   "messages": [
     {
       "id": "1569171678020243629",
@@ -350,7 +350,32 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572196309794816022",
+      "type": "Default",
+      "timestamp": "2026-11-17T10:26:50.25+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Has anyone measured matching of small MOM/fringe caps on GF180? Thinking two parallel Metal4 lines at min width/space, ~1 um long, so around 0.1-0.2 fF. The PDK has mismatch for the fets and the MIM cap but I can't find anything for plain wires. Does GF have data on that, or has anyone seen it on run 1/2 silicon?",
+      "author": {
+        "id": "759318767707750413",
+        "name": "mhaas_eth",
+        "discriminator": "0000",
+        "nickname": "mhaas (Never asks for money)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/030d2756ad94351edab37d9d9771a021-E5178.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 9
+  "messageCount": 10
 }

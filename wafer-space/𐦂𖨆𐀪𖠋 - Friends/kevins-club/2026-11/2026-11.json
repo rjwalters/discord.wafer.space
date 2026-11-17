@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-17T06:02:17.9120207+00:00",
+  "exportedAt": "2026-11-17T15:27:11.2670893+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -2963,7 +2963,92 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572250700740563105",
+      "type": "Default",
+      "timestamp": "2026-11-17T14:02:58.062+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hey all, they're still looking to see if anyone is interested in creating a larger characterization chip like the one talked about here. \nLet us know if you're interested?  \n\nnist dataset. the MPW-5 test tile zip has all the measurements plus nist's spec for every structure (the pptx and xlsx files)\nhttps://data.nist.gov/od/id/mds2-2997\n\nthe layout, it's just the finished gds\nhttps://github.com/msaligane/openfasoc_cryo_caravel\n\nopenfasoc is what michigan used to draw it. cryo-gen and glayout are the generators, glayout already supports gf180\nhttps://github.com/idea-fasoc/OpenFASOC\n\ngoogle's room temp sky130 data\nhttps://github.com/google/skywater-pdk-sky130-raw-data",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1572250700430311435",
+          "url": "2026-11_media/image-7D59A.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 69294
+        }
+      ],
+      "embeds": [
+        {
+          "title": "GitHub - msaligane/openfasoc_cryo_caravel",
+          "url": "https://github.com/msaligane/openfasoc_cryo_caravel",
+          "timestamp": null,
+          "description": "Contribute to msaligane/openfasoc_cryo_caravel development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/openfasoc_cryo_caravel-74BA7",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        },
+        {
+          "title": "GitHub - idea-fasoc/OpenFASOC: Fully Open Source FASOC generators b...",
+          "url": "https://github.com/idea-fasoc/OpenFASOC",
+          "timestamp": null,
+          "description": "Fully Open Source FASOC generators built on top of open-source EDA tools - idea-fasoc/OpenFASOC",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/OpenFASOC-97F44",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        },
+        {
+          "title": "GitHub - google/skywater-pdk-sky130-raw-data: Raw data collected ab...",
+          "url": "https://github.com/google/skywater-pdk-sky130-raw-data",
+          "timestamp": null,
+          "description": "Raw data collected about the SKY130 process technology. - google/skywater-pdk-sky130-raw-data",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/6331cc72-d873-4a7c-b52c-65abe3dd645f-11FAE",
+            "width": 1280,
+            "height": 640
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 73
+  "messageCount": 74
 }

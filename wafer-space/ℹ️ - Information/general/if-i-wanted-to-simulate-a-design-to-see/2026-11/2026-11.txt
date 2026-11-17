@@ -1,0 +1,58 @@
+==============================================================
+Guild: wafer.space Community
+Channel: ℹ️ - Information / general / If I wanted to simulate a design to see
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-17 6:51 a.m.] 246tnt
+
+
+
+[2026-11-17 6:51 a.m.] 246tnt
+1) You could run a PEX extraction on the final chip layout and run a spice simulation on the result. Probably most accurate but also slowest.
+2) You could use the SDF data from OpenROAD to run a verilog simulation with timing. I'm not sure what open-source verilog simulator supports that. I think CVC but I never tried.
+3) You could use the OpenSTA to query the expected delay for your specific path. Either by specifying a max delay for it in the sdc or just directly query in an interactive shell.
+
+
+[2026-11-17 7:15 a.m.] carlfk
+thanks
+
+
+[2026-11-17 7:15 a.m.] carlfk
+I want to do something like https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements
+
+{Embed}
+https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements
+GitHub - mattvenn/ttgf0p2-vgaringosc-measurements: Silicon measurem...
+Silicon measurements of tt_um_algofoogle_vgaringosc (Ring osc on VGA) on Tiny Tapeout ttgf0p2 - mattvenn/ttgf0p2-vgaringosc-measurements
+2026-11_media/ttgf0p2-vgaringosc-measurements-AA3C5
+
+
+[2026-11-17 7:17 a.m.] carlfk
+I imagine analysis of the whole TT die will be time consuming.
+
+
+[2026-11-17 7:19 a.m.] carlfk
+if just the RO and maybe the TT managment muxxer were isolated, the paths would be different, but the buts that cause latency (gates?) would be the same, right ?
+
+
+[2026-11-17 7:20 a.m.] carlfk
+I plan on doing something on ws where there won't be this problem, but I am doing a TT thing now too, so trying to do 'something'
+
+
+[2026-11-17 7:22 a.m.] 246tnt
+In the link above the ring is purely internal meaning you can just simulate the tile itself, don't need the full chip.
+
+
+[2026-11-17 7:34 a.m.] carlfk
+I don't see where where/how the scope was connected
+
+
+[2026-11-17 7:35 a.m.] carlfk
+ah: Raw pin uio[4]
+
+
+==============================================================
+Exported 10 message(s)
+==============================================================

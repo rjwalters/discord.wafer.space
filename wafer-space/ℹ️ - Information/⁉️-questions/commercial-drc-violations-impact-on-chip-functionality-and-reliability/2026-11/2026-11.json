@@ -1,0 +1,357 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1572155685934997504",
+    "type": "GuildPublicThread",
+    "categoryId": "1409660288822673408",
+    "category": "⁉️-questions",
+    "name": "Commercial DRC Violations – Impact on Chip Functionality and Reliability",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-17T13:06:38.9592496+00:00",
+  "messages": [
+    {
+      "id": "1572155685934997504",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:45:24.767+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi everyone,\n\nWe found several violations in commercial Calibre DRC, while KLayout DRC checks passed with 0 violations.\nI have limited physical design and signoff experience, so I would appreciate the community's advice on whether these violations could affect chip functionality or manufacturability.\n\nI/O library: gf180mcu_fd_io\n\n**DRC Results**\n*Counts: Template GDS → Precheck GDS.*\n\n- DCF.5 (0 → 44,808): Requires ≥1.5 µm spacing between dummy COMP and Poly2. \n-- In our design: All markers involve 5 × 5 µm dummy COMP enclosed by 5.6 × 5.6 µm Poly2 fill. Precheck remaps Poly2 `30/4 → 30/0`.\nWe found a related PR #40 in precheck, but I'm still unsure whether these violations can be ignored.\n- PAD.17 (176 → 176): Requires ≥15 µm between pad opening and COMP. \n-- In our design: Violations originate from PDK I/O cells (3.485 µm) and seal ring (12 µm).\n- PAD.18 (98 → 163): Requires ≥15 µm between pad opening and Poly2. \n-- In our design: Violations involve PDK I/O Poly2 (12.855 µm) and dummy Poly2 fill (6.9–10.1 µm). Additional markers appear after precheck remapping.\n- PAD.19a_M1 (60 → 60): Requires ≥6 µm between pad opening and non-pad Metal1. \n-- In our design: All markers involve existing PDK I/O geometry (3.540–5.665 µm).\n- PAD.19a_M2 (10 → 28): Requires ≥6 µm between pad opening and non-pad Metal2. \n-- In our design: Violations involve PDK I/O geometry (5.665–5.950 µm) and dummy Metal2 fill (5.4 µm).\n- G_HVNESD.10 (4 → 4): Recommends 1.5 µm spacing between well-tap and active COMP. \n-- In our design: All results originate from unmodified PDK I/O cells (2.0 µm).\n\nQuestions:\n1. Could these violations affect chip functionality or manufacturability? Are they acceptable for tapeout?\n2. Are violations from existing PDK geometry and precheck fill conversion known and acceptable?\n3. Is WEDGE bonding with CUP disabled correct for wafer.space's default CoB packaging?\n\nAny insights or recommendations would be greatly appreciated.\n\nThank you very much!",
+      "author": {
+        "id": "972892843964268564",
+        "name": "edmund1371",
+        "discriminator": "0000",
+        "nickname": "Edmund",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/43ef615eb86fbaae934f63112ea9454f-1C805.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572162327682490509",
+      "type": "Default",
+      "timestamp": "2026-11-17T08:11:48.283+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "1. If it's in the foundry cells the chip won't be broken because it tripped a DRC rule in your commercial DRC engine.\n2. Sounds like the open PDK contains geometry that's not particularly functional electrically where Calibre gets angry about it which would be appropriate if the structures would be electrically active.\n3. Technically yes, if you order default COB, but almost all the PAD rules are just advisory/bond-house-originated. The seal ring seems to not hit the special treatment for your DRC engine.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572163185237037100",
+      "type": "Default",
+      "timestamp": "2026-11-17T08:15:12.74+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "`PAD.19a_M2` is also basically just about CUP.\nDummy metal should be harmless from how I understand the risks of CUP-despite-wedge-bonding, and foundry cells are essentially immune _anyways._",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572169778569678909",
+      "type": "Default",
+      "timestamp": "2026-11-17T08:41:24.713+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I am wondering if some of those could be contributing factors to the difficulty in bonding the chips and maybe the IO cells from GF are only suitable for ball bonding and not wedge bonding \uD83E\uDD14  ( cc @Tim 'mithro' Ansell / @stuart  )",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        },
+        {
+          "id": "1184268085822238821",
+          "name": "saladchap",
+          "discriminator": "0000",
+          "nickname": "stuart",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/4938353f83780f56050d92be930226f8-BA286.png"
+        }
+      ],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDD14",
+          "code": "thinking",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f914-15707.svg"
+        }
+      ]
+    },
+    {
+      "id": "1572179994728341635",
+      "type": "Reply",
+      "timestamp": "2026-11-17T09:22:00.435+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thank you for the detailed explanation!",
+      "author": {
+        "id": "972892843964268564",
+        "name": "edmund1371",
+        "discriminator": "0000",
+        "nickname": "Edmund",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/43ef615eb86fbaae934f63112ea9454f-1C805.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1572162327682490509",
+        "channelId": "1572155685934997504",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572190437509300295",
+      "type": "Default",
+      "timestamp": "2026-11-17T10:03:30.188+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "BTW The Calibre deck is proprietary not commercial.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "972892843964268564",
+              "name": "edmund1371",
+              "discriminator": "0000",
+              "nickname": "Edmund",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/43ef615eb86fbaae934f63112ea9454f-1C805.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572190804716429442",
+      "type": "Reply",
+      "timestamp": "2026-11-17T10:04:57.737+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The IO's are described as `gf180mcu_fd_io 5V Inline non-CUP GPIO` in the PDK - https://gf180mcu-pdk.readthedocs.io/en/latest/IPs/IO/gf180mcu_fd_io/index.html",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572169778569678909",
+        "channelId": "1572155685934997504",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572191093326618798",
+      "type": "Default",
+      "timestamp": "2026-11-17T10:06:06.547+00:00",
+      "timestampEdited": "2026-11-17T10:06:21.857+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Edmund - Please make sure you are running the wafer.space precheck on https://platform.wafer.space, because no matter what Calibre says, if you fail the wafer.space precheck you won't make it on the shuttle.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Welcome to wafer.space\n…",
+          "url": "https://platform.wafer.space/",
+          "timestamp": null,
+          "description": "Platform for wafer.space low cost silicon manufacturing.",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "972892843964268564",
+          "name": "edmund1371",
+          "discriminator": "0000",
+          "nickname": "Edmund",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/43ef615eb86fbaae934f63112ea9454f-1C805.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572192561555177544",
+      "type": "Reply",
+      "timestamp": "2026-11-17T10:11:56.6+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yes, we will make sure that! Thanks for reminding me.",
+      "author": {
+        "id": "972892843964268564",
+        "name": "edmund1371",
+        "discriminator": "0000",
+        "nickname": "Edmund",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/43ef615eb86fbaae934f63112ea9454f-1C805.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572191093326618798",
+        "channelId": "1572155685934997504",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 9
+}

@@ -1,0 +1,13 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"596068704471482370","246tnt","2026-11-17T06:51:15.3850000+00:00","","",""
+"596068704471482370","246tnt","2026-11-17T06:51:16.7890000+00:00","1) You could run a PEX extraction on the final chip layout and run a spice simulation on the result. Probably most accurate but also slowest.
+2) You could use the SDF data from OpenROAD to run a verilog simulation with timing. I'm not sure what open-source verilog simulator supports that. I think CVC but I never tried.
+3) You could use the OpenSTA to query the expected delay for your specific path. Either by specifying a max delay for it in the sdc or just directly query in an interactive shell.","",""
+"443147704126668801","carlfk","2026-11-17T07:15:41.6820000+00:00","thanks","",""
+"443147704126668801","carlfk","2026-11-17T07:15:53.9710000+00:00","I want to do something like https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements","",""
+"443147704126668801","carlfk","2026-11-17T07:17:19.3530000+00:00","I imagine analysis of the whole TT die will be time consuming.","",""
+"443147704126668801","carlfk","2026-11-17T07:19:44.2560000+00:00","if just the RO and maybe the TT managment muxxer were isolated, the paths would be different, but the buts that cause latency (gates?) would be the same, right ?","",""
+"443147704126668801","carlfk","2026-11-17T07:20:47.1520000+00:00","I plan on doing something on ws where there won't be this problem, but I am doing a TT thing now too, so trying to do 'something'","",""
+"596068704471482370","246tnt","2026-11-17T07:22:11.9340000+00:00","In the link above the ring is purely internal meaning you can just simulate the tile itself, don't need the full chip.","",""
+"443147704126668801","carlfk","2026-11-17T07:34:23.6710000+00:00","I don't see where where/how the scope was connected","",""
+"443147704126668801","carlfk","2026-11-17T07:35:01.2180000+00:00","ah: Raw pin uio[4]","",""

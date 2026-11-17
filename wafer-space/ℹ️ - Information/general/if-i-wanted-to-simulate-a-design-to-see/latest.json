@@ -1,0 +1,361 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1572140281141268543",
+    "type": "GuildPublicThread",
+    "categoryId": "1361349523724570941",
+    "category": "general",
+    "name": "If I wanted to simulate a design to see",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-17T14:17:42.4693374+00:00",
+  "messages": [
+    {
+      "id": "1572142057038811268",
+      "type": "21",
+      "timestamp": "2026-11-17T06:51:15.385+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572140281141268543",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572142062927740930",
+      "type": "Default",
+      "timestamp": "2026-11-17T06:51:16.789+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "1) You could run a PEX extraction on the final chip layout and run a spice simulation on the result. Probably most accurate but also slowest.\n2) You could use the SDF data from OpenROAD to run a verilog simulation with timing. I'm not sure what open-source verilog simulator supports that. I think CVC but I never tried.\n3) You could use the OpenSTA to query the expected delay for your specific path. Either by specifying a max delay for it in the sdc or just directly query in an interactive shell.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572148207134445659",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:15:41.682+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "thanks",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572148258678243440",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:15:53.971+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I want to do something like https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - mattvenn/ttgf0p2-vgaringosc-measurements: Silicon measurem...",
+          "url": "https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements",
+          "timestamp": null,
+          "description": "Silicon measurements of tt_um_algofoogle_vgaringosc (Ring osc on VGA) on Tiny Tapeout ttgf0p2 - mattvenn/ttgf0p2-vgaringosc-measurements",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ttgf0p2-vgaringosc-measurements-AA3C5",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572148616796315731",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:17:19.353+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I imagine analysis of the whole TT die will be time consuming.",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572149224563408927",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:19:44.256+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "if just the RO and maybe the TT managment muxxer were isolated, the paths would be different, but the buts that cause latency (gates?) would be the same, right ?",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572149488368488449",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:20:47.152+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I plan on doing something on ws where there won't be this problem, but I am doing a TT thing now too, so trying to do 'something'",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572149843969708114",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:22:11.934+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "In the link above the ring is purely internal meaning you can just simulate the tile itself, don't need the full chip.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572152913097396257",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:34:23.671+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I don't see where where/how the scope was connected",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572153070580797481",
+      "type": "Default",
+      "timestamp": "2026-11-17T07:35:01.218+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ah: Raw pin uio[4]",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 10
+}

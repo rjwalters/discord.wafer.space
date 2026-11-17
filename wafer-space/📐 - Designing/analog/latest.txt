@@ -63,6 +63,10 @@ the IEEE SSCS "PICO" 2026 Chipathon was AFAIK primarily/centered-on KLayout in h
 These resources are pretty helpful, thank you.
 
 
+[2026-11-17 10:26 a.m.] mhaas_eth
+Has anyone measured matching of small MOM/fringe caps on GF180? Thinking two parallel Metal4 lines at min width/space, ~1 um long, so around 0.1-0.2 fF. The PDK has mismatch for the fets and the MIM cap but I can't find anything for plain wires. Does GF have data on that, or has anyone seen it on run 1/2 silicon?
+
+
 ==============================================================
-Exported 9 message(s)
+Exported 10 message(s)
 ==============================================================

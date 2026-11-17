@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-17T04:32:36.3082447+00:00",
+  "exportedAt": "2026-11-17T13:56:10.7017437+00:00",
   "messages": [
     {
       "id": "1566249659117211830",
@@ -6340,7 +6340,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 2,
+          "count": 3,
           "users": [
             {
               "id": "211112896833257472",
@@ -6359,6 +6359,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/ab36c0a7e95a5fa46122e6d9bef0c2d6-A6E3F.png"
+            },
+            {
+              "id": "1082704370560401489",
+              "name": "yeast710",
+              "discriminator": "0000",
+              "nickname": "east710",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/b9f8367eb02a84ab534693c55ca749a7-A4287.png"
             }
           ]
         }
@@ -6415,7 +6424,103 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572140281141268543",
+      "type": "Default",
+      "timestamp": "2026-11-17T06:44:11.978+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If I wanted to simulate a design to see what the what the simulator says the latency is over 10k gates.. what do I do?",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572140369678831719",
+      "type": "Default",
+      "timestamp": "2026-11-17T06:44:33.087+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "my goal is to be able to compare simulation to real",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572140509177192510",
+      "type": "Default",
+      "timestamp": "2026-11-17T06:45:06.346+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I can get a chip fabbed and hook up a scope for real  I don' know what would simulate timing",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 183
+  "messageCount": 186
 }

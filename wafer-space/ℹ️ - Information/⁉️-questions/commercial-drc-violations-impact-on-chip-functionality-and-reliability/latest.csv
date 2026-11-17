@@ -1,0 +1,44 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"972892843964268564","edmund1371","2026-11-17T07:45:24.7670000+00:00","Hi everyone,
+
+We found several violations in commercial Calibre DRC, while KLayout DRC checks passed with 0 violations.
+I have limited physical design and signoff experience, so I would appreciate the community's advice on whether these violations could affect chip functionality or manufacturability.
+
+I/O library: gf180mcu_fd_io
+
+**DRC Results**
+*Counts: Template GDS → Precheck GDS.*
+
+- DCF.5 (0 → 44,808): Requires ≥1.5 µm spacing between dummy COMP and Poly2. 
+-- In our design: All markers involve 5 × 5 µm dummy COMP enclosed by 5.6 × 5.6 µm Poly2 fill. Precheck remaps Poly2 `30/4 → 30/0`.
+We found a related PR #40 in precheck, but I'm still unsure whether these violations can be ignored.
+- PAD.17 (176 → 176): Requires ≥15 µm between pad opening and COMP. 
+-- In our design: Violations originate from PDK I/O cells (3.485 µm) and seal ring (12 µm).
+- PAD.18 (98 → 163): Requires ≥15 µm between pad opening and Poly2. 
+-- In our design: Violations involve PDK I/O Poly2 (12.855 µm) and dummy Poly2 fill (6.9–10.1 µm). Additional markers appear after precheck remapping.
+- PAD.19a_M1 (60 → 60): Requires ≥6 µm between pad opening and non-pad Metal1. 
+-- In our design: All markers involve existing PDK I/O geometry (3.540–5.665 µm).
+- PAD.19a_M2 (10 → 28): Requires ≥6 µm between pad opening and non-pad Metal2. 
+-- In our design: Violations involve PDK I/O geometry (5.665–5.950 µm) and dummy Metal2 fill (5.4 µm).
+- G_HVNESD.10 (4 → 4): Recommends 1.5 µm spacing between well-tap and active COMP. 
+-- In our design: All results originate from unmodified PDK I/O cells (2.0 µm).
+
+Questions:
+1. Could these violations affect chip functionality or manufacturability? Are they acceptable for tapeout?
+2. Are violations from existing PDK geometry and precheck fill conversion known and acceptable?
+3. Is WEDGE bonding with CUP disabled correct for wafer.space's default CoB packaging?
+
+Any insights or recommendations would be greatly appreciated.
+
+Thank you very much!","",""
+"262706220073222144","namibj","2026-11-17T08:11:48.2830000+00:00","1. If it's in the foundry cells the chip won't be broken because it tripped a DRC rule in your commercial DRC engine.
+2. Sounds like the open PDK contains geometry that's not particularly functional electrically where Calibre gets angry about it which would be appropriate if the structures would be electrically active.
+3. Technically yes, if you order default COB, but almost all the PAD rules are just advisory/bond-house-originated. The seal ring seems to not hit the special treatment for your DRC engine.","",""
+"262706220073222144","namibj","2026-11-17T08:15:12.7400000+00:00","`PAD.19a_M2` is also basically just about CUP.
+Dummy metal should be harmless from how I understand the risks of CUP-despite-wedge-bonding, and foundry cells are essentially immune _anyways._","",""
+"596068704471482370","246tnt","2026-11-17T08:41:24.7130000+00:00","I am wondering if some of those could be contributing factors to the difficulty in bonding the chips and maybe the IO cells from GF are only suitable for ball bonding and not wedge bonding 🤔  ( cc @Tim 'mithro' Ansell / @stuart  )","",""
+"972892843964268564","edmund1371","2026-11-17T09:22:00.4350000+00:00","Thank you for the detailed explanation!","",""
+"169786952432746498","mithro_","2026-11-17T10:03:30.1880000+00:00","BTW The Calibre deck is proprietary not commercial.","","👍 (1)"
+"169786952432746498","mithro_","2026-11-17T10:04:57.7370000+00:00","The IO's are described as `gf180mcu_fd_io 5V Inline non-CUP GPIO` in the PDK - https://gf180mcu-pdk.readthedocs.io/en/latest/IPs/IO/gf180mcu_fd_io/index.html","",""
+"169786952432746498","mithro_","2026-11-17T10:06:06.5470000+00:00","@Edmund - Please make sure you are running the wafer.space precheck on https://platform.wafer.space, because no matter what Calibre says, if you fail the wafer.space precheck you won't make it on the shuttle.","",""
+"972892843964268564","edmund1371","2026-11-17T10:11:56.6000000+00:00","Yes, we will make sure that! Thanks for reminding me.","",""

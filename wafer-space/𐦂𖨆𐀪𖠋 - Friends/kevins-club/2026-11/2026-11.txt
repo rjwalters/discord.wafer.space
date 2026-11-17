@@ -407,6 +407,44 @@ hi anyone interested in porting the sky130 characterization chip to gf180???
 all the files and work are there
 
 
+[2026-11-17 2:02 p.m.] anfroholic
+Hey all, they're still looking to see if anyone is interested in creating a larger characterization chip like the one talked about here. 
+Let us know if you're interested?  
+
+nist dataset. the MPW-5 test tile zip has all the measurements plus nist's spec for every structure (the pptx and xlsx files)
+https://data.nist.gov/od/id/mds2-2997
+
+the layout, it's just the finished gds
+https://github.com/msaligane/openfasoc_cryo_caravel
+
+openfasoc is what michigan used to draw it. cryo-gen and glayout are the generators, glayout already supports gf180
+https://github.com/idea-fasoc/OpenFASOC
+
+google's room temp sky130 data
+https://github.com/google/skywater-pdk-sky130-raw-data
+
+{Attachments}
+2026-11_media/image-7D59A.png
+
+{Embed}
+https://github.com/msaligane/openfasoc_cryo_caravel
+GitHub - msaligane/openfasoc_cryo_caravel
+Contribute to msaligane/openfasoc_cryo_caravel development by creating an account on GitHub.
+2026-11_media/openfasoc_cryo_caravel-74BA7
+
+{Embed}
+https://github.com/idea-fasoc/OpenFASOC
+GitHub - idea-fasoc/OpenFASOC: Fully Open Source FASOC generators b...
+Fully Open Source FASOC generators built on top of open-source EDA tools - idea-fasoc/OpenFASOC
+2026-11_media/OpenFASOC-97F44
+
+{Embed}
+https://github.com/google/skywater-pdk-sky130-raw-data
+GitHub - google/skywater-pdk-sky130-raw-data: Raw data collected ab...
+Raw data collected about the SKY130 process technology. - google/skywater-pdk-sky130-raw-data
+2026-11_media/6331cc72-d873-4a7c-b52c-65abe3dd645f-11FAE
+
+
 ==============================================================
-Exported 73 message(s)
+Exported 74 message(s)
 ==============================================================

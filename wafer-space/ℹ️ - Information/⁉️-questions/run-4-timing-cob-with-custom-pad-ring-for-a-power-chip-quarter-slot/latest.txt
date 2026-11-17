@@ -160,6 +160,14 @@ If you need/want much more than the reasonable power from the bond wires because
 We're designing a motherboard with a single 70-pin socket meant to take quarter, half and full-slot CoBs. In the run-2 files the 14×16 mm outline and connector position match across sizes. Will Run 3 and Run 4 keep the run-2 board outline and connector pinout, including after the NextPCB move?
 
 
+[2026-11-17 10:08 a.m.] mithro_
+@Agenxy - Probably best to chat about that in #📦-cob -- but my assumption is that we will be using the same mechanical layout.
+
+
+[2026-11-17 10:09 a.m.] mithro_
+@stuart has gotten some recent feedback from the bond house, so there will be tweaks based on that.
+
+
 ==============================================================
-Exported 29 message(s)
+Exported 31 message(s)
 ==============================================================

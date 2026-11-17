@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-17T05:40:36.8575133+00:00",
+  "exportedAt": "2026-11-17T15:04:55.088886+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -1412,7 +1412,917 @@
           "imageUrl": "2026-11_media/1f603-5E531.svg"
         }
       ]
+    },
+    {
+      "id": "1572192135237607435",
+      "type": "Reply",
+      "timestamp": "2026-11-17T10:10:14.958+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That is super fancy looking!",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572042775065530389",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572192680392396801",
+      "type": "Reply",
+      "timestamp": "2026-11-17T10:12:24.933+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "To call this standard packaging would be incorrect. But allowing anyone to *actually make something like this* is the real goal!",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "709384666909507634",
+              "name": "egorxe",
+              "discriminator": "0000",
+              "nickname": "Egor Lukyanchenko",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "709384666909507634",
+          "name": "egorxe",
+          "discriminator": "0000",
+          "nickname": "Egor Lukyanchenko",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572110268446810133",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572192834667421747",
+      "type": "Reply",
+      "timestamp": "2026-11-17T10:13:01.715+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Should have a bunch to publish in an hour? You know me \uD83D\uDE1C",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572192135237607435",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE1C",
+          "code": "stuck_out_tongue_winking_eye",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f61c-458C6.svg"
+        }
+      ]
+    },
+    {
+      "id": "1572193792428347452",
+      "type": "Default",
+      "timestamp": "2026-11-17T10:16:50.063+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Also I think the desired exchange format should be XML\n-# yes, I am actually serious",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572216549798838374",
+      "type": "Default",
+      "timestamp": "2026-11-17T11:47:15.843+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Looks like I'm putting some chips on the table regarding wirebonding exchange formats.\n\nCurrently have a few problems we need to solve. Right now everything is built around humans reading pictures. And in the age of AI, I think our formats should become more human-centric anyways.\n\n### The premise\nA picture is *already* the accepted exchange format today. So keep the picture as an SVG *(which is just XML under the hood)*, and embed wirebonding data directly as key/value pairs in the raw XML.\nProposed format is `myboard.wb.svg`\n> Humans get what they want.\n> Machines can read what they want.\n\nWhat we've got so far:\n- **Footprint export:** generates 3D models you can add to your board alongside your GDS (see attached). I'm also working on embedding the SVG data directly into the footprint itself.\n- **GDS import:** finds the paths in your GDS and uses their names to help you create symbols and nets.\n- **Multiple die and stacked die** support.\n- **Any bond topology:** board to die, die to die, and everything in between.\n- **import/export** of wb.svg files directly\n- ...plus a bunch of other fun little tools.\n\nLinks and more info:\n**App:** https://anfroholic.github.io/wirebonding.svg\n**Repo:** https://github.com/anfroholic/wirebonding.svg\n\nFeedback, ideas and issues are all welcome.\n\nExample data:\n```xml\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:wb=\"urn:wbx:0.1\" viewBox=\"-300 -500 19000 15600\"\n     wb:version=\"0.1\" wb:units=\"um\" wb:design=\"wafer.space 1x1 logo die\" wb:rev=\"A\"\n     wb:rule-wire-gap=\"60\" wb:rule-edge-clear=\"40\">\n\n  <!-- The board: an outline, and a land per bond finger. 1 unit = 1 µm, so this land is 250 × 1000 µm. -->\n  <g>\n    <rect x=\"0\" y=\"0\" width=\"13000\" height=\"13000\" class=\"sub\" wb:kind=\"outline\" wb:name=\"SUB\"/>\n    <rect x=\"3175\" y=\"10700\" width=\"250\" height=\"1000\" class=\"cu\"\n          wb:kind=\"land\" wb:name=\"L1\" wb:net=\"clk_PAD\" wb:finish=\"ENIG\"/>\n    <circle cx=\"900\" cy=\"12100\" r=\"250\" class=\"cu\" wb:kind=\"fiducial\" wb:name=\"F1\" wb:role=\"align\" wb:datum=\"B\"/>\n  </g>\n\n  <!-- The die, placed by its transform. Inside it, coordinates are the die's own, y up as in its GDS. -->\n  <g transform=\"translate(4534 9061) scale(1 -1)\" wb:kind=\"die\" wb:name=\"U1\" wb:gds-cell=\"chip_top\" wb:pad-layer=\"37/0\">\n    <rect x=\"0\" y=\"0\" width=\"3932\" height=\"5122\" class=\"die\" wb:kind=\"outline\"/>\n    <g transform=\"scale(1 -1)\"><title>U1 artwork</title>\n      <image x=\"0\" y=\"-5122\" width=\"3932\" height=\"5122\" href=\"data:image/png;base64,iVBORw0KGgo…\"/>\n    </g>\n    <rect x=\"496\" y=\"28\" width=\"60\" height=\"60\" class=\"pad\" wb:kind=\"pad\" wb:name=\"1\" wb:net=\"clk_PAD\"/>\n  </g>\n\n  <!-- A wire from die pad U1.1 to land L1. stroke-width is the wire's diameter: 20 µm. -->\n  <line x1=\"5060\" y1=\"9003\" x2=\"3300\" y2=\"11000\" stroke-width=\"20\" class=\"w sig\"\n        wb:kind=\"wire\" wb:name=\"W01\" wb:from=\"U1.1\" wb:to=\"L1\" wb:profile=\"STD20\"\n        wb:seq=\"1\" wb:tier=\"1\" wb:net=\"clk_PAD\"/>\n\n  <!-- How the wire loops: a parametric profile that fits any span, drawn beside the plan. -->\n  <g wb:kind=\"profile\" wb:name=\"STD20\" wb:material=\"Au\" wb:style=\"ball-wedge\" wb:dir=\"forward\"\n     wb:moves=\"180/0 30/12% -20/35%\" wb:interp=\"spline\" wb:ref-span=\"1000\">…</g>\n\n  <!-- Heights: the section view. Each rectangle's height is that layer's thickness: a 280 µm die. -->\n  <rect x=\"4534\" y=\"-305\" width=\"3932\" height=\"280\" wb:kind=\"layer\" wb:name=\"U1\" wb:role=\"die\" wb:material=\"Si\"/>\n\n  <!-- Where the die may land: a position tolerance to datums A, B and C. -->\n  <g wb:kind=\"tolerance\" wb:applies-to=\"U1\" wb:char=\"position\" wb:tol=\"50\" wb:modifier=\"CZ\" wb:datums=\"A B C\">…</g>\n</svg>\n```",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1572216547735240814",
+          "url": "2026-11_media/example-10EFE.png",
+          "fileName": "example.png",
+          "fileSizeBytes": 227035
+        },
+        {
+          "id": "1572216548121251940",
+          "url": "2026-11_media/example_hero-A5451.png",
+          "fileName": "example_hero.png",
+          "fileSizeBytes": 878863
+        },
+        {
+          "id": "1572216548708323338",
+          "url": "2026-11_media/image-E5283.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 256810
+        },
+        {
+          "id": "1572216549111111772",
+          "url": "2026-11_media/eurosynth_hero-A55D0.png",
+          "fileName": "eurosynth_hero.png",
+          "fileSizeBytes": 909979
+        },
+        {
+          "id": "1572216549522022471",
+          "url": "2026-11_media/stacked_hero-EA0A6.png",
+          "fileName": "stacked_hero.png",
+          "fileSizeBytes": 727390
+        }
+      ],
+      "embeds": [
+        {
+          "title": "GitHub - anfroholic/wirebonding.svg: wirebond.svg (.wb.svg) is an o...",
+          "url": "https://github.com/anfroholic/wirebonding.svg",
+          "timestamp": null,
+          "description": "wirebond.svg (.wb.svg) is an open format for handing wire bond designs from PCB designers to bonding houses. It opens in any browser as a true-scale diagram and tools read it as data. Wire Bond Ben...",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/wirebonding-E1585.svg",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572218706346508309",
+      "type": "Default",
+      "timestamp": "2026-11-17T11:55:50.004+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm not a big fan ... because now you can have a SVG that encodes different things in the visual you see and the data the machine reads ...",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572218869190365297",
+      "type": "Reply",
+      "timestamp": "2026-11-17T11:56:28.829+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Only partially, location data is encoded directly as units",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4C",
+            "code": "ok_hand",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44c-59547.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "596068704471482370",
+              "name": "246tnt",
+              "discriminator": "0000",
+              "nickname": "tnt",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572218706346508309",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572219630834032711",
+      "type": "Default",
+      "timestamp": "2026-11-17T11:59:30.419+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Also thank you  for the constructive criticism. It's the only way it will work!",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572220483640885379",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:02:53.744+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ok yeah, reading more in detail the example I see. From the description I thought the machine readable data was a duplicate set in the SVG attribute independent from the actual drawing stuff.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCAF",
+            "code": "100",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f4af-4CFF5.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572220787098918993",
+      "type": "Reply",
+      "timestamp": "2026-11-17T12:04:06.094+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It's that tie-in is the only reason I think it's reasonable",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCAF",
+            "code": "100",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f4af-4CFF5.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "596068704471482370",
+              "name": "246tnt",
+              "discriminator": "0000",
+              "nickname": "tnt",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572220483640885379",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572221319880114188",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:06:13.119+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You still have `wb:from=\"U1.1\" wb:to=\"L1\"` which AFAICT could not match what the coordinate indicate right ?",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572221518463901789",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:07:00.465+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So, one of the two should be speced as \"informational only\" and not be the source of truth.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572221850782666793",
+      "type": "Reply",
+      "timestamp": "2026-11-17T12:08:19.696+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "> A wire from die pad U1.1 to land L1\nThose just happen to be the names of the pads",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572221319880114188",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572221991476531211",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:08:53.24+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What I imagine is someone changing a wire in a normal SVG editor ... and it just keeps the old attribute and then you have a line that connects a land to a pad visually and then `wb:from/to` attribute that indicate a different connection.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572222233219436636",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:09:50.876+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "And if the tooling on the wire bonder side uses those attributes and the definition of land/pad geometry, you have an issue.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572222425649782914",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:10:36.755+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah? I mean, I guess that's true. \nThere's no actual need for that data to be there. It could be taken out and wouldn't change anything",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1572222425339527268",
+          "url": "2026-11_media/image-6EA80.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 87526
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572222549738262559",
+      "type": "Reply",
+      "timestamp": "2026-11-17T12:11:06.34+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinout on the mezzanine didn’t change, right?",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1558454369245208576",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572222648010674251",
+      "type": "Reply",
+      "timestamp": "2026-11-17T12:11:29.77+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Nope",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "220639106915368960",
+          "name": "tholin",
+          "discriminator": "0000",
+          "nickname": "Tholin",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572222549738262559",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572222700796252261",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:11:42.355+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Okay, very good",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572222785495896134",
+      "type": "Default",
+      "timestamp": "2026-11-17T12:12:02.549+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "As long as I can still plug the breakouts into the PCBs I already designed, its good.",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572222935706636400",
+      "type": "Reply",
+      "timestamp": "2026-11-17T12:12:38.362+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Basically we have a new facility working on these and they wanted 6x2 panels and different edges and stuff, so meta things are the only real changes, pinouts and everything remain compatible",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "220639106915368960",
+          "name": "tholin",
+          "discriminator": "0000",
+          "nickname": "Tholin",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572222700796252261",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 38
+  "messageCount": 59
 }

@@ -564,6 +564,16 @@ Contribute to TheRealGecko/8-bit-counter development by creating an account on G
 2026-11_media/8-bit-counter-95D31
 
 
+[2026-11-17 12:33 p.m.] TTBot#6027
+New tapeout: @always_ff_rohan submitted Xcordic: ROM-Less CORDIC function unit (https://github.com/rohanverma94/tt-gf-romless-cordic-engine-v2)
+
+{Embed}
+https://github.com/rohanverma94/tt-gf-romless-cordic-engine-v2
+GitHub - rohanverma94/tt-gf-romless-cordic-engine-v2
+Contribute to rohanverma94/tt-gf-romless-cordic-engine-v2 development by creating an account on GitHub.
+2026-11_media/cb6e45d0-755e-4a37-80e6-a9f8129dbb2a-60988
+
+
 ==============================================================
-Exported 64 message(s)
+Exported 65 message(s)
 ==============================================================
