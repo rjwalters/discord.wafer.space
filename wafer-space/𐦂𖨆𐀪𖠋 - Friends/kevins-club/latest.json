@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-16T22:35:21.6686472+00:00",
+  "exportedAt": "2026-11-17T06:02:17.9120207+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -2770,7 +2770,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f49c-71A75.svg"
           },
-          "count": 2,
+          "count": 3,
           "users": [
             {
               "id": "756011607603019777",
@@ -2780,6 +2780,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            },
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
             },
             {
               "id": "1232935707782152264",
@@ -2904,7 +2913,57 @@
         }
       ],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572055799331684417",
+      "type": "Default",
+      "timestamp": "2026-11-17T01:08:29.945+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hi anyone interested in porting the sky130 characterization chip to gf180???",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572055843850027041",
+      "type": "Default",
+      "timestamp": "2026-11-17T01:08:40.559+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "all the files and work are there",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 71
+  "messageCount": 73
 }

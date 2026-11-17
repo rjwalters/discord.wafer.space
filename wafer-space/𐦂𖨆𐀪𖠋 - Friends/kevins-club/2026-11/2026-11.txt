@@ -383,7 +383,7 @@ The chip has 48 I/Os available to the FPGA, which is plenty for most management 
 I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.
 
 {Reactions}
-💜 (2)
+💜 (3)
 
 [2026-11-16 5:47 p.m.] velvetundergroundandy
 Maybe!
@@ -399,6 +399,14 @@ We can call this week
 However, I might be interested in a guaranteed slot. I've sent you a DM.
 
 
+[2026-11-17 1:08 a.m.] velvetundergroundandy
+hi anyone interested in porting the sky130 characterization chip to gf180???
+
+
+[2026-11-17 1:08 a.m.] velvetundergroundandy
+all the files and work are there
+
+
 ==============================================================
-Exported 71 message(s)
+Exported 73 message(s)
 ==============================================================

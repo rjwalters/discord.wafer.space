@@ -105,9 +105,11 @@ For freework motherboards i am in favor of  any approach that gets progressively
 "1232935707782152264","velvetundergroundandy","2026-11-15T22:26:59.2570000+00:00","maybe @Leo Moser (mole99) 's FPGA on Run2 could work to replace a lot of our current chips on the Freework","",""
 "323371864074485771","mole99","2026-11-16T10:08:45.8850000+00:00","The chip has 48 I/Os available to the FPGA, which is plenty for most management stuff.
 
-I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.","","💜 (2)"
+I'm currently working on an update of the FPGA in my spare time, just in case there's a slot free on Run 3.","","💜 (3)"
 "1232935707782152264","velvetundergroundandy","2026-11-16T17:47:11.0010000+00:00","Maybe!","",""
 "1232935707782152264","velvetundergroundandy","2026-11-16T17:47:20.8870000+00:00","We can call this week","",""
 "323371864074485771","mole99","2026-11-16T20:15:34.2860000+00:00","@Paul Actually, I hadn't meant one of your slots. On Run 2, a number of people didn't submit a design for their paid slots, so we filled them up with open-source designs. The same will probably happen for Run 3, too.
 
 However, I might be interested in a guaranteed slot. I've sent you a DM.","",""
+"1232935707782152264","velvetundergroundandy","2026-11-17T01:08:29.9450000+00:00","hi anyone interested in porting the sky130 characterization chip to gf180???","",""
+"1232935707782152264","velvetundergroundandy","2026-11-17T01:08:40.5590000+00:00","all the files and work are there","",""

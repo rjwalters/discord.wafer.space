@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-16T22:13:50.3481421+00:00",
+  "exportedAt": "2026-11-17T05:40:36.8575133+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -1193,8 +1193,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/2764-A3D25.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
+            {
+              "id": "654675585808728065",
+              "name": "relentlessstu",
+              "discriminator": "0000",
+              "nickname": "relentlessstu",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/e71f606eca5bf89de9a0ec469792b741-936E9.png"
+            },
             {
               "id": "1460520643706486927",
               "name": "ncucuk",
@@ -1308,7 +1317,102 @@
       ],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572042775065530389",
+      "type": "Default",
+      "timestamp": "2026-11-17T00:16:44.718+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "-# hmm... what am I working on now???",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1572042774461554790",
+          "url": "2026-11_media/545b3054-2fad-49f3-a7b0-bc67fc0e8eb0-4D553.png",
+          "fileName": "545b3054-2fad-49f3-a7b0-bc67fc0e8eb0.png",
+          "fileSizeBytes": 3283602
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572110268446810133",
+      "type": "Reply",
+      "timestamp": "2026-11-17T04:44:56.394+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is this a HyperRAM or PSRAM with some other interface? And will it become a standard packaging option in the future runs? \uD83D\uDE03",
+      "author": {
+        "id": "709384666909507634",
+        "name": "egorxe",
+        "discriminator": "0000",
+        "nickname": "Egor Lukyanchenko",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572042775065530389",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE03",
+          "code": "smiley",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f603-5E531.svg"
+        }
+      ]
     }
   ],
-  "messageCount": 36
+  "messageCount": 38
 }
