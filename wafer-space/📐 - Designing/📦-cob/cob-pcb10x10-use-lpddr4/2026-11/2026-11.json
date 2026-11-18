@@ -1,0 +1,98 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1572481644030460037",
+    "type": "GuildPublicThread",
+    "categoryId": "1408134567491145728",
+    "category": "\uD83D\uDCE6-cob",
+    "name": "CoB PCB(1.0x1.0) use LPDDR4",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-18T15:03:15.4035681+00:00",
+  "messages": [
+    {
+      "id": "1572481650082975824",
+      "type": "Default",
+      "timestamp": "2026-11-18T05:20:40.676+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I understand that a 1x1-sized die in a wafer-scale architecture can support up to 200 pins (including power); would it be feasible to use the LPDDR4 standard for this purpose?",
+      "author": {
+        "id": "1357292796414918748",
+        "name": "mkt0901",
+        "discriminator": "0000",
+        "nickname": "mkt0109",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6c5996770c985bcd6e5b68131ff2ba04-E3740.png"
+      },
+      "attachments": [
+        {
+          "id": "1572481649789243552",
+          "url": "2026-11_media/image-4ACF6.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 124402
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572529168707625031",
+      "type": "Default",
+      "timestamp": "2026-11-18T08:29:29.999+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@namibj and others are playing with flip chip designs. We haven't had much time to play. \n\nAlso @namibj I did try to get some solder to stick to a pad and had 0 luck. Maybe I wasn't doing a good job, but just say I had a bad time. \nDidn't play long though.",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 2
+}

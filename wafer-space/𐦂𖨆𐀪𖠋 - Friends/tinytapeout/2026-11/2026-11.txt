@@ -606,6 +606,24 @@ Contribute to morirf/298Ap development by creating an account on GitHub.
 2026-11_media/298Ap-E8700
 
 
+[2026-11-18 6:17 a.m.] TTBot#6027
+New tapeout: Xano Trevisan Kothe submitted cpu8 - tiny 8-bit SPI CPU (https://github.com/xanok/tt-cpu)
+
+{Embed}
+https://github.com/xanok/tt-cpu
+GitHub - xanok/tt-cpu: 8bit cpu
+8bit cpu. Contribute to xanok/tt-cpu development by creating an account on GitHub.
+
+
+[2026-11-18 6:36 a.m.] TTBot#6027
+New tapeout: Boming Kong submitted TOGA-WA (https://github.com/bigjr-mkkong/TOGAWA-ttgf-impl)
+
+{Embed}
+https://github.com/bigjr-mkkong/TOGAWA-ttgf-impl
+GitHub - bigjr-mkkong/TOGAWA-ttgf-impl: TOGA-WA architecture for ti...
+TOGA-WA architecture for tiny tapeout GF180 node. Contribute to bigjr-mkkong/TOGAWA-ttgf-impl development by creating an account on GitHub.
+
+
 ==============================================================
-Exported 68 message(s)
+Exported 70 message(s)
 ==============================================================

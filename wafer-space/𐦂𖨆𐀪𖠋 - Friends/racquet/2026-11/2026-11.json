@@ -1,0 +1,22 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1572479378909171784",
+    "type": "GuildTextChat",
+    "categoryId": "1524223345443340439",
+    "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
+    "name": "racquet",
+    "topic": "**Racquet** by Greg Davill: a multicore RISC-V SoC built from [SERV](https://github.com/olofk/serv) cores, with chips on wafer.space runs.\n\n**Run 1**\n• [GD02](https://wafer.space/ws-run1/projects/GD02.html) (9 cores, 0.5x1 slot)\n• [GD03](https://wafer.space/ws-run1/projects/GD03.html) (23 cores, 1x1 slot)\n• [GD04](https://wafer.space/ws-run1/projects/GD04.html) (6 cores, 1x0.5 slot)\n**Run 2**\n• [GD04](https://wafer.space/ws-run2/projects/GD04.html) (6 cores, 1x0.5 slot)\n**Source**\n• [gf180mcu-racquet](https://github.com/gregdavill/gf180mcu-racquet)\n• [gf180mcu-racquet-0.5x1](https://github.com/gregdavill/gf180mcu-racquet-0.5x1)\n• [gf180mcu-racquet-1x0.5](https://github.com/gregdavill/gf180mcu-racquet-1x0.5)\n• [SERV](https://github.com/olofk/serv), the CPU core"
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-18T15:23:36.0307121+00:00",
+  "messages": [],
+  "messageCount": 0
+}

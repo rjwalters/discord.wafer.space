@@ -1,0 +1,22 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"756011607603019777","anfroholic","2026-11-18T08:30:11.0370000+00:00","","",""
+"691780627338625077","rebelmike","2026-11-18T09:12:52.1830000+00:00","To give some background:
+TQVA/TQVB/TQVC were on run 1 and are identical designs, one in each of the quarter and half slot types. It’s a fairly minimal change over the Tiny Tapeout version, so the main IO is 8 inputs and 8 outputs (direction fixed), though UART and audio are broken out to separate pins.
+
+I’ve proven TQVC works on a simpler host board which has the flash and RAM on a PMOD as in Tiny Tapeout. I designed a CoB for TQVA which matches the pinout of TQVC, and I believe I will very soon have 80 TQVA CoBs to test.
+
+The design itself has peripherals for UART, SPI, PWM, SNES gamepads via the TinyTapeout PMOD, VGA out through the TinyTapeout PMOD, a couple of synths for audio, a couple of different programmable IO type blocks, and some other unusual peripherals from the Tiny Tapeout peripheral competition. It should make a decent platform for retro style games (but compiled with a modern toolchain).","",""
+"691780627338625077","rebelmike","2026-11-18T09:31:31.3570000+00:00","On run 2 there were two new versions of TinyQV:
+TQVD has an attempt at HDMI output, giving an 80x30 text mode with a scrollable full screen buffer (no need to race the beam!). The font has 32 programmable characters. The same display driver can also output VGA. IO is more flexible, GPIO can fully configure the 16 GPIO pins.
+
+TQVE is an experiment with only 17 pads. That means it only has 6 GPIO, but it has a lot more on board scratch RAM. It also has a USB CDC peripheral, which will hopefully allow a serial console without needing an external UART adapter.
+
+Both TQVD and TQVE use Tholin’s new cell library","",""
+"691780627338625077","rebelmike","2026-11-18T09:34:11.9900000+00:00","I plan to order a simple host board for testing TQVD at the same time as the above board for TQVA/C.
+
+@Andrew Wingate has kindly offered to create a CoB for TQVE which will be compatible with the TQVA/C pinout, so initial testing of that can be done with the existing host boards.","",""
+"169786952432746498","mithro_","2026-11-18T13:16:47.8530000+00:00","@RebelMike - There are some of your TinyQV boards with @algofoogle (Anton Maurovic) & @Greg here in Adelaide and with @Andrew Wingate in Chicago / Pumping Station 1","",""
+"691780627338625077","rebelmike","2026-11-18T13:27:21.9960000+00:00","Awesome!  I can write up some bring-up instructions if that would be helpful to anyone.  I haven't tried bringing it up on a breadboard using the breadboard breakout but it should be possible.
+Or the ""v0"" version of the host board is pretty cheap to get JLC to make (useful if you already have a Tiny Tapeout QSPI PMOD): https://codeberg.org/rebelmike/ws01-tinyQV-mobo-alpha/src/branch/v0
+Or in a couple of weeks time I should have been able to verify the more fully featured one pictured above, which will obviously be a bit more expensive but should run standalone (though you'll still need a Pico or something to program it plus a UART adapter).","",""
+"691780627338625077","rebelmike","2026-11-18T13:27:58.4230000+00:00","Hmm, now thinking about using one TinyQV to program another, but obviously you'd still need a separate UART (at least until TQVE...)","",""

@@ -94,3 +94,5 @@ Ran micropython at 24 MHz latency 1 using tinyqv flasher.
 Also was able to control the DAC peripheral using `machine.mem8[0x80000034]`, the attached picture is running a single sine.","",""
 "1167741026950197258","TTBot#6027","2026-11-17T17:08:03.7240000+00:00","New tapeout: Jason Xu submitted 8-bit Programmable Counter (https://github.com/j-xu0/ttfg-verilog)","",""
 "1167741026950197258","TTBot#6027","2026-11-17T21:11:00.0990000+00:00","New tapeout: @Mori submitted 298Ap 8-bit CPU (https://github.com/morirf/298Ap)","",""
+"1167741026950197258","TTBot#6027","2026-11-18T06:17:07.5260000+00:00","New tapeout: Xano Trevisan Kothe submitted cpu8 - tiny 8-bit SPI CPU (https://github.com/xanok/tt-cpu)","",""
+"1167741026950197258","TTBot#6027","2026-11-18T06:36:14.1560000+00:00","New tapeout: Boming Kong submitted TOGA-WA (https://github.com/bigjr-mkkong/TOGAWA-ttgf-impl)","",""

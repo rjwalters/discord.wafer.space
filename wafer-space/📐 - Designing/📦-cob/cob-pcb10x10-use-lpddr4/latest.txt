@@ -1,0 +1,24 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 📐 - Designing / 📦-cob / CoB PCB(1.0x1.0) use LPDDR4
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-18 5:20 a.m.] mkt0901
+I understand that a 1x1-sized die in a wafer-scale architecture can support up to 200 pins (including power); would it be feasible to use the LPDDR4 standard for this purpose?
+
+{Attachments}
+2026-11_media/image-4ACF6.png
+
+
+[2026-11-18 8:29 a.m.] anfroholic
+@namibj and others are playing with flip chip designs. We haven't had much time to play. 
+
+Also @namibj I did try to get some solder to stick to a pad and had 0 luck. Maybe I wasn't doing a good job, but just say I had a bad time. 
+Didn't play long though.
+
+
+==============================================================
+Exported 2 message(s)
+==============================================================

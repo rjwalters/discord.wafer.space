@@ -1,0 +1,291 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1572479109676793856",
+    "type": "GuildTextChat",
+    "categoryId": "1524223345443340439",
+    "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
+    "name": "tinyqv",
+    "topic": "**TinyQV** by Mike Bell: a small RISC-V (RV32EC) SoC with peripherals from the Tiny Tapeout RISC-V competition, with chips on wafer.space runs.\n\n**Run 1**\n• [TQVA](https://wafer.space/ws-run1/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVB](https://wafer.space/ws-run1/projects/TQVB.html) (0.5x1 slot)\n• [TQVC](https://wafer.space/ws-run1/projects/TQVC.html) (1x0.5 slot)\n**Run 2**\n• [TQVA](https://wafer.space/ws-run2/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVC](https://wafer.space/ws-run2/projects/TQVC.html) (1x0.5 slot)\n• [TQVD](https://wafer.space/ws-run2/projects/TQVD.html) (HDMI output)\n• [TQVE](https://wafer.space/ws-run2/projects/TQVE.html) (experimental pad setup)\n**Source**\n• [tinyQV](https://github.com/MichaelBell/tinyQV)\n• [ws01-tinyQV](https://github.com/MichaelBell/ws01-tinyQV) (Run 1)\n• [ws02-tinyQV](https://github.com/MichaelBell/ws02-tinyQV) (Run 2)"
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-18T15:24:07.3214497+00:00",
+  "messages": [
+    {
+      "id": "1572529340833603674",
+      "type": "Default",
+      "timestamp": "2026-11-18T08:30:11.037+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1572380092485869679",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572540083058511883",
+      "type": "Default",
+      "timestamp": "2026-11-18T09:12:52.183+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "To give some background:\nTQVA/TQVB/TQVC were on run 1 and are identical designs, one in each of the quarter and half slot types. It’s a fairly minimal change over the Tiny Tapeout version, so the main IO is 8 inputs and 8 outputs (direction fixed), though UART and audio are broken out to separate pins.\n\nI’ve proven TQVC works on a simpler host board which has the flash and RAM on a PMOD as in Tiny Tapeout. I designed a CoB for TQVA which matches the pinout of TQVC, and I believe I will very soon have 80 TQVA CoBs to test.\n\nThe design itself has peripherals for UART, SPI, PWM, SNES gamepads via the TinyTapeout PMOD, VGA out through the TinyTapeout PMOD, a couple of synths for audio, a couple of different programmable IO type blocks, and some other unusual peripherals from the Tiny Tapeout peripheral competition. It should make a decent platform for retro style games (but compiled with a modern toolchain).",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572544777214369875",
+      "type": "Default",
+      "timestamp": "2026-11-18T09:31:31.357+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "On run 2 there were two new versions of TinyQV:\nTQVD has an attempt at HDMI output, giving an 80x30 text mode with a scrollable full screen buffer (no need to race the beam!). The font has 32 programmable characters. The same display driver can also output VGA. IO is more flexible, GPIO can fully configure the 16 GPIO pins.\n\nTQVE is an experiment with only 17 pads. That means it only has 6 GPIO, but it has a lot more on board scratch RAM. It also has a USB CDC peripheral, which will hopefully allow a serial console without needing an external UART adapter.\n\nBoth TQVD and TQVE use Tholin’s new cell library",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572545450958131313",
+      "type": "Default",
+      "timestamp": "2026-11-18T09:34:11.99+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I plan to order a simple host board for testing TQVD at the same time as the above board for TQVA/C.\n\n@Andrew Wingate has kindly offered to create a CoB for TQVE which will be compatible with the TQVA/C pinout, so initial testing of that can be done with the existing host boards.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572601469507477548",
+      "type": "Default",
+      "timestamp": "2026-11-18T13:16:47.853+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@RebelMike - There are some of your TinyQV boards with @algofoogle (Anton Maurovic) & @Greg here in Adelaide and with @Andrew Wingate in Chicago / Pumping Station 1",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "274535015969456128",
+          "name": "greg.hashtag.9468",
+          "discriminator": "0000",
+          "nickname": "Greg",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/fb1d1a9872c8ef9ce08855c75f2963a7-A225D.png"
+        },
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        },
+        {
+          "id": "1071653002986926112",
+          "name": "algofoogle",
+          "discriminator": "0000",
+          "nickname": "algofoogle (Anton Maurovic)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/943b637dbdf34731305e66dde0369276-F77A2.png"
+        },
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572604129296126074",
+      "type": "Default",
+      "timestamp": "2026-11-18T13:27:21.996+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Awesome!  I can write up some bring-up instructions if that would be helpful to anyone.  I haven't tried bringing it up on a breadboard using the breadboard breakout but it should be possible.\nOr the \"v0\" version of the host board is pretty cheap to get JLC to make (useful if you already have a Tiny Tapeout QSPI PMOD): https://codeberg.org/rebelmike/ws01-tinyQV-mobo-alpha/src/branch/v0\nOr in a couple of weeks time I should have been able to verify the more fully featured one pictured above, which will obviously be a bit more expensive but should run standalone (though you'll still need a Pico or something to program it plus a UART adapter).",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "ws01-tinyQV-mobo-alpha",
+          "url": "https://codeberg.org/rebelmike/ws01-tinyQV-mobo-alpha/src/branch/v0",
+          "timestamp": null,
+          "description": "Alpha motherboard for TinyQV WS Run 1",
+          "thumbnail": {
+            "url": "2026-11_media/summary-card-29111",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572604282082164777",
+      "type": "Default",
+      "timestamp": "2026-11-18T13:27:58.423+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmm, now thinking about using one TinyQV to program another, but obviously you'd still need a separate UART (at least until TQVE...)",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 7
+}

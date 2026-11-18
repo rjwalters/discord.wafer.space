@@ -1,0 +1,36 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 𐦂𖨆𐀪𖠋 - Friends / open-z80
+Topic: **FOSSi Z80** by ReJ (Renaldas Zioma): an open-source, pin compatible replacement for the classic Zilog Z80 8-bit CPU, with chips on wafer.space runs.
+
+**Run 1**
+• [RZ80](https://wafer.space/ws-run1/projects/RZ80.html) (1x1 slot)
+• [HZ80](https://wafer.space/ws-run1/projects/HZ80.html) (0.5x1 slot)
+**Run 2**
+• [HZ80](https://wafer.space/ws-run2/projects/HZ80.html) (0.5x1 slot)
+• [QZ80](https://wafer.space/ws-run2/projects/QZ80.html) (0.5x0.5 slot)
+**Source**
+• [z80-open-silicon](https://github.com/rejunity/z80-open-silicon)
+• [ws0-z80-open-silicon-gf180mcu](https://github.com/rejunity/ws0-z80-open-silicon-gf180mcu)
+**Talks**
+• [Slide deck](https://docs.google.com/presentation/d/1-vcqAm9nMe9o_P5PAofOEgkbrVqfZs-Lbs7DuWj7h2o)
+• [Video with Matt Venn](https://www.youtube.com/watch?v=GI1e22A2J3U)
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-18 4:04 a.m.] mithro_
+@ReJ aka Renaldas Zioma - I'm creating this channel as a bunch of people now have your HZ80 and RZ80 chips from Run #1 and Run #2 including @Andrew Wingate (and people at PS1), @Greg, @algofoogle (Anton Maurovic).
+
+
+[2026-11-18 4:58 a.m.] algofoogle
+G’day @ReJ aka Renaldas Zioma ! It’s been a while 🙂 looking forward to trying your chip!
+
+
+[2026-11-18 5:10 a.m.] mithro_
+I would like to figure out if the part actually works 🙂
+
+
+==============================================================
+Exported 3 message(s)
+==============================================================
