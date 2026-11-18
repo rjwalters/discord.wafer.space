@@ -964,6 +964,19 @@ FPGA implementation, pay for commercial software $$$, or write a better sim 🙂
 did you see tnt 123?
 
 
+[2026-11-17 10:37 p.m.] rebelmike
+TinyQV host board now with flash, PSRAM, clock, reset and audio out (this is for TQVA/TQVC which were on run 1)
+
+{Attachments}
+2026-11_media/image-A86CB.png
+
+{Reactions}
+👍 (2) 🔥 ❤️
+
+[2026-11-18 2:23 a.m.] crockpotveggies
+Sorry I’m out of the loop fill me in 😉
+
+
 ==============================================================
-Exported 188 message(s)
+Exported 190 message(s)
 ==============================================================

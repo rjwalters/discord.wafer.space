@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-18T00:07:36.2802474+00:00",
+  "exportedAt": "2026-11-18T05:55:31.6441189+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -1253,7 +1253,29 @@
       ],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "810804580027465738",
+              "name": "dr.ternary",
+              "discriminator": "0000",
+              "nickname": "Dr. Ternary (steven)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
       "mentions": [],
       "inlineEmojis": []
     },
@@ -3048,7 +3070,39 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572463810051178547",
+      "type": "Default",
+      "timestamp": "2026-11-18T04:09:47.281+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "We got one CPU and the Peripherals up and running. Still lots of work left, but considering when we started great progress: DRC, LVS, Antenna error free run",
+      "author": {
+        "id": "1460520643706486927",
+        "name": "ncucuk",
+        "discriminator": "0000",
+        "nickname": "Nikola",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6c5996770c985bcd6e5b68131ff2ba04-CBA05.png"
+      },
+      "attachments": [
+        {
+          "id": "1572463809694539797",
+          "url": "2026-11_media/image-CCB65.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 2755375
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 74
+  "messageCount": 75
 }

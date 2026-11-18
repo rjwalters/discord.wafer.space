@@ -169,11 +169,12 @@ tt02: [pcb](https://github.com/TinyTapeout/breakout-tt02-cob) | [gds](https://ra
 tt08: [pcb](https://github.com/TinyTapeout/breakout-tt08-cob) | [oas](https://github.com/TinyTapeout/tinytapeout-08/releases/download/tapeout-ci2409/caravel_2409485e.oas)
 tt08 etr version: [pcb](https://github.com/TinyTapeout/breakout-ttsky-cob) | [oas](https://github.com/TinyTapeout/tinytapeout-08/releases/download/tapeout-ci2409/caravel_2409485e.oas)
 ttgf0p1: [pcb](https://github.com/TinyTapeout/breakout-ttgf0p1-cob) | [gds](https://github.com/TinyTapeout/tinytapeout-gf-0p1/releases/download/v23/ttgf0p1_v23.fill.gds)
-ttgf0p2: [pcb](https://github.com/TinyTapeout/breakout-ttgf0p2-cob) | [gds](https://github.com/TinyTapeout/tinytapeout-gf-0p2/releases/download/tapeout-ws2512/tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.output.gds)","",""
+ttgf0p2: [pcb](https://github.com/TinyTapeout/breakout-ttgf0p2-cob) | [gds](https://github.com/TinyTapeout/tinytapeout-gf-0p2/releases/download/tapeout-ws2512/tt_gf_wrapper.oas.tt_gf_wrapper.precheck.20251217_132152.output.gds)","","💜 (1)"
 "543162393413287956","h.tamas","2026-11-17T18:11:12.1870000+00:00","The circular-ish pad layout comes from some optimization pressure where we didn't know the exact design rules so we wanted to make everything as tight as possible to avoid any back-and-forth with the bonding house. I optimized TT02 ""by hand"" using SolveSpace, and the later iterations use an approximation of this optimum while being easier to generate [semi-automatically](https://github.com/TinyTapeout/cobbler). We also happen to like how it looks, but that's a secondary concern.
 
 There are other points where I have issues with our current setup. It's not as automated as I'd like, and as you mention, the fanout wires would logically belong to the pcb level. I agree with that in principle, but when I actually tried, it became a nuisance to wire up the pads because the space is too tight for horizontal, vertical and 45° wires. Hence the workaround to include the fanout in the generated footprint and to designate them as irregularly shaped pads. (I have a design boundary where the pcb is manually edited and the footprint is mostly generated, so that changing some settings and regenerating the footprint wouldn't overwrite any of my manual work.)
 
 Anyway, if all the bonding information is going to be embedded in the kicad footprint file and I can generate it in a scripted way and also export the diagrams, models and any other data for the foundry in a scripted way, then I think we should be fine (pending the non-axis-aligned landing pads).
 
-And thanks for pushing for better COB support.","",""
+And thanks for pushing for better COB support.","","💜 (1)"
+"1357292796414918748","mkt0901","2026-11-18T05:20:39.2330000+00:00","Started a thread.","",""

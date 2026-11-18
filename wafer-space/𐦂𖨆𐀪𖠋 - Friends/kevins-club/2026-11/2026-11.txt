@@ -188,6 +188,8 @@ I just need to swap the chip and change the CH32 clock to 48 MHz. Then we’ll h
 {Attachments}
 2026-11_media/HXB-7MHXEAEBcqm-4A599.png
 
+{Reactions}
+👍
 
 [2026-11-14 7:25 a.m.] baragonaru
 Really cool to see. by the way, i'd be interested in building this into a laptop or similar one day, so if you have any thoughts on how to do graphics it's interesting. perhaps a second chip, idk.
@@ -445,6 +447,13 @@ Raw data collected about the SKY130 process technology. - google/skywater-pdk-sk
 2026-11_media/6331cc72-d873-4a7c-b52c-65abe3dd645f-11FAE
 
 
+[2026-11-18 4:09 a.m.] ncucuk
+We got one CPU and the Peripherals up and running. Still lots of work left, but considering when we started great progress: DRC, LVS, Antenna error free run
+
+{Attachments}
+2026-11_media/image-CCB65.png
+
+
 ==============================================================
-Exported 74 message(s)
+Exported 75 message(s)
 ==============================================================
