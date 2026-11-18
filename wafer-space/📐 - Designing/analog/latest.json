@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-17T15:17:42.244657+00:00",
+  "exportedAt": "2026-11-17T23:58:06.1894822+00:00",
   "messages": [
     {
       "id": "1569171678020243629",
@@ -375,7 +375,82 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572334532588208189",
+      "type": "Default",
+      "timestamp": "2026-11-17T19:36:05.132+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is this for the LSB of a data converter?",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572334909932965969",
+      "type": "Default",
+      "timestamp": "2026-11-17T19:37:35.098+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If yes, with capacitances that small you'll need to be extremely careful with your routing and matching, and the basic parasitic extraction tools are likely going to be too inaccurate to get you a proper estimate / you'd ideally be using a field solver",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572335539372171518",
+      "type": "Default",
+      "timestamp": "2026-11-17T19:40:05.168+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "and the way I'd estimate it is to see if they have any mismatch data for metal fringe caps",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 10
+  "messageCount": 13
 }

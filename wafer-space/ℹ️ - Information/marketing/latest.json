@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-17T13:50:16.8473176+00:00",
+  "exportedAt": "2026-11-17T22:31:04.575264+00:00",
   "messages": [
     {
       "id": "1566989005176701111",
@@ -169,8 +169,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 4,
+          "count": 5,
           "users": [
+            {
+              "id": "424865332075954196",
+              "name": "infosecdj",
+              "discriminator": "0000",
+              "nickname": "InfoSecDJ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+            },
             {
               "id": "509798510170865675",
               "name": "essen__",

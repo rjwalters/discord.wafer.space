@@ -249,3 +249,6 @@ Do you think the MUX will cope with some 10~40 (ish) mA into a fairly low resist
 "443147704126668801","carlfk","2026-11-17T06:44:11.9780000+00:00","If I wanted to simulate a design to see what the what the simulator says the latency is over 10k gates.. what do I do?","",""
 "443147704126668801","carlfk","2026-11-17T06:44:33.0870000+00:00","my goal is to be able to compare simulation to real","",""
 "443147704126668801","carlfk","2026-11-17T06:45:06.3460000+00:00","I can get a chip fabbed and hook up a scope for real  I don' know what would simulate timing","",""
+"591049455499739147","crockpotveggies","2026-11-17T17:46:58.8280000+00:00","FPGA implementation, pay for commercial software $$$, or write a better sim 🙂","",""
+"443147704126668801","carlfk","2026-11-17T17:48:17.2560000+00:00","did you see tnt 123?","",""
+"691780627338625077","rebelmike","2026-11-17T22:37:07.4580000+00:00","TinyQV host board now with flash, PSRAM, clock, reset and audio out (this is for TQVA/TQVC which were on run 1)","2026-11_media/image-A86CB.png",""

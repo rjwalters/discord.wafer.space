@@ -574,6 +574,38 @@ Contribute to rohanverma94/tt-gf-romless-cordic-engine-v2 development by creatin
 2026-11_media/cb6e45d0-755e-4a37-80e6-a9f8129dbb2a-60988
 
 
+[2026-11-17 3:42 p.m.] TTBot#6027
+✅ smunaut reported @RebelMike's [TinyQV Risc-V SoC](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_MichaelBell_tinyQV) as working: Was able to bring it up with help from Mike.
+Ran micropython at 24 MHz latency 1 using tinyqv flasher.
+Also was able to control the DAC peripheral using `machine.mem8[0x80000034]`, the attached picture is running a single sine.
+
+{Embed}
+https://www.tinytapeout.com/chips/ttgf0p3/tt_um_MichaelBell_tinyQV
+199 TinyQV Risc-V SoC - Tiny Tapeout
+A Risc-V SoC for Tiny Tapeout
+2026-11_media/social-preview-5F137
+
+
+[2026-11-17 5:08 p.m.] TTBot#6027
+New tapeout: Jason Xu submitted 8-bit Programmable Counter (https://github.com/j-xu0/ttfg-verilog)
+
+{Embed}
+https://github.com/j-xu0/ttfg-verilog
+GitHub - j-xu0/ttfg-verilog
+Contribute to j-xu0/ttfg-verilog development by creating an account on GitHub.
+2026-11_media/ttfg-verilog-A15AE
+
+
+[2026-11-17 9:11 p.m.] TTBot#6027
+New tapeout: @Mori submitted 298Ap 8-bit CPU (https://github.com/morirf/298Ap)
+
+{Embed}
+https://github.com/morirf/298Ap
+GitHub - morirf/298Ap
+Contribute to morirf/298Ap development by creating an account on GitHub.
+2026-11_media/298Ap-E8700
+
+
 ==============================================================
-Exported 65 message(s)
+Exported 68 message(s)
 ==============================================================

@@ -89,3 +89,8 @@ Cool to see them all rolling in. Way to go TT team!!","","🎉 (1)"
 "492702620759228416","mattvenn","2026-11-16T20:50:44.7640000+00:00","https://tinytapeout.com/news/ttboat26/","",""
 "1167741026950197258","TTBot#6027","2026-11-16T22:24:42.3050000+00:00","New tapeout: @the gecko submitted 8-bit-counter (https://github.com/TheRealGecko/8-bit-counter)","",""
 "1167741026950197258","TTBot#6027","2026-11-17T12:33:51.1910000+00:00","New tapeout: @always_ff_rohan submitted Xcordic: ROM-Less CORDIC function unit (https://github.com/rohanverma94/tt-gf-romless-cordic-engine-v2)","",""
+"1167741026950197258","TTBot#6027","2026-11-17T15:42:53.9740000+00:00","✅ smunaut reported @RebelMike's [TinyQV Risc-V SoC](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_MichaelBell_tinyQV) as working: Was able to bring it up with help from Mike.
+Ran micropython at 24 MHz latency 1 using tinyqv flasher.
+Also was able to control the DAC peripheral using `machine.mem8[0x80000034]`, the attached picture is running a single sine.","",""
+"1167741026950197258","TTBot#6027","2026-11-17T17:08:03.7240000+00:00","New tapeout: Jason Xu submitted 8-bit Programmable Counter (https://github.com/j-xu0/ttfg-verilog)","",""
+"1167741026950197258","TTBot#6027","2026-11-17T21:11:00.0990000+00:00","New tapeout: @Mori submitted 298Ap 8-bit CPU (https://github.com/morirf/298Ap)","",""

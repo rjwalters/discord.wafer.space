@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-17T15:28:40.4486892+00:00",
+  "exportedAt": "2026-11-18T00:09:02.2124737+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -3352,7 +3352,161 @@
         }
       ],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572275849418375220",
+      "type": "Default",
+      "timestamp": "2026-11-17T15:42:53.974+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "✅ smunaut reported @RebelMike's [TinyQV Risc-V SoC](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_MichaelBell_tinyQV) as working: Was able to bring it up with help from Mike.\nRan micropython at 24 MHz latency 1 using tinyqv flasher.\nAlso was able to control the DAC peripheral using `machine.mem8[0x80000034]`, the attached picture is running a single sine.",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "199 TinyQV Risc-V SoC - Tiny Tapeout",
+          "url": "https://www.tinytapeout.com/chips/ttgf0p3/tt_um_MichaelBell_tinyQV",
+          "timestamp": null,
+          "description": "A Risc-V SoC for Tiny Tapeout",
+          "thumbnail": {
+            "url": "2026-11_media/social-preview-5F137",
+            "width": 1200,
+            "height": 630
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572297281263112242",
+      "type": "Default",
+      "timestamp": "2026-11-17T17:08:03.724+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Jason Xu submitted 8-bit Programmable Counter (https://github.com/j-xu0/ttfg-verilog)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - j-xu0/ttfg-verilog",
+          "url": "https://github.com/j-xu0/ttfg-verilog",
+          "timestamp": null,
+          "description": "Contribute to j-xu0/ttfg-verilog development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ttfg-verilog-A15AE",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572358419011084352",
+      "type": "Default",
+      "timestamp": "2026-11-17T21:11:00.099+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: @Mori submitted 298Ap 8-bit CPU (https://github.com/morirf/298Ap)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - morirf/298Ap",
+          "url": "https://github.com/morirf/298Ap",
+          "timestamp": null,
+          "description": "Contribute to morirf/298Ap development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/298Ap-E8700",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 65
+  "messageCount": 68
 }

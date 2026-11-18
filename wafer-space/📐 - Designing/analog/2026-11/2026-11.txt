@@ -67,6 +67,18 @@ These resources are pretty helpful, thank you.
 Has anyone measured matching of small MOM/fringe caps on GF180? Thinking two parallel Metal4 lines at min width/space, ~1 um long, so around 0.1-0.2 fF. The PDK has mismatch for the fets and the MIM cap but I can't find anything for plain wires. Does GF have data on that, or has anyone seen it on run 1/2 silicon?
 
 
+[2026-11-17 7:36 p.m.] brookieoz
+Is this for the LSB of a data converter?
+
+
+[2026-11-17 7:37 p.m.] brookieoz
+If yes, with capacitances that small you'll need to be extremely careful with your routing and matching, and the basic parasitic extraction tools are likely going to be too inaccurate to get you a proper estimate / you'd ideally be using a field solver
+
+
+[2026-11-17 7:40 p.m.] brookieoz
+and the way I'd estimate it is to see if they have any mismatch data for metal fringe caps
+
+
 ==============================================================
-Exported 10 message(s)
+Exported 13 message(s)
 ==============================================================

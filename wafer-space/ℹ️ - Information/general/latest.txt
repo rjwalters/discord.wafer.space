@@ -956,6 +956,14 @@ my goal is to be able to compare simulation to real
 I can get a chip fabbed and hook up a scope for real  I don' know what would simulate timing
 
 
+[2026-11-17 5:46 p.m.] crockpotveggies
+FPGA implementation, pay for commercial software $$$, or write a better sim 🙂
+
+
+[2026-11-17 5:48 p.m.] carlfk
+did you see tnt 123?
+
+
 ==============================================================
-Exported 186 message(s)
+Exported 188 message(s)
 ==============================================================
