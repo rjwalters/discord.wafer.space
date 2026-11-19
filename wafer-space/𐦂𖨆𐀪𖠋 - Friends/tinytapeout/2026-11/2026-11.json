@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T05:32:23.6221723+00:00",
+  "exportedAt": "2026-11-19T14:03:23.5350349+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -3640,7 +3640,54 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572960682217967698",
+      "type": "Default",
+      "timestamp": "2026-11-19T13:04:10.837+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "✅ smunaut reported 's [KianV uLinux SoC](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_kianV_rv32ima_uLinux_SoC) as working: Works fine with the image from TT flasher and using `uart_console` script to run it.",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "518 KianV uLinux SoC - Tiny Tapeout",
+          "url": "https://www.tinytapeout.com/chips/ttgf0p3/tt_um_kianV_rv32ima_uLinux_SoC",
+          "timestamp": null,
+          "description": "A RISC-V ASIC that can boot μLinux.",
+          "thumbnail": {
+            "url": "2026-11_media/social-preview-12F64",
+            "width": 1200,
+            "height": 630
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 71
+  "messageCount": 72
 }

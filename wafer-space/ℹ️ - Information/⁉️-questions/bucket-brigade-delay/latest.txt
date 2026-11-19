@@ -91,7 +91,7 @@ seems like that would divide the transferred voltage across the destination buck
 not really, thinking more like you clock c1 then wait n cycles then clock the voltage to the output
 
 {Reactions}
-👍
+👍 (2)
 
 [2026-11-15 11:35 p.m.] brookieoz
 so you're still doing a "delay" but you're basically running down a huge bank of capacitors
@@ -115,6 +115,8 @@ it's just a charge pump that is wired to just forward, after all. No _inherent n
 [2026-11-15 11:38 p.m.] brookieoz
 each capacitor only sees two switches for the purposes of leakage
 
+{Reactions}
+👍
 
 [2026-11-15 11:38 p.m.] brookieoz
 The output might be a little dicier though

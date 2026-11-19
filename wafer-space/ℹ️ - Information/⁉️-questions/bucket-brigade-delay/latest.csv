@@ -26,7 +26,7 @@ Assuming n-channel operation; reverse polarities if it'd be p-channel operation 
 "262706220073222144","namibj","2026-11-15T23:30:55.0370000+00:00","(from https://www.reddit.com/r/AskElectronics/comments/qvoe98/what_would_happen_if_you_tried_to_build_a_bucket/ )","2026-11_media/what-would-happen-if-you-tried-to-build-a--E8E54.png",""
 "155452674286813194","brookieoz","2026-11-15T23:31:41.1260000+00:00","but basically I was curious about this","2026-11_media/image-FEC46.png",""
 "211112896833257472","archit3ch","2026-11-15T23:34:57.8940000+00:00","seems like that would divide the transferred voltage across the destination buckets? 🤔","",""
-"155452674286813194","brookieoz","2026-11-15T23:35:42.4560000+00:00","not really, thinking more like you clock c1 then wait n cycles then clock the voltage to the output","","👍 (1)"
+"155452674286813194","brookieoz","2026-11-15T23:35:42.4560000+00:00","not really, thinking more like you clock c1 then wait n cycles then clock the voltage to the output","","👍 (2)"
 "155452674286813194","brookieoz","2026-11-15T23:35:56.0140000+00:00","so you're still doing a ""delay"" but you're basically running down a huge bank of capacitors","",""
 "155452674286813194","brookieoz","2026-11-15T23:37:21.5240000+00:00","the idea is you take the analog input, sample & hold it on the intermediate capacitors for n cycles for your delay
 
@@ -34,7 +34,7 @@ the output probably needs to be reset every time or else there'll be some weird 
 "211112896833257472","archit3ch","2026-11-15T23:37:52.0210000+00:00","wouldn't that cause leakage if you hang 1024 (or however many) closed gates on the input node?","",""
 "262706220073222144","namibj","2026-11-15T23:38:06.1440000+00:00","Hmmm yeah.... 
 it's just a charge pump that is wired to just forward, after all. No _inherent need_ to fuse the charge storage with the switched channel like the VLSI monolithic CCD.","",""
-"155452674286813194","brookieoz","2026-11-15T23:38:33.4400000+00:00","each capacitor only sees two switches for the purposes of leakage","",""
+"155452674286813194","brookieoz","2026-11-15T23:38:33.4400000+00:00","each capacitor only sees two switches for the purposes of leakage","","👍 (1)"
 "155452674286813194","brookieoz","2026-11-15T23:38:50.4600000+00:00","The output might be a little dicier though","",""
 "262706220073222144","namibj","2026-11-15T23:38:50.8090000+00:00","issue 1: input capacitance of left switches adds up.
 issue 2: output capacitance of right switches sadds up.","","👆 (1)"

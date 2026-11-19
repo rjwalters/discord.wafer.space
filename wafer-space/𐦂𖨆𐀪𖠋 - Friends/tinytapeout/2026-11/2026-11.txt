@@ -634,6 +634,16 @@ Contribute to membaye/tinydriver development by creating an account on GitHub.
 2026-11_media/tinydriver-B173C
 
 
+[2026-11-19 1:04 p.m.] TTBot#6027
+✅ smunaut reported 's [KianV uLinux SoC](https://www.tinytapeout.com/chips/ttgf0p3/tt_um_kianV_rv32ima_uLinux_SoC) as working: Works fine with the image from TT flasher and using `uart_console` script to run it.
+
+{Embed}
+https://www.tinytapeout.com/chips/ttgf0p3/tt_um_kianV_rv32ima_uLinux_SoC
+518 KianV uLinux SoC - Tiny Tapeout
+A RISC-V ASIC that can boot μLinux.
+2026-11_media/social-preview-12F64
+
+
 ==============================================================
-Exported 71 message(s)
+Exported 72 message(s)
 ==============================================================

@@ -433,7 +433,7 @@ Anyway, if all the bonding information is going to be embedded in the kicad foot
 And thanks for pushing for better COB support.
 
 {Reactions}
-💜
+💜 (2)
 
 [2026-11-18 5:20 a.m.] mkt0901
 Started a thread.
@@ -461,7 +461,15 @@ I haven't played with that, but I'll give it a shot tomorrow.
 [2026-11-19 2:07 a.m.] saladchap
 @Stephan Bökelmann this is interesting for you I think
 
+{Reactions}
+💜
+
+[2026-11-19 5:20 a.m.] h.tamas
+Thank you. It's looking good and I can export the footprint to reproduce your screenshot in kicad. I also see the issues, but that's fine, we will sort them out when we actually port the design. My point was just to check that the spec and the tooling will support the way we want to use it and now I'm convinced.
+
+{Reactions}
+💜
 
 ==============================================================
-Exported 67 message(s)
+Exported 68 message(s)
 ==============================================================

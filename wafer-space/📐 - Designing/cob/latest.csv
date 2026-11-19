@@ -176,11 +176,12 @@ There are other points where I have issues with our current setup. It's not as a
 
 Anyway, if all the bonding information is going to be embedded in the kicad footprint file and I can generate it in a scripted way and also export the diagrams, models and any other data for the foundry in a scripted way, then I think we should be fine (pending the non-axis-aligned landing pads).
 
-And thanks for pushing for better COB support.","","💜 (1)"
+And thanks for pushing for better COB support.","","💜 (2)"
 "1357292796414918748","mkt0901","2026-11-18T05:20:39.2330000+00:00","Started a thread.","",""
 "756011607603019777","anfroholic","2026-11-18T16:08:10.2170000+00:00","@htamas I tried ttgf0p2
 There's no way anything will work as is, there's multiple pads with the same name, lands aren't where you want the wires, etc. 
 I made a new footprint that's very close... It works, but in your case I think you're going to be better off just making some comment lines, there's already a `Regime` that just picks up on those and makes the wires in those places, then you can do whatever you want. 
 I haven't played with that, but I'll give it a shot tomorrow.","2026-11_media/image-55156.png,2026-11_media/image-0CB6F.png",""
 "756011607603019777","anfroholic","2026-11-18T16:10:20.4400000+00:00","","2026-11_media/breakout-ttgf0p2-cob.wb-911BC.svg,2026-11_media/image-12FBE.png",""
-"1184268085822238821","saladchap","2026-11-19T02:07:37.4220000+00:00","@Stephan Bökelmann this is interesting for you I think","",""
+"1184268085822238821","saladchap","2026-11-19T02:07:37.4220000+00:00","@Stephan Bökelmann this is interesting for you I think","","💜 (1)"
+"543162393413287956","h.tamas","2026-11-19T05:20:28.9740000+00:00","Thank you. It's looking good and I can export the footprint to reproduce your screenshot in kicad. I also see the issues, but that's fine, we will sort them out when we actually port the design. My point was just to check that the spec and the tooling will support the way we want to use it and now I'm convinced.","","💜 (1)"
