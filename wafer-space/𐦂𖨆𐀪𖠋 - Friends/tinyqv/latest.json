@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-18T15:24:07.3214497+00:00",
+  "exportedAt": "2026-11-18T23:48:50.0527232+00:00",
   "messages": [
     {
       "id": "1572529340833603674",
@@ -285,7 +285,62 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572714361754095747",
+      "type": "Default",
+      "timestamp": "2026-11-18T20:45:23.462+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Looking forward to giving these try soon, Mike \uD83D\uDE42 I'll get around to this soon after I finish a checkpoint in the project I'm currently working on, but I'm itching to go!",
+      "author": {
+        "id": "1071653002986926112",
+        "name": "algofoogle",
+        "discriminator": "0000",
+        "nickname": "algofoogle (Anton Maurovic)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/943b637dbdf34731305e66dde0369276-F77A2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "691780627338625077",
+              "name": "rebelmike",
+              "discriminator": "0000",
+              "nickname": "RebelMike",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
     }
   ],
-  "messageCount": 7
+  "messageCount": 8
 }

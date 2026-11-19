@@ -68,6 +68,12 @@ Alpha motherboard for TinyQV WS Run 1
 Hmm, now thinking about using one TinyQV to program another, but obviously you'd still need a separate UART (at least until TQVE...)
 
 
+[2026-11-18 8:45 p.m.] algofoogle
+Looking forward to giving these try soon, Mike 🙂 I'll get around to this soon after I finish a checkpoint in the project I'm currently working on, but I'm itching to go!
+
+{Reactions}
+💜
+
 ==============================================================
-Exported 7 message(s)
+Exported 8 message(s)
 ==============================================================

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-18T14:59:22.896479+00:00",
+  "exportedAt": "2026-11-18T23:24:23.0977297+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -2556,7 +2556,113 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1572644596867928084",
+      "type": "Reply",
+      "timestamp": "2026-11-18T16:08:10.217+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@htamas I tried ttgf0p2\nThere's no way anything will work as is, there's multiple pads with the same name, lands aren't where you want the wires, etc. \nI made a new footprint that's very close... It works, but in your case I think you're going to be better off just making some comment lines, there's already a `Regime` that just picks up on those and makes the wires in those places, then you can do whatever you want. \nI haven't played with that, but I'll give it a shot tomorrow.",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1572644595920277655",
+          "url": "2026-11_media/image-55156.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 547573
+        },
+        {
+          "id": "1572644596339576965",
+          "url": "2026-11_media/image-0CB6F.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 783930
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "543162393413287956",
+          "name": "h.tamas",
+          "discriminator": "0000",
+          "nickname": "htamas",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/1-B2132.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572313160109523055",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1572645143062777946",
+      "type": "Default",
+      "timestamp": "2026-11-18T16:10:20.44+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [
+        {
+          "id": "1572645141628592348",
+          "url": "2026-11_media/breakout-ttgf0p2-cob.wb-911BC.svg",
+          "fileName": "breakout-ttgf0p2-cob.wb.svg",
+          "fileSizeBytes": 2512695
+        },
+        {
+          "id": "1572645142534430840",
+          "url": "2026-11_media/image-12FBE.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 293206
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 64
+  "messageCount": 66
 }

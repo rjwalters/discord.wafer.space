@@ -439,6 +439,25 @@ And thanks for pushing for better COB support.
 Started a thread.
 
 
+[2026-11-18 4:08 p.m.] anfroholic
+@htamas I tried ttgf0p2
+There's no way anything will work as is, there's multiple pads with the same name, lands aren't where you want the wires, etc. 
+I made a new footprint that's very close... It works, but in your case I think you're going to be better off just making some comment lines, there's already a `Regime` that just picks up on those and makes the wires in those places, then you can do whatever you want. 
+I haven't played with that, but I'll give it a shot tomorrow.
+
+{Attachments}
+2026-11_media/image-55156.png
+2026-11_media/image-0CB6F.png
+
+
+[2026-11-18 4:10 p.m.] anfroholic
+
+
+{Attachments}
+2026-11_media/breakout-ttgf0p2-cob.wb-911BC.svg
+2026-11_media/image-12FBE.png
+
+
 ==============================================================
-Exported 64 message(s)
+Exported 66 message(s)
 ==============================================================

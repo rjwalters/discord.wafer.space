@@ -178,3 +178,8 @@ Anyway, if all the bonding information is going to be embedded in the kicad foot
 
 And thanks for pushing for better COB support.","","💜 (1)"
 "1357292796414918748","mkt0901","2026-11-18T05:20:39.2330000+00:00","Started a thread.","",""
+"756011607603019777","anfroholic","2026-11-18T16:08:10.2170000+00:00","@htamas I tried ttgf0p2
+There's no way anything will work as is, there's multiple pads with the same name, lands aren't where you want the wires, etc. 
+I made a new footprint that's very close... It works, but in your case I think you're going to be better off just making some comment lines, there's already a `Regime` that just picks up on those and makes the wires in those places, then you can do whatever you want. 
+I haven't played with that, but I'll give it a shot tomorrow.","2026-11_media/image-55156.png,2026-11_media/image-0CB6F.png",""
+"756011607603019777","anfroholic","2026-11-18T16:10:20.4400000+00:00","","2026-11_media/breakout-ttgf0p2-cob.wb-911BC.svg,2026-11_media/image-12FBE.png",""
