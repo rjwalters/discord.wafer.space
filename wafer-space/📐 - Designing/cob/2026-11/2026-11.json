@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-18T23:24:23.0977297+00:00",
+  "exportedAt": "2026-11-19T05:07:46.9704149+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -2662,7 +2662,58 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1572795454259986443",
+      "type": "Reply",
+      "timestamp": "2026-11-19T02:07:37.422+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Stephan Bökelmann this is interesting for you I think",
+      "author": {
+        "id": "1184268085822238821",
+        "name": "saladchap",
+        "discriminator": "0000",
+        "nickname": "stuart",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/4938353f83780f56050d92be930226f8-BA286.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "543162393413287956",
+          "name": "h.tamas",
+          "discriminator": "0000",
+          "nickname": "htamas",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/1-B2132.png"
+        },
+        {
+          "id": "1442743623857995798",
+          "name": "maxclerkwell",
+          "discriminator": "0000",
+          "nickname": "Stephan Bökelmann",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/fc930ff7370fc3891d279ac9b94e6782-A5B96.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572313160109523055",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 66
+  "messageCount": 67
 }

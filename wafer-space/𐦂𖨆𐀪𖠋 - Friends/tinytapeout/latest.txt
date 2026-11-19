@@ -624,6 +624,16 @@ GitHub - bigjr-mkkong/TOGAWA-ttgf-impl: TOGA-WA architecture for ti...
 TOGA-WA architecture for tiny tapeout GF180 node. Contribute to bigjr-mkkong/TOGAWA-ttgf-impl development by creating an account on GitHub.
 
 
+[2026-11-19 3:51 a.m.] TTBot#6027
+New tapeout: @matthew submitted Tiny Driver (https://github.com/membaye/tinydriver) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Fmembaye%2Ftinydriver&ref=e7f8113261d6f885b82f2797cf3656329cd08ecd>)
+
+{Embed}
+https://github.com/membaye/tinydriver
+GitHub - membaye/tinydriver
+Contribute to membaye/tinydriver development by creating an account on GitHub.
+2026-11_media/tinydriver-B173C
+
+
 ==============================================================
-Exported 70 message(s)
+Exported 71 message(s)
 ==============================================================

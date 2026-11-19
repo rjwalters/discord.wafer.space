@@ -96,3 +96,4 @@ Also was able to control the DAC peripheral using `machine.mem8[0x80000034]`, th
 "1167741026950197258","TTBot#6027","2026-11-17T21:11:00.0990000+00:00","New tapeout: @Mori submitted 298Ap 8-bit CPU (https://github.com/morirf/298Ap)","",""
 "1167741026950197258","TTBot#6027","2026-11-18T06:17:07.5260000+00:00","New tapeout: Xano Trevisan Kothe submitted cpu8 - tiny 8-bit SPI CPU (https://github.com/xanok/tt-cpu)","",""
 "1167741026950197258","TTBot#6027","2026-11-18T06:36:14.1560000+00:00","New tapeout: Boming Kong submitted TOGA-WA (https://github.com/bigjr-mkkong/TOGAWA-ttgf-impl)","",""
+"1167741026950197258","TTBot#6027","2026-11-19T03:51:55.6600000+00:00","New tapeout: @matthew submitted Tiny Driver (https://github.com/membaye/tinydriver) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Fmembaye%2Ftinydriver&ref=e7f8113261d6f885b82f2797cf3656329cd08ecd>)","",""

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-18T22:14:38.5515353+00:00",
+  "exportedAt": "2026-11-19T04:00:41.0654233+00:00",
   "messages": [
     {
       "id": "1566249659117211830",
@@ -6340,7 +6340,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 3,
+          "count": 4,
           "users": [
             {
               "id": "211112896833257472",
@@ -6359,6 +6359,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/ab36c0a7e95a5fa46122e6d9bef0c2d6-A6E3F.png"
+            },
+            {
+              "id": "535937806690942998",
+              "name": "space.andthyme",
+              "discriminator": "0000",
+              "nickname": "Rob Venables",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/509baa41fdf679b200e700a292722d6f-46EFF.png"
             },
             {
               "id": "1082704370560401489",
@@ -6692,7 +6701,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
             {
               "id": "329773739061411861",
@@ -6702,6 +6711,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/259607fccdf8d83e030ced4bc4a1a996-1EE8C.png"
+            },
+            {
+              "id": "535937806690942998",
+              "name": "space.andthyme",
+              "discriminator": "0000",
+              "nickname": "Rob Venables",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/509baa41fdf679b200e700a292722d6f-46EFF.png"
             }
           ]
         },
