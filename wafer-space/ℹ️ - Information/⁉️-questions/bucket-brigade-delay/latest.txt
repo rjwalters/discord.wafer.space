@@ -376,6 +376,116 @@ I thought the physics is different. Don't you need a common substrate shared bet
 Yeah pretty sure they are different.
 
 
+[2026-11-19 6:59 p.m.] namibj
+https://harvestimaging.com/pubdocs/121_2008_CCD_structures.pdf
+
+
+[2026-11-19 7:00 p.m.] namibj
+
+
+{Attachments}
+2026-11_media/ccd3-06EE8.png
+
+
+[2026-11-19 7:05 p.m.] namibj
+the CCD operation, you use 3 phases to have an isolating gap between each two charge packets, despite having those charge packets smoothly through overlap of _their_ clocks be electrostatically-shifted-over (between those two that are not isolating while we're looking) in the direction-of-travel.
+
+
+[2026-11-19 7:05 p.m.] namibj
+https://maurycyz.com/misc/bbd/ for BDD, you may have it build more like this:
+> Today, these devices are completely obsolete — but a spin-off, the CCD camera sensor, is still used today. Instead of transistors and capacitors like the TCA350, they directly move charge trapped in inversion "bubble" using three sets of MOSFET-style gates.
+> 
+> This requires an rather inconvenient overlapping 3-phase clock, but works amazingly well: a good CCD can move charge between a million pixels without loosing a single electron.
+
+{Attachments}
+2026-11_media/bbd-F1092.png
+
+
+[2026-11-19 7:06 p.m.] namibj
+for this image:
+> When the metal runs over p-type regions, the oxide forms a capacitor.
+> 
+> Things get interesting when metal runs over the gap between p-type regions. If the metal is sufficiently negative, it can pull positive carriers into the n-type gap forming a temporary channel between the p-type wells.
+
+
+[2026-11-19 7:09 p.m.] brookieoz
+this is basically talking about the parasitic PMOS device that's made from M1 over whatever oxide separates the NMOS devices, right?
+
+not sure if it's in the PDK or how well it's modeled, but these tend to have pretty huge Vth's
+
+
+[2026-11-19 7:10 p.m.] namibj
+Hence, you can fuse the capacitor-action and the channel-action into a single uniformly doped line of buckets, c.f. Figure 1 of [Rao, et. al. 2008], at the cost of needing no less than 3 clock phases that need to be overlapping between adjacent phases while and despite needing to have a duty cycle of under 50%.
+
+{Attachments}
+2026-11_media/image-E7866.png
+
+
+[2026-11-19 7:11 p.m.] namibj
+So that there's always at least one phase that's off at any given time, and this one is geometrically progressing on the die.
+I.e., while I don't quite know why/what for, 4-phase CCDs do appear to exist.
+I'd suspect if nothing else it's easier to do 4 clock phases of duty cycle _strictly between_ 25% and 50% than 3 _strictly between 34% and 50%._
+
+
+[2026-11-19 7:12 p.m.] namibj
+No hisotrically they used metal gates it was cheaper in those old days of a TCA350
+
+
+[2026-11-19 7:13 p.m.] brookieoz
+Right, back then those processes allowed you to do this. But don't most modern processes pattern with the help of the gate itself for automatic alignment that makes this kind of thing impossible?
+
+
+[2026-11-19 7:15 p.m.] brookieoz
+Hmmm maybe not, I'm not sure
+
+
+[2026-11-19 7:15 p.m.] brookieoz
+I think you just have to be picky with the device you choose
+
+
+[2026-11-19 7:16 p.m.] brookieoz
+Yeah, because the concept still exists with drain extended devices
+
+
+[2026-11-19 7:17 p.m.] brookieoz
+That's kinda neat. It'd be cool to try out and see what happens
+
+
+[2026-11-19 7:18 p.m.] namibj
+https://en.wikipedia.org/wiki/Metal_gate says it was common until the mid-70's to use aluminium as gate, and only late 70's they switched to polysilicon.
+
+{Embed}
+https://en.wikipedia.org/wiki/Metal_gate
+
+
+[2026-11-19 7:20 p.m.] brookieoz
+no, no, it's not so much the gate material that's of concern, it's the way some processes do patterning where they use the gate itself to block dopants from the source / drain to automatically align the mosfet terminals that would throw a wrench into making a device with a gate over both N and P
+
+
+[2026-11-19 7:21 p.m.] namibj
+Well, there's nothing about poly gates that is inherently incompatible with this?
+It seems you _might_ want to use native threshold voltage devices?
+
+
+[2026-11-19 7:22 p.m.] brookieoz
+That's correct, you can still use poly gates. and i had to correct myself earlier because extended drain devices exist and that's probably the closest structure to the cross section you showed earlier
+
+
+[2026-11-19 7:22 p.m.] brookieoz
+Not sure about native Vt devices though
+
+
+[2026-11-19 7:38 p.m.] namibj
+<https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_05.html> I'm not _sure_ if it'll let you do the multiple regions/wells you'd effectively form, but this should _I think_ suffice to give you an absence of n+ doping between two adjacent fingers... _I think?_
+
+While the process allows you, the DRC don't let you, but _in theory_ gf180mcuD is also capable of forming shottkey structures. It's just _very DRC banned_ to form _anything_ that'd exhibit that behavior. (A <https://en.wikipedia.org/wiki/MESFET>.)
+
+
+[2026-11-19 7:39 p.m.] namibj
+You don't need metal gates.
+And you probably don't want to form that old 2-phsae BBD structure in the process that gives you poly gates.
+
+
 ==============================================================
-Exported 68 message(s)
+Exported 89 message(s)
 ==============================================================

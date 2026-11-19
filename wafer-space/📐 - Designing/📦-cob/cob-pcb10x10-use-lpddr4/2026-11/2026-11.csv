@@ -4,3 +4,26 @@ AuthorID,Author,Date,Content,Attachments,Reactions
 
 Also @namibj I did try to get some solder to stick to a pad and had 0 luck. Maybe I wasn't doing a good job, but just say I had a bad time. 
 Didn't play long though.","",""
+"262706220073222144","namibj","2026-11-19T19:40:54.1920000+00:00","Nah I wouldn't expect you to succeed, given the aluminium oxide issue.
+You'd have to use aluminium flux 😄","",""
+"756011607603019777","anfroholic","2026-11-19T19:43:18.0830000+00:00","It's what I had on hand. Was worth a shot lol","","ferrisBut (1)"
+"756011607603019777","anfroholic","2026-11-19T19:44:47.9170000+00:00","I did try a couple standard flux though too.","",""
+"262706220073222144","namibj","2026-11-19T19:57:55.0880000+00:00","Normal solder flux doesn't work on aluminium.","",""
+"756011607603019777","anfroholic","2026-11-19T20:04:47.4860000+00:00","I assume the polyamide layer and everything would be fine after harsher aluminum flux? 
+Got a recommendation on what to actually try?","",""
+"262706220073222144","namibj","2026-11-19T20:09:53.1710000+00:00","Yeah worst case you burn thermally or flux-corrode-etch through the pad's native thickness.","",""
+"756011607603019777","anfroholic","2026-11-19T20:11:00.9400000+00:00","From what I understand we can fit 60pins on a 1x1 die","",""
+"262706220073222144","namibj","2026-11-19T20:31:17.2870000+00:00","JLC flip chip process, if it works, can sustain the pad pitch of the quarter slot default-COB at a minimum/easily, and in theory you could have interior pads in addition but not as easily.","",""
+"262706220073222144","namibj","2026-11-19T20:31:54.1310000+00:00","","",""
+"756011607603019777","anfroholic","2026-11-19T20:34:10.2960000+00:00","Whoops, I meant to say that 60 was for standard wcsp bumping.","",""
+"262706220073222144","namibj","2026-11-19T20:35:15.3660000+00:00","https://s-bond.com/solutions-and-service/aluminum-soldering/ ?","",""
+"262706220073222144","namibj","2026-11-19T20:41:16.3760000+00:00","Notably for a target ball size and pitch that works with regular FR4-laminate PCB's. I assume with ""only"" via-in-pad, not really need for HDI/blind vias.
+The JLC flip chip process I'm referring to would be with presumably ACF or _theoretically_ ENIG/ENEPIG grown-pillars undergoing gold-to-gold ""compliant bonding"" where you basically just skip the ACF and maybe throw in a lil ultrasonic action with the hot compression. If it works and doesn't rip off, I'd expect _that_ to have superior electrical properties and electrical consistency&reliability.","",""
+"262706220073222144","namibj","2026-11-19T20:42:16.3230000+00:00","But basically anything solder that claims to solder aluminium especially if it says it solders aluminium to copper, and at temperatures that are ""acceptable"", should do.","",""
+"262706220073222144","namibj","2026-11-19T21:12:14.6260000+00:00","<https://gf180mcu-pdk.readthedocs.io/en/latest/IPs/IO/gf180mcu_fd_io/features.html> says the foundry IO cells are 75um pitch; so taking the maximum configuration `1x1_max_all` from <https://mith.ro/gf180mcu-project-template/>, which says 200 pads, and going from the aspect ratio of the core area to calculate that it must probably be 42 horizontal pads and 58 vertical pads, which is supported by the pad count of `1x1_max_top`&`1x1_max_lft`, we get that it's `27um` over 31 pads horizontally and `7.8um` over 43 pads vertically while meeting the 4mil pitch limit of that JLC process.
+
+(||Extra spacing between IO cells for JLC pitch minimum is only needed between pads, not outside to a corner, so all but one can be counted as `101.6um` wide and the last one can count with it's natural `75um` width it occupies on the die regardless of bonding considerations.||)
+
+**So, 148 total pads ""easily""**; IMO it should be relatively easy to put power pads over the interior circuity once we have proof it works; for CUP-concern-reasons of emergency wire bonding, leaving some of the interior pads at least partially free of underlying circuity so that a wedge bonder could hit there, should _I think_ suffice.
+Plan would be to use the 2nd layer of the flex to feed in power and GND and use some vias in probably the central area of the die with deliberate lack of bonding pressure from the press-head to via it through to the layer that's ACF-bonded, and spread to some power pads that form sort of a second row on the inside of the pad ring (for DRC aspect reasons probably not right over the power ring but instead just inwards over the outer region of the core area; IIRC the power ring uses top metal for sheet resistance reasons to spread the supply around the ring).","",""
+"262706220073222144","namibj","2026-11-19T21:14:37.6620000+00:00","@Andrew Wingate And I would be surprised if the wire bonder couldn't bond a matching-pitch pad frame to an FPC underneath if they are aligned to +-2um before being fed to the bonder, and backed by something rigid enough to not flex in problematic ways (JLC offers to glue a sheet of stainless steel or FR4 or such on the back if you want it).","",""

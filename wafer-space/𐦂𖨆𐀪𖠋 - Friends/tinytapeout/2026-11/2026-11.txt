@@ -644,6 +644,26 @@ A RISC-V ASIC that can boot μLinux.
 2026-11_media/social-preview-12F64
 
 
+[2026-11-19 4:43 p.m.] TTBot#6027
+New tapeout: @always_ff_rohan submitted Transistor-Ladder VCF (https://github.com/rohanverma94/tt-gf-ladder_vcf)
+
+{Embed}
+https://github.com/rohanverma94/tt-gf-ladder_vcf
+GitHub - rohanverma94/tt-gf-ladder_vcf
+Contribute to rohanverma94/tt-gf-ladder_vcf development by creating an account on GitHub.
+2026-11_media/002975eb-21b6-47b2-a5d8-7a7c42bac60d-D4C90
+
+
+[2026-11-19 8:42 p.m.] TTBot#6027
+New tapeout: Benjamin J. Eisenberg, Roshan Hegde submitted Metastability Characterizer (https://github.com/Roshyoshi/metastability-298)
+
+{Embed}
+https://github.com/Roshyoshi/metastability-298
+GitHub - Roshyoshi/metastability-298
+Contribute to Roshyoshi/metastability-298 development by creating an account on GitHub.
+2026-11_media/metastability-298-12A72
+
+
 ==============================================================
-Exported 72 message(s)
+Exported 74 message(s)
 ==============================================================

@@ -40,6 +40,11 @@ Note you can "just" have a normal level shifter between the efuse section to the
 GF's foundry supplied efuse needs and extra mask layer. If I understand correctly wafer.space does not request that mask and @Egor Lukyanchenko 's efuses does not use that.
 
 
+[2026-11-19 8:09 p.m.] namibj
+Are you sue `EFUSE_MK`/`PLFUSE` generate masks? They are listed as "Marking" not as "Drawn" in <https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html>.
+The ones that do appear to be masks are the poly fuse window/metal fuse window/MIM-FuseTop; the latter we do have though as it's inherent to defining the top plate of MIM caps which we clearly have.
+
+
 ==============================================================
-Exported 6 message(s)
+Exported 7 message(s)
 ==============================================================

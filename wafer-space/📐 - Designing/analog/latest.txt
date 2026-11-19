@@ -79,6 +79,113 @@ If yes, with capacitances that small you'll need to be extremely careful with yo
 and the way I'd estimate it is to see if they have any mismatch data for metal fringe caps
 
 
+[2026-11-19 4:35 p.m.] namibj
+If not yet, then it's _definitely_ something we'd want to cover; if you're particularly interested in this, I'd suggest you make a plan for a circuit that is small and that could measure this with the only external connections being a clock signal (AC-coupled, for example through some level-shifter-esque CMOS inverter that uses the gate oxide as the AC-coupling capacitance) of around a couple hundred kHz to a couple MHz, perhaps if needed a couple 10's of MHz, and a few kelvin-connected power+sense wire (pairs) off of an analog MUX towards that DUT.
+Like, there would be high-mux-resistance sense wires with lower leakage and probably lower-mux-resistance drive wires with higher leakage available, about half/half split I'd guess so far, that would be muxed to the DUT to normally provide multi-terminal DC bias operating point e-tests of small relevant cells using SPICE runs to automatically match/line-up bias drive conditions that are interesting/worthwhile to cover for the stack of dies.
+
+Edit: you'd perhaps measure DC current draw proportional to clock frequency of something that's electrically approximately a small inverter with the capacitance-test-subject as it's load capacitance, and a second such inverter laid out according to matched pair analog design rules that could be measured with no load capacitance for reference.
+I think personally I'd want to make that inverter be actually separate push/pull transistors fed from something that cooks up a dead time for the transition such that there's no shoot-through of the "technically a half-bridge" that's wiggling the DUT load capacitance.
+Like, a couple delay buffers delaying the edge and then a NAND between delayed and original clock to the PMOS and a NOR between delayed and original clock to the NMOS.
+
+
+[2026-11-19 6:43 p.m.] namibj
+There's no local mismatch data on metal or vias.
+
+
+[2026-11-19 6:51 p.m.] brookieoz
+Huhhhh, there's no metal fringe caps / finger caps in the pdk
+
+
+[2026-11-19 6:52 p.m.] brookieoz
+That feels like a really basic thing to be lacking data on
+
+
+[2026-11-19 7:41 p.m.] namibj
+I'm saying there's no local mismatch data _on anything regarding metal and via layers._
+
+
+[2026-11-19 7:42 p.m.] brookieoz
+Yes, I understand. I'm just pointing out I didn't see a metal fringe cap device in the pdk
+
+
+[2026-11-19 7:43 p.m.] namibj
+Just draw them yourself 😄
+There's also no SPICE data _AT ALL_ for the thin oxide native-Vt nmos that are explicitly legal by the PDK's DRC explanation (just on the page about native Vt transistors it mentions that being a thing for both thin and thick oxide).
+At least until I complained, magic LVS/PEX didn't even extract a device at all when you did draw a DRC-clean thin oxide nVt-NMOS.
+
+
+[2026-11-19 7:44 p.m.] brookieoz
+....Oh, yeesh
+
+
+[2026-11-19 7:44 p.m.] brookieoz
+I don't think I quite realized how little data we had 😂
+
+
+[2026-11-19 8:03 p.m.] fossify_37988
+Are the LDMOS models unobtanium at this point?
+
+
+[2026-11-19 8:06 p.m.] 246tnt
+isn't that `pfet_10v0_asym` and such ?
+
+
+[2026-11-19 8:07 p.m.] 246tnt
+```
+*      ModelName          Description
+*      ---------          -----------
+*      nfet_10v0_asym     BSIM4 based HV subcircuit model for 10V LDNMOS (*)
+*      pfet_10v0_asym     BSIM4 based HV subcircuit model for 10V LDPMOS (*)
+```
+
+
+[2026-11-19 8:08 p.m.] 246tnt
+I'm not sure if those are available in wafer.space runs at all TBH. ( cc @Leo Moser (mole99)  / @Tim 'mithro' Ansell )
+
+
+[2026-11-19 8:11 p.m.] fossify_37988
+darn
+
+
+[2026-11-19 8:12 p.m.] fossify_37988
+Ok I'll stick to my weird low power experiments for now then, thanks
+
+
+[2026-11-19 8:16 p.m.] 246tnt
+They could be, I just don't know either way 😅
+
+
+[2026-11-19 10:18 p.m.] namibj
+No those are a thing.
+It's _only_ the thin oxide nvt nmos that we have _no_ SPICE for.
+And _I guess_ ESD-behavior-relevant SPICE for ESD implant is also lacking?
+
+
+[2026-11-19 10:22 p.m.] 246tnt
+I'm not sure there is an ESD implant.
+
+
+[2026-11-19 10:23 p.m.] 246tnt
+( Well, it's in the PDK, I'm not sure it's included in wafer.space since it's not used in the IO lib we have ).
+
+
+[2026-11-19 10:28 p.m.] namibj
+On sky130 they don't appear to utilize any manufacturing layers not already known to be included; also I can't find them mentioned in the masks of gf180mcuD.
+<https://skywater-pdk.readthedocs.io/en/main/rules/device-details.html#id26>
+<https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_3.html>
+
+
+[2026-11-19 10:29 p.m.] namibj
+interestingly, `MVNVT` described as `5V or 6V NLDD` _is_ mentioned....
+
+
+[2026-11-19 10:30 p.m.] 246tnt
+
+
+{Attachments}
+2026-11_media/2026-11-19_978x53_scrot-438C6.png
+
+
 ==============================================================
-Exported 13 message(s)
+Exported 35 message(s)
 ==============================================================

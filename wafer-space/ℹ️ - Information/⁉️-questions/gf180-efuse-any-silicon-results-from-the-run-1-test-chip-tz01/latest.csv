@@ -16,3 +16,5 @@ Happy to share whatever we learn on our side. Thanks!","",""
 4. It passes DRC as-is, nothing special is required.","",""
 "262706220073222144","namibj","2026-11-12T16:29:10.0660000+00:00","Note you can ""just"" have a normal level shifter between the efuse section to the rest of the core section.","",""
 "169786952432746498","mithro_","2026-11-19T02:00:18.1000000+00:00","GF's foundry supplied efuse needs and extra mask layer. If I understand correctly wafer.space does not request that mask and @Egor Lukyanchenko 's efuses does not use that.","",""
+"262706220073222144","namibj","2026-11-19T20:09:05.6340000+00:00","Are you sue `EFUSE_MK`/`PLFUSE` generate masks? They are listed as ""Marking"" not as ""Drawn"" in <https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html>.
+The ones that do appear to be masks are the poly fuse window/metal fuse window/MIM-FuseTop; the latter we do have though as it's inherent to defining the top plate of MIM caps which we clearly have.","",""

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T11:36:35.4413731+00:00",
+  "exportedAt": "2026-11-19T20:21:36.7028024+00:00",
   "messages": [
     {
       "id": "1570885229223215147",
@@ -2436,7 +2436,664 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1573050097095151676",
+      "type": "Reply",
+      "timestamp": "2026-11-19T18:59:29.005+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://harvestimaging.com/pubdocs/121_2008_CCD_structures.pdf",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572676013882875915",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573050434690613379",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:00:49.494+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1573050434233569452",
+          "url": "2026-11_media/ccd3-06EE8.png",
+          "fileName": "ccd3.png",
+          "fileSizeBytes": 135238
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573051531907965019",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:05:11.091+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "the CCD operation, you use 3 phases to have an isolating gap between each two charge packets, despite having those charge packets smoothly through overlap of _their_ clocks be electrostatically-shifted-over (between those two that are not isolating while we're looking) in the direction-of-travel.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573051706089152623",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:05:52.619+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://maurycyz.com/misc/bbd/ for BDD, you may have it build more like this:\n> Today, these devices are completely obsolete — but a spin-off, the CCD camera sensor, is still used today. Instead of transistors and capacitors like the TCA350, they directly move charge trapped in inversion \"bubble\" using three sets of MOSFET-style gates.\n> \n> This requires an rather inconvenient overlapping 3-phase clock, but works amazingly well: a good CCD can move charge between a million pixels without loosing a single electron.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1573051705782960269",
+          "url": "2026-11_media/bbd-F1092.png",
+          "fileName": "bbd.png",
+          "fileSizeBytes": 70515
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573051860670095501",
+      "type": "Reply",
+      "timestamp": "2026-11-19T19:06:29.474+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "for this image:\n> When the metal runs over p-type regions, the oxide forms a capacitor.\n> \n> Things get interesting when metal runs over the gap between p-type regions. If the metal is sufficiently negative, it can pull positive carriers into the n-type gap forming a temporary channel between the p-type wells.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1573051706089152623",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573052522095182029",
+      "type": "Reply",
+      "timestamp": "2026-11-19T19:09:07.17+00:00",
+      "timestampEdited": "2026-11-19T19:10:32.535+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "this is basically talking about the parasitic PMOS device that's made from M1 over whatever oxide separates the NMOS devices, right?\n\nnot sure if it's in the PDK or how well it's modeled, but these tend to have pretty huge Vth's",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573051860670095501",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573052761552191529",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:10:04.261+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hence, you can fuse the capacitor-action and the channel-action into a single uniformly doped line of buckets, c.f. Figure 1 of [Rao, et. al. 2008], at the cost of needing no less than 3 clock phases that need to be overlapping between adjacent phases while and despite needing to have a duty cycle of under 50%.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1573052761187164224",
+          "url": "2026-11_media/image-E7866.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 79404
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573053242424954891",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:11:58.91+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So that there's always at least one phase that's off at any given time, and this one is geometrically progressing on the die.\nI.e., while I don't quite know why/what for, 4-phase CCDs do appear to exist.\nI'd suspect if nothing else it's easier to do 4 clock phases of duty cycle _strictly between_ 25% and 50% than 3 _strictly between 34% and 50%._",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573053348167291065",
+      "type": "Reply",
+      "timestamp": "2026-11-19T19:12:24.121+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "No hisotrically they used metal gates it was cheaper in those old days of a TCA350",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573052522095182029",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573053633832947792",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:13:32.229+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Right, back then those processes allowed you to do this. But don't most modern processes pattern with the help of the gate itself for automatic alignment that makes this kind of thing impossible?",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573054066580529314",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:15:15.404+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmmm maybe not, I'm not sure",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573054114454048890",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:15:26.818+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think you just have to be picky with the device you choose",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573054392360509513",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:16:33.076+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah, because the concept still exists with drain extended devices",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573054613660110931",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:17:25.838+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's kinda neat. It'd be cool to try out and see what happens",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573054788797726855",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:18:07.594+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://en.wikipedia.org/wiki/Metal_gate says it was common until the mid-70's to use aluminium as gate, and only late 70's they switched to polysilicon.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "https://en.wikipedia.org/wiki/Metal_gate",
+          "timestamp": null,
+          "description": "",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573055297931710675",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:20:08.981+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "no, no, it's not so much the gate material that's of concern, it's the way some processes do patterning where they use the gate itself to block dopants from the source / drain to automatically align the mosfet terminals that would throw a wrench into making a device with a gate over both N and P",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573055602136055900",
+      "type": "Reply",
+      "timestamp": "2026-11-19T19:21:21.509+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Well, there's nothing about poly gates that is inherently incompatible with this?\nIt seems you _might_ want to use native threshold voltage devices?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573053633832947792",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573055884530294938",
+      "type": "Reply",
+      "timestamp": "2026-11-19T19:22:28.837+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's correct, you can still use poly gates. and i had to correct myself earlier because extended drain devices exist and that's probably the closest structure to the cross section you showed earlier",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573055602136055900",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573055942134861825",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:22:42.571+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Not sure about native Vt devices though",
+      "author": {
+        "id": "155452674286813194",
+        "name": "brookieoz",
+        "discriminator": "0000",
+        "nickname": "brookieoz",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573059936433217548",
+      "type": "Default",
+      "timestamp": "2026-11-19T19:38:34.886+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "<https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_05.html> I'm not _sure_ if it'll let you do the multiple regions/wells you'd effectively form, but this should _I think_ suffice to give you an absence of n+ doping between two adjacent fingers... _I think?_\n\nWhile the process allows you, the DRC don't let you, but _in theory_ gf180mcuD is also capable of forming shottkey structures. It's just _very DRC banned_ to form _anything_ that'd exhibit that behavior. (A <https://en.wikipedia.org/wiki/MESFET>.)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573060261030395905",
+      "type": "Reply",
+      "timestamp": "2026-11-19T19:39:52.276+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You don't need metal gates.\nAnd you probably don't want to form that old 2-phsae BBD structure in the process that gives you poly gates.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "155452674286813194",
+          "name": "brookieoz",
+          "discriminator": "0000",
+          "nickname": "brookieoz",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cacfc3a92c04bdf9f9880d8f678ce147-5E389.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573053633832947792",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 68
+  "messageCount": 89
 }
