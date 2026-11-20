@@ -290,6 +290,27 @@ Ah
 e.g. imagine a low voltage (relative to the input of the left; but full-voltage relative to C2) nmos in parallel to D2 here; if you operate it often enough even if never switched while there's any drain-source voltage across it, it could replace the need for D3 to exist.
 
 
+[2026-11-20 4:28 a.m.] namibj
+Damn can't find anything better than https://ieeexplore.ieee.org/ielx7/63/9714885/09653845.pdf Figure 7. I guess <https://www.semanticscholar.org/paper/A-Novel-Self-Powered-Supply-for-GCT-Gate-Drivers-Hu-Wu/302367fbb7713721537167d22ea8f55357d67c19> might kind-of be it? Oh yeah, it is, very much so.
+Though they are talking about different power levels, storing into a 180V energy storage cap and running a full isolated flyback from it to produce the 20V +-0.5% they want. But that's also e.g. 2.3 kV nominal on the high side, and they're mentioning 400 kVA which should turn out to be like 100A, and they're using ancient-ish GCT's not modern transistors....
+
+
+[2026-11-20 8:44 a.m.] mole99
+Started a thread.
+
+
+[2026-11-20 8:49 a.m.] mole99
+Started a thread.
+
+
+[2026-11-20 10:05 a.m.] 246tnt
+Should diffusion resistors be covered by `RES_MK` ?
+
+
+[2026-11-20 10:18 a.m.] 246tnt
+Started a thread.
+
+
 ==============================================================
-Exported 53 message(s)
+Exported 58 message(s)
 ==============================================================

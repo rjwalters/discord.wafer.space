@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / open-z80
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🕹️-open-z80
 Topic: **FOSSi Z80** by ReJ (Renaldas Zioma): an open-source, pin compatible replacement for the classic Zilog Z80 8-bit CPU, with chips on wafer.space runs.
 
 **Run 1**

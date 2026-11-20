@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / 🏓-racquet
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🎾-racquet
 Topic: **Racquet** by Greg Davill: a multicore RISC-V SoC built from [SERV](https://github.com/olofk/serv) cores, with chips on wafer.space runs.
 
 **Run 1**

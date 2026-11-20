@@ -1,0 +1,72 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1573177492166938654",
+    "type": "GuildTextChat",
+    "categoryId": "1524223345443340439",
+    "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
+    "name": "\uD83D\uDCBC-packaging-at-home",
+    "topic": "**Packaging at home**: bench-top ways to package bare wafer.space GF180MCU die, starting with putting solder balls directly on the aluminium top metal pads.\n\n**Docs**: [Solder balls on wafer.space top metal](https://top-metal-solder-balls.readthedocs.io/en/latest/)\n• [Summary](https://top-metal-solder-balls.readthedocs.io/en/latest/summary.html): ranking of home methods\n• [Home methods](https://top-metal-solder-balls.readthedocs.io/en/latest/methods/index.html): one page per method\n• [Comparison](https://top-metal-solder-balls.readthedocs.io/en/latest/comparison.html) of the methods\n• [Next steps and open questions](https://top-metal-solder-balls.readthedocs.io/en/latest/next-steps.html)\n**Source**\n• [top-metal-solder-balls](https://github.com/mithro/top-metal-solder-balls)\n\nTest die from [Run 2](https://wafer.space/ws-run2) are available for experiments: ask here."
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-20T13:35:42.4591789+00:00",
+  "messages": [
+    {
+      "id": "1573188719366774824",
+      "type": "Default",
+      "timestamp": "2026-11-20T04:10:19.13+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Here is what I said on the SiliconPrawn discord:\n\n> I'm looking for people who are interested in playing with chemicals to help explore \"at home\" a somewhat reliable way of doing \"metal bumping\" of wafer.space individual chips at home (which will also probably involves some pretty typical BGA balling steps after a few chemical ones).\n> \n> I've started to try and understand what might be possible (using AI) in the docs @ https://top-metal-solder-balls.readthedocs.io/en/latest/ and we have a bunch of die from the recently returned [Run #2](https://wafer.space/ws-run2) that can be used for testing. I'm happy to send people some chips (and potentially a small amount of cash to pay for chemical resources).\n> \n> The main \"challenge\" seems to be how to \"cut through\" the oxide layer that forms on the top of the aluminum (Al) pads without also destroying the rest of the fairly think metal contact.\n> \n> If you know anyone who might be interested (or where to find people who might be interested), please do forward them my way (email me@mith.ro / tim@wafer.space) or chat with people on the [wafer.space Discord server](https://wafer.space/discord).",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "wafer.space Run 2 — wafer.space",
+          "url": "https://wafer.space/ws-run2",
+          "timestamp": null,
+          "description": "Designs, density statistics and layout renders from wafer.space GF180MCU Run 2.",
+          "thumbnail": {
+            "url": "2026-11_media/reticle-81EC2.webp",
+            "width": 3000,
+            "height": 2338
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        },
+        {
+          "title": "Join the wafer.space Community Discord Server!",
+          "url": "https://wafer.space/discord",
+          "timestamp": null,
+          "description": "Discord community for the https://wafer.space -- Service providing budget silicon manufacturing. | 647 members",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 1
+}

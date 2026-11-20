@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / tinytapeout
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🧩-tinytapeout
 Topic: **Tiny Tapeout**: a quicker, easier and cheaper way to get your own design made on a real chip. This channel is for Tiny Tapeout on GF180MCU.
 
 **Current shuttle**: Tiny Tapeout GF 0p2

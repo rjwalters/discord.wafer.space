@@ -86,3 +86,13 @@ Are you sure the massive amounts of substrate taps in the rest of the die will b
 Just to have some samples of the issue; there was discussion from @tnt last year in https://discord.com/channels/836175121361666059/1438575045302554833 about getting some failure case sectioned/imaged to try and figure out how it's shorted to ground/how it might be fixed in the future?
 
 A decent microscope image to see where the bond spot hit might already give insight; I'd not be surprised if it's some kind of alignment failure.","",""
+"169786952432746498","mithro_","2026-11-20T04:56:12.9230000+00:00","@namibj - That is a question for #📦-cob and probably @Lauri / @stuart ?
+
+I think with the new bonding provider we are not regularly seeing anything like the GND-short issue we where previously?","",""
+"262706220073222144","namibj","2026-11-20T05:02:06.9070000+00:00","if not a regular event then we could probably ignore that","",""
+"596068704471482370","246tnt","2026-11-20T07:36:39.3250000+00:00","@Tim 'mithro' Ansell I thought so but then in the samples I got, 3 out of 6 had issue. And most notably the gnd shorts were _not_ detected/reported as bad by the COB tester ... Not sure if that was fixed yet.","",""
+"596068704471482370","246tnt","2026-11-20T07:37:23.8780000+00:00","Stuart however made the comment that those stamples were made as a ""rush order, get this done quickly"" so maybe they weren't up to the standard of what they usually do.","",""
+"262706220073222144","namibj","2026-11-20T08:21:56.0930000+00:00","Are you able to microscope see if any ground shorts might be too close to the guard ring?","",""
+"262706220073222144","namibj","2026-11-20T08:22:11.6060000+00:00","(or otherwise not properly centered on the pad)","",""
+"596068704471482370","246tnt","2026-11-20T08:34:07.8970000+00:00","I tried. Don't have a microscope good enough to see anything.","",""
+"596068704471482370","246tnt","2026-11-20T08:34:20.6200000+00:00","(Although through the epoxy is not great)","",""

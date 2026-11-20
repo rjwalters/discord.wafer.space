@@ -1,0 +1,42 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 📐 - Designing / 🕰️-analog / I'm not sure there is an ESD implant.
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-20 8:49 a.m.] mole99
+
+
+
+[2026-11-20 8:49 a.m.] mole99
+Yes, that is an optional layer which we don't have in the wafer.space mask set.
+
+> ESD is optional mask to provide ESD implant for 3.3V or 5V/6V devices.
+
+
+[2026-11-20 8:49 a.m.] mole99
+https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html
+
+
+[2026-11-20 8:52 a.m.] 246tnt
+Interesting that there they say for 3.3V and 5V but on https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_07_12.html they say for 5V only.
+
+
+[2026-11-20 9:07 a.m.] mole99
+Strange indeed. However, I can confirm that we don't have `67` "ESD implant" in our mask set.
+
+I think it's quite confusing since the ESD devices in our I/O cells are made using SAB. So this layer is for even better ESD protection? "performance improvement" sounds like it at least.
+
+
+[2026-11-20 9:32 a.m.] 246tnt
+Yes, I'm not sure "how" and what it changes but 🤷 
+And then of course there is the `ESD_MK` layer which is just a marker for DRC 😅 
+(I actually had to add this marker to some cells I work on now for chipalooza because some devices are required to be marked as such or they don't pass DRC ... )
+
+{Reactions}
+👍
+
+==============================================================
+Exported 6 message(s)
+==============================================================

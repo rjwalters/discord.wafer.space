@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / kevins-club
+Channel: 𐦂𖨆𐀪𖠋 - Friends / ♣️-kevins-club
 Topic: Channel for the discussion around projects connected to Kevin.
 After: 2026-10-31 11:59 p.m.
 Before: 2026-12-01 12:00 a.m.
@@ -495,6 +495,29 @@ That seems very relevant
 It would be interesting to see if we can do some quick testing of those chips to guide the next characterization chips submitted over the next couple weeks
 
 
+[2026-11-20 5:03 a.m.] mithro_
+I'm hoping we can get a bunch of these chips out to multiple groups to see how they compare to the simulations.
+
+
+[2026-11-20 5:04 a.m.] mithro_
+The guy who created the RLCM chip is on this discord somewhere...
+
+
+[2026-11-20 5:04 a.m.] mithro_
+Calling @Ghaith Al Sabagh
+
+
+[2026-11-20 8:30 a.m.] ghaithalsabagh
+Hi @Tim 'mithro' Ansell 
+I am here yes
+
+
+[2026-11-20 8:31 a.m.] ghaithalsabagh
+I would be also interested in characterizing 10V devices with some RF structures.
+
+In simulations we have seen that these LDMOS are way better than 3V3 devices
+
+
 ==============================================================
-Exported 82 message(s)
+Exported 87 message(s)
 ==============================================================

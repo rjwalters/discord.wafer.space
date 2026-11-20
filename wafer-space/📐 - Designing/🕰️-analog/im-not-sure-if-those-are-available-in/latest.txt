@@ -1,0 +1,53 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 📐 - Designing / 🕰️-analog / I'm not sure if those are available in
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-20 8:44 a.m.] mole99
+
+
+
+[2026-11-20 8:44 a.m.] mole99
+As far as I'm aware, these devices are available on gf180mcuD with the mask set used by wafer.space.
+They are just very special-purpose built mosfets (comp does not fully connect D/S).
+
+However, if anyone is planning on using them for Run 3, please make sure to test them sooner rather than later. I might need to fix a few things in the KLayout DRC deck for them to pass precheck. For example, see: https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50
+
+{Embed}
+https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50
+gf180mcuD KLayout DRC: DF.6_MV / PL.4_MV false positives on stock n...
+Note: Attempted to file on google/globalfoundries-pdk-libs-gf180mcu_fd_pr (owns the original KLayout DRC decks) but that repository is archived / read-only. Filing here on the active fossi-foundati...
+
+
+[2026-11-20 8:44 a.m.] mole99
+cc @Christopher
+
+
+[2026-11-20 8:45 a.m.] mole99
+I created those with the KLayout-native PCells. Use with caution.
+
+{Attachments}
+2026-11_media/fet_10v0_asym-FE96E.gds
+
+
+[2026-11-20 8:50 a.m.] mole99
+They do use `MVSD`/`MVPSD`, but from what I can see, those are not physical layers/extra mask layers.
+
+
+[2026-11-20 8:51 a.m.] 246tnt
+I thought this was what `MVNVT` mask was for.
+
+
+[2026-11-20 9:03 a.m.] mole99
+I think you're right! However, looking at my docs, we did have `1L` in the Run1/Run2 mask set, and it's also in Run3. It's part of the "always included masks". It's strange, though, that they did not list `n/pfet_10v0_asym` as a possible device in that configuration.
+
+
+[2026-11-20 9:04 a.m.] mole99
+So, to me, it seems like we should give it a try.
+
+
+==============================================================
+Exported 8 message(s)
+==============================================================

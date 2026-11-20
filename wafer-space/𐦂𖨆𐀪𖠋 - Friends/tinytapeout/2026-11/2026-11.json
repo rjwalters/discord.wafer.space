@@ -9,14 +9,14 @@
     "type": "GuildTextChat",
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
-    "name": "tinytapeout",
+    "name": "\uD83E\uDDE9-tinytapeout",
     "topic": "**Tiny Tapeout**: a quicker, easier and cheaper way to get your own design made on a real chip. This channel is for Tiny Tapeout on GF180MCU.\n\n**Current shuttle**: Tiny Tapeout GF 0p2\n• [Shuttle page](https://app.tinytapeout.com/shuttles/ttgf0p2)\n• [Shuttle channel](https://discord.com/channels/1009193568256135208/1422290927816540402) on the Tiny Tapeout Discord\n**Links**\n• [tinytapeout.com](https://tinytapeout.com/)\n• [Tiny Tapeout Discord](https://discord.gg/qZHPrPsmt6)\n**Templates**\n• [ttgf-verilog-template](https://github.com/TinyTapeout/ttgf-verilog-template)\n• [ttgf-wokwi-template](https://github.com/TinyTapeout/ttgf-wokwi-template)"
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T04:39:59.3446442+00:00",
+  "exportedAt": "2026-11-20T13:38:32.1029272+00:00",
   "messages": [
     {
       "id": "1566399554033680425",

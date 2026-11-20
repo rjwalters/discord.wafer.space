@@ -9,14 +9,14 @@
     "type": "GuildTextChat",
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
-    "name": "kevins-club",
+    "name": "♣️-kevins-club",
     "topic": "Channel for the discussion around projects connected to Kevin."
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T04:37:06.1326916+00:00",
+  "exportedAt": "2026-11-20T13:33:48.9542031+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -3392,7 +3392,170 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573202122164535349",
+      "type": "Reply",
+      "timestamp": "2026-11-20T05:03:34.606+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm hoping we can get a bunch of these chips out to multiple groups to see how they compare to the simulations.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "656862288099409940",
+          "name": "baragonaru",
+          "discriminator": "0000",
+          "nickname": "baragonaru",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573117583765278761",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573202247196737659",
+      "type": "Default",
+      "timestamp": "2026-11-20T05:04:04.416+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The guy who created the RLCM chip is on this discord somewhere...",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573202368856719442",
+      "type": "Default",
+      "timestamp": "2026-11-20T05:04:33.422+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Calling @Ghaith Al Sabagh",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "768095480264917023",
+          "name": "ghaithalsabagh",
+          "discriminator": "0000",
+          "nickname": "Ghaith Al Sabagh",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/5-E9BDB.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573254221447561308",
+      "type": "Default",
+      "timestamp": "2026-11-20T08:30:36.043+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hi @Tim 'mithro' Ansell \nI am here yes",
+      "author": {
+        "id": "768095480264917023",
+        "name": "ghaithalsabagh",
+        "discriminator": "0000",
+        "nickname": "Ghaith Al Sabagh",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573254541686870138",
+      "type": "Default",
+      "timestamp": "2026-11-20T08:31:52.394+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I would be also interested in characterizing 10V devices with some RF structures.\n\nIn simulations we have seen that these LDMOS are way better than 3V3 devices",
+      "author": {
+        "id": "768095480264917023",
+        "name": "ghaithalsabagh",
+        "discriminator": "0000",
+        "nickname": "Ghaith Al Sabagh",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 82
+  "messageCount": 87
 }

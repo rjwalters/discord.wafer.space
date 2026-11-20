@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T04:14:58.7376558+00:00",
+  "exportedAt": "2026-11-20T13:11:49.5461731+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -3194,7 +3194,144 @@
           "imageUrl": "2026-11_media/1f4aa-2FD27.svg"
         }
       ]
+    },
+    {
+      "id": "1573201561029574674",
+      "type": "Reply",
+      "timestamp": "2026-11-20T05:01:20.821+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I believe @Stephan Bökelmann has a decent understanding of the forces involved in the wire bonding process?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        },
+        {
+          "id": "1442743623857995798",
+          "name": "maxclerkwell",
+          "discriminator": "0000",
+          "nickname": "Stephan Bökelmann",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/fc930ff7370fc3891d279ac9b94e6782-A5B96.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573133829521285161",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573201731809054893",
+      "type": "Default",
+      "timestamp": "2026-11-20T05:02:01.538+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I would be very interested in the idea of a \"cheap wire bonding head\" attached to a budget X/Y gantry type thing....",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573201958557196329",
+      "type": "Default",
+      "timestamp": "2026-11-20T05:02:55.599+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I also believe that @digshadow has a bunch of experience in getting decent performance out of X/Y gantries due to his labsmore microscope stuff?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "643551115920670720",
+          "name": "digshadow",
+          "discriminator": "0000",
+          "nickname": "digshadow",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/38ad149bfaf01f9bfd8fd61426532426-34CB5.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573202668497674335",
+      "type": "Default",
+      "timestamp": "2026-11-20T05:05:44.862+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "oh the micromanipulator from DiffractionLimited (`0x23` on GitHub) exceeds the required performance as long as the situation allows optical closed loop tracking",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 76
+  "messageCount": 80
 }

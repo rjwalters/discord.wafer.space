@@ -83,3 +83,9 @@ Yes it'd also need a regulator from this storage capacitor down to 5V. In theory
 "1170784850874220707","fossify_37988","2026-11-20T02:51:36.0830000+00:00","Ah","",""
 "262706220073222144","namibj","2026-11-20T02:52:52.6500000+00:00","`smbb000149` not `sm141064`","",""
 "262706220073222144","namibj","2026-11-20T02:58:17.8260000+00:00","e.g. imagine a low voltage (relative to the input of the left; but full-voltage relative to C2) nmos in parallel to D2 here; if you operate it often enough even if never switched while there's any drain-source voltage across it, it could replace the need for D3 to exist.","",""
+"262706220073222144","namibj","2026-11-20T04:28:47.4390000+00:00","Damn can't find anything better than https://ieeexplore.ieee.org/ielx7/63/9714885/09653845.pdf Figure 7. I guess <https://www.semanticscholar.org/paper/A-Novel-Self-Powered-Supply-for-GCT-Gate-Drivers-Hu-Wu/302367fbb7713721537167d22ea8f55357d67c19> might kind-of be it? Oh yeah, it is, very much so.
+Though they are talking about different power levels, storing into a 180V energy storage cap and running a full isolated flyback from it to produce the 20V +-0.5% they want. But that's also e.g. 2.3 kV nominal on the high side, and they're mentioning 400 kVA which should turn out to be like 100A, and they're using ancient-ish GCT's not modern transistors....","",""
+"323371864074485771","mole99","2026-11-20T08:44:24.1530000+00:00","Started a thread.","",""
+"323371864074485771","mole99","2026-11-20T08:49:14.2340000+00:00","Started a thread.","",""
+"596068704471482370","246tnt","2026-11-20T10:05:26.5870000+00:00","Should diffusion resistors be covered by `RES_MK` ?","",""
+"596068704471482370","246tnt","2026-11-20T10:18:42.1380000+00:00","Started a thread.","",""

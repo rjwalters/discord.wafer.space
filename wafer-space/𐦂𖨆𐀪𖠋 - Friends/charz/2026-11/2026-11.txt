@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / charz
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🔬-charz
 Topic: **Charz**: better characterization of open source process technologies such as GF180MCU.
 
 **Covers**
@@ -71,6 +71,87 @@ However, we have just gotten the actual physical masks from Run #1. I'm hoping t
 {Reactions}
 ferrisCat
 
+[2026-11-20 4:50 a.m.] mithro_
+BTW - I've been trying to figure out how to get open source tooling to simulate GF180MCU parts enough that we can match it against the GF180MCU spice models.
+
+The work I have gotten an AI to do so far is at https://gf180-tcad.readthedocs.io/en/latest/ -- I'm not happy about the level of explaination and reproducibility yet.
+
+
+[2026-11-20 5:03 a.m.] namibj
+Regarding the masks, I'm particularly curious about the e-test zone the foundry apparently ships us e-test measurments for each wafer of?
+
+
+[2026-11-20 5:06 a.m.] mithro_
+BTW If anyone is in the Chicago or Adelaide area and wants to help figure out how we can set up automated microscope based capture of SKY130 and GF180MCU masks (probably using @digshadow's Labsmore scopes and pyuscope), that would be awesome.
+
+
+[2026-11-20 5:06 a.m.] mithro_
+@namibj - @Andrew Wingate can probably also send you a package of the etest structures that get left on the wafer carcus after everything else is picked from it.
+
+
+[2026-11-20 5:07 a.m.] anfroholic
+@namibj are you in the US?
+
+
+[2026-11-20 5:08 a.m.] namibj
+I don't have the probing gear or a setup for looking down into the hidden layers of the die.
+
+
+[2026-11-20 5:08 a.m.] namibj
+Germany.
+I'll be at 40C3 in a couple weeks tho.
+
+
+[2026-11-20 5:09 a.m.] anfroholic
+I will not be there. 
+Also @Tim 'mithro' Ansell, @geonzee has a bunch that we left, it may be easier to have them send you some.
+
+
+[2026-11-20 5:10 a.m.] namibj
+It's not very practical to try and plan what to measure with those structures if we don't know what kind of device is pinned out to the e-test pads.
+
+
+[2026-11-20 5:10 a.m.] mithro_
+@namibj - We have many, so you could just start delaying them or something.
+
+
+[2026-11-20 5:10 a.m.] mithro_
+@namibj - Actually, I've been meaning to follow up with @InfoSecDJ about if they could potentially do delayer capture type thing of them.
+
+
+[2026-11-20 5:11 a.m.] namibj
+As mentioned, I do not have the lab/gear/equipment to delaminate the "dies".
+_He_ does, however :D.
+
+
+[2026-11-20 5:11 a.m.] mithro_
+@namibj - If someone was bugging me about doing that, it is more likely to happen 🙂
+
+
+[2026-11-20 5:12 a.m.] namibj
+@azonenberg seemed to maybe also?
+
+
+[2026-11-20 5:12 a.m.] mithro_
+@tnt - I (finally) requested the etest data for the 6 engineering wafers we have received.
+
+{Reactions}
+🎉
+
+[2026-11-20 5:14 a.m.] namibj
+Did you ask in the siliconprawn server about tips/guidance on the subject of "re-digitalize physical mask"?
+
+
+[2026-11-20 5:21 a.m.] mithro_
+No, but I probably should
+
+{Reactions}
+ferristhumbsup
+
+[2026-11-20 5:22 a.m.] namibj
+Can you throw your device statistics script against Run1 OASIS?
+
+
 ==============================================================
-Exported 10 message(s)
+Exported 28 message(s)
 ==============================================================

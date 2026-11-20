@@ -206,3 +206,7 @@ This <https://www.engineering.upenn.edu/~nanosop/Wire_Bonder_SOP.htm> looks hope
 Might add a real rotation axis instead though to handle full 360 degree spinning without hurting the remaining range of motion too much 😄","","👀 (1)"
 "262706220073222144","namibj","2026-11-20T00:32:12.3710000+00:00","nah just looked for info on the forces involved to check against the understanding I have about the strengths of the micro manipulator","","👍 (1)"
 "509798510170865675","essen__","2026-11-20T00:34:04.5610000+00:00","Fair 💪","",""
+"169786952432746498","mithro_","2026-11-20T05:01:20.8210000+00:00","I believe @Stephan Bökelmann has a decent understanding of the forces involved in the wire bonding process?","",""
+"169786952432746498","mithro_","2026-11-20T05:02:01.5380000+00:00","I would be very interested in the idea of a ""cheap wire bonding head"" attached to a budget X/Y gantry type thing....","",""
+"169786952432746498","mithro_","2026-11-20T05:02:55.5990000+00:00","I also believe that @digshadow has a bunch of experience in getting decent performance out of X/Y gantries due to his labsmore microscope stuff?","",""
+"262706220073222144","namibj","2026-11-20T05:05:44.8620000+00:00","oh the micromanipulator from DiffractionLimited (`0x23` on GitHub) exceeds the required performance as long as the situation allows optical closed loop tracking","",""

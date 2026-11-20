@@ -1,0 +1,10 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"169786952432746498","mithro_","2026-11-20T04:10:19.1300000+00:00","Here is what I said on the SiliconPrawn discord:
+
+> I'm looking for people who are interested in playing with chemicals to help explore ""at home"" a somewhat reliable way of doing ""metal bumping"" of wafer.space individual chips at home (which will also probably involves some pretty typical BGA balling steps after a few chemical ones).
+> 
+> I've started to try and understand what might be possible (using AI) in the docs @ https://top-metal-solder-balls.readthedocs.io/en/latest/ and we have a bunch of die from the recently returned [Run #2](https://wafer.space/ws-run2) that can be used for testing. I'm happy to send people some chips (and potentially a small amount of cash to pay for chemical resources).
+> 
+> The main ""challenge"" seems to be how to ""cut through"" the oxide layer that forms on the top of the aluminum (Al) pads without also destroying the rest of the fairly think metal contact.
+> 
+> If you know anyone who might be interested (or where to find people who might be interested), please do forward them my way (email me@mith.ro / tim@wafer.space) or chat with people on the [wafer.space Discord server](https://wafer.space/discord).","",""

@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / fomu
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🔌-fomu
 Topic: **Fomu** (FPGA Tomu): an open source Lattice iCE40UP5K FPGA board that fits inside a USB port, with enough logic for a RISC-V CPU and a USB softcore.
 
 **Docs**

@@ -1,0 +1,44 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 💼-packaging-at-home
+Topic: **Packaging at home**: bench-top ways to package bare wafer.space GF180MCU die, starting with putting solder balls directly on the aluminium top metal pads.
+
+**Docs**: [Solder balls on wafer.space top metal](https://top-metal-solder-balls.readthedocs.io/en/latest/)
+• [Summary](https://top-metal-solder-balls.readthedocs.io/en/latest/summary.html): ranking of home methods
+• [Home methods](https://top-metal-solder-balls.readthedocs.io/en/latest/methods/index.html): one page per method
+• [Comparison](https://top-metal-solder-balls.readthedocs.io/en/latest/comparison.html) of the methods
+• [Next steps and open questions](https://top-metal-solder-balls.readthedocs.io/en/latest/next-steps.html)
+**Source**
+• [top-metal-solder-balls](https://github.com/mithro/top-metal-solder-balls)
+
+Test die from [Run 2](https://wafer.space/ws-run2) are available for experiments: ask here.
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-20 4:10 a.m.] mithro_
+Here is what I said on the SiliconPrawn discord:
+
+> I'm looking for people who are interested in playing with chemicals to help explore "at home" a somewhat reliable way of doing "metal bumping" of wafer.space individual chips at home (which will also probably involves some pretty typical BGA balling steps after a few chemical ones).
+> 
+> I've started to try and understand what might be possible (using AI) in the docs @ https://top-metal-solder-balls.readthedocs.io/en/latest/ and we have a bunch of die from the recently returned [Run #2](https://wafer.space/ws-run2) that can be used for testing. I'm happy to send people some chips (and potentially a small amount of cash to pay for chemical resources).
+> 
+> The main "challenge" seems to be how to "cut through" the oxide layer that forms on the top of the aluminum (Al) pads without also destroying the rest of the fairly think metal contact.
+> 
+> If you know anyone who might be interested (or where to find people who might be interested), please do forward them my way (email me@mith.ro / tim@wafer.space) or chat with people on the [wafer.space Discord server](https://wafer.space/discord).
+
+{Embed}
+https://wafer.space/ws-run2
+wafer.space Run 2 — wafer.space
+Designs, density statistics and layout renders from wafer.space GF180MCU Run 2.
+2026-11_media/reticle-81EC2.webp
+
+{Embed}
+https://wafer.space/discord
+Join the wafer.space Community Discord Server!
+Discord community for the https://wafer.space -- Service providing budget silicon manufacturing. | 647 members
+
+
+==============================================================
+Exported 1 message(s)
+==============================================================

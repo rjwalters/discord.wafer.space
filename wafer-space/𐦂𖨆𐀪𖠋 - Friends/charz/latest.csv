@@ -20,3 +20,26 @@ That die has no analog pins for us, but might have 1~2 mm^2 of SCL area and a sp
 I do not believe we are allowed to share much about that. We don't even get access to the ""mask GDS"" except by login to some type of 90's era vnc set up and loading the items into some bespoke viewer thingy.
 
 However, we have just gotten the actual physical masks from Run #1. I'm hoping to image those masks and upload the images somewhere. Thinking about doing that is what lead to trying to set up something similar for the sky130 masks I have @ https://data.wafer.space/big-storage/sky130-masks/masks.html (wanted something to understand what we where looking at).","","ferrisCat (1)"
+"169786952432746498","mithro_","2026-11-20T04:50:01.3040000+00:00","BTW - I've been trying to figure out how to get open source tooling to simulate GF180MCU parts enough that we can match it against the GF180MCU spice models.
+
+The work I have gotten an AI to do so far is at https://gf180-tcad.readthedocs.io/en/latest/ -- I'm not happy about the level of explaination and reproducibility yet.","",""
+"262706220073222144","namibj","2026-11-20T05:03:46.9850000+00:00","Regarding the masks, I'm particularly curious about the e-test zone the foundry apparently ships us e-test measurments for each wafer of?","",""
+"169786952432746498","mithro_","2026-11-20T05:06:08.0220000+00:00","BTW If anyone is in the Chicago or Adelaide area and wants to help figure out how we can set up automated microscope based capture of SKY130 and GF180MCU masks (probably using @digshadow's Labsmore scopes and pyuscope), that would be awesome.","",""
+"169786952432746498","mithro_","2026-11-20T05:06:56.6930000+00:00","@namibj - @Andrew Wingate can probably also send you a package of the etest structures that get left on the wafer carcus after everything else is picked from it.","",""
+"756011607603019777","anfroholic","2026-11-20T05:07:31.0980000+00:00","@namibj are you in the US?","",""
+"262706220073222144","namibj","2026-11-20T05:08:00.3070000+00:00","I don't have the probing gear or a setup for looking down into the hidden layers of the die.","",""
+"262706220073222144","namibj","2026-11-20T05:08:31.8220000+00:00","Germany.
+I'll be at 40C3 in a couple weeks tho.","",""
+"756011607603019777","anfroholic","2026-11-20T05:09:44.4460000+00:00","I will not be there. 
+Also @Tim 'mithro' Ansell, @geonzee has a bunch that we left, it may be easier to have them send you some.","",""
+"262706220073222144","namibj","2026-11-20T05:10:03.4560000+00:00","It's not very practical to try and plan what to measure with those structures if we don't know what kind of device is pinned out to the e-test pads.","",""
+"169786952432746498","mithro_","2026-11-20T05:10:29.5740000+00:00","@namibj - We have many, so you could just start delaying them or something.","",""
+"169786952432746498","mithro_","2026-11-20T05:10:57.0090000+00:00","@namibj - Actually, I've been meaning to follow up with @InfoSecDJ about if they could potentially do delayer capture type thing of them.","",""
+"262706220073222144","namibj","2026-11-20T05:11:28.0000000+00:00","As mentioned, I do not have the lab/gear/equipment to delaminate the ""dies"".
+_He_ does, however :D.","",""
+"169786952432746498","mithro_","2026-11-20T05:11:52.6420000+00:00","@namibj - If someone was bugging me about doing that, it is more likely to happen 🙂","",""
+"262706220073222144","namibj","2026-11-20T05:12:07.5510000+00:00","@azonenberg seemed to maybe also?","",""
+"169786952432746498","mithro_","2026-11-20T05:12:32.4690000+00:00","@tnt - I (finally) requested the etest data for the 6 engineering wafers we have received.","","🎉 (1)"
+"262706220073222144","namibj","2026-11-20T05:14:22.4660000+00:00","Did you ask in the siliconprawn server about tips/guidance on the subject of ""re-digitalize physical mask""?","",""
+"169786952432746498","mithro_","2026-11-20T05:21:19.8340000+00:00","No, but I probably should","","ferristhumbsup (1)"
+"262706220073222144","namibj","2026-11-20T05:22:21.7900000+00:00","Can you throw your device statistics script against Run1 OASIS?","",""

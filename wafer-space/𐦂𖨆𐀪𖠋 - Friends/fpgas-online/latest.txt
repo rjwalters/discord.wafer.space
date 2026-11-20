@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / fpgas-online
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 📡-fpgas-online
 Topic: **fpgas.online**: free remote access to real FPGA boards from your browser. Build a bitstream with open source toolchains, upload it, and watch the board on a live camera feed. This channel is for its continued development.
 
 **Sites**

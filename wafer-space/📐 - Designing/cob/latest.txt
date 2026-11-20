@@ -524,6 +524,22 @@ nah just looked for info on the forces involved to check against the understandi
 Fair 💪
 
 
+[2026-11-20 5:01 a.m.] mithro_
+I believe @Stephan Bökelmann has a decent understanding of the forces involved in the wire bonding process?
+
+
+[2026-11-20 5:02 a.m.] mithro_
+I would be very interested in the idea of a "cheap wire bonding head" attached to a budget X/Y gantry type thing....
+
+
+[2026-11-20 5:02 a.m.] mithro_
+I also believe that @digshadow has a bunch of experience in getting decent performance out of X/Y gantries due to his labsmore microscope stuff?
+
+
+[2026-11-20 5:05 a.m.] namibj
+oh the micromanipulator from DiffractionLimited (`0x23` on GitHub) exceeds the required performance as long as the situation allows optical closed loop tracking
+
+
 ==============================================================
-Exported 76 message(s)
+Exported 80 message(s)
 ==============================================================

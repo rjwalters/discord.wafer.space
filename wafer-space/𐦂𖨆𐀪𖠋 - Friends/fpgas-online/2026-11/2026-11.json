@@ -9,14 +9,14 @@
     "type": "GuildTextChat",
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
-    "name": "fpgas-online",
+    "name": "\uD83D\uDCE1-fpgas-online",
     "topic": "**fpgas.online**: free remote access to real FPGA boards from your browser. Build a bitstream with open source toolchains, upload it, and watch the board on a live camera feed. This channel is for its continued development.\n\n**Sites**\n• [ps1.fpgas.online](https://ps1.fpgas.online/): Pumping Station: One hackerspace, Chicago, USA\n• [welland.fpgas.online](https://welland.fpgas.online/): Welland, near Adelaide, Australia\n• [tinytapeout.fpgas.online](https://tinytapeout.fpgas.online/): Tiny Tapeout demo boards\n**Docs**\n• [fpgas.online](https://fpgas.online/): start here\n• [docs.fpgas.online](https://docs.fpgas.online/): full reference\n• [Getting Started](https://github.com/CarlFK/pici/wiki/Getting-Started)\n**Source**\n• [fpgas-online](https://github.com/fpgas-online) organisation\n• [pici](https://github.com/CarlFK/pici)"
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T04:36:41.0574935+00:00",
+  "exportedAt": "2026-11-20T13:35:52.1125935+00:00",
   "messages": [
     {
       "id": "1570847998068400148",

@@ -1,0 +1,13 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"323371864074485771","mole99","2026-11-20T08:49:14.0810000+00:00","","",""
+"323371864074485771","mole99","2026-11-20T08:49:15.2090000+00:00","Yes, that is an optional layer which we don't have in the wafer.space mask set.
+
+> ESD is optional mask to provide ESD implant for 3.3V or 5V/6V devices.","",""
+"323371864074485771","mole99","2026-11-20T08:49:23.0530000+00:00","https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html","",""
+"596068704471482370","246tnt","2026-11-20T08:52:30.9230000+00:00","Interesting that there they say for 3.3V and 5V but on https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_07_12.html they say for 5V only.","",""
+"323371864074485771","mole99","2026-11-20T09:07:10.2880000+00:00","Strange indeed. However, I can confirm that we don't have `67` ""ESD implant"" in our mask set.
+
+I think it's quite confusing since the ESD devices in our I/O cells are made using SAB. So this layer is for even better ESD protection? ""performance improvement"" sounds like it at least.","",""
+"596068704471482370","246tnt","2026-11-20T09:32:40.0380000+00:00","Yes, I'm not sure ""how"" and what it changes but 🤷 
+And then of course there is the `ESD_MK` layer which is just a marker for DRC 😅 
+(I actually had to add this marker to some cells I work on now for chipalooza because some devices are required to be marked as such or they don't pass DRC ... )","","👍 (1)"

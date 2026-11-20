@@ -1,0 +1,11 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"596068704471482370","246tnt","2026-11-20T10:18:41.9690000+00:00","","",""
+"596068704471482370","246tnt","2026-11-20T10:18:43.0980000+00:00","If I look at https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_4.html   it seems that we ... don't ?
+
+Searching for `RES_MK` in the pdk, I also only find reference for poly resistors and for `lvpwell` and `nwell` resistor, but nothing about diffusion resistors.","",""
+"323371864074485771","mole99","2026-11-20T10:20:13.2800000+00:00","Strange. How else would one extract it?
+
+The KLayout LVS deck currently uses `RES_MK` for extraction: https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pv/blob/0df548b2ba5a255b6a914b107d89bd7ed1063a39/klayout/lvs/rule_decks/res_derivations.lvs#L48","",""
+"596068704471482370","246tnt","2026-11-20T10:27:23.0290000+00:00","Not sure... although here I was specifically thinking of the unsalicided ones, so you can use `SAB`","",""
+"596068704471482370","246tnt","2026-11-20T10:28:06.4050000+00:00","But the LVS deck from klayout also seem to rely on `RES_MK` in that case.","",""
+"596068704471482370","246tnt","2026-11-20T10:37:40.7660000+00:00","The klayout pcell does generate `RES_MK` ... so I'll make magic do the same then.","","👌 (1)"

@@ -9,14 +9,14 @@
     "type": "GuildTextChat",
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
-    "name": "tinyqv",
+    "name": "\uD83D\uDC2D-tinyqv",
     "topic": "**TinyQV** by Mike Bell: a small RISC-V (RV32EC) SoC with peripherals from the Tiny Tapeout RISC-V competition, with chips on wafer.space runs.\n\n**Run 1**\n• [TQVA](https://wafer.space/ws-run1/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVB](https://wafer.space/ws-run1/projects/TQVB.html) (0.5x1 slot)\n• [TQVC](https://wafer.space/ws-run1/projects/TQVC.html) (1x0.5 slot)\n**Run 2**\n• [TQVA](https://wafer.space/ws-run2/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVC](https://wafer.space/ws-run2/projects/TQVC.html) (1x0.5 slot)\n• [TQVD](https://wafer.space/ws-run2/projects/TQVD.html) (HDMI output)\n• [TQVE](https://wafer.space/ws-run2/projects/TQVE.html) (experimental pad setup)\n**Source**\n• [tinyQV](https://github.com/MichaelBell/tinyQV)\n• [ws01-tinyQV](https://github.com/MichaelBell/ws01-tinyQV) (Run 1)\n• [ws02-tinyQV](https://github.com/MichaelBell/ws02-tinyQV) (Run 2)"
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T04:39:03.1795929+00:00",
+  "exportedAt": "2026-11-20T13:34:59.2577343+00:00",
   "messages": [
     {
       "id": "1572529340833603674",

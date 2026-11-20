@@ -249,6 +249,40 @@ Just to have some samples of the issue; there was discussion from @tnt last year
 A decent microscope image to see where the bond spot hit might already give insight; I'd not be surprised if it's some kind of alignment failure.
 
 
+[2026-11-20 4:56 a.m.] mithro_
+@namibj - That is a question for #📦-cob and probably @Lauri / @stuart ?
+
+I think with the new bonding provider we are not regularly seeing anything like the GND-short issue we where previously?
+
+
+[2026-11-20 5:02 a.m.] namibj
+if not a regular event then we could probably ignore that
+
+
+[2026-11-20 7:36 a.m.] 246tnt
+@Tim 'mithro' Ansell I thought so but then in the samples I got, 3 out of 6 had issue. And most notably the gnd shorts were _not_ detected/reported as bad by the COB tester ... Not sure if that was fixed yet.
+
+
+[2026-11-20 7:37 a.m.] 246tnt
+Stuart however made the comment that those stamples were made as a "rush order, get this done quickly" so maybe they weren't up to the standard of what they usually do.
+
+
+[2026-11-20 8:21 a.m.] namibj
+Are you able to microscope see if any ground shorts might be too close to the guard ring?
+
+
+[2026-11-20 8:22 a.m.] namibj
+(or otherwise not properly centered on the pad)
+
+
+[2026-11-20 8:34 a.m.] 246tnt
+I tried. Don't have a microscope good enough to see anything.
+
+
+[2026-11-20 8:34 a.m.] 246tnt
+(Although through the epoxy is not great)
+
+
 ==============================================================
-Exported 45 message(s)
+Exported 53 message(s)
 ==============================================================

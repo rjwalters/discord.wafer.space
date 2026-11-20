@@ -9,14 +9,14 @@
     "type": "GuildTextChat",
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
-    "name": "fomu",
+    "name": "\uD83D\uDD0C-fomu",
     "topic": "**Fomu** (FPGA Tomu): an open source Lattice iCE40UP5K FPGA board that fits inside a USB port, with enough logic for a RISC-V CPU and a USB softcore.\n\n**Docs**\n• [Fomu home page](https://tomu.im/fomu.html)\n• [Fomu workshop](https://workshop.fomu.im/): from loading software to writing your own hardware\n**Source**\n• [fomu-hardware](https://github.com/im-tomu/fomu-hardware)\n• [fomu-workshop](https://github.com/im-tomu/fomu-workshop)\n• [fomu-toolchain](https://github.com/im-tomu/fomu-toolchain)\n• [foboot](https://github.com/im-tomu/foboot): the bootloader\n**Buy**\n• [Crowd Supply](https://www.crowdsupply.com/sutajio-kosagi/fomu)"
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T04:35:56.3102787+00:00",
+  "exportedAt": "2026-11-20T13:36:40.7665644+00:00",
   "messages": [],
   "messageCount": 0
 }

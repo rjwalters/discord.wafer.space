@@ -1,6 +1,6 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / tinyqv
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🐭-tinyqv
 Topic: **TinyQV** by Mike Bell: a small RISC-V (RV32EC) SoC with peripherals from the Tiny Tapeout RISC-V competition, with chips on wafer.space runs.
 
 **Run 1**

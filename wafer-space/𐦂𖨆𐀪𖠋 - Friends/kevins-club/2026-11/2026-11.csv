@@ -137,3 +137,11 @@ https://github.com/google/skywater-pdk-sky130-raw-data","2026-11_media/image-7D5
 "656862288099409940","baragonaru","2026-11-19T23:27:39.0810000+00:00","That seems very relevant
 
 It would be interesting to see if we can do some quick testing of those chips to guide the next characterization chips submitted over the next couple weeks","",""
+"169786952432746498","mithro_","2026-11-20T05:03:34.6060000+00:00","I'm hoping we can get a bunch of these chips out to multiple groups to see how they compare to the simulations.","",""
+"169786952432746498","mithro_","2026-11-20T05:04:04.4160000+00:00","The guy who created the RLCM chip is on this discord somewhere...","",""
+"169786952432746498","mithro_","2026-11-20T05:04:33.4220000+00:00","Calling @Ghaith Al Sabagh","",""
+"768095480264917023","ghaithalsabagh","2026-11-20T08:30:36.0430000+00:00","Hi @Tim 'mithro' Ansell 
+I am here yes","",""
+"768095480264917023","ghaithalsabagh","2026-11-20T08:31:52.3940000+00:00","I would be also interested in characterizing 10V devices with some RF structures.
+
+In simulations we have seen that these LDMOS are way better than 3V3 devices","",""

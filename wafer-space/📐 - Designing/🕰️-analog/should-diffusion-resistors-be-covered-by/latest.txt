@@ -1,0 +1,46 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 📐 - Designing / 🕰️-analog / Should diffusion resistors be covered by
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-20 10:18 a.m.] 246tnt
+
+
+
+[2026-11-20 10:18 a.m.] 246tnt
+If I look at https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_4.html   it seems that we ... don't ?
+
+Searching for `RES_MK` in the pdk, I also only find reference for poly resistors and for `lvpwell` and `nwell` resistor, but nothing about diffusion resistors.
+
+
+[2026-11-20 10:20 a.m.] mole99
+Strange. How else would one extract it?
+
+The KLayout LVS deck currently uses `RES_MK` for extraction: https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pv/blob/0df548b2ba5a255b6a914b107d89bd7ed1063a39/klayout/lvs/rule_decks/res_derivations.lvs#L48
+
+{Embed}
+https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pv/blob/0df548b2ba5a255b6a914b107d89bd7ed1063a39/klayout/lvs/rule_decks/res_derivations.lvs
+globalfoundries-pdk-libs-gf180mcu_fd_pv/klayout/lvs/rule_decks/res_...
+Contribute to fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pv development by creating an account on GitHub.
+2026-11_media/globalfoundries-pdk-libs-gf180mcu_fd_pv-3EDDB
+
+
+[2026-11-20 10:27 a.m.] 246tnt
+Not sure... although here I was specifically thinking of the unsalicided ones, so you can use `SAB`
+
+
+[2026-11-20 10:28 a.m.] 246tnt
+But the LVS deck from klayout also seem to rely on `RES_MK` in that case.
+
+
+[2026-11-20 10:37 a.m.] 246tnt
+The klayout pcell does generate `RES_MK` ... so I'll make magic do the same then.
+
+{Reactions}
+👌
+
+==============================================================
+Exported 6 message(s)
+==============================================================
