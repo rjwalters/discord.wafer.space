@@ -977,6 +977,68 @@ TinyQV host board now with flash, PSRAM, clock, reset and audio out (this is for
 Sorry I’m out of the loop fill me in 😉
 
 
+[2026-11-19 9:30 p.m.] namibj
+You can use Xyce with PEX to simulate transitions, if you use "suitable" solver options; we don't currently have the software to help it initialize the stateful gates for reset purposes though, especially if you want to start simulation from a non-reset state because Xyce time steps are _expensive._
+
+
+[2026-11-19 9:33 p.m.] carlfk
+I want to verify the simulation.  See how close it is to reality.  so I need reality to be something I can simulate.  I don't really care what reality is, as long as it serves the purpose of verifying the simulation
+
+
+[2026-11-19 9:51 p.m.] namibj
+Ahhh I see.
+Well, we need a way to calibrate PEX tolerances that I'd assume are _at least_ global process variations per-layer in the thickness and the etch/sidewall direction.
+
+
+[2026-11-19 9:54 p.m.] namibj
+The engineering effort of letting Xyce run in a way that lets us solve for those process variation encoding variables with real silicon waveform data on hand is yet to come though, it's not gonna be trivial but I am pretty sure Xyce is in part made to handle such tasks as they're required for verifying simulation/reality matching and Xyce is made to simulate _entire_ ASICs.
+
+
+[2026-11-19 10:35 p.m.] carlfk
+if the entire asic is just 1 in and out out with 1000 not gates in a row, what does it take to measure the latency?
+
+
+[2026-11-19 10:42 p.m.] namibj
+Wdym, "measure"?
+I assume you want to check it against expectations somehow and be able to make _some_ statistical model supported confidence claim about it matching/not-matching expectations?
+
+
+[2026-11-19 10:43 p.m.] namibj
+There are lower and upper bounds specified for the interconnect PEX as distortion effects from as-drawn that the extraction can and afaik is set up to use when asked to generate either minimum, nominal, or maximal PEX delays.
+
+
+[2026-11-19 10:45 p.m.] namibj
+OHHHH; I would suggest you employ a ring oscillator structure to excise timing behavior of gates without having to involve a lot of other machinery/parts of the chip just to see matching-up between simulation and what you can measure with an oscilloscope and a couple channels of lab bench power supply.
+
+
+[2026-11-20 12:32 a.m.] carlfk
+I know how to measure the physical chip.  I don't know how to get measurements out of simulation
+
+
+[2026-11-20 12:34 a.m.] carlfk
+like how would I simulate https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements#result
+
+{Embed}
+https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements
+GitHub - mattvenn/ttgf0p2-vgaringosc-measurements: Silicon measurem...
+Silicon measurements of tt_um_algofoogle_vgaringosc (Ring osc on VGA) on Tiny Tapeout ttgf0p2 - mattvenn/ttgf0p2-vgaringosc-measurements
+2026-11_media/ttgf0p2-vgaringosc-measurements-AA3C5
+
+
+[2026-11-20 12:34 a.m.] namibj
+ahhh. Well, process variation matters, a lot. I have no idea about your plans of figuring that aspect out.
+
+
+[2026-11-20 12:35 a.m.] namibj
+I can look later this weekend at it, I think; remind me in like 30 hours perhaps.
+
+{Reactions}
+👍
+
+[2026-11-20 1:05 a.m.] .dmv
+Hey all. After six months effort, I have a great deal of faith that my full-slot chip is actually and finally done. It's really cool, and was an incredible learning opportunity. Especially in having to redo it a couple times. Unfortunately, the six months started in May, with a lot of optimism that I'd get it done for July. Which meant I bought and missed my Run 2 slot. That burn removed my confidence to reserve a Run 3 slot until I had clarity that I really could get it finished. If you are like me (buying before completion) with Run 3: ***I'd like to buy your slot from you***. I'll pay a premium. Just putting this out there. As we get closer to the deadline... let me know. My design should be ready to go, so I don't need much advance notice.
+
+
 ==============================================================
-Exported 190 message(s)
+Exported 203 message(s)
 ==============================================================

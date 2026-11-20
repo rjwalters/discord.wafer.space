@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T21:15:17.096154+00:00",
+  "exportedAt": "2026-11-20T03:07:33.7399079+00:00",
   "messages": [
     {
       "id": "1566249659117211830",
@@ -6824,7 +6824,506 @@
           "imageUrl": "2026-11_media/1f609-9EC67.svg"
         }
       ]
+    },
+    {
+      "id": "1573088143647965226",
+      "type": "Reply",
+      "timestamp": "2026-11-19T21:30:40.01+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You can use Xyce with PEX to simulate transitions, if you use \"suitable\" solver options; we don't currently have the software to help it initialize the stateful gates for reset purposes though, especially if you want to start simulation from a non-reset state because Xyce time steps are _expensive._",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1572140509177192510",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573088789436440757",
+      "type": "Reply",
+      "timestamp": "2026-11-19T21:33:13.978+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I want to verify the simulation.  See how close it is to reality.  so I need reality to be something I can simulate.  I don't really care what reality is, as long as it serves the purpose of verifying the simulation",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573088143647965226",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573093439506227335",
+      "type": "Reply",
+      "timestamp": "2026-11-19T21:51:42.641+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ahhh I see.\nWell, we need a way to calibrate PEX tolerances that I'd assume are _at least_ global process variations per-layer in the thickness and the etch/sidewall direction.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573088789436440757",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573094067099930705",
+      "type": "Default",
+      "timestamp": "2026-11-19T21:54:12.271+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The engineering effort of letting Xyce run in a way that lets us solve for those process variation encoding variables with real silicon waveform data on hand is yet to come though, it's not gonna be trivial but I am pretty sure Xyce is in part made to handle such tasks as they're required for verifying simulation/reality matching and Xyce is made to simulate _entire_ ASICs.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573104444479111269",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:35:26.431+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "if the entire asic is just 1 in and out out with 1000 not gates in a row, what does it take to measure the latency?",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573106150327586888",
+      "type": "Reply",
+      "timestamp": "2026-11-19T22:42:13.137+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Wdym, \"measure\"?\nI assume you want to check it against expectations somehow and be able to make _some_ statistical model supported confidence claim about it matching/not-matching expectations?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573104444479111269",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573106482348560566",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:43:32.297+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "There are lower and upper bounds specified for the interconnect PEX as distortion effects from as-drawn that the extraction can and afaik is set up to use when asked to generate either minimum, nominal, or maximal PEX delays.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573107047384350831",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:45:47.012+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "OHHHH; I would suggest you employ a ring oscillator structure to excise timing behavior of gates without having to involve a lot of other machinery/parts of the chip just to see matching-up between simulation and what you can measure with an oscilloscope and a couple channels of lab bench power supply.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573133858642075679",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:32:19.314+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I know how to measure the physical chip.  I don't know how to get measurements out of simulation",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573134336251662477",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:34:13.185+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "like how would I simulate https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements#result",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - mattvenn/ttgf0p2-vgaringosc-measurements: Silicon measurem...",
+          "url": "https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements",
+          "timestamp": null,
+          "description": "Silicon measurements of tt_um_algofoogle_vgaringosc (Ring osc on VGA) on Tiny Tapeout ttgf0p2 - mattvenn/ttgf0p2-vgaringosc-measurements",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ttgf0p2-vgaringosc-measurements-AA3C5",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573134388542181501",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:34:25.652+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ahhh. Well, process variation matters, a lot. I have no idea about your plans of figuring that aspect out.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573134584626020517",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:35:12.402+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I can look later this weekend at it, I think; remind me in like 30 hours perhaps.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "443147704126668801",
+              "name": "carlfk",
+              "discriminator": "0000",
+              "nickname": "carlfk",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573134336251662477",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573142213901422605",
+      "type": "Default",
+      "timestamp": "2026-11-20T01:05:31.363+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hey all. After six months effort, I have a great deal of faith that my full-slot chip is actually and finally done. It's really cool, and was an incredible learning opportunity. Especially in having to redo it a couple times. Unfortunately, the six months started in May, with a lot of optimism that I'd get it done for July. Which meant I bought and missed my Run 2 slot. That burn removed my confidence to reserve a Run 3 slot until I had clarity that I really could get it finished. If you are like me (buying before completion) with Run 3: ***I'd like to buy your slot from you***. I'll pay a premium. Just putting this out there. As we get closer to the deadline... let me know. My design should be ready to go, so I don't need much advance notice.",
+      "author": {
+        "id": "356185479911047169",
+        "name": ".dmv",
+        "discriminator": "0000",
+        "nickname": "dmv",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cf91f9947bc37b8a1071311863f9c4b7-14667.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 190
+  "messageCount": 203
 }

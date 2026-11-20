@@ -58,3 +58,31 @@ Is there a flat/hierarchical option?","",""
 "596068704471482370","246tnt","2026-11-19T07:40:27.9590000+00:00","","2026-11_media/2026-11-19_529x457_scrot-933E1.png",""
 "596068704471482370","246tnt","2026-11-19T07:51:27.7480000+00:00","I guess it can depend on the definition of ""Circuit Metal1"" and ""Active Circuit COMP"".  If that doesn't include guard rings and metal tying those guard rings then it's fine.","","🤔 (1)"
 "596068704471482370","246tnt","2026-11-19T08:49:51.9210000+00:00","But then again, just because the naming of the IO library in the PDK says ""non-CUP"" doesn't mean it's actually suitable for wedge bonding either ...   wedge bonding implies non-CUP but non-CUP doesn't mean wedge bonding ...  So it's conceivable to me that the  IO library was designed for ball bonding and doesn't use CUP because even with ball bonding, although CUP is _possible_ it's still a pain and requires more care ....","","👍 (1)"
+"262706220073222144","namibj","2026-11-19T21:25:14.9250000+00:00","Possibly; but I'd assume they target low-cost bonding with that just like they target low cost chips with gf180mcuD; and pretty sure Al wedge is substantially cheaper than Gold ball at scale.","",""
+"262706220073222144","namibj","2026-11-19T21:27:01.3200000+00:00","Also I'd expect the sheer pad opening as such to not be too important for the practical effects of PAD.19, but rather that the pad bond target spot to the non-pad underlying metal is what matters?","",""
+"596068704471482370","246tnt","2026-11-19T21:29:46.4880000+00:00","Err ... (1) they probably have other io library fo gf180mcu ... just not ones they released or have the rights to do so.
+(2) AFAIU wedge bonding is harder on the chip, more energy transfered so metal getting squished and moves a bit wouldn't surprise me.  We see pads shorted to GND ... those come from _somewhere_ ...","",""
+"262706220073222144","namibj","2026-11-19T21:31:25.8690000+00:00",".....there's a line of GND just outside the pad....","",""
+"262706220073222144","namibj","2026-11-19T21:32:04.5900000+00:00","(on all metal layers, notably)","",""
+"596068704471482370","246tnt","2026-11-19T21:33:19.4050000+00:00","Is there ? The scribe line isn't actually wired to gnd.","",""
+"262706220073222144","namibj","2026-11-19T21:34:26.9010000+00:00","if realistic it might be useful to do bond testing prior to glob-topping and to set some samples that have this fault aside so some can meet an electron microscope to look at the surface structure around the failed bond?","",""
+"262706220073222144","namibj","2026-11-19T21:34:45.5570000+00:00","<https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_12_2.html>
+This is a substrate tap.","",""
+"596068704471482370","246tnt","2026-11-19T21:34:47.6300000+00:00","The closed GND line is that metal1 line violating PAD.19","",""
+"262706220073222144","namibj","2026-11-19T21:35:03.4140000+00:00","","2026-11_media/SCRIBE_LINE2-13686.png",""
+"596068704471482370","246tnt","2026-11-19T21:35:10.6360000+00:00","A short to substrate tap wouldn't show as such a low resistance to GND.","",""
+"262706220073222144","namibj","2026-11-19T21:35:27.4130000+00:00","(sorry initially attached image of flip chip mode seal ring; important aspect wasn't changed though)","",""
+"262706220073222144","namibj","2026-11-19T21:36:10.6850000+00:00","why?
+Are you sure the massive amounts of substrate taps in the rest of the die will be that high resistance through the substrate to the _entire seal ring?_","",""
+"262706220073222144","namibj","2026-11-19T21:36:47.7350000+00:00","It's a _massive_ 16um wide by the entire chip circumference substrate tap.","",""
+"596068704471482370","246tnt","2026-11-19T21:37:55.4260000+00:00","Heh, I have my doubt. But even then. This is > 12 um away while you have a m1 gnd line a mere 3 um away ...","",""
+"596068704471482370","246tnt","2026-11-19T21:38:20.1590000+00:00","But that 12 um is another guideline violation since recommentation is 30 um.","",""
+"262706220073222144","namibj","2026-11-19T21:45:14.8480000+00:00","<https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_09_2.html> ..... we're not meeting `PAD.15`....","",""
+"262706220073222144","namibj","2026-11-19T21:45:25.5250000+00:00","I measure 12.","",""
+"262706220073222144","namibj","2026-11-19T21:48:07.5960000+00:00","and only 11u gap between the metal of the ring and the metal of the pad.","",""
+"169786952432746498","mithro_","2026-11-19T23:05:41.2880000+00:00","FWIW These I/O cells might predate these rules and GF just kind of ""grandfathered"" them in or something?","",""
+"169786952432746498","mithro_","2026-11-19T23:08:03.7560000+00:00","A while back I was trying to understand if the proprietary DRC deck had name matching violation ignore type things in them (which probably wouldn't match the open source names for the cells) but I'm not sure I found before getting distracted by other things.","",""
+"262706220073222144","namibj","2026-11-19T23:14:03.3330000+00:00","Is there a chance we get some sample COBs with that GND-short issue possibly tested after the wedge bonding and prior to the encapsulation?
+Just to have some samples of the issue; there was discussion from @tnt last year in https://discord.com/channels/836175121361666059/1438575045302554833 about getting some failure case sectioned/imaged to try and figure out how it's shorted to ground/how it might be fixed in the future?
+
+A decent microscope image to see where the bond spot hit might already give insight; I'd not be surprised if it's some kind of alignment failure.","",""

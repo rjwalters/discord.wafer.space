@@ -1,6 +1,15 @@
 ==============================================================
 Guild: wafer.space Community
-Channel: 𐦂𖨆𐀪𖠋 - Friends / bio
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🥟-bio
+Topic: **BIO** (Bao I/O): the RISC-V based I/O coprocessor from bunnie's Baochip-1x, and work on improving it, such as Mike Bell's FemtoRV based rewrite.
+
+**Docs**
+• [BIO: The Bao I/O Coprocessor](https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/): bunnie's write-up
+• [Baochip](https://baochip.com/): chip, docs, tools and hardware
+**Source**
+• [baochip-1x](https://github.com/baochip/baochip-1x): the chip source
+• [bio-sim](https://github.com/baochip/bio-sim): RTL simulation of the BIO CPU
+• [bio-loader](https://github.com/baochip/bio-loader): load BIO code onto a Dabao board
 After: 2026-10-31 11:59 p.m.
 Before: 2026-12-01 12:00 a.m.
 ==============================================================

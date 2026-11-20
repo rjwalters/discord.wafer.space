@@ -470,6 +470,60 @@ Thank you. It's looking good and I can export the footprint to reproduce your sc
 {Reactions}
 💜
 
+[2026-11-19 10:59 p.m.] namibj
+@Essen any particular understanding about the inherent cost of the hardware required for performing wire bonding, without involving any automation?
+
+
+[2026-11-20 12:22 a.m.] essen__
+So outside from the strong desire to jump out the window in an ultimate act of frustration ? 
+
+It will depend on what you want to get and lots of luck. Second hand wire bonders are such an **illiquide market **that getting a consistent pricing is really a challenge. 
+
+Auction seems to have the best prices, but are also the most variable. 
+Ebay listing are more predictable and expect prices to start at least around 1.5k USD. 
+ 
+Around my area (US) you are looking at about 300$ or lower (have seen 2xwire bonders + tester go for as low as 120$) for a good second hand wire bonder at auction, but you also need to account for shipping, which will actually be the bulk of your cost. How much do you value the 18h drive and is your trunk big though ? 
+
+For reference: Fully automated bonding machines go for 3k USD but are also quite rare. (So more expensive then electron microscopes)
+
+
+[2026-11-20 12:27 a.m.] namibj
+Thx!
+May the 6DOF micro-manipulator give us happy vibes....
+And enough realistic strength to handle the forces incurred.
+This <https://www.engineering.upenn.edu/~nanosop/Wire_Bonder_SOP.htm> looks hopeful to me so far at least.
+
+{Attachments}
+2026-11_media/bondparameters-DAFB3.png
+
+{Reactions}
+💜
+
+[2026-11-20 12:29 a.m.] essen__
+Looks like a really nice model.
+
+
+[2026-11-20 12:31 a.m.] essen__
+Do you have one in sight ?
+
+
+[2026-11-20 12:31 a.m.] namibj
+With the bond head going for so cheap and apparently comparatively readily, setting up a motion platform underneath that can move the chip and substrate around enough for sufficciently reasonable bond angles on one die side at least (if it has to provide the rotation) should do decently, I think.
+Might add a real rotation axis instead though to handle full 360 degree spinning without hurting the remaining range of motion too much 😄
+
+{Reactions}
+👀
+
+[2026-11-20 12:32 a.m.] namibj
+nah just looked for info on the forces involved to check against the understanding I have about the strengths of the micro manipulator
+
+{Reactions}
+👍
+
+[2026-11-20 12:34 a.m.] essen__
+Fair 💪
+
+
 ==============================================================
-Exported 68 message(s)
+Exported 76 message(s)
 ==============================================================

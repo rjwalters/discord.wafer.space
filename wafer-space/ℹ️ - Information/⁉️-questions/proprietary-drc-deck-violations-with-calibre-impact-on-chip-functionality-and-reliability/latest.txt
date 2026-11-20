@@ -152,6 +152,103 @@ But then again, just because the naming of the IO library in the PDK says "non-C
 {Reactions}
 👍
 
+[2026-11-19 9:25 p.m.] namibj
+Possibly; but I'd assume they target low-cost bonding with that just like they target low cost chips with gf180mcuD; and pretty sure Al wedge is substantially cheaper than Gold ball at scale.
+
+
+[2026-11-19 9:27 p.m.] namibj
+Also I'd expect the sheer pad opening as such to not be too important for the practical effects of PAD.19, but rather that the pad bond target spot to the non-pad underlying metal is what matters?
+
+
+[2026-11-19 9:29 p.m.] 246tnt
+Err ... (1) they probably have other io library fo gf180mcu ... just not ones they released or have the rights to do so.
+(2) AFAIU wedge bonding is harder on the chip, more energy transfered so metal getting squished and moves a bit wouldn't surprise me.  We see pads shorted to GND ... those come from _somewhere_ ...
+
+
+[2026-11-19 9:31 p.m.] namibj
+.....there's a line of GND just outside the pad....
+
+
+[2026-11-19 9:32 p.m.] namibj
+(on all metal layers, notably)
+
+
+[2026-11-19 9:33 p.m.] 246tnt
+Is there ? The scribe line isn't actually wired to gnd.
+
+
+[2026-11-19 9:34 p.m.] namibj
+if realistic it might be useful to do bond testing prior to glob-topping and to set some samples that have this fault aside so some can meet an electron microscope to look at the surface structure around the failed bond?
+
+
+[2026-11-19 9:34 p.m.] namibj
+<https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_12_2.html>
+This is a substrate tap.
+
+
+[2026-11-19 9:34 p.m.] 246tnt
+The closed GND line is that metal1 line violating PAD.19
+
+
+[2026-11-19 9:35 p.m.] namibj
+
+
+{Attachments}
+2026-11_media/SCRIBE_LINE2-13686.png
+
+
+[2026-11-19 9:35 p.m.] 246tnt
+A short to substrate tap wouldn't show as such a low resistance to GND.
+
+
+[2026-11-19 9:35 p.m.] namibj
+(sorry initially attached image of flip chip mode seal ring; important aspect wasn't changed though)
+
+
+[2026-11-19 9:36 p.m.] namibj
+why?
+Are you sure the massive amounts of substrate taps in the rest of the die will be that high resistance through the substrate to the _entire seal ring?_
+
+
+[2026-11-19 9:36 p.m.] namibj
+It's a _massive_ 16um wide by the entire chip circumference substrate tap.
+
+
+[2026-11-19 9:37 p.m.] 246tnt
+Heh, I have my doubt. But even then. This is > 12 um away while you have a m1 gnd line a mere 3 um away ...
+
+
+[2026-11-19 9:38 p.m.] 246tnt
+But that 12 um is another guideline violation since recommentation is 30 um.
+
+
+[2026-11-19 9:45 p.m.] namibj
+<https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_09_2.html> ..... we're not meeting `PAD.15`....
+
+
+[2026-11-19 9:45 p.m.] namibj
+I measure 12.
+
+
+[2026-11-19 9:48 p.m.] namibj
+and only 11u gap between the metal of the ring and the metal of the pad.
+
+
+[2026-11-19 11:05 p.m.] mithro_
+FWIW These I/O cells might predate these rules and GF just kind of "grandfathered" them in or something?
+
+
+[2026-11-19 11:08 p.m.] mithro_
+A while back I was trying to understand if the proprietary DRC deck had name matching violation ignore type things in them (which probably wouldn't match the open source names for the cells) but I'm not sure I found before getting distracted by other things.
+
+
+[2026-11-19 11:14 p.m.] namibj
+Is there a chance we get some sample COBs with that GND-short issue possibly tested after the wedge bonding and prior to the encapsulation?
+Just to have some samples of the issue; there was discussion from @tnt last year in https://discord.com/channels/836175121361666059/1438575045302554833 about getting some failure case sectioned/imaged to try and figure out how it's shorted to ground/how it might be fixed in the future?
+
+A decent microscope image to see where the bond spot hit might already give insight; I'd not be surprised if it's some kind of alignment failure.
+
+
 ==============================================================
-Exported 23 message(s)
+Exported 45 message(s)
 ==============================================================

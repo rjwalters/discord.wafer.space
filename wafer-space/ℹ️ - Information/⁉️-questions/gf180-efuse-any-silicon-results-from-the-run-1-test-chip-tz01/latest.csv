@@ -18,3 +18,14 @@ Happy to share whatever we learn on our side. Thanks!","",""
 "169786952432746498","mithro_","2026-11-19T02:00:18.1000000+00:00","GF's foundry supplied efuse needs and extra mask layer. If I understand correctly wafer.space does not request that mask and @Egor Lukyanchenko 's efuses does not use that.","",""
 "262706220073222144","namibj","2026-11-19T20:09:05.6340000+00:00","Are you sue `EFUSE_MK`/`PLFUSE` generate masks? They are listed as ""Marking"" not as ""Drawn"" in <https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_1.html>.
 The ones that do appear to be masks are the poly fuse window/metal fuse window/MIM-FuseTop; the latter we do have though as it's inherent to defining the top plate of MIM caps which we clearly have.","",""
+"169786952432746498","mithro_","2026-11-19T23:02:16.5580000+00:00","@namibj - In the GF ""set up a run configurator tool"" thing, when you select the proprietary efuse IP, a new mask is added to your order configuration.
+
+The ordering system doesn't really explain (or even provide a name) for what this mask is.","",""
+"169786952432746498","mithro_","2026-11-19T23:02:33.2710000+00:00","I don't select that option when setting up wafer.space runs.","",""
+"262706220073222144","namibj","2026-11-19T23:03:38.4160000+00:00","....no number for the mask?","",""
+"596068704471482370","246tnt","2026-11-19T23:04:08.6900000+00:00","I think there are several type of fuse supported on gf180.","",""
+"262706220073222144","namibj","2026-11-19T23:05:15.9060000+00:00","Yeah, metal fuses are a thing it seems.","",""
+"169786952432746498","mithro_","2026-11-19T23:09:02.0720000+00:00","The ""mask numbers"" in the GF configurator seem to be a totally different scheme to what is published in any documentation from GF I have been provided.","",""
+"169786952432746498","mithro_","2026-11-19T23:09:53.3290000+00:00","However, I could just be bilind / incompetent 😛","",""
+"262706220073222144","namibj","2026-11-19T23:14:31.3690000+00:00","https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_3.html so nothing to do with these numbers?","",""
+"169786952432746498","mithro_","2026-11-20T00:20:01.3000000+00:00","Yeah, it seems they sometimes name those mask numbers in like the comment field for the mask.","",""

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T22:37:04.999359+00:00",
+  "exportedAt": "2026-11-20T04:28:26.0718357+00:00",
   "messages": [
     {
       "id": "1569171678020243629",
@@ -1171,7 +1171,693 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1573105220391673917",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:38:31.423+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah I don't care much about it, as it's very hard to reason about anyways without extensive TCAD abilities we're not even close to scratching at, so I'll just ignore that for the time being as far as simulation prediction magic goes.\nIf needed _perhaps_ Design rule guided or with a test copy of the target/desired structure taped out and e-tested prior \uD83D\uDE04",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE04",
+          "code": "smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f604-BF863.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573105762912309261",
+      "type": "Reply",
+      "timestamp": "2026-11-19T22:40:40.77+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I see no evidence we can't use them; I suggest trying to draw one and filing for the platform.wafer.space DRC check to check if it really is accepted by the submission would be good?\nI also did check the Run2 reticle public OASIS and no one used LDNMOS/LDPMOS.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1170784850874220707",
+              "name": "fossify_37988",
+              "discriminator": "0000",
+              "nickname": "Christopher",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "1170784850874220707",
+          "name": "fossify_37988",
+          "discriminator": "0000",
+          "nickname": "Christopher",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573068484613644429",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573117517252272198",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:27:23.223+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@namibj - I was doing some analysis of what people where using in the public OASIS files (take it with a grain of salt as it was vibe coded / done with AI) which ended up under https://wafer.space/ws-run2/#devices",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "wafer.space Run 2 — wafer.space",
+          "url": "https://wafer.space/ws-run2/",
+          "timestamp": null,
+          "description": "Designs, density statistics and layout renders from wafer.space GF180MCU Run 2.",
+          "thumbnail": {
+            "url": "2026-11_media/reticle-81EC2.webp",
+            "width": 3000,
+            "height": 2338
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573105762912309261",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573117665415930016",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:27:58.548+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You can look at the code in https://github.com/wafer-space/ws-run-reports/ but I would expect it to be full of horrors inside \uD83D\uDE1B",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - wafer-space/ws-run-reports: Generators for wafer.space run...",
+          "url": "https://github.com/wafer-space/ws-run-reports/",
+          "timestamp": null,
+          "description": "Generators for wafer.space run reports: density statistics, layout renders and the per-run web pages published from the ws-runN repositories. - wafer-space/ws-run-reports",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ws-run-reports-DE1E5",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE1B",
+          "code": "stuck_out_tongue",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f61b-EC4B5.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573118348374450338",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:30:41.378+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "But I grew up in an era where every company depended on one giant \"magic\" perl script that nobody understood, so I'm pretty use to being dependent on a bag of horrors \uD83D\uDE09",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE09",
+          "code": "wink",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f609-9EC67.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573118822712615094",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:32:34.469+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I lookeda at it in KLayout and no one had the layers needed anywhere \uD83D\uDE04",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE04",
+          "code": "smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f604-BF863.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573122648827756717",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:47:46.686+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@namibj - Well, that leaves the question of if I'm even buying those mask layers?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573122829673693325",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:48:29.803+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm as mentioned above fairly confident LDNMOS and LDPMOS to not actually utilize any extra _mask_ layers on gf180mcuD and sky130A.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573122648827756717",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573122970736394365",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:49:03.435+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "They are mostly just an otherwise very DRC-illegal structure of using well diffusion under STI between source and drain.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573123372487802983",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:50:39.22+00:00",
+      "timestampEdited": "2026-11-19T23:51:13.084+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(I _think_ it'd otherwise be an illegal structure? None of the mask layers in the gf180 PDK actually involve it. and the geometry visualized in the DRCs and the device description on sky130A both show a structure that should not need any extra mask layers to make.)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573130201234411623",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:17:47.32+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Okay, just assume I don't know what I'm talking about is a good idea \uD83D\uDE42",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573122829673693325",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573141375200006332",
+      "type": "Default",
+      "timestamp": "2026-11-20T01:02:11.401+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hm",
+      "author": {
+        "id": "1170784850874220707",
+        "name": "fossify_37988",
+        "discriminator": "0000",
+        "nickname": "Christopher",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573164465342386296",
+      "type": "Reply",
+      "timestamp": "2026-11-20T02:33:56.52+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I would quite like to see a thing based on them, btw.\nI'm not feeling like they're gonna be _tooo_ suited to getting tested using \"muxed e-test\", so please feel free to do something that could test/validate them for us and allows to see how well simulation matches reality.\n\nI'm still looking forward to eventually designing and PoC-ing an energy-harvesting (from a capacitive divider/isolator that has a small capacitor a fraction of the effective output capacitance of the 100~300 V transistor the wafer.space die would be controlling the gate of);\nI _think_ an LDNMOS with source to local GND, drain to LV-side of that dividing-capacitor;\nplus an LDPMOS with source to a local storage/decoupling/buffer capacitor (unregulated) and drain also to the LV-side of that dividing-capacitor (and thus also the LDNMOS drain), though given the voltage rating of it, the schottkey diode _might_ be better, not sure....\ncould thus select right ahead of a turn-off event of the high voltage power transistor whether to feed the charge pulse into the storage cap or whether to skip it this time, \nwhere accepting the charge is to turn the LDNMOS off and.... I guess _eventually_ the LDPMOS on (ideally timed to not wastefully charge the drain node from the storage cap and burn a good chunk of that energy flow... bonus for schottkey auto-timing!).\nAnd skipping the charge would be to keep the LDNMOS on and the LDPMOS off so that that charge is shunted/bypassed through GND.\nAhead of turn-on, LDPMOS should be off and LDNMOS (back) on to grab that charge.... Hmmm, I _guess_ using a schottkey as well for that part might make the entire setup something that could _decently_ bootstrap off of it until the local supply capacitor has enough to trip a POR mechanism....\n\n...Yep, <https://wiki.restarters.net/Power_supplies#Capacitive_dropper_power_supplies> except that this doesn't have the cycle-skipping NMOS across D2.\n\nYes it'd also need a regulator from this storage capacitor down to 5V. In theory it could even select between one of several local storage capacitors kept close to the desired supply voltage to not drop as much power across the LDO, but more than two (digital core and something for doing 0 to 5 V gate swings (peak) at the ASIC's output aka into the power transistor) don't sound too useful \uD83D\uDE04",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1573164464944062524",
+          "url": "2026-11_media/Capacitive_dropper_power_supply-1F517.png",
+          "fileName": "Capacitive_dropper_power_supply.png",
+          "fileSizeBytes": 5730
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1170784850874220707",
+          "name": "fossify_37988",
+          "discriminator": "0000",
+          "nickname": "Christopher",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573141375200006332",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE04",
+          "code": "smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f604-BF863.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573168001430196425",
+      "type": "Reply",
+      "timestamp": "2026-11-20T02:47:59.589+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The slopbot cant find the spice models, I'll need to take a look for them. One of the challenges will be making custom pads, IIRC the default pad ring will not be happy being blasted with 10V",
+      "author": {
+        "id": "1170784850874220707",
+        "name": "fossify_37988",
+        "discriminator": "0000",
+        "nickname": "Christopher",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573164465342386296",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573168874524909629",
+      "type": "Reply",
+      "timestamp": "2026-11-20T02:51:27.751+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "They're in a different filename next to the ones you're used to",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1170784850874220707",
+          "name": "fossify_37988",
+          "discriminator": "0000",
+          "nickname": "Christopher",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573168001430196425",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573168909471846451",
+      "type": "Default",
+      "timestamp": "2026-11-20T02:51:36.083+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ah",
+      "author": {
+        "id": "1170784850874220707",
+        "name": "fossify_37988",
+        "discriminator": "0000",
+        "nickname": "Christopher",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573169230617116824",
+      "type": "Default",
+      "timestamp": "2026-11-20T02:52:52.65+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "`smbb000149` not `sm141064`",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573170594504249420",
+      "type": "Reply",
+      "timestamp": "2026-11-20T02:58:17.826+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "e.g. imagine a low voltage (relative to the input of the left; but full-voltage relative to C2) nmos in parallel to D2 here; if you operate it often enough even if never switched while there's any drain-source voltage across it, it could replace the need for D3 to exist.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1573164465342386296",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 35
+  "messageCount": 53
 }

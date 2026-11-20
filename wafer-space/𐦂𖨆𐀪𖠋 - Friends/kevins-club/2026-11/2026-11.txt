@@ -468,11 +468,33 @@ Some minor adjustments later:
 {Attachments}
 2026-11_media/chip_top-D675C.png
 
+{Reactions}
+💜
 
 [2026-11-19 9:52 p.m.] tholin
 If there ends up being no takers for the empty area, I’ll fill it up with more digital macros or art
 
 
+[2026-11-19 11:18 p.m.] baragonaru
+I don’t know if anyone’s doing this, but it would be good to test inductors and any other devices that are just not characterized at all
+
+
+[2026-11-19 11:24 p.m.] namibj
+https://wafer.space/ws-run2/projects/RLCM.html?
+
+{Embed}
+https://wafer.space/ws-run2/projects/RLCM.html?
+RLCM RLCM: Test Passives For GF180MCUD — wafer.space Run 2
+This TO aims to have a kind of test passives to verify the automated openEMS flow used to simulate passives on GF180MCUD.
+2026-11_media/reticle-81EC2.webp
+
+
+[2026-11-19 11:27 p.m.] baragonaru
+That seems very relevant
+
+It would be interesting to see if we can do some quick testing of those chips to guide the next characterization chips submitted over the next couple weeks
+
+
 ==============================================================
-Exported 79 message(s)
+Exported 82 message(s)
 ==============================================================

@@ -74,6 +74,128 @@ Looking forward to giving these try soon, Mike 🙂 I'll get around to this soon
 {Reactions}
 💜 (2)
 
+[2026-11-19 10:49 p.m.] rebelmike
+I've ordered this prototype board for TQVD, along with the above board for TVQA
+
+{Attachments}
+2026-11_media/image-A2D67.png
+
+{Reactions}
+💜
+
+[2026-11-19 10:51 p.m.] rebelmike
+Repo for the TQVD board: https://codeberg.org/rebelmike/ws02-tinyqv-mobo
+And for the TQVA/C board: https://codeberg.org/rebelmike/ws01-tinyQV-mobo-alpha/
+
+{Embed}
+https://codeberg.org/rebelmike/ws02-tinyqv-mobo
+ws02-tinyqv-mobo
+TinyQV Motherboard for WS02 TQVD
+2026-11_media/summary-card-CB41D
+
+{Embed}
+https://codeberg.org/rebelmike/ws01-tinyQV-mobo-alpha/
+ws01-tinyQV-mobo-alpha
+Alpha motherboard for TinyQV WS Run 1
+2026-11_media/summary-card-29111
+
+
+[2026-11-19 10:55 p.m.] namibj
+@RebelMike You know what, if you're not opposed to the idea, let's use TQVE as a guinea pig "die that actually does something interesting" for flip chip bonding, after the `FC01` connectivity test has done good work.
+Idea/plan would be to run the flex away from the pad edge towards the die center and have the flex PCB's coverlay come up between center of the die and the die edge that the traces will then run over, so that this potential issue edge is kept isolated despite the exposed pad metal on the sealring there.
+It will need quite fine alignment though, so not for the start/early-trials, IMO.
+
+
+[2026-11-19 10:59 p.m.] rebelmike
+Sure! My understanding is that Wafer Space will bond some TQVE to a CoB for me so I can check they work, but there will be plenty of bare dies so I'm very happy to send you (or for Tim to send you) some dies for experimentation!
+
+
+[2026-11-19 11:02 p.m.] namibj
+Yeah there'll be the second batch afterwards anyways 😄
+The flex PCB would be 2mil/2mil DRC from JLCPCB (2L 1/3oz special offer, except that the extended fine-structures below 3mil/3mil are ineligible for the 2$ offer and should cost about 17-ish $ instead).
+I'll plan to rely on you for insight into the desired pinout/layout after/beyond what is inherently applicable to the ACF bonding aspects themselves?
+
+
+[2026-11-19 11:09 p.m.] rebelmike
+Sure - at minimum it'll need clock and reset supplying, the QSPI pins connecting to a W25Q flash and a APS6404 PSRAM, and then GPIO 0 and 1 broken out for UART.
+
+
+[2026-11-19 11:16 p.m.] rebelmike
+I haven't been following what the plan is for the flex PCB, is the idea to bond that to the chip and then to pads on a regular PCB?  So I could just design a variant of the regular host board with a suitable pad layout for it
+
+
+[2026-11-19 11:18 p.m.] namibj
+Well, so, on the flex they come out from the die itself in the same order they are on the die, and IMO after they've left the die surface and a reasonable strain relief zone next to the right (SRAM) edge, then we can expand.
+Also, the back/far layer has to be free of copper around the pads for visual alignment reasons; and IMO we might want to keep it pulled back on the entire die for starters (but not long-term).
+
+
+[2026-11-19 11:19 p.m.] namibj
+you could put solder pads for your comfortable socket to a host board on it? Maybe pads to put decoupling capacitors close to the die?
+
+{Reactions}
+👍
+
+[2026-11-19 11:21 p.m.] namibj
+
+
+
+[2026-11-19 11:21 p.m.] namibj
+Here's the first flex test for `FC01`; it's got a bit of coverlay-exclusion area to spare vs. the die outline; that's under 3mil/3mil DRCs. The flex in the image is 50x50mm.
+
+
+[2026-11-19 11:22 p.m.] namibj
+(this has connections of traces to support 4-wire measurements of the bond resistance)
+
+
+[2026-11-19 11:23 p.m.] namibj
+@RebelMike does it give you a decent scale/idea?
+
+
+[2026-11-19 11:33 p.m.] rebelmike
+Yes I think so.  Just reading up on flex pcbs a bit - I've never looked at them before.  So given we just have 17 pads in a single row, we could just fan those out to a standard 2mm or 2.54mm pin socket to connect to a host PCB.  And as you say would make sense to put a decoupling cap on the flex pcb.
+
+
+[2026-11-19 11:38 p.m.] namibj
+I'd probably think a cap to be good on it, yes.
+The pin header on my upload there is 1.27mm pitch 2-row through-hole.
+
+{Reactions}
+👍
+
+[2026-11-19 11:41 p.m.] rebelmike
+Or maybe a ZIF connector is the right solution
+
+
+[2026-11-19 11:47 p.m.] namibj
+If you'd want. The flex is naturally too thin though; but due to the 2/2 bump adding a stiffener for ZIF wouldn't be much more on top IIRC
+
+
+[2026-11-19 11:57 p.m.] rebelmike
+It looks like the pad pitch on TQVE is 102um so this would be super tight - you wouldn't be able to put a pad at all on the FPC, it would just be the 2mil trace.
+
+
+[2026-11-20 12:11 a.m.] namibj
+yeah, that's normal for dense ACF usage, line pitch close to process minimums on one of the two sides (whichever has more trouble with fine pitch).
+
+
+[2026-11-20 12:14 a.m.] namibj
+With this limitation and assuming to put power and gnd pads in the center instead, considering those don't really need the fancy stuff from the pad ring cells, a full slot should just about manage 148 IO's _I think._
+
+
+[2026-11-20 12:16 a.m.] namibj
+Relies on CUP for the power and ground in the middle in practice though, IMO. Or "ab"-using the 4 corners to feed in through one large pad each that occupies almost all the area not in the way of the pad fanout traces and between sealring and power-ring-corner-cell.
+
+
+[2026-11-20 3:23 a.m.] mithro_
+
+
+{Reactions}
+💜
+
+[2026-11-20 3:24 a.m.] mithro_
+Opps, seems @Andrew Wingate already forwarded this...
+
+
 ==============================================================
-Exported 8 message(s)
+Exported 31 message(s)
 ==============================================================

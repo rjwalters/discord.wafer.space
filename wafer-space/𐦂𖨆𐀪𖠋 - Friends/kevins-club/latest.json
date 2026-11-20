@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T22:45:53.9845987+00:00",
+  "exportedAt": "2026-11-20T04:37:06.1326916+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -3220,7 +3220,29 @@
       ],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            }
+          ]
+        }
+      ],
       "mentions": [],
       "inlineEmojis": []
     },
@@ -3248,7 +3270,129 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1573115168634704003",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:18:03.269+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I don’t know if anyone’s doing this, but it would be good to test inductors and any other devices that are just not characterized at all",
+      "author": {
+        "id": "656862288099409940",
+        "name": "baragonaru",
+        "discriminator": "0000",
+        "nickname": "baragonaru",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573116685605675068",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:24:04.943+00:00",
+      "timestampEdited": "2026-11-19T23:24:28.937+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://wafer.space/ws-run2/projects/RLCM.html?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "RLCM RLCM: Test Passives For GF180MCUD — wafer.space Run 2",
+          "url": "https://wafer.space/ws-run2/projects/RLCM.html?",
+          "timestamp": null,
+          "description": "This TO aims to have a kind of test passives to verify the automated openEMS flow used to simulate passives on GF180MCUD.",
+          "thumbnail": {
+            "url": "2026-11_media/reticle-81EC2.webp",
+            "width": 3000,
+            "height": 2338
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "656862288099409940",
+          "name": "baragonaru",
+          "discriminator": "0000",
+          "nickname": "baragonaru",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573115168634704003",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573117583765278761",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:27:39.081+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That seems very relevant\n\nIt would be interesting to see if we can do some quick testing of those chips to guide the next characterization chips submitted over the next couple weeks",
+      "author": {
+        "id": "656862288099409940",
+        "name": "baragonaru",
+        "discriminator": "0000",
+        "nickname": "baragonaru",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573116685605675068",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 79
+  "messageCount": 82
 }

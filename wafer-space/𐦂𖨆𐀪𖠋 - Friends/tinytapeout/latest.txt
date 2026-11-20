@@ -1,7 +1,17 @@
 ==============================================================
 Guild: wafer.space Community
 Channel: 𐦂𖨆𐀪𖠋 - Friends / tinytapeout
-Topic: Current shuttle - Tiny Tapeout GF 0p2 - [discord](https://discord.com/channels/1009193568256135208/1422290927816540402) - [webpage](https://app.tinytapeout.com/shuttles/ttgf0p2)
+Topic: **Tiny Tapeout**: a quicker, easier and cheaper way to get your own design made on a real chip. This channel is for Tiny Tapeout on GF180MCU.
+
+**Current shuttle**: Tiny Tapeout GF 0p2
+• [Shuttle page](https://app.tinytapeout.com/shuttles/ttgf0p2)
+• [Shuttle channel](https://discord.com/channels/1009193568256135208/1422290927816540402) on the Tiny Tapeout Discord
+**Links**
+• [tinytapeout.com](https://tinytapeout.com/)
+• [Tiny Tapeout Discord](https://discord.gg/qZHPrPsmt6)
+**Templates**
+• [ttgf-verilog-template](https://github.com/TinyTapeout/ttgf-verilog-template)
+• [ttgf-wokwi-template](https://github.com/TinyTapeout/ttgf-wokwi-template)
 After: 2026-10-31 11:59 p.m.
 Before: 2026-12-01 12:00 a.m.
 ==============================================================
@@ -664,6 +674,16 @@ Contribute to Roshyoshi/metastability-298 development by creating an account on 
 2026-11_media/metastability-298-12A72
 
 
+[2026-11-19 11:35 p.m.] TTBot#6027
+New tapeout: Derek F submitted test (https://github.com/lacser/298A)
+
+{Embed}
+https://github.com/lacser/298A
+GitHub - lacser/298A
+Contribute to lacser/298A development by creating an account on GitHub.
+2026-11_media/298A-2CCA2
+
+
 ==============================================================
-Exported 74 message(s)
+Exported 75 message(s)
 ==============================================================

@@ -486,6 +486,103 @@ You don't need metal gates.
 And you probably don't want to form that old 2-phsae BBD structure in the process that gives you poly gates.
 
 
+[2026-11-19 8:40 p.m.] archit3ch
+i see now. i went for explicit transistors and caps from the official PDK. but the old processes use parasitics that aren't manufacturable on Wafer Space.
+
+
+[2026-11-19 8:40 p.m.] archit3ch
+i assume you cannot send a GDS with known DRC errors to the fab and assume all the risk yourself?
+
+
+[2026-11-19 8:42 p.m.] namibj
+We can't. Not on gf180.
+
+{Reactions}
+👍
+
+[2026-11-19 8:44 p.m.] namibj
+Hmmm; CCD should work well I think; read the CCD paper I linked first if you want to understand the performance better.
+
+
+[2026-11-19 8:50 p.m.] archit3ch
+looking at the diagram again, i see why the cap plates and transfer transistors share a clk: it's physically the same wire 🤯
+
+
+[2026-11-19 9:16 p.m.] namibj
+yeah. It's just that with CCD you don't have that extra p+-doped cap that can hold on to your charge when you turn the channel off; instead, that's essentially fully-lacking.
+
+
+[2026-11-19 9:19 p.m.] namibj
+If you can't prevent it's formation due to DRCs, you'd probably have to deal with it _somewhat_; not sure if it's legal to put poly2 over there even if you were to widen it, but with luck you might not have to in practice, I guess.
+
+
+[2026-11-19 9:23 p.m.] namibj
+> PL.3b* Poly2 Space on COMP for low active sheet resistivity (guideline)
+That suggests you might want to very much use thick oxide as it appears to cause a wider horizontal silicide blocking action <https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_07_08.html> to the source/drain implant zone.
+
+
+[2026-11-19 9:27 p.m.] archit3ch
+all this talk about "not losing a single electron" with a CCD... might as well use a digital delay. we'd need a way to add lo-fi character back in for audio
+
+
+[2026-11-19 9:27 p.m.] namibj
+it's not gonna be that good this isn't even a buried channel 😄
+
+{Reactions}
+🪏 🙉
+
+[2026-11-19 9:47 p.m.] archit3ch
+i guess a MOSCAP would also have nonlinear capacitance as a function of voltage 🤔
+
+
+[2026-11-19 9:50 p.m.] archit3ch
+simulation results with smaller XCLK and retained XISO/init:
+- 64 buckets: 30% peak amplitude loss
+- 128 buckets: 52% peak amplitude loss
+
+
+[2026-11-19 9:52 p.m.] archit3ch
+so 256 buckets remains plausible under this architecture
+
+
+[2026-11-19 10:02 p.m.] archit3ch
+hmmm. thick oxide also gets you less gate-oxide capacitance (2.3 fF/µm² vs 4.4 fF/µm² )
+
+
+[2026-11-19 10:02 p.m.] archit3ch
+so there is a tradeoff
+
+
+[2026-11-19 10:04 p.m.] namibj
+This is more about the CCD effect possibly not working too well due to an undesired (for CCD operation) N-doped implant being in the way of the charge that shall transfer nicely.
+
+
+[2026-11-19 10:09 p.m.] namibj
+that's the nominal beauty of CCDs: they transfer charge. If implemented well, and not forced to store fore too long, they do this charge transferring with negligible losses and with basically only really having thermal noise at the input and output, not between, due to how they do the charge region building: they form a semiconductor channel of that charge who's existence is literally limited by quantum-theory bandgap stuff.
+Like, the way it's turned off essentially forcibly expels the charge to the next one that already started to pull them to it.
+
+
+[2026-11-19 10:10 p.m.] namibj
+You have charge noise up top, I guess, but you can't just manifest the charge carriers _in the channel zone_ out of thin air from casual RC thermal noise. It's governed by different laws there.
+
+
+[2026-11-19 10:13 p.m.] namibj
+I'd suggest you try to modify the equation governing source/drain area and perimeter to reduce them substantially to match a 0.24um minimum DRC legal gap; and then halve the results because you're gonna overlap them between adjacent gates.
+And the 3-phase clock is needed with that. And make the gates be nice long channels, not that very short stuff there.
+
+
+[2026-11-19 11:02 p.m.] archit3ch
+world's first quantum-powered delay 😁
+
+
+[2026-11-20 12:30 a.m.] archit3ch
+what about electron traps? they can capture charge from one audio sample and release it into the next, making them both wrong while conserving total charge 🤔
+
+
+[2026-11-20 12:32 a.m.] namibj
+well that's a buried channel thing
+
+
 ==============================================================
-Exported 89 message(s)
+Exported 111 message(s)
 ==============================================================

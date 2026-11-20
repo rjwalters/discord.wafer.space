@@ -186,6 +186,110 @@ interestingly, `MVNVT` described as `5V or 6V NLDD` _is_ mentioned....
 2026-11_media/2026-11-19_978x53_scrot-438C6.png
 
 
+[2026-11-19 10:38 p.m.] namibj
+Yeah I don't care much about it, as it's very hard to reason about anyways without extensive TCAD abilities we're not even close to scratching at, so I'll just ignore that for the time being as far as simulation prediction magic goes.
+If needed _perhaps_ Design rule guided or with a test copy of the target/desired structure taped out and e-tested prior 😄
+
+
+[2026-11-19 10:40 p.m.] namibj
+I see no evidence we can't use them; I suggest trying to draw one and filing for the platform.wafer.space DRC check to check if it really is accepted by the submission would be good?
+I also did check the Run2 reticle public OASIS and no one used LDNMOS/LDPMOS.
+
+{Reactions}
+👍
+
+[2026-11-19 11:27 p.m.] mithro_
+@namibj - I was doing some analysis of what people where using in the public OASIS files (take it with a grain of salt as it was vibe coded / done with AI) which ended up under https://wafer.space/ws-run2/#devices
+
+{Embed}
+https://wafer.space/ws-run2/
+wafer.space Run 2 — wafer.space
+Designs, density statistics and layout renders from wafer.space GF180MCU Run 2.
+2026-11_media/reticle-81EC2.webp
+
+
+[2026-11-19 11:27 p.m.] mithro_
+You can look at the code in https://github.com/wafer-space/ws-run-reports/ but I would expect it to be full of horrors inside 😛
+
+{Embed}
+https://github.com/wafer-space/ws-run-reports/
+GitHub - wafer-space/ws-run-reports: Generators for wafer.space run...
+Generators for wafer.space run reports: density statistics, layout renders and the per-run web pages published from the ws-runN repositories. - wafer-space/ws-run-reports
+2026-11_media/ws-run-reports-DE1E5
+
+
+[2026-11-19 11:30 p.m.] mithro_
+But I grew up in an era where every company depended on one giant "magic" perl script that nobody understood, so I'm pretty use to being dependent on a bag of horrors 😉
+
+
+[2026-11-19 11:32 p.m.] namibj
+I lookeda at it in KLayout and no one had the layers needed anywhere 😄
+
+
+[2026-11-19 11:47 p.m.] mithro_
+@namibj - Well, that leaves the question of if I'm even buying those mask layers?
+
+
+[2026-11-19 11:48 p.m.] namibj
+I'm as mentioned above fairly confident LDNMOS and LDPMOS to not actually utilize any extra _mask_ layers on gf180mcuD and sky130A.
+
+
+[2026-11-19 11:49 p.m.] namibj
+They are mostly just an otherwise very DRC-illegal structure of using well diffusion under STI between source and drain.
+
+
+[2026-11-19 11:50 p.m.] namibj
+(I _think_ it'd otherwise be an illegal structure? None of the mask layers in the gf180 PDK actually involve it. and the geometry visualized in the DRCs and the device description on sky130A both show a structure that should not need any extra mask layers to make.)
+
+
+[2026-11-20 12:17 a.m.] mithro_
+Okay, just assume I don't know what I'm talking about is a good idea 🙂
+
+
+[2026-11-20 1:02 a.m.] fossify_37988
+hm
+
+
+[2026-11-20 2:33 a.m.] namibj
+I would quite like to see a thing based on them, btw.
+I'm not feeling like they're gonna be _tooo_ suited to getting tested using "muxed e-test", so please feel free to do something that could test/validate them for us and allows to see how well simulation matches reality.
+
+I'm still looking forward to eventually designing and PoC-ing an energy-harvesting (from a capacitive divider/isolator that has a small capacitor a fraction of the effective output capacitance of the 100~300 V transistor the wafer.space die would be controlling the gate of);
+I _think_ an LDNMOS with source to local GND, drain to LV-side of that dividing-capacitor;
+plus an LDPMOS with source to a local storage/decoupling/buffer capacitor (unregulated) and drain also to the LV-side of that dividing-capacitor (and thus also the LDNMOS drain), though given the voltage rating of it, the schottkey diode _might_ be better, not sure....
+could thus select right ahead of a turn-off event of the high voltage power transistor whether to feed the charge pulse into the storage cap or whether to skip it this time, 
+where accepting the charge is to turn the LDNMOS off and.... I guess _eventually_ the LDPMOS on (ideally timed to not wastefully charge the drain node from the storage cap and burn a good chunk of that energy flow... bonus for schottkey auto-timing!).
+And skipping the charge would be to keep the LDNMOS on and the LDPMOS off so that that charge is shunted/bypassed through GND.
+Ahead of turn-on, LDPMOS should be off and LDNMOS (back) on to grab that charge.... Hmmm, I _guess_ using a schottkey as well for that part might make the entire setup something that could _decently_ bootstrap off of it until the local supply capacitor has enough to trip a POR mechanism....
+
+...Yep, <https://wiki.restarters.net/Power_supplies#Capacitive_dropper_power_supplies> except that this doesn't have the cycle-skipping NMOS across D2.
+
+Yes it'd also need a regulator from this storage capacitor down to 5V. In theory it could even select between one of several local storage capacitors kept close to the desired supply voltage to not drop as much power across the LDO, but more than two (digital core and something for doing 0 to 5 V gate swings (peak) at the ASIC's output aka into the power transistor) don't sound too useful 😄
+
+{Attachments}
+2026-11_media/Capacitive_dropper_power_supply-1F517.png
+
+
+[2026-11-20 2:47 a.m.] fossify_37988
+The slopbot cant find the spice models, I'll need to take a look for them. One of the challenges will be making custom pads, IIRC the default pad ring will not be happy being blasted with 10V
+
+
+[2026-11-20 2:51 a.m.] namibj
+They're in a different filename next to the ones you're used to
+
+
+[2026-11-20 2:51 a.m.] fossify_37988
+Ah
+
+
+[2026-11-20 2:52 a.m.] namibj
+`smbb000149` not `sm141064`
+
+
+[2026-11-20 2:58 a.m.] namibj
+e.g. imagine a low voltage (relative to the input of the left; but full-voltage relative to C2) nmos in parallel to D2 here; if you operate it often enough even if never switched while there's any drain-source voltage across it, it could replace the need for D3 to exist.
+
+
 ==============================================================
-Exported 35 message(s)
+Exported 53 message(s)
 ==============================================================

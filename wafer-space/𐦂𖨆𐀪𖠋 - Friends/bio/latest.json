@@ -9,14 +9,14 @@
     "type": "GuildTextChat",
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
-    "name": "bio",
-    "topic": null
+    "name": "\uD83E\uDD5F-bio",
+    "topic": "**BIO** (Bao I/O): the RISC-V based I/O coprocessor from bunnie's Baochip-1x, and work on improving it, such as Mike Bell's FemtoRV based rewrite.\n\n**Docs**\n• [BIO: The Bao I/O Coprocessor](https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/): bunnie's write-up\n• [Baochip](https://baochip.com/): chip, docs, tools and hardware\n**Source**\n• [baochip-1x](https://github.com/baochip/baochip-1x): the chip source\n• [bio-sim](https://github.com/baochip/bio-sim): RTL simulation of the BIO CPU\n• [bio-loader](https://github.com/baochip/bio-loader): load BIO code onto a Dabao board"
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T22:44:13.2735928+00:00",
+  "exportedAt": "2026-11-20T04:35:32.8033125+00:00",
   "messages": [],
   "messageCount": 0
 }

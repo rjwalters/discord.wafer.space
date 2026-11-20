@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T22:47:45.6712574+00:00",
+  "exportedAt": "2026-11-20T04:39:03.1795929+00:00",
   "messages": [
     {
       "id": "1572529340833603674",
@@ -349,7 +349,849 @@
           "imageUrl": "2026-11_media/1f642-83E8A.svg"
         }
       ]
+    },
+    {
+      "id": "1573107968084418654",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:49:26.524+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I've ordered this prototype board for TQVD, along with the above board for TVQA",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [
+        {
+          "id": "1573107967824236626",
+          "url": "2026-11_media/image-A2D67.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 74414
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573108396708732928",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:51:08.716+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Repo for the TQVD board: https://codeberg.org/rebelmike/ws02-tinyqv-mobo\nAnd for the TQVA/C board: https://codeberg.org/rebelmike/ws01-tinyQV-mobo-alpha/",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "ws02-tinyqv-mobo",
+          "url": "https://codeberg.org/rebelmike/ws02-tinyqv-mobo",
+          "timestamp": null,
+          "description": "TinyQV Motherboard for WS02 TQVD",
+          "thumbnail": {
+            "url": "2026-11_media/summary-card-CB41D",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        },
+        {
+          "title": "ws01-tinyQV-mobo-alpha",
+          "url": "https://codeberg.org/rebelmike/ws01-tinyQV-mobo-alpha/",
+          "timestamp": null,
+          "description": "Alpha motherboard for TinyQV WS Run 1",
+          "thumbnail": {
+            "url": "2026-11_media/summary-card-29111",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573109515950366852",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:55:35.564+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@RebelMike You know what, if you're not opposed to the idea, let's use TQVE as a guinea pig \"die that actually does something interesting\" for flip chip bonding, after the `FC01` connectivity test has done good work.\nIdea/plan would be to run the flex away from the pad edge towards the die center and have the flex PCB's coverlay come up between center of the die and the die edge that the traces will then run over, so that this potential issue edge is kept isolated despite the exposed pad metal on the sealring there.\nIt will need quite fine alignment though, so not for the start/early-trials, IMO.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573110389690863657",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:59:03.88+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Sure! My understanding is that Wafer Space will bond some TQVE to a CoB for me so I can check they work, but there will be plenty of bare dies so I'm very happy to send you (or for Tim to send you) some dies for experimentation!",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573111172977270939",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:02:10.63+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah there'll be the second batch afterwards anyways \uD83D\uDE04\nThe flex PCB would be 2mil/2mil DRC from JLCPCB (2L 1/3oz special offer, except that the extended fine-structures below 3mil/3mil are ineligible for the 2$ offer and should cost about 17-ish $ instead).\nI'll plan to rely on you for insight into the desired pinout/layout after/beyond what is inherently applicable to the ACF bonding aspects themselves?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573110389690863657",
+        "channelId": "1572479109676793856",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE04",
+          "code": "smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f604-BF863.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573112907388952678",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:09:04.146+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Sure - at minimum it'll need clock and reset supplying, the QSPI pins connecting to a W25Q flash and a APS6404 PSRAM, and then GPIO 0 and 1 broken out for UART.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573114882696679545",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:16:55.096+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I haven't been following what the plan is for the flex PCB, is the idea to bond that to the chip and then to pads on a regular PCB?  So I could just design a variant of the regular host board with a suitable pad layout for it",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573115317989806101",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:18:38.878+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Well, so, on the flex they come out from the die itself in the same order they are on the die, and IMO after they've left the die surface and a reasonable strain relief zone next to the right (SRAM) edge, then we can expand.\nAlso, the back/far layer has to be free of copper around the pads for visual alignment reasons; and IMO we might want to keep it pulled back on the entire die for starters (but not long-term).",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573112907388952678",
+        "channelId": "1572479109676793856",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573115570717728830",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:19:39.133+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "you could put solder pads for your comfortable socket to a host board on it? Maybe pads to put decoupling capacitors close to the die?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "691780627338625077",
+              "name": "rebelmike",
+              "discriminator": "0000",
+              "nickname": "RebelMike",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573114882696679545",
+        "channelId": "1572479109676793856",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573115989292228638",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:21:18.929+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1570615851856429207",
+        "channelId": "1562792705195511902",
+        "guildId": null
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573115991620321403",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:21:19.484+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Here's the first flex test for `FC01`; it's got a bit of coverlay-exclusion area to spare vs. the die outline; that's under 3mil/3mil DRCs. The flex in the image is 50x50mm.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573116407380582491",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:22:58.609+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(this has connections of traces to support 4-wire measurements of the bond resistance)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573116486481092629",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:23:17.468+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@RebelMike does it give you a decent scale/idea?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573118941528854529",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:33:02.797+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yes I think so.  Just reading up on flex pcbs a bit - I've never looked at them before.  So given we just have 17 pads in a single row, we could just fan those out to a standard 2mm or 2.54mm pin socket to connect to a host PCB.  And as you say would make sense to put a decoupling cap on the flex pcb.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573120276177223841",
+      "type": "Reply",
+      "timestamp": "2026-11-19T23:38:21.002+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'd probably think a cap to be good on it, yes.\nThe pin header on my upload there is 1.27mm pitch 2-row through-hole.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "691780627338625077",
+              "name": "rebelmike",
+              "discriminator": "0000",
+              "nickname": "RebelMike",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573118941528854529",
+        "channelId": "1572479109676793856",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573121017679712259",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:41:17.79+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Or maybe a ZIF connector is the right solution",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573122659699531777",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:47:49.278+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If you'd want. The flex is naturally too thin though; but due to the 2/2 bump adding a stiffener for ZIF wouldn't be much more on top IIRC",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573125080618369085",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:57:26.47+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It looks like the pad pitch on TQVE is 102um so this would be super tight - you wouldn't be able to put a pad at all on the FPC, it would just be the 2mil trace.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573128737543950428",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:11:58.349+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yeah, that's normal for dense ACF usage, line pitch close to process minimums on one of the two sides (whichever has more trouble with fine pitch).",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573125080618369085",
+        "channelId": "1572479109676793856",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573129295105101866",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:14:11.282+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "With this limitation and assuming to put power and gnd pads in the center instead, considering those don't really need the fancy stuff from the pad ring cells, a full slot should just about manage 148 IO's _I think._",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573129861416095756",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:16:26.301+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Relies on CUP for the power and ground in the middle in practice though, IMO. Or \"ab\"-using the 4 corners to feed in through one large pad each that occupies almost all the area not in the way of the pad fanout traces and between sealring and power-ring-corner-cell.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573176959670948013",
+      "type": "Default",
+      "timestamp": "2026-11-20T03:23:35.4+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "reference": {
+        "messageId": "1572380092485869679",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573177183797780561",
+      "type": "Reply",
+      "timestamp": "2026-11-20T03:24:28.836+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Opps, seems @Andrew Wingate already forwarded this...",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573176959670948013",
+        "channelId": "1572479109676793856",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 8
+  "messageCount": 31
 }

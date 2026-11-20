@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T20:21:36.7028024+00:00",
+  "exportedAt": "2026-11-20T02:14:43.1103366+00:00",
   "messages": [
     {
       "id": "1570885229223215147",
@@ -3093,7 +3093,822 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573075421342204047",
+      "type": "Reply",
+      "timestamp": "2026-11-19T20:40:06.776+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i see now. i went for explicit transistors and caps from the official PDK. but the old processes use parasitics that aren't manufacturable on Wafer Space.",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573051706089152623",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573075425574387754",
+      "type": "Default",
+      "timestamp": "2026-11-19T20:40:07.785+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i assume you cannot send a GDS with known DRC errors to the fab and assume all the risk yourself?",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573076095492947991",
+      "type": "Reply",
+      "timestamp": "2026-11-19T20:42:47.506+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "We can't. Not on gf180.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573075425574387754",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573076471679815701",
+      "type": "Reply",
+      "timestamp": "2026-11-19T20:44:17.196+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmmm; CCD should work well I think; read the CCD paper I linked first if you want to understand the performance better.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573075421342204047",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573078146327126037",
+      "type": "Reply",
+      "timestamp": "2026-11-19T20:50:56.463+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "looking at the diagram again, i see why the cap plates and transfer transistors share a clk: it's physically the same wire \uD83E\uDD2F",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573051706089152623",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDD2F",
+          "code": "exploding_head",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f92f-FF4E0.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573084511879561269",
+      "type": "Reply",
+      "timestamp": "2026-11-19T21:16:14.129+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yeah. It's just that with CCD you don't have that extra p+-doped cap that can hold on to your charge when you turn the channel off; instead, that's essentially fully-lacking.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573078146327126037",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573085282407022769",
+      "type": "Default",
+      "timestamp": "2026-11-19T21:19:17.837+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If you can't prevent it's formation due to DRCs, you'd probably have to deal with it _somewhat_; not sure if it's legal to put poly2 over there even if you were to widen it, but with luck you might not have to in practice, I guess.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573086401791008881",
+      "type": "Default",
+      "timestamp": "2026-11-19T21:23:44.719+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "> PL.3b* Poly2 Space on COMP for low active sheet resistivity (guideline)\nThat suggests you might want to very much use thick oxide as it appears to cause a wider horizontal silicide blocking action <https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_07_08.html> to the source/drain implant zone.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573087253285179443",
+      "type": "Reply",
+      "timestamp": "2026-11-19T21:27:07.731+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "all this talk about \"not losing a single electron\" with a CCD... might as well use a digital delay. we'd need a way to add lo-fi character back in for audio",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573051706089152623",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573087439038451725",
+      "type": "Default",
+      "timestamp": "2026-11-19T21:27:52.018+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it's not gonna be that good this isn't even a buried channel \uD83D\uDE04",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDE8F",
+            "code": "\uD83E\uDE8F",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1fa8f-F64B2.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE49",
+            "code": "hear_no_evil",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f649-4AFB6.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE04",
+          "code": "smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f604-BF863.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573092335481528364",
+      "type": "Default",
+      "timestamp": "2026-11-19T21:47:19.421+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i guess a MOSCAP would also have nonlinear capacitance as a function of voltage \uD83E\uDD14",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDD14",
+          "code": "thinking",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f914-15707.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573093254482886677",
+      "type": "Default",
+      "timestamp": "2026-11-19T21:50:58.528+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "simulation results with smaller XCLK and retained XISO/init:\n- 64 buckets: 30% peak amplitude loss\n- 128 buckets: 52% peak amplitude loss",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573093750450692291",
+      "type": "Default",
+      "timestamp": "2026-11-19T21:52:56.776+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so 256 buckets remains plausible under this architecture",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573096104055021732",
+      "type": "Reply",
+      "timestamp": "2026-11-19T22:02:17.919+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hmmm. thick oxide also gets you less gate-oxide capacitance (2.3 fF/µm² vs 4.4 fF/µm² )",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573086401791008881",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573096169209470979",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:02:33.453+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so there is a tradeoff",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573096637658693695",
+      "type": "Reply",
+      "timestamp": "2026-11-19T22:04:25.14+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is more about the CCD effect possibly not working too well due to an undesired (for CCD operation) N-doped implant being in the way of the charge that shall transfer nicely.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573096169209470979",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573097940891738203",
+      "type": "Reply",
+      "timestamp": "2026-11-19T22:09:35.855+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "that's the nominal beauty of CCDs: they transfer charge. If implemented well, and not forced to store fore too long, they do this charge transferring with negligible losses and with basically only really having thermal noise at the input and output, not between, due to how they do the charge region building: they form a semiconductor channel of that charge who's existence is literally limited by quantum-theory bandgap stuff.\nLike, the way it's turned off essentially forcibly expels the charge to the next one that already started to pull them to it.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573092335481528364",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573098238201036997",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:10:46.739+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You have charge noise up top, I guess, but you can't just manifest the charge carriers _in the channel zone_ out of thin air from casual RC thermal noise. It's governed by different laws there.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573098911873114255",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:13:27.355+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'd suggest you try to modify the equation governing source/drain area and perimeter to reduce them substantially to match a 0.24um minimum DRC legal gap; and then halve the results because you're gonna overlap them between adjacent gates.\nAnd the 3-phase clock is needed with that. And make the gates be nice long channels, not that very short stuff there.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573111243856814222",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:02:27.529+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "world's first quantum-powered delay \uD83D\uDE01",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE01",
+          "code": "grin",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f601-4E9BD.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573133441292177480",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:30:39.81+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "what about electron traps? they can capture charge from one audio sample and release it into the next, making them both wrong while conserving total charge \uD83E\uDD14",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573098238201036997",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDD14",
+          "code": "thinking",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f914-15707.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573133979597545605",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:32:48.152+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "well that's a buried channel thing",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 89
+  "messageCount": 111
 }

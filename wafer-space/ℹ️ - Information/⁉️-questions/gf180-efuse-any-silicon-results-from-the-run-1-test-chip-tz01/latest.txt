@@ -45,6 +45,44 @@ Are you sue `EFUSE_MK`/`PLFUSE` generate masks? They are listed as "Marking" not
 The ones that do appear to be masks are the poly fuse window/metal fuse window/MIM-FuseTop; the latter we do have though as it's inherent to defining the top plate of MIM caps which we clearly have.
 
 
+[2026-11-19 11:02 p.m.] mithro_
+@namibj - In the GF "set up a run configurator tool" thing, when you select the proprietary efuse IP, a new mask is added to your order configuration.
+
+The ordering system doesn't really explain (or even provide a name) for what this mask is.
+
+
+[2026-11-19 11:02 p.m.] mithro_
+I don't select that option when setting up wafer.space runs.
+
+
+[2026-11-19 11:03 p.m.] namibj
+....no number for the mask?
+
+
+[2026-11-19 11:04 p.m.] 246tnt
+I think there are several type of fuse supported on gf180.
+
+
+[2026-11-19 11:05 p.m.] namibj
+Yeah, metal fuses are a thing it seems.
+
+
+[2026-11-19 11:09 p.m.] mithro_
+The "mask numbers" in the GF configurator seem to be a totally different scheme to what is published in any documentation from GF I have been provided.
+
+
+[2026-11-19 11:09 p.m.] mithro_
+However, I could just be bilind / incompetent 😛
+
+
+[2026-11-19 11:14 p.m.] namibj
+https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_04_3.html so nothing to do with these numbers?
+
+
+[2026-11-20 12:20 a.m.] mithro_
+Yeah, it seems they sometimes name those mask numbers in like the comment field for the mask.
+
+
 ==============================================================
-Exported 7 message(s)
+Exported 16 message(s)
 ==============================================================

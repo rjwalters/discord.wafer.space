@@ -1,7 +1,18 @@
 ==============================================================
 Guild: wafer.space Community
 Channel: 𐦂𖨆𐀪𖠋 - Friends / fomu
-Topic: Channel for the FPGA Tomu aka Fomu (https://fomu.im).
+Topic: **Fomu** (FPGA Tomu): an open source Lattice iCE40UP5K FPGA board that fits inside a USB port, with enough logic for a RISC-V CPU and a USB softcore.
+
+**Docs**
+• [Fomu home page](https://tomu.im/fomu.html)
+• [Fomu workshop](https://workshop.fomu.im/): from loading software to writing your own hardware
+**Source**
+• [fomu-hardware](https://github.com/im-tomu/fomu-hardware)
+• [fomu-workshop](https://github.com/im-tomu/fomu-workshop)
+• [fomu-toolchain](https://github.com/im-tomu/fomu-toolchain)
+• [foboot](https://github.com/im-tomu/foboot): the bootloader
+**Buy**
+• [Crowd Supply](https://www.crowdsupply.com/sutajio-kosagi/fomu)
 After: 2026-10-31 11:59 p.m.
 Before: 2026-12-01 12:00 a.m.
 ==============================================================

@@ -185,3 +185,24 @@ I haven't played with that, but I'll give it a shot tomorrow.","2026-11_media/im
 "756011607603019777","anfroholic","2026-11-18T16:10:20.4400000+00:00","","2026-11_media/breakout-ttgf0p2-cob.wb-911BC.svg,2026-11_media/image-12FBE.png",""
 "1184268085822238821","saladchap","2026-11-19T02:07:37.4220000+00:00","@Stephan Bökelmann this is interesting for you I think","","💜 (1)"
 "543162393413287956","h.tamas","2026-11-19T05:20:28.9740000+00:00","Thank you. It's looking good and I can export the footprint to reproduce your screenshot in kicad. I also see the issues, but that's fine, we will sort them out when we actually port the design. My point was just to check that the spec and the tooling will support the way we want to use it and now I'm convinced.","","💜 (1)"
+"262706220073222144","namibj","2026-11-19T22:59:14.2840000+00:00","@Essen any particular understanding about the inherent cost of the hardware required for performing wire bonding, without involving any automation?","",""
+"509798510170865675","essen__","2026-11-20T00:22:06.2070000+00:00","So outside from the strong desire to jump out the window in an ultimate act of frustration ? 
+
+It will depend on what you want to get and lots of luck. Second hand wire bonders are such an **illiquide market **that getting a consistent pricing is really a challenge. 
+
+Auction seems to have the best prices, but are also the most variable. 
+Ebay listing are more predictable and expect prices to start at least around 1.5k USD. 
+ 
+Around my area (US) you are looking at about 300$ or lower (have seen 2xwire bonders + tester go for as low as 120$) for a good second hand wire bonder at auction, but you also need to account for shipping, which will actually be the bulk of your cost. How much do you value the 18h drive and is your trunk big though ? 
+
+For reference: Fully automated bonding machines go for 3k USD but are also quite rare. (So more expensive then electron microscopes)","",""
+"262706220073222144","namibj","2026-11-20T00:27:56.4770000+00:00","Thx!
+May the 6DOF micro-manipulator give us happy vibes....
+And enough realistic strength to handle the forces incurred.
+This <https://www.engineering.upenn.edu/~nanosop/Wire_Bonder_SOP.htm> looks hopeful to me so far at least.","2026-11_media/bondparameters-DAFB3.png","💜 (1)"
+"509798510170865675","essen__","2026-11-20T00:29:41.3120000+00:00","Looks like a really nice model.","",""
+"509798510170865675","essen__","2026-11-20T00:31:02.0540000+00:00","Do you have one in sight ?","",""
+"262706220073222144","namibj","2026-11-20T00:31:36.3840000+00:00","With the bond head going for so cheap and apparently comparatively readily, setting up a motion platform underneath that can move the chip and substrate around enough for sufficciently reasonable bond angles on one die side at least (if it has to provide the rotation) should do decently, I think.
+Might add a real rotation axis instead though to handle full 360 degree spinning without hurting the remaining range of motion too much 😄","","👀 (1)"
+"262706220073222144","namibj","2026-11-20T00:32:12.3710000+00:00","nah just looked for info on the forces involved to check against the understanding I have about the strengths of the micro manipulator","","👍 (1)"
+"509798510170865675","essen__","2026-11-20T00:34:04.5610000+00:00","Fair 💪","",""

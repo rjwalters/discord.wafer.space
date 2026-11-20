@@ -10,13 +10,13 @@
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
     "name": "tinytapeout",
-    "topic": "Current shuttle - Tiny Tapeout GF 0p2 - [discord](https://discord.com/channels/1009193568256135208/1422290927816540402) - [webpage](https://app.tinytapeout.com/shuttles/ttgf0p2)"
+    "topic": "**Tiny Tapeout**: a quicker, easier and cheaper way to get your own design made on a real chip. This channel is for Tiny Tapeout on GF180MCU.\n\n**Current shuttle**: Tiny Tapeout GF 0p2\n• [Shuttle page](https://app.tinytapeout.com/shuttles/ttgf0p2)\n• [Shuttle channel](https://discord.com/channels/1009193568256135208/1422290927816540402) on the Tiny Tapeout Discord\n**Links**\n• [tinytapeout.com](https://tinytapeout.com/)\n• [Tiny Tapeout Discord](https://discord.gg/qZHPrPsmt6)\n**Templates**\n• [ttgf-verilog-template](https://github.com/TinyTapeout/ttgf-verilog-template)\n• [ttgf-wokwi-template](https://github.com/TinyTapeout/ttgf-wokwi-template)"
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T22:48:43.1890844+00:00",
+  "exportedAt": "2026-11-20T04:39:59.3446442+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -3794,7 +3794,55 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1573119459571408978",
+      "type": "Default",
+      "timestamp": "2026-11-19T23:35:06.308+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Derek F submitted test (https://github.com/lacser/298A)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - lacser/298A",
+          "url": "https://github.com/lacser/298A",
+          "timestamp": null,
+          "description": "Contribute to lacser/298A development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/298A-2CCA2",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 74
+  "messageCount": 75
 }

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-19T22:23:23.2278728+00:00",
+  "exportedAt": "2026-11-20T04:14:58.7376558+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -2814,7 +2814,387 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573110433328398378",
+      "type": "Default",
+      "timestamp": "2026-11-19T22:59:14.284+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Essen any particular understanding about the inherent cost of the hardware required for performing wire bonding, without involving any automation?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "509798510170865675",
+          "name": "essen__",
+          "discriminator": "0000",
+          "nickname": "Essen",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573131287084924969",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:22:06.207+00:00",
+      "timestampEdited": "2026-11-20T00:28:32.476+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So outside from the strong desire to jump out the window in an ultimate act of frustration ? \n\nIt will depend on what you want to get and lots of luck. Second hand wire bonders are such an **illiquide market **that getting a consistent pricing is really a challenge. \n\nAuction seems to have the best prices, but are also the most variable. \nEbay listing are more predictable and expect prices to start at least around 1.5k USD. \n \nAround my area (US) you are looking at about 300$ or lower (have seen 2xwire bonders + tester go for as low as 120$) for a good second hand wire bonder at auction, but you also need to account for shipping, which will actually be the bulk of your cost. How much do you value the 18h drive and is your trunk big though ? \n\nFor reference: Fully automated bonding machines go for 3k USD but are also quite rare. (So more expensive then electron microscopes)",
+      "author": {
+        "id": "509798510170865675",
+        "name": "essen__",
+        "discriminator": "0000",
+        "nickname": "Essen",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573110433328398378",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573132756224049162",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:27:56.477+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thx!\nMay the 6DOF micro-manipulator give us happy vibes....\nAnd enough realistic strength to handle the forces incurred.\nThis <https://www.engineering.upenn.edu/~nanosop/Wire_Bonder_SOP.htm> looks hopeful to me so far at least.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1573132755737387148",
+          "url": "2026-11_media/bondparameters-DAFB3.png",
+          "fileName": "bondparameters.png",
+          "fileSizeBytes": 126120
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "509798510170865675",
+              "name": "essen__",
+              "discriminator": "0000",
+              "nickname": "Essen",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "509798510170865675",
+          "name": "essen__",
+          "discriminator": "0000",
+          "nickname": "Essen",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573131287084924969",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573133195933786133",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:29:41.312+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Looks like a really nice model.",
+      "author": {
+        "id": "509798510170865675",
+        "name": "essen__",
+        "discriminator": "0000",
+        "nickname": "Essen",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573132756224049162",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573133534590410946",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:31:02.054+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Do you have one in sight ?",
+      "author": {
+        "id": "509798510170865675",
+        "name": "essen__",
+        "discriminator": "0000",
+        "nickname": "Essen",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573133678580863120",
+      "type": "Default",
+      "timestamp": "2026-11-20T00:31:36.384+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "With the bond head going for so cheap and apparently comparatively readily, setting up a motion platform underneath that can move the chip and substrate around enough for sufficciently reasonable bond angles on one die side at least (if it has to provide the rotation) should do decently, I think.\nMight add a real rotation axis instead though to handle full 360 degree spinning without hurting the remaining range of motion too much \uD83D\uDE04",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC40",
+            "code": "eyes",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f440-6C64D.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "509798510170865675",
+              "name": "essen__",
+              "discriminator": "0000",
+              "nickname": "Essen",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE04",
+          "code": "smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f604-BF863.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573133829521285161",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:32:12.371+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "nah just looked for info on the forces involved to check against the understanding I have about the strengths of the micro manipulator",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "509798510170865675",
+              "name": "essen__",
+              "discriminator": "0000",
+              "nickname": "Essen",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "509798510170865675",
+          "name": "essen__",
+          "discriminator": "0000",
+          "nickname": "Essen",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573133534590410946",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573134300080115773",
+      "type": "Reply",
+      "timestamp": "2026-11-20T00:34:04.561+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Fair \uD83D\uDCAA",
+      "author": {
+        "id": "509798510170865675",
+        "name": "essen__",
+        "discriminator": "0000",
+        "nickname": "Essen",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573133829521285161",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDCAA",
+          "code": "muscle",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f4aa-2FD27.svg"
+        }
+      ]
     }
   ],
-  "messageCount": 68
+  "messageCount": 76
 }

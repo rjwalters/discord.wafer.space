@@ -1,7 +1,19 @@
 ==============================================================
 Guild: wafer.space Community
 Channel: 𐦂𖨆𐀪𖠋 - Friends / fpgas-online
-Topic: Channel for continued development of https://fpgas.online
+Topic: **fpgas.online**: free remote access to real FPGA boards from your browser. Build a bitstream with open source toolchains, upload it, and watch the board on a live camera feed. This channel is for its continued development.
+
+**Sites**
+• [ps1.fpgas.online](https://ps1.fpgas.online/): Pumping Station: One hackerspace, Chicago, USA
+• [welland.fpgas.online](https://welland.fpgas.online/): Welland, near Adelaide, Australia
+• [tinytapeout.fpgas.online](https://tinytapeout.fpgas.online/): Tiny Tapeout demo boards
+**Docs**
+• [fpgas.online](https://fpgas.online/): start here
+• [docs.fpgas.online](https://docs.fpgas.online/): full reference
+• [Getting Started](https://github.com/CarlFK/pici/wiki/Getting-Started)
+**Source**
+• [fpgas-online](https://github.com/fpgas-online) organisation
+• [pici](https://github.com/CarlFK/pici)
 After: 2026-10-31 11:59 p.m.
 Before: 2026-12-01 12:00 a.m.
 ==============================================================

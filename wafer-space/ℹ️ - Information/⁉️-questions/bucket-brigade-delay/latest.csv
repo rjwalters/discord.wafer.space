@@ -170,3 +170,30 @@ It seems you _might_ want to use native threshold voltage devices?","",""
 While the process allows you, the DRC don't let you, but _in theory_ gf180mcuD is also capable of forming shottkey structures. It's just _very DRC banned_ to form _anything_ that'd exhibit that behavior. (A <https://en.wikipedia.org/wiki/MESFET>.)","",""
 "262706220073222144","namibj","2026-11-19T19:39:52.2760000+00:00","You don't need metal gates.
 And you probably don't want to form that old 2-phsae BBD structure in the process that gives you poly gates.","",""
+"211112896833257472","archit3ch","2026-11-19T20:40:06.7760000+00:00","i see now. i went for explicit transistors and caps from the official PDK. but the old processes use parasitics that aren't manufacturable on Wafer Space.","",""
+"211112896833257472","archit3ch","2026-11-19T20:40:07.7850000+00:00","i assume you cannot send a GDS with known DRC errors to the fab and assume all the risk yourself?","",""
+"262706220073222144","namibj","2026-11-19T20:42:47.5060000+00:00","We can't. Not on gf180.","","👍 (1)"
+"262706220073222144","namibj","2026-11-19T20:44:17.1960000+00:00","Hmmm; CCD should work well I think; read the CCD paper I linked first if you want to understand the performance better.","",""
+"211112896833257472","archit3ch","2026-11-19T20:50:56.4630000+00:00","looking at the diagram again, i see why the cap plates and transfer transistors share a clk: it's physically the same wire 🤯","",""
+"262706220073222144","namibj","2026-11-19T21:16:14.1290000+00:00","yeah. It's just that with CCD you don't have that extra p+-doped cap that can hold on to your charge when you turn the channel off; instead, that's essentially fully-lacking.","",""
+"262706220073222144","namibj","2026-11-19T21:19:17.8370000+00:00","If you can't prevent it's formation due to DRCs, you'd probably have to deal with it _somewhat_; not sure if it's legal to put poly2 over there even if you were to widen it, but with luck you might not have to in practice, I guess.","",""
+"262706220073222144","namibj","2026-11-19T21:23:44.7190000+00:00","> PL.3b* Poly2 Space on COMP for low active sheet resistivity (guideline)
+That suggests you might want to very much use thick oxide as it appears to cause a wider horizontal silicide blocking action <https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_07_08.html> to the source/drain implant zone.","",""
+"211112896833257472","archit3ch","2026-11-19T21:27:07.7310000+00:00","all this talk about ""not losing a single electron"" with a CCD... might as well use a digital delay. we'd need a way to add lo-fi character back in for audio","",""
+"262706220073222144","namibj","2026-11-19T21:27:52.0180000+00:00","it's not gonna be that good this isn't even a buried channel 😄","","🪏 (1),🙉 (1)"
+"211112896833257472","archit3ch","2026-11-19T21:47:19.4210000+00:00","i guess a MOSCAP would also have nonlinear capacitance as a function of voltage 🤔","",""
+"211112896833257472","archit3ch","2026-11-19T21:50:58.5280000+00:00","simulation results with smaller XCLK and retained XISO/init:
+- 64 buckets: 30% peak amplitude loss
+- 128 buckets: 52% peak amplitude loss","",""
+"211112896833257472","archit3ch","2026-11-19T21:52:56.7760000+00:00","so 256 buckets remains plausible under this architecture","",""
+"211112896833257472","archit3ch","2026-11-19T22:02:17.9190000+00:00","hmmm. thick oxide also gets you less gate-oxide capacitance (2.3 fF/µm² vs 4.4 fF/µm² )","",""
+"211112896833257472","archit3ch","2026-11-19T22:02:33.4530000+00:00","so there is a tradeoff","",""
+"262706220073222144","namibj","2026-11-19T22:04:25.1400000+00:00","This is more about the CCD effect possibly not working too well due to an undesired (for CCD operation) N-doped implant being in the way of the charge that shall transfer nicely.","",""
+"262706220073222144","namibj","2026-11-19T22:09:35.8550000+00:00","that's the nominal beauty of CCDs: they transfer charge. If implemented well, and not forced to store fore too long, they do this charge transferring with negligible losses and with basically only really having thermal noise at the input and output, not between, due to how they do the charge region building: they form a semiconductor channel of that charge who's existence is literally limited by quantum-theory bandgap stuff.
+Like, the way it's turned off essentially forcibly expels the charge to the next one that already started to pull them to it.","",""
+"262706220073222144","namibj","2026-11-19T22:10:46.7390000+00:00","You have charge noise up top, I guess, but you can't just manifest the charge carriers _in the channel zone_ out of thin air from casual RC thermal noise. It's governed by different laws there.","",""
+"262706220073222144","namibj","2026-11-19T22:13:27.3550000+00:00","I'd suggest you try to modify the equation governing source/drain area and perimeter to reduce them substantially to match a 0.24um minimum DRC legal gap; and then halve the results because you're gonna overlap them between adjacent gates.
+And the 3-phase clock is needed with that. And make the gates be nice long channels, not that very short stuff there.","",""
+"211112896833257472","archit3ch","2026-11-19T23:02:27.5290000+00:00","world's first quantum-powered delay 😁","",""
+"211112896833257472","archit3ch","2026-11-20T00:30:39.8100000+00:00","what about electron traps? they can capture charge from one audio sample and release it into the next, making them both wrong while conserving total charge 🤔","",""
+"262706220073222144","namibj","2026-11-20T00:32:48.1520000+00:00","well that's a buried channel thing","",""
