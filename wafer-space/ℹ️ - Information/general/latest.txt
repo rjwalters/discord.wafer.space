@@ -1039,6 +1039,80 @@ I can look later this weekend at it, I think; remind me in like 30 hours perhaps
 Hey all. After six months effort, I have a great deal of faith that my full-slot chip is actually and finally done. It's really cool, and was an incredible learning opportunity. Especially in having to redo it a couple times. Unfortunately, the six months started in May, with a lot of optimism that I'd get it done for July. Which meant I bought and missed my Run 2 slot. That burn removed my confidence to reserve a Run 3 slot until I had clarity that I really could get it finished. If you are like me (buying before completion) with Run 3: ***I'd like to buy your slot from you***. I'll pay a premium. Just putting this out there. As we get closer to the deadline... let me know. My design should be ready to go, so I don't need much advance notice.
 
 
+[2026-11-20 4:11 p.m.] infosecdj
+hello! the first batch of images for run 2 is here.
+https://infosecdj.net/map/wafer-space/gf180mcu-ws2-as04/infosecdj_mz_nikpa40x/
+https://infosecdj.net/map/wafer-space/gf180mcu-ws2-btx1/infosecdj_mz_nikpa40x/
+https://infosecdj.net/map/wafer-space/gf180mcu-ws2-clon/infosecdj_mz_nikpa40x/
+https://infosecdj.net/map/wafer-space/gf180mcu-ws2-kian/infosecdj_mz_nikpa40x/
+https://infosecdj.net/map/wafer-space/gf180mcu-ws2-mole/infosecdj_mz_nikpa40x/
+https://infosecdj.net/map/wafer-space/gf180mcu-ws2-t0p3/infosecdj_mz_nikpa40x/
+let me know if you need single jpegs for any of these right now. I will upload the jpegs to the wafer.space location when I'm done imaging the whole run.
+
+{Attachments}
+2026-11_media/wafer-space_gf180mcu-ws2-as04_mz_nikpa40x_-1B13E.jpg
+2026-11_media/wafer-space_gf180mcu-ws2-btx1_mz_nikpa40x_-D491A.jpg
+2026-11_media/wafer-space_gf180mcu-ws2-clon_mz_nikpa40x_-E22B8.jpg
+2026-11_media/wafer-space_gf180mcu-ws2-kian_mz_nikpa40x_-E4961.jpg
+2026-11_media/wafer-space_gf180mcu-ws2-mole_mz_nikpa40x_-A8574.jpg
+2026-11_media/wafer-space_gf180mcu-ws2-t0p3_mz_nikpa40x_-3D315.jpg
+
+{Reactions}
+🤩 (5) 💜
+
+[2026-11-20 4:25 p.m.] tholin
+Different metal layers have different appearances
+
+{Attachments}
+2026-11_media/image-CA483.png
+
+{Reactions}
+👀
+
+[2026-11-20 4:29 p.m.] tholin
+The texture of the metal changes depending on if there are contacts/vias underneath
+
+{Attachments}
+2026-11_media/image-7EDC5.png
+
+
+[2026-11-20 4:42 p.m.] 246tnt
+Pads already showing signs of corrosion ?
+
+{Attachments}
+2026-11_media/2026-11-20_316x288_scrot-92BBD.png
+
+
+[2026-11-20 4:48 p.m.] tholin
+Looks more like residue to me
+
+
+[2026-11-20 4:48 p.m.] 246tnt
+Also what area those rectangle between the seal ring and the fill. Those don't correspond to anything in the final OAS.  @Leo Moser (mole99) Do those show up in the final masks ?
+
+{Attachments}
+2026-11_media/2026-11-20_278x627_scrot-60E19.png
+
+
+[2026-11-20 4:48 p.m.] tholin
+If it was corrosion, wouldn’t it be even across the surface?
+
+
+[2026-11-20 4:55 p.m.] tholin
+I should’ve put fill block over the DACs! Oh well.
+
+{Attachments}
+2026-11_media/image-A884E.png
+
+
+[2026-11-20 5:24 p.m.] infosecdj
+in fact, we do not know what this is. I do not have access to a SEM to take really good pictures, but will try to snap some at higher res.
+
+
+[2026-11-20 6:19 p.m.] mole99
+My guess is as good as yours. I didn't notice that during the final mask review, but I also didn't specifically look for them.
+
+
 ==============================================================
-Exported 203 message(s)
+Exported 213 message(s)
 ==============================================================

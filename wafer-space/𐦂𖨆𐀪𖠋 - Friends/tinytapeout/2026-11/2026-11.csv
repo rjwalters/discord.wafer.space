@@ -101,3 +101,6 @@ Also was able to control the DAC peripheral using `machine.mem8[0x80000034]`, th
 "1167741026950197258","TTBot#6027","2026-11-19T16:43:37.8770000+00:00","New tapeout: @always_ff_rohan submitted Transistor-Ladder VCF (https://github.com/rohanverma94/tt-gf-ladder_vcf)","",""
 "1167741026950197258","TTBot#6027","2026-11-19T20:42:18.4820000+00:00","New tapeout: Benjamin J. Eisenberg, Roshan Hegde submitted Metastability Characterizer (https://github.com/Roshyoshi/metastability-298)","",""
 "1167741026950197258","TTBot#6027","2026-11-19T23:35:06.3080000+00:00","New tapeout: Derek F submitted test (https://github.com/lacser/298A)","",""
+"1167741026950197258","TTBot#6027","2026-11-20T15:04:43.6880000+00:00","New tapeout: Tiny Tapeout submitted Tiny Tapeout Factory Test (https://github.com/tinytapeout/ttgf26c-factory-test)","",""
+"1167741026950197258","TTBot#6027","2026-11-20T15:12:26.5250000+00:00","New tapeout: @urish submitted Chip ROM (https://github.com/tinytapeout/tt-chip-rom)","",""
+"1167741026950197258","TTBot#6027","2026-11-20T22:19:41.9790000+00:00","New tapeout: Daniel submitted tinyrv32e (https://github.com/dssoftx/tinyrv32e)","",""

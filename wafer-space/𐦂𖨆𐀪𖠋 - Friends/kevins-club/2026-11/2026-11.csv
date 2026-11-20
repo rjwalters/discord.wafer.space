@@ -145,3 +145,10 @@ I am here yes","",""
 "768095480264917023","ghaithalsabagh","2026-11-20T08:31:52.3940000+00:00","I would be also interested in characterizing 10V devices with some RF structures.
 
 In simulations we have seen that these LDMOS are way better than 3V3 devices","",""
+"1170784850874220707","fossify_37988","2026-11-20T15:11:50.8910000+00:00","Can you try an LDMOS device if theyre not already taken up by passives?","",""
+"220639106915368960","tholin","2026-11-20T16:16:38.2550000+00:00","I have no free analog pins to wire it up to","",""
+"220639106915368960","tholin","2026-11-20T16:16:43.5910000+00:00","What is LDMOS?","",""
+"596068704471482370","246tnt","2026-11-20T16:20:44.7760000+00:00","10V high voltage transistors","",""
+"220639106915368960","tholin","2026-11-20T16:24:57.5540000+00:00","Ah","",""
+"220639106915368960","tholin","2026-11-20T16:24:58.7060000+00:00","Hmmmm","",""
+"220639106915368960","tholin","2026-11-20T16:25:18.6080000+00:00","I’ll see about exposing one on my battery charge controller IC","",""

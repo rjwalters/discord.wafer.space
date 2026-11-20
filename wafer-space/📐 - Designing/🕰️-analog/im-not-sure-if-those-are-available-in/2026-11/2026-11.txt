@@ -31,6 +31,8 @@ I created those with the KLayout-native PCells. Use with caution.
 {Attachments}
 2026-11_media/fet_10v0_asym-FE96E.gds
 
+{Reactions}
+👍
 
 [2026-11-20 8:50 a.m.] mole99
 They do use `MVSD`/`MVPSD`, but from what I can see, those are not physical layers/extra mask layers.

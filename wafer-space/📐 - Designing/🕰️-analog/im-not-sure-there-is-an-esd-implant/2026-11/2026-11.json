@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T13:28:38.7149001+00:00",
+  "exportedAt": "2026-11-20T22:16:44.6371623+00:00",
   "messages": [
     {
       "id": "1573258910838554716",
@@ -248,7 +248,140 @@
           "imageUrl": "2026-11_media/1f605-42B43.svg"
         }
       ]
+    },
+    {
+      "id": "1573391899966832751",
+      "type": "Reply",
+      "timestamp": "2026-11-20T17:37:41.16+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it's this kind of stuff; used e.g. with GGNMOS",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1573391897639260320",
+          "url": "2026-11_media/US06838734-20050104-D00000-D325B.png",
+          "fileName": "US06838734-20050104-D00000.png",
+          "fileSizeBytes": 27438
+        },
+        {
+          "id": "1573391898666733628",
+          "url": "2026-11_media/images-C87A5.png",
+          "fileName": "images.png",
+          "fileSizeBytes": 22002
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "323371864074485771",
+              "name": "mole99",
+              "discriminator": "0000",
+              "nickname": "Leo Moser (mole99)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "323371864074485771",
+          "name": "mole99",
+          "discriminator": "0000",
+          "nickname": "Leo Moser (mole99)",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573263424777887745",
+        "channelId": "1573101129217220759",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573392043441524817",
+      "type": "Default",
+      "timestamp": "2026-11-20T17:38:15.367+00:00",
+      "timestampEdited": "2026-11-20T17:38:41.671+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "NLDD is the `NAT` implant, I think",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573392556589322293",
+      "type": "Default",
+      "timestamp": "2026-11-20T17:40:17.711+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think the effect is mostly to avoid a sharp N+ PSUB junction under the drain that could easily reverse breakdown and I'd assume result in some hotspot formation process as a result of the reverse breakdown there",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 6
+  "messageCount": 9
 }

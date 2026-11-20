@@ -1,0 +1,389 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1573367855595126879",
+    "type": "GuildPublicThread",
+    "categoryId": "1572479109676793856",
+    "category": "\uD83D\uDC2D-tinyqv",
+    "name": "I've put a super basic webpage up for",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-20T22:23:36.0267479+00:00",
+  "messages": [
+    {
+      "id": "1573380744443728015",
+      "type": "21",
+      "timestamp": "2026-11-20T16:53:21.476+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573367855595126879",
+        "channelId": "1572479109676793856",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573380752106721442",
+      "type": "Default",
+      "timestamp": "2026-11-20T16:53:23.303+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Looks like there's a config issue?",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573380777104638073",
+      "type": "Default",
+      "timestamp": "2026-11-20T16:53:29.263+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [
+        {
+          "id": "1573380776903577712",
+          "url": "2026-11_media/image-8D329.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 89137
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573380811950919793",
+      "type": "Default",
+      "timestamp": "2026-11-20T16:53:37.571+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [
+        {
+          "id": "1573380811980410960",
+          "url": "2026-11_media/image-183BA.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 28001
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573388253539598497",
+      "type": "Default",
+      "timestamp": "2026-11-20T17:23:11.784+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ah, it's broken but only over IPv6!  Thanks for the heads up!",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "732347216412278825",
+              "name": "urish",
+              "discriminator": "0000",
+              "nickname": "urish",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573389357056786433",
+      "type": "Default",
+      "timestamp": "2026-11-20T17:27:34.883+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Should be fixed now",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573400817719975957",
+      "type": "Default",
+      "timestamp": "2026-11-20T18:13:07.318+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Great! I'm doing some more experiments with the TinyQV (and the KianV) cores, so expect more interesting stuff next week",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573406049732395270",
+      "type": "Default",
+      "timestamp": "2026-11-20T18:33:54.727+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cool - let me know if you need a hand with anything!",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573412877597942054",
+      "type": "Default",
+      "timestamp": "2026-11-20T19:01:02.617+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "do you happen to have a gamepad Pmod + gamepad?",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573416418089762858",
+      "type": "Default",
+      "timestamp": "2026-11-20T19:15:06.736+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yep, there's a simple Micropython test for it here: https://github.com/TinyTapeout/ttsky25a-tinyQV/blob/main/micropython/03_gamepad.py\nand C SDK support too: https://github.com/MichaelBell/tinyQV-sdk/blob/main/gamepad.h",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "732347216412278825",
+              "name": "urish",
+              "discriminator": "0000",
+              "nickname": "urish",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 10
+}

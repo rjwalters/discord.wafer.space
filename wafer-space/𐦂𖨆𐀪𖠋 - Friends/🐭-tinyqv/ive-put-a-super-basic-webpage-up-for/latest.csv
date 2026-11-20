@@ -1,0 +1,12 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"732347216412278825","urish","2026-11-20T16:53:21.4760000+00:00","","",""
+"732347216412278825","urish","2026-11-20T16:53:23.3030000+00:00","Looks like there's a config issue?","",""
+"732347216412278825","urish","2026-11-20T16:53:29.2630000+00:00","","2026-11_media/image-8D329.png",""
+"732347216412278825","urish","2026-11-20T16:53:37.5710000+00:00","","2026-11_media/image-183BA.png",""
+"691780627338625077","rebelmike","2026-11-20T17:23:11.7840000+00:00","Ah, it's broken but only over IPv6!  Thanks for the heads up!","","👍 (1)"
+"691780627338625077","rebelmike","2026-11-20T17:27:34.8830000+00:00","Should be fixed now","",""
+"732347216412278825","urish","2026-11-20T18:13:07.3180000+00:00","Great! I'm doing some more experiments with the TinyQV (and the KianV) cores, so expect more interesting stuff next week","",""
+"691780627338625077","rebelmike","2026-11-20T18:33:54.7270000+00:00","Cool - let me know if you need a hand with anything!","",""
+"732347216412278825","urish","2026-11-20T19:01:02.6170000+00:00","do you happen to have a gamepad Pmod + gamepad?","",""
+"691780627338625077","rebelmike","2026-11-20T19:15:06.7360000+00:00","Yep, there's a simple Micropython test for it here: https://github.com/TinyTapeout/ttsky25a-tinyQV/blob/main/micropython/03_gamepad.py
+and C SDK support too: https://github.com/MichaelBell/tinyQV-sdk/blob/main/gamepad.h","","👍 (1)"

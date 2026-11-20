@@ -5,7 +5,7 @@ They are just very special-purpose built mosfets (comp does not fully connect D/
 
 However, if anyone is planning on using them for Run 3, please make sure to test them sooner rather than later. I might need to fix a few things in the KLayout DRC deck for them to pass precheck. For example, see: https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50","",""
 "323371864074485771","mole99","2026-11-20T08:44:32.8450000+00:00","cc @Christopher","",""
-"323371864074485771","mole99","2026-11-20T08:45:20.7210000+00:00","I created those with the KLayout-native PCells. Use with caution.","2026-11_media/fet_10v0_asym-FE96E.gds",""
+"323371864074485771","mole99","2026-11-20T08:45:20.7210000+00:00","I created those with the KLayout-native PCells. Use with caution.","2026-11_media/fet_10v0_asym-FE96E.gds","👍 (1)"
 "323371864074485771","mole99","2026-11-20T08:50:21.5010000+00:00","They do use `MVSD`/`MVPSD`, but from what I can see, those are not physical layers/extra mask layers.","",""
 "596068704471482370","246tnt","2026-11-20T08:51:24.2440000+00:00","I thought this was what `MVNVT` mask was for.","",""
 "323371864074485771","mole99","2026-11-20T09:03:30.3740000+00:00","I think you're right! However, looking at my docs, we did have `1L` in the Run1/Run2 mask set, and it's also in Run3. It's part of the ""always included masks"". It's strange, though, that they did not list `n/pfet_10v0_asym` as a possible device in that configuration.","",""

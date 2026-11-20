@@ -518,6 +518,34 @@ I would be also interested in characterizing 10V devices with some RF structures
 In simulations we have seen that these LDMOS are way better than 3V3 devices
 
 
+[2026-11-20 3:11 p.m.] fossify_37988
+Can you try an LDMOS device if theyre not already taken up by passives?
+
+
+[2026-11-20 4:16 p.m.] tholin
+I have no free analog pins to wire it up to
+
+
+[2026-11-20 4:16 p.m.] tholin
+What is LDMOS?
+
+
+[2026-11-20 4:20 p.m.] 246tnt
+10V high voltage transistors
+
+
+[2026-11-20 4:24 p.m.] tholin
+Ah
+
+
+[2026-11-20 4:24 p.m.] tholin
+Hmmmm
+
+
+[2026-11-20 4:25 p.m.] tholin
+I’ll see about exposing one on my battery charge controller IC
+
+
 ==============================================================
-Exported 87 message(s)
+Exported 94 message(s)
 ==============================================================

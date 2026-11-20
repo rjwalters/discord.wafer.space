@@ -37,6 +37,24 @@ And then of course there is the `ESD_MK` layer which is just a marker for DRC �
 {Reactions}
 👍
 
+[2026-11-20 5:37 p.m.] namibj
+it's this kind of stuff; used e.g. with GGNMOS
+
+{Attachments}
+2026-11_media/US06838734-20050104-D00000-D325B.png
+2026-11_media/images-C87A5.png
+
+{Reactions}
+👍
+
+[2026-11-20 5:38 p.m.] namibj
+NLDD is the `NAT` implant, I think
+
+
+[2026-11-20 5:40 p.m.] namibj
+I think the effect is mostly to avoid a sharp N+ PSUB junction under the drain that could easily reverse breakdown and I'd assume result in some hotspot formation process as a result of the reverse breakdown there
+
+
 ==============================================================
-Exported 6 message(s)
+Exported 9 message(s)
 ==============================================================

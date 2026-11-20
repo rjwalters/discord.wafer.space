@@ -51,3 +51,5 @@ The pin header on my upload there is 1.27mm pitch 2-row through-hole.","","👍 
 "262706220073222144","namibj","2026-11-20T00:16:26.3010000+00:00","Relies on CUP for the power and ground in the middle in practice though, IMO. Or ""ab""-using the 4 corners to feed in through one large pad each that occupies almost all the area not in the way of the pad fanout traces and between sealring and power-ring-corner-cell.","",""
 "169786952432746498","mithro_","2026-11-20T03:23:35.4000000+00:00","","","💜 (1)"
 "169786952432746498","mithro_","2026-11-20T03:24:28.8360000+00:00","Opps, seems @Andrew Wingate already forwarded this...","",""
+"691780627338625077","rebelmike","2026-11-20T16:02:08.5350000+00:00","I've put a super basic webpage up for TinyQV at https://tinyqv.com, mostly just a collection of links for now.","",""
+"732347216412278825","urish","2026-11-20T16:53:21.6260000+00:00","Started a thread.","",""

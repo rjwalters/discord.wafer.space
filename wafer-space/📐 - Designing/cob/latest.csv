@@ -210,3 +210,9 @@ Might add a real rotation axis instead though to handle full 360 degree spinning
 "169786952432746498","mithro_","2026-11-20T05:02:01.5380000+00:00","I would be very interested in the idea of a ""cheap wire bonding head"" attached to a budget X/Y gantry type thing....","",""
 "169786952432746498","mithro_","2026-11-20T05:02:55.5990000+00:00","I also believe that @digshadow has a bunch of experience in getting decent performance out of X/Y gantries due to his labsmore microscope stuff?","",""
 "262706220073222144","namibj","2026-11-20T05:05:44.8620000+00:00","oh the micromanipulator from DiffractionLimited (`0x23` on GitHub) exceeds the required performance as long as the situation allows optical closed loop tracking","",""
+"1442743623857995798","maxclerkwell","2026-11-20T14:46:21.3570000+00:00","the forces provided in the table look good. yet, trying to find a device, that gives good accuracy at the lower end (10-20gm) as well as in the upper region (80-120gm) sounds like a non-trivial choice to me. 
+
+Bonding ribbons comes with completely different challenges and I believe if you are looking for something and don't necessarily want to bond high-power mosfets, focus on the lower end <50gm first. 
+
+But this is just my few cents. 
+Can someone post some links to available wire-bonders on ebay or somewhere? I am too stupid to find them apparently","",""

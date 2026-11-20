@@ -540,6 +540,15 @@ I also believe that @digshadow has a bunch of experience in getting decent perfo
 oh the micromanipulator from DiffractionLimited (`0x23` on GitHub) exceeds the required performance as long as the situation allows optical closed loop tracking
 
 
+[2026-11-20 2:46 p.m.] maxclerkwell
+the forces provided in the table look good. yet, trying to find a device, that gives good accuracy at the lower end (10-20gm) as well as in the upper region (80-120gm) sounds like a non-trivial choice to me. 
+
+Bonding ribbons comes with completely different challenges and I believe if you are looking for something and don't necessarily want to bond high-power mosfets, focus on the lower end <50gm first. 
+
+But this is just my few cents. 
+Can someone post some links to available wire-bonders on ebay or somewhere? I am too stupid to find them apparently
+
+
 ==============================================================
-Exported 80 message(s)
+Exported 81 message(s)
 ==============================================================

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T11:58:46.1211255+00:00",
+  "exportedAt": "2026-11-20T20:43:10.2553331+00:00",
   "messages": [
     {
       "id": "1566989005176701111",
@@ -242,7 +242,76 @@
       ],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1573409239483945171",
+      "type": "Default",
+      "timestamp": "2026-11-20T18:46:35.223+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@kris just came across another article featuring Breaking Taps chip\nhttps://www.techeblog.com/breaking-taps-diy-homemade-silicon-chip-computer/",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Breaking Taps Designed a Working Silicon Chip and Got It Back Alive",
+          "url": "https://www.techeblog.com/breaking-taps-diy-homemade-silicon-chip-computer/",
+          "timestamp": null,
+          "description": "Zachary Tong had never designed a chip. He had never programmed an FPGA either, and he will tell you his electrical skills were rough. With about a month left before the first wafer.space deadline, he still decided to write a microprocessor, send the file to a real foundry, and wait to see if silicon came back alive. After researching old proces...",
+          "author": {
+            "name": "Jackson Chung",
+            "url": "https://www.techeblog.com/author/honekai/"
+          },
+          "thumbnail": {
+            "url": "2026-11_media/breaking-taps-diy-homemade-silicon-chip-co-F20F9.jpg",
+            "width": 1280,
+            "height": 1280
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "147848641153990657",
+          "name": "kris____",
+          "discriminator": "0000",
+          "nickname": "kris",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/805c5f01c704e9d59152d5236ce525a7-F3368.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 5
+  "messageCount": 6
 }

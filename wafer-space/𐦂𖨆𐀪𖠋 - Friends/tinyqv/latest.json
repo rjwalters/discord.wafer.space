@@ -10,13 +10,13 @@
     "categoryId": "1524223345443340439",
     "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
     "name": "\uD83D\uDC2D-tinyqv",
-    "topic": "**TinyQV** by Mike Bell: a small RISC-V (RV32EC) SoC with peripherals from the Tiny Tapeout RISC-V competition, with chips on wafer.space runs.\n\n**Run 1**\n• [TQVA](https://wafer.space/ws-run1/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVB](https://wafer.space/ws-run1/projects/TQVB.html) (0.5x1 slot)\n• [TQVC](https://wafer.space/ws-run1/projects/TQVC.html) (1x0.5 slot)\n**Run 2**\n• [TQVA](https://wafer.space/ws-run2/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVC](https://wafer.space/ws-run2/projects/TQVC.html) (1x0.5 slot)\n• [TQVD](https://wafer.space/ws-run2/projects/TQVD.html) (HDMI output)\n• [TQVE](https://wafer.space/ws-run2/projects/TQVE.html) (experimental pad setup)\n**Source**\n• [tinyQV](https://github.com/MichaelBell/tinyQV)\n• [ws01-tinyQV](https://github.com/MichaelBell/ws01-tinyQV) (Run 1)\n• [ws02-tinyQV](https://github.com/MichaelBell/ws02-tinyQV) (Run 2)"
+    "topic": "**[TinyQV](https://thinyq.com)** by Mike Bell: a small RISC-V (RV32EC) SoC with peripherals from the Tiny Tapeout RISC-V competition, with chips on wafer.space runs.\n\n**Run 1**\n• [TQVA](https://wafer.space/ws-run1/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVB](https://wafer.space/ws-run1/projects/TQVB.html) (0.5x1 slot)\n• [TQVC](https://wafer.space/ws-run1/projects/TQVC.html) (1x0.5 slot)\n**Run 2**\n• [TQVA](https://wafer.space/ws-run2/projects/TQVA.html) (0.5x0.5 slot)\n• [TQVC](https://wafer.space/ws-run2/projects/TQVC.html) (1x0.5 slot)\n• [TQVD](https://wafer.space/ws-run2/projects/TQVD.html) (HDMI output)\n• [TQVE](https://wafer.space/ws-run2/projects/TQVE.html) (experimental pad setup)\n**Source**\n• [tinyQV](https://github.com/MichaelBell/tinyQV)\n• [ws01-tinyQV](https://github.com/MichaelBell/ws01-tinyQV) (Run 1)\n• [ws02-tinyQV](https://github.com/MichaelBell/ws02-tinyQV) (Run 2)"
   },
   "dateRange": {
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T13:34:59.2577343+00:00",
+  "exportedAt": "2026-11-20T22:22:56.9441604+00:00",
   "messages": [
     {
       "id": "1572529340833603674",
@@ -1191,7 +1191,69 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573367855595126879",
+      "type": "Default",
+      "timestamp": "2026-11-20T16:02:08.535+00:00",
+      "timestampEdited": "2026-11-20T16:02:17.029+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I've put a super basic webpage up for TinyQV at https://tinyqv.com, mostly just a collection of links for now.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573380745072877740",
+      "type": "ThreadCreated",
+      "timestamp": "2026-11-20T16:53:21.626+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Started a thread.",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": null,
+        "channelId": "1573367855595126879",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 31
+  "messageCount": 33
 }

@@ -1,0 +1,474 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1573370196486525023",
+    "type": "GuildPublicThread",
+    "categoryId": "1361349523724570941",
+    "category": "general",
+    "name": "hello! the first batch of images for run",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-20T21:03:57.091621+00:00",
+  "messages": [
+    {
+      "id": "1573371199520776333",
+      "type": "21",
+      "timestamp": "2026-11-20T16:15:25.789+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "424865332075954196",
+          "name": "infosecdj",
+          "discriminator": "0000",
+          "nickname": "InfoSecDJ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573370196486525023",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573371204151279780",
+      "type": "Default",
+      "timestamp": "2026-11-20T16:15:26.893+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Damn ... amazing quality as usual !",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE4F",
+            "code": "pray",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f64f-22B8D.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "424865332075954196",
+              "name": "infosecdj",
+              "discriminator": "0000",
+              "nickname": "InfoSecDJ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573371543684259872",
+      "type": "Default",
+      "timestamp": "2026-11-20T16:16:47.844+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I also wish I had some visible doodle but the only one I made is engraved in the substrate using STI (shallow trench isolation) so you'd need to strip all metal to see it \uD83D\uDE05",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE05",
+          "code": "sweat_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f605-42B43.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573375534686146762",
+      "type": "Reply",
+      "timestamp": "2026-11-20T16:32:39.373+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I suppose I could do that for you :)",
+      "author": {
+        "id": "424865332075954196",
+        "name": "infosecdj",
+        "discriminator": "0000",
+        "nickname": "InfoSecDJ",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE01",
+            "code": "grin",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f601-4E9BD.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "596068704471482370",
+              "name": "246tnt",
+              "discriminator": "0000",
+              "nickname": "tnt",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573371543684259872",
+        "channelId": "1573370196486525023",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573377317315551456",
+      "type": "Default",
+      "timestamp": "2026-11-20T16:39:44.385+00:00",
+      "timestampEdited": "2026-11-20T16:40:39.239+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Do you have an \"easy-ish\" way of stripping metal ?\nI don't want to give you hours of work just to be able to look at a tiny doodle \uD83D\uDE05  (And it's 4.5um x 2um so when I mean tiny ... it is. At the limit of what can be resolved probably ).",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE05",
+          "code": "sweat_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f605-42B43.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573389011827957782",
+      "type": "Reply",
+      "timestamp": "2026-11-20T17:26:12.574+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "stripping it off indiscriminately is the easiest thing to do. doing it in a controlled manner is what's challenging. :D",
+      "author": {
+        "id": "424865332075954196",
+        "name": "infosecdj",
+        "discriminator": "0000",
+        "nickname": "InfoSecDJ",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573377317315551456",
+        "channelId": "1573370196486525023",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573396074599813181",
+      "type": "Default",
+      "timestamp": "2026-11-20T17:54:16.47+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Awesome photos \uD83D\uDC4F\uD83C\uDFFB\nWell done @InfoSecDJ!",
+      "author": {
+        "id": "323371864074485771",
+        "name": "mole99",
+        "discriminator": "0000",
+        "nickname": "Leo Moser (mole99)",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "424865332075954196",
+          "name": "infosecdj",
+          "discriminator": "0000",
+          "nickname": "InfoSecDJ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+        }
+      ],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDC4F",
+          "code": "clap",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f44f-3D381.svg"
+        },
+        {
+          "id": "",
+          "name": "\uD83C\uDFFB",
+          "code": "\uD83C\uDFFB",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f3fb-E58B7.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573398124737728544",
+      "type": "Reply",
+      "timestamp": "2026-11-20T18:02:25.261+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "thank you, thank you",
+      "author": {
+        "id": "424865332075954196",
+        "name": "infosecdj",
+        "discriminator": "0000",
+        "nickname": "InfoSecDJ",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "❤️",
+            "code": "heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/2764-A3D25.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "323371864074485771",
+              "name": "mole99",
+              "discriminator": "0000",
+              "nickname": "Leo Moser (mole99)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "323371864074485771",
+          "name": "mole99",
+          "discriminator": "0000",
+          "nickname": "Leo Moser (mole99)",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573396074599813181",
+        "channelId": "1573370196486525023",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573433461207736356",
+      "type": "Default",
+      "timestamp": "2026-11-20T20:22:50.132+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thank you @InfoSecDJ \nThese are gorgeous!!",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE4F",
+            "code": "pray",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f64f-22B8D.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "424865332075954196",
+              "name": "infosecdj",
+              "discriminator": "0000",
+              "nickname": "InfoSecDJ",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "424865332075954196",
+          "name": "infosecdj",
+          "discriminator": "0000",
+          "nickname": "InfoSecDJ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+        }
+      ],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 9
+}

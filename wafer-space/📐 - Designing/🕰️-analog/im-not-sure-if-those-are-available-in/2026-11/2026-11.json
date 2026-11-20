@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T13:28:28.2399878+00:00",
+  "exportedAt": "2026-11-20T22:15:58.634557+00:00",
   "messages": [
     {
       "id": "1573257694792654919",
@@ -187,7 +187,29 @@
       ],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1170784850874220707",
+              "name": "fossify_37988",
+              "discriminator": "0000",
+              "nickname": "Christopher",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
       "mentions": [],
       "inlineEmojis": []
     },

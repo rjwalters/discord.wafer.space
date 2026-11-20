@@ -1,0 +1,61 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 🐭-tinyqv / I've put a super basic webpage up for
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-20 4:53 p.m.] urish
+
+
+
+[2026-11-20 4:53 p.m.] urish
+Looks like there's a config issue?
+
+
+[2026-11-20 4:53 p.m.] urish
+
+
+{Attachments}
+2026-11_media/image-8D329.png
+
+
+[2026-11-20 4:53 p.m.] urish
+
+
+{Attachments}
+2026-11_media/image-183BA.png
+
+
+[2026-11-20 5:23 p.m.] rebelmike
+Ah, it's broken but only over IPv6!  Thanks for the heads up!
+
+{Reactions}
+👍
+
+[2026-11-20 5:27 p.m.] rebelmike
+Should be fixed now
+
+
+[2026-11-20 6:13 p.m.] urish
+Great! I'm doing some more experiments with the TinyQV (and the KianV) cores, so expect more interesting stuff next week
+
+
+[2026-11-20 6:33 p.m.] rebelmike
+Cool - let me know if you need a hand with anything!
+
+
+[2026-11-20 7:01 p.m.] urish
+do you happen to have a gamepad Pmod + gamepad?
+
+
+[2026-11-20 7:15 p.m.] rebelmike
+Yep, there's a simple Micropython test for it here: https://github.com/TinyTapeout/ttsky25a-tinyQV/blob/main/micropython/03_gamepad.py
+and C SDK support too: https://github.com/MichaelBell/tinyQV-sdk/blob/main/gamepad.h
+
+{Reactions}
+👍
+
+==============================================================
+Exported 10 message(s)
+==============================================================

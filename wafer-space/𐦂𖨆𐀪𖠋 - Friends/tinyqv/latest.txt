@@ -1,7 +1,7 @@
 ==============================================================
 Guild: wafer.space Community
 Channel: 𐦂𖨆𐀪𖠋 - Friends / 🐭-tinyqv
-Topic: **TinyQV** by Mike Bell: a small RISC-V (RV32EC) SoC with peripherals from the Tiny Tapeout RISC-V competition, with chips on wafer.space runs.
+Topic: **[TinyQV](https://thinyq.com)** by Mike Bell: a small RISC-V (RV32EC) SoC with peripherals from the Tiny Tapeout RISC-V competition, with chips on wafer.space runs.
 
 **Run 1**
 • [TQVA](https://wafer.space/ws-run1/projects/TQVA.html) (0.5x0.5 slot)
@@ -196,6 +196,14 @@ Relies on CUP for the power and ground in the middle in practice though, IMO. Or
 Opps, seems @Andrew Wingate already forwarded this...
 
 
+[2026-11-20 4:02 p.m.] rebelmike
+I've put a super basic webpage up for TinyQV at https://tinyqv.com, mostly just a collection of links for now.
+
+
+[2026-11-20 4:53 p.m.] urish
+Started a thread.
+
+
 ==============================================================
-Exported 31 message(s)
+Exported 33 message(s)
 ==============================================================

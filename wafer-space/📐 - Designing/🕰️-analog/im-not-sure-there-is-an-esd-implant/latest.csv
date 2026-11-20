@@ -11,3 +11,6 @@ I think it's quite confusing since the ESD devices in our I/O cells are made usi
 "596068704471482370","246tnt","2026-11-20T09:32:40.0380000+00:00","Yes, I'm not sure ""how"" and what it changes but 🤷 
 And then of course there is the `ESD_MK` layer which is just a marker for DRC 😅 
 (I actually had to add this marker to some cells I work on now for chipalooza because some devices are required to be marked as such or they don't pass DRC ... )","","👍 (1)"
+"262706220073222144","namibj","2026-11-20T17:37:41.1600000+00:00","it's this kind of stuff; used e.g. with GGNMOS","2026-11_media/US06838734-20050104-D00000-D325B.png,2026-11_media/images-C87A5.png","👍 (1)"
+"262706220073222144","namibj","2026-11-20T17:38:15.3670000+00:00","NLDD is the `NAT` implant, I think","",""
+"262706220073222144","namibj","2026-11-20T17:40:17.7110000+00:00","I think the effect is mostly to avoid a sharp N+ PSUB junction under the drain that could easily reverse breakdown and I'd assume result in some hotspot formation process as a result of the reverse breakdown there","",""
