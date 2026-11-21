@@ -32,11 +32,17 @@ This channel is for **BIO**, the Bao I/O coprocessor from bunnie's Baochip-1x, a
 
 Post your BIO code, simulation results, bring-up results and ideas for improving the design here.
 
+{Reactions}
+❤️ (2)
 
 [2026-11-21 3:18 a.m.] mithro_
 Pinned a message.
 
 
+[2026-11-21 5:07 a.m.] bunnievorpal
+Tag me if you have any questions so I see the notification!
+
+
 ==============================================================
-Exported 2 message(s)
+Exported 3 message(s)
 ==============================================================

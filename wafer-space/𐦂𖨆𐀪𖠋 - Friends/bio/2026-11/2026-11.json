@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-21T03:48:46.4508514+00:00",
+  "exportedAt": "2026-11-21T12:00:32.7689892+00:00",
   "messages": [
     {
       "id": "1573537919971491972",
@@ -39,7 +39,38 @@
       "attachments": [],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "❤️",
+            "code": "heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/2764-A3D25.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "261705597529882627",
+              "name": "xobs",
+              "discriminator": "0000",
+              "nickname": "Xobs",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/41f50d0d47bb7dfee07c877e0d35dd98-E65EE.png"
+            },
+            {
+              "id": "758346146204090390",
+              "name": "bunnievorpal",
+              "discriminator": "0000",
+              "nickname": "bunnie",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/ec4ebf64618e516d7d63a984a0490f58-DA838.png"
+            }
+          ]
+        }
+      ],
       "mentions": [
         {
           "id": "261705597529882627",
@@ -93,7 +124,32 @@
         "guildId": null
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573565567523229757",
+      "type": "Default",
+      "timestamp": "2026-11-21T05:07:46.732+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Tag me if you have any questions so I see the notification!",
+      "author": {
+        "id": "758346146204090390",
+        "name": "bunnievorpal",
+        "discriminator": "0000",
+        "nickname": "bunnie",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/ec4ebf64618e516d7d63a984a0490f58-DA838.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 2
+  "messageCount": 3
 }

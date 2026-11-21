@@ -569,6 +569,26 @@ yes it should
 If someone with that kind of setup wants to try, give them a couple FC01 (doesn't need many at all) to try it on the big pads with, or if they're confident, just some meme dies
 
 
+[2026-11-21 3:26 a.m.] thatreprapguy
+Are you talking of actual deposition, or scribing a line in resist?
+
+
+[2026-11-21 3:30 a.m.] mithro_
+@Vik Olliver - I think we are discussing putting something on top of the chip which blocks etchant from removing certain stuff?
+
+
+[2026-11-21 3:30 a.m.] namibj
+the non-trivial part there would be to mask off the rest of the die and only leave openings where we would want LGA pads to form
+
+
+[2026-11-21 3:31 a.m.] namibj
+well, actual metal layer/via layer is also something to think about but harder
+
+
+[2026-11-21 3:37 a.m.] thatreprapguy
+Couple of approaches: (1) Dipping the probe and using it as a pen. This produces dots 20-4μm diameter and you get about 100 dots before you need to re-dip the probe (depends on viscosity, exact probe dimensions, phase of moon etc.) (2) Use a negative photoresist and a UV head. This doesn't need a thin film like chip production does (though it can work with one) because it only sets the resist between the probe tip and the substrate. The height of the probe determines the thickness of the solidified resist. This can get down to 4-5μm and is considerably faster than (1).
+
+
 ==============================================================
-Exported 86 message(s)
+Exported 91 message(s)
 ==============================================================

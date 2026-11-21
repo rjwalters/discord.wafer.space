@@ -583,6 +583,14 @@ what about electron traps? they can capture charge from one audio sample and rel
 well that's a buried channel thing
 
 
+[2026-11-21 4:01 a.m.] brookieoz
+MOS caps *very much do have nonlinear capacitance vs voltage*
+
+
+[2026-11-21 8:22 a.m.] brookieoz
+You could play some fun games with DC bias voltages to get around it, aka don't bias close to V=0 and instead always have some positive DC bias to avoid the worst of the nonlinearity, but at the end of the day metal caps are your gold standard for linearity
+
+
 ==============================================================
-Exported 111 message(s)
+Exported 113 message(s)
 ==============================================================

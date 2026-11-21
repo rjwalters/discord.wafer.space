@@ -745,11 +745,21 @@ This channel is for **Tiny Tapeout** on GF180MCU: the quicker, easier and cheape
 - [ttgf-wokwi-template](<https://github.com/TinyTapeout/ttgf-wokwi-template>)
 - [Tiny Tapeout Discord](<https://discord.gg/qZHPrPsmt6>) for help and support
 
+{Reactions}
+🆒 ttlogo_color
 
 [2026-11-21 3:19 a.m.] mithro_
 Pinned a message.
 
 
+[2026-11-21 7:20 a.m.] urish
+@Tim 'mithro' Ansell 
+
+Also GF26e now: https://app.tinytapeout.com/shuttles/ttgf26e
+
+And BOAT26: https://app.tinytapeout.com/shuttles/ttboat26
+
+
 ==============================================================
-Exported 81 message(s)
+Exported 82 message(s)
 ==============================================================

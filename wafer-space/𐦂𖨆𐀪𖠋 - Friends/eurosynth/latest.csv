@@ -1,0 +1,10 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"169786952432746498","mithro_","2026-11-21T03:37:50.6610000+00:00","# Welcome to #🎶-eurosynth
+**EuroSynth** is @Andrew Wingate's synthesizer on a chip: a complete eurorack synth voice, built entirely in digital logic and made on wafer.space Run 2 as [EURO](<https://wafer.space/ws-run2/projects/EURO.html>). Andrew looks after this channel.
+
+You can hear it before you hold one. The [live playground](<https://anfroholic.github.io/eurosynth/web/>) runs the chip's exact reference models in your browser, so what you hear is what the silicon produces.
+
+To dig in, start with the [showcase](<https://github.com/anfroholic/eurosynth/blob/main/docs/SHOWCASE.md>), then read the [hardware guide](<https://github.com/anfroholic/eurosynth/blob/main/docs/HARDWARE_GUIDE.md>) when you're ready to build a board. The source is at [anfroholic/eurosynth](<https://github.com/anfroholic/eurosynth>).
+
+Got a chip? Share your boards, patches, recordings and questions here.","","❤️ (1)"
+"169786952432746498","mithro_","2026-11-21T03:37:56.4020000+00:00","Pinned a message.","",""

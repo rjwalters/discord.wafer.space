@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-21T03:49:34.9670065+00:00",
+  "exportedAt": "2026-11-21T12:01:18.3744439+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -4074,7 +4074,50 @@
       "attachments": [],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83C\uDD92",
+            "code": "cool",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f192-38F23.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "732347216412278825",
+              "name": "urish",
+              "discriminator": "0000",
+              "nickname": "urish",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1483805561962237983",
+            "name": "ttlogo_color",
+            "code": "ttlogo_color",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1483805561962237983-33594.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "732347216412278825",
+              "name": "urish",
+              "discriminator": "0000",
+              "nickname": "urish",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+            }
+          ]
+        }
+      ],
       "mentions": [
         {
           "id": "492702620759228416",
@@ -4152,7 +4195,50 @@
         "guildId": null
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573599079957536848",
+      "type": "Default",
+      "timestamp": "2026-11-21T07:20:56.719+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Tim 'mithro' Ansell \n\nAlso GF26e now: https://app.tinytapeout.com/shuttles/ttgf26e\n\nAnd BOAT26: https://app.tinytapeout.com/shuttles/ttboat26",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 81
+  "messageCount": 82
 }
