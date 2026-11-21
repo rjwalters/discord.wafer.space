@@ -291,6 +291,26 @@ Yeah.
 @tnt / @Lauri - Any idea why the CoB tester didn't report the gnd shorts?
 
 
+[2026-11-21 1:08 p.m.] lauri4332
+@tnt @Tim 'mithro' Ansell Tester does not have any knowledge about the die being tested. It doesn't know if the short is by deisgn or not. We need to add another layer on top that knows run number and die infromation to better determine if short is acceptable or not.
+
+What I find more interesting though, is that 100% of shorts are on power pins. Any chance these are not wirebonding issue and instead are due to damaged capacitors?
+
+
+[2026-11-21 1:18 p.m.] 246tnt
+@Lauri Well it knows if they are power pins, so that'd be a good start to validate those since on the default frame they should be power.
+
+As for the short being on power pins only : Interesting thought.  On run #1 that was definitely not the case, we had short on data pins. Here I only observed on power but my sample size it's very small.  On one of the die I tried clearing the short by applying high amperage 6V. ( It's not entriely crazy, I actually cleared a short on a data pin on run #1 using that method and the die works fine now ).  That didn't work and what got hot was the die ( and now you can see a burnt bubble in the expoxy ... ).
+
+
+[2026-11-21 1:19 p.m.] 246tnt
+I will check the other sample that I have that's shorted and see if it could be the caps on that one.
+
+
+[2026-11-21 4:48 p.m.] namibj
+Is there a chance this is not a bond issue but a die yield aspect?
+
+
 ==============================================================
-Exported 55 message(s)
+Exported 59 message(s)
 ==============================================================

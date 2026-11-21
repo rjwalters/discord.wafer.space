@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-21T10:03:14.8635651+00:00",
+  "exportedAt": "2026-11-21T17:54:17.5608156+00:00",
   "messages": [
     {
       "id": "1572155685934997504",
@@ -1820,7 +1820,139 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573686630068396033",
+      "type": "Default",
+      "timestamp": "2026-11-21T13:08:50.292+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@tnt @Tim 'mithro' Ansell Tester does not have any knowledge about the die being tested. It doesn't know if the short is by deisgn or not. We need to add another layer on top that knows run number and die infromation to better determine if short is acceptable or not.\n\nWhat I find more interesting though, is that 100% of shorts are on power pins. Any chance these are not wirebonding issue and instead are due to damaged capacitors?",
+      "author": {
+        "id": "908721221682733106",
+        "name": "lauri4332",
+        "discriminator": "0000",
+        "nickname": "Lauri",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/5-E9BDB.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        },
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573689114140737699",
+      "type": "Default",
+      "timestamp": "2026-11-21T13:18:42.541+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Lauri Well it knows if they are power pins, so that'd be a good start to validate those since on the default frame they should be power.\n\nAs for the short being on power pins only : Interesting thought.  On run #1 that was definitely not the case, we had short on data pins. Here I only observed on power but my sample size it's very small.  On one of the die I tried clearing the short by applying high amperage 6V. ( It's not entriely crazy, I actually cleared a short on a data pin on run #1 using that method and the die works fine now ).  That didn't work and what got hot was the die ( and now you can see a burnt bubble in the expoxy ... ).",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "908721221682733106",
+          "name": "lauri4332",
+          "discriminator": "0000",
+          "nickname": "Lauri",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/5-E9BDB.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573689304071413812",
+      "type": "Default",
+      "timestamp": "2026-11-21T13:19:27.824+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I will check the other sample that I have that's shorted and see if it could be the caps on that one.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573741810847715454",
+      "type": "Default",
+      "timestamp": "2026-11-21T16:48:06.415+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is there a chance this is not a bond issue but a die yield aspect?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 55
+  "messageCount": 59
 }

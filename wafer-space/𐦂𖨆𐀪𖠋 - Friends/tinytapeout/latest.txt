@@ -760,6 +760,16 @@ Also GF26e now: https://app.tinytapeout.com/shuttles/ttgf26e
 And BOAT26: https://app.tinytapeout.com/shuttles/ttboat26
 
 
+[2026-11-21 4:02 p.m.] TTBot#6027
+New tapeout: @Ken Pettit submitted Glyph VGA Clock (https://github.com/kdp1965/ttgf26c-um-pettit-glyph) - [View in VGA Playground](<https://vga-playground.com/?repo=https%3A%2F%2Fgithub.com%2Fkdp1965%2Fttgf26c-um-pettit-glyph&ref=a9aa0b96823a57605ab6b7d14c59bd0c529254cc>)
+
+{Embed}
+https://github.com/kdp1965/ttgf26c-um-pettit-glyph
+GitHub - kdp1965/ttgf26c-um-pettit-glyph
+Contribute to kdp1965/ttgf26c-um-pettit-glyph development by creating an account on GitHub.
+2026-11_media/a885bd2a-82da-4dd2-83ca-2712f67be4da-44B3E
+
+
 ==============================================================
-Exported 82 message(s)
+Exported 83 message(s)
 ==============================================================
