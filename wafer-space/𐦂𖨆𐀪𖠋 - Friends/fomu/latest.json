@@ -16,7 +16,84 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T22:24:46.1488301+00:00",
-  "messages": [],
-  "messageCount": 0
+  "exportedAt": "2026-11-21T03:47:27.3576571+00:00",
+  "messages": [
+    {
+      "id": "1573537639955435693",
+      "type": "Default",
+      "timestamp": "2026-11-21T03:16:48.281+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "# Welcome to #\uD83D\uDD0C-fomu\nThis channel is for **Fomu**, the open source FPGA that fits inside a USB port. @Tim 'mithro' Ansell and @Xobs look after this channel.\n\n**Start here**\n- [Fomu home page](<https://tomu.im/fomu.html>)\n- [Fomu workshop](<https://workshop.fomu.im/>): from loading software to writing your own hardware\n\n**Source**\n- [fomu-hardware](<https://github.com/im-tomu/fomu-hardware>)\n- [fomu-workshop](<https://github.com/im-tomu/fomu-workshop>)\n- [fomu-toolchain](<https://github.com/im-tomu/fomu-toolchain>)\n- [foboot](<https://github.com/im-tomu/foboot>): the bootloader\n\n**Buy**\n- [Crowd Supply](<https://www.crowdsupply.com/sutajio-kosagi/fomu>)\n\nPost your Fomu projects, questions and ideas here.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        },
+        {
+          "id": "261705597529882627",
+          "name": "xobs",
+          "discriminator": "0000",
+          "nickname": "Xobs",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/41f50d0d47bb7dfee07c877e0d35dd98-E65EE.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573537724143640757",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2026-11-21T03:17:08.353+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1573537639955435693",
+        "channelId": "1462649747226755122",
+        "guildId": null
+      },
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 2
 }

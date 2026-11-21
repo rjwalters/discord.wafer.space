@@ -16,7 +16,84 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T22:26:05.6568119+00:00",
-  "messages": [],
-  "messageCount": 0
+  "exportedAt": "2026-11-21T03:48:46.4508514+00:00",
+  "messages": [
+    {
+      "id": "1573537919971491972",
+      "type": "Default",
+      "timestamp": "2026-11-21T03:17:55.042+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "# Welcome to #\uD83E\uDD5F-bio\nThis channel is for **BIO**, the Bao I/O coprocessor from bunnie's Baochip-1x, and work on improving it. @bunnie and @Xobs look after this channel.\n\n**On wafer.space**\n- [DPK1 bio180](<https://wafer.space/ws-run2/projects/DPK1.html>) (Run 2, 0.5x1 slot): dual core BIO with 4 KB of SRAM and an SPI host on GF180MCU, by Deepak Sharda. Source: [bio-core](<https://github.com/dpks2003/bio-core>)\n\n**Read first**\n- [BIO: The Bao I/O Coprocessor](<https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/>)\n- [Baochip](<https://baochip.com/>): chip, docs, tools and hardware\n\n**Source**\n- [baochip-1x](<https://github.com/baochip/baochip-1x>): the chip source\n- [bio-sim](<https://github.com/baochip/bio-sim>): RTL simulation of the BIO CPU\n- [bio-loader](<https://github.com/baochip/bio-loader>): load BIO code onto a Dabao board\n\nPost your BIO code, simulation results, bring-up results and ideas for improving the design here.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "261705597529882627",
+          "name": "xobs",
+          "discriminator": "0000",
+          "nickname": "Xobs",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/41f50d0d47bb7dfee07c877e0d35dd98-E65EE.png"
+        },
+        {
+          "id": "758346146204090390",
+          "name": "bunnievorpal",
+          "discriminator": "0000",
+          "nickname": "bunnie",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/ec4ebf64618e516d7d63a984a0490f58-DA838.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573537944415895643",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2026-11-21T03:18:00.87+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1573537919971491972",
+        "channelId": "1560061915269431387",
+        "guildId": null
+      },
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 2
 }

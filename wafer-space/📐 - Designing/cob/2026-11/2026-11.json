@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T21:59:05.9246731+00:00",
+  "exportedAt": "2026-11-21T03:22:00.7458258+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -3372,7 +3372,201 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573526943666544802",
+      "type": "Default",
+      "timestamp": "2026-11-21T02:34:18.087+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "BTW I met @Vik Olliver at SciFoo the other week and he was showing off the MicroRepRAP which can do pretty cool things. I was pondering if it could be used to print some type of \"mask\" on a wafer.space die?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "774148827828453397",
+          "name": "thatreprapguy",
+          "discriminator": "0000",
+          "nickname": "Vik Olliver",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/057b8c04e4db3d9435b7d83b65992f5a-41587.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573527091461226539",
+      "type": "Reply",
+      "timestamp": "2026-11-21T02:34:53.324+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm guessing it is probably US ebay verse EU ebay?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1442743623857995798",
+          "name": "maxclerkwell",
+          "discriminator": "0000",
+          "nickname": "Stephan Bökelmann",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/fc930ff7370fc3891d279ac9b94e6782-A5B96.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573348783348256821",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573527163540480164",
+      "type": "Reply",
+      "timestamp": "2026-11-21T02:35:10.509+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Essen - Want to help out here?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "509798510170865675",
+          "name": "essen__",
+          "discriminator": "0000",
+          "nickname": "Essen",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+        },
+        {
+          "id": "1442743623857995798",
+          "name": "maxclerkwell",
+          "discriminator": "0000",
+          "nickname": "Stephan Bökelmann",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/fc930ff7370fc3891d279ac9b94e6782-A5B96.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573348783348256821",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573527168728695007",
+      "type": "Reply",
+      "timestamp": "2026-11-21T02:35:11.746+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yes it should",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573526943666544802",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573527440150630421",
+      "type": "Default",
+      "timestamp": "2026-11-21T02:36:16.458+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If someone with that kind of setup wants to try, give them a couple FC01 (doesn't need many at all) to try it on the big pads with, or if they're confident, just some meme dies",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 81
+  "messageCount": 86
 }

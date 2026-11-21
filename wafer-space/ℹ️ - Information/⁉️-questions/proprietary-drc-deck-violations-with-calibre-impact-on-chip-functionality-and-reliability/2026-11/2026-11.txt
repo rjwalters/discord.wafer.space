@@ -283,6 +283,14 @@ I tried. Don't have a microscope good enough to see anything.
 (Although through the epoxy is not great)
 
 
+[2026-11-20 11:43 p.m.] mithro_
+Yeah.
+
+
+[2026-11-20 11:44 p.m.] mithro_
+@tnt / @Lauri - Any idea why the CoB tester didn't report the gnd shorts?
+
+
 ==============================================================
-Exported 53 message(s)
+Exported 55 message(s)
 ==============================================================

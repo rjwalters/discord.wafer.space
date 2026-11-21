@@ -152,6 +152,51 @@ ferristhumbsup
 Can you throw your device statistics script against Run1 OASIS?
 
 
+[2026-11-21 2:24 a.m.] mithro_
+Here is one I prepared earlier - https://github.com/wafer-space/ws-run1/tree/density-report
+
+{Embed}
+https://github.com/wafer-space/ws-run1/tree/density-report
+GitHub - wafer-space/ws-run1 at density-report
+wafer.space GF180MCU Run 1. Contribute to wafer-space/ws-run1 development by creating an account on GitHub.
+2026-11_media/ws-run1-FB73F
+
+
+[2026-11-21 2:25 a.m.] mithro_
+@namibj - Also https://wafer.space/ws-run1/#features
+
+{Embed}
+https://wafer.space/ws-run1/
+wafer.space Run 1 — wafer.space
+Designs, density statistics and layout renders from wafer.space GF180MCU Run 1.
+2026-11_media/reticle-AC118.webp
+
+
+[2026-11-21 2:26 a.m.] namibj
+ahhh yeah I'll check them out
+
+
+[2026-11-21 3:20 a.m.] mithro_ (pinned)
+# Welcome to #🔬-charz
+This channel is for better **characterization** of open source process technologies, starting with GF180MCU: designing test structures, simulating them (including TCAD), measuring them on real silicon, and making sense of the PCM structures that already exist.
+
+The flow we are building is shown below.
+
+**Read first**
+- [test-open-pdk](<https://bit.ly/test-open-pdk>): Building out (automated) test generation and measurement for open source PDKs (including TCAD)
+- [Characterization Flow slide](<https://docs.google.com/presentation/d/1lMfMHNLSb8cuPYUNfC6DerJhv1ddvy7ec7QQRA_eJcc/edit#slide=id.h165676b788ae975d_0_0>)
+- [gf180-tcad](<https://gf180-tcad.readthedocs.io/en/latest/>): open-source TCAD for the GF180MCU 5 V transistors, compared against the PDK
+
+Post test structure layouts, simulation and measurement results, and questions here.
+
+{Attachments}
+2026-11_media/characterization-flow-97804.png
+
+
+[2026-11-21 3:20 a.m.] mithro_
+Pinned a message.
+
+
 ==============================================================
-Exported 28 message(s)
+Exported 33 message(s)
 ==============================================================

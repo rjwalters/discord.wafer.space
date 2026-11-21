@@ -53,3 +53,17 @@ The pin header on my upload there is 1.27mm pitch 2-row through-hole.","","👍 
 "169786952432746498","mithro_","2026-11-20T03:24:28.8360000+00:00","Opps, seems @Andrew Wingate already forwarded this...","",""
 "691780627338625077","rebelmike","2026-11-20T16:02:08.5350000+00:00","I've put a super basic webpage up for TinyQV at https://tinyqv.com, mostly just a collection of links for now.","",""
 "732347216412278825","urish","2026-11-20T16:53:21.6260000+00:00","Started a thread.","",""
+"169786952432746498","mithro_","2026-11-21T03:19:06.7830000+00:00","# Welcome to #🐭-tinyqv
+This channel is for **TinyQV**, @RebelMike's (Mike Bell) small RISC-V SoC, first built for Tiny Tapeout, and the chips made on wafer.space runs. @RebelMike looks after this channel.
+
+**Chips**
+- Run 1: [TQVA](<https://wafer.space/ws-run1/projects/TQVA.html>), [TQVB](<https://wafer.space/ws-run1/projects/TQVB.html>) and [TQVC](<https://wafer.space/ws-run1/projects/TQVC.html>)
+- Run 2: [TQVA](<https://wafer.space/ws-run2/projects/TQVA.html>), [TQVC](<https://wafer.space/ws-run2/projects/TQVC.html>), [TQVD](<https://wafer.space/ws-run2/projects/TQVD.html>) (HDMI output) and [TQVE](<https://wafer.space/ws-run2/projects/TQVE.html>) (experimental pad setup)
+
+**Source**
+- [tinyQV](<https://github.com/MichaelBell/tinyQV>): the core, for Tiny Tapeout
+- [ws01-tinyQV](<https://github.com/MichaelBell/ws01-tinyQV>): Run 1
+- [ws02-tinyQV](<https://github.com/MichaelBell/ws02-tinyQV>): Run 2
+
+If you have one of these chips, please post your bring-up results, boards, firmware and questions here.","",""
+"169786952432746498","mithro_","2026-11-21T03:19:12.5720000+00:00","Pinned a message.","",""

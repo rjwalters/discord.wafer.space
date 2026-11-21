@@ -204,6 +204,26 @@ I've put a super basic webpage up for TinyQV at https://tinyqv.com, mostly just 
 Started a thread.
 
 
+[2026-11-21 3:19 a.m.] mithro_ (pinned)
+# Welcome to #🐭-tinyqv
+This channel is for **TinyQV**, @RebelMike's (Mike Bell) small RISC-V SoC, first built for Tiny Tapeout, and the chips made on wafer.space runs. @RebelMike looks after this channel.
+
+**Chips**
+- Run 1: [TQVA](<https://wafer.space/ws-run1/projects/TQVA.html>), [TQVB](<https://wafer.space/ws-run1/projects/TQVB.html>) and [TQVC](<https://wafer.space/ws-run1/projects/TQVC.html>)
+- Run 2: [TQVA](<https://wafer.space/ws-run2/projects/TQVA.html>), [TQVC](<https://wafer.space/ws-run2/projects/TQVC.html>), [TQVD](<https://wafer.space/ws-run2/projects/TQVD.html>) (HDMI output) and [TQVE](<https://wafer.space/ws-run2/projects/TQVE.html>) (experimental pad setup)
+
+**Source**
+- [tinyQV](<https://github.com/MichaelBell/tinyQV>): the core, for Tiny Tapeout
+- [ws01-tinyQV](<https://github.com/MichaelBell/ws01-tinyQV>): Run 1
+- [ws02-tinyQV](<https://github.com/MichaelBell/ws02-tinyQV>): Run 2
+
+If you have one of these chips, please post your bring-up results, boards, firmware and questions here.
+
+
+[2026-11-21 3:19 a.m.] mithro_
+Pinned a message.
+
+
 ==============================================================
-Exported 33 message(s)
+Exported 35 message(s)
 ==============================================================

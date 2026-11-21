@@ -546,6 +546,134 @@ Hmmmm
 I’ll see about exposing one on my battery charge controller IC
 
 
+[2026-11-20 10:56 p.m.] velvetundergroundandy
+let’s fill up the space ! 😀
+
+
+[2026-11-20 10:57 p.m.] velvetundergroundandy
+@asic destroyer @Leo Moser (mole99) have you seen OpenBMC? If your FPGA + Kian V can run it and use the functions, that would actually be a practical industry standard platform controller for servers / laptops 
+
+https://github.com/openbmc
+
+{Embed}
+https://github.com/openbmc
+OpenBMC
+A Linux Foundation Project open-source Baseboard Management Controllers (BMC) Firmware Stack - OpenBMC
+2026-11_media/13670043-0771C
+
+
+[2026-11-20 10:57 p.m.] velvetundergroundandy
+I used to work for Meta designing servers and i’d know exactly how to implement it in our laptop
+
+{Reactions}
+🔥
+
+[2026-11-20 11:00 p.m.] velvetundergroundandy
+still looking for people to do the porting of Sky130 analog characterization chip to GF180!
+
+
+[2026-11-20 11:46 p.m.] mithro_
+OpenBMC is pretty heavy
+
+
+[2026-11-20 11:46 p.m.] mithro_
+https://github.com/tenstorrent-riscv-software/wallabmc is probably a better starting point
+
+{Embed}
+https://github.com/tenstorrent-riscv-software/wallabmc
+GitHub - tenstorrent-riscv-software/wallabmc: WallaBMC is a lightwe...
+WallaBMC is a lightweight BMC for STM32 and similar class MCUs, with Web UI, Redfish, and HTTPS support. Based on Zephyr RTOS. - tenstorrent-riscv-software/wallabmc
+2026-11_media/wallabmc-4B66C
+
+
+[2026-11-20 11:47 p.m.] mithro_
+(It's based on Zephyr -- which is the "I really wanted Linux but it wouldn't fit" of the embedded OS world)
+
+
+[2026-11-20 11:47 p.m.] mithro_
+@Paul - I know the people responsible for maintaining the upstream kernel support for things like the ASpeed BMC ICs 🙂
+
+
+[2026-11-20 11:51 p.m.] mithro_
+@Paul - I was also behind the "FPGA based BMC" work that Antmicro and friends did for OpenPOWER
+ * https://codeconstruct.com.au/docs/dcscm-openbmc/
+ * https://antmicro.com/blog/2021/07/dc-scm-open-hardware-for-fpga-bmc
+ * https://github.com/OpenPOWERFoundation/librebmc
+
+It is why I have two AC922 power systems sitting my home server rack 😛
+
+{Embed}
+https://codeconstruct.com.au/docs/dcscm-openbmc/
+DC-SCM, Microwatt and OpenBMC - Code Construct
+Building a fully open BMC with Antmicro's Artix DC-SCM, Microwatt and OpenBMC
+
+{Embed}
+https://antmicro.com/blog/2021/07/dc-scm-open-hardware-for-fpga-bmc
+DC-SCM compatible open source BMC hardware platform
+2026-11_media/sm-blog-9733D.png
+
+{Embed}
+https://github.com/OpenPOWERFoundation/librebmc
+GitHub - OpenPOWERFoundation/librebmc: This is the main libreBMC re...
+This is the main libreBMC repo that contains an overview of the project and useful links.  Start here. - OpenPOWERFoundation/librebmc
+2026-11_media/librebmc-53242
+
+
+[2026-11-21 12:15 a.m.] velvetundergroundandy
+woah! @Tim 'mithro' Ansell yeah spent so many hundred of hours on that aspeed
+
+
+[2026-11-21 12:16 a.m.] velvetundergroundandy
+what do you think of using the kian v run 3 and leo’s fpga to run openbmc?
+
+
+[2026-11-21 2:20 a.m.] mithro_
+@Paul - I think the first step would be wallabmc
+
+
+[2026-11-21 2:21 a.m.] mithro_
+@Paul - I have no idea how @asic destroyer's "KIAN v3" compares to the performance of things like the ASpeed parts.
+
+
+[2026-11-21 2:22 a.m.] mithro_
+@Paul - https://docs.google.com/spreadsheets/d/1izAGDKzuElQHn4kb6RQe3NVB5L_jgtfA/edit?gid=527529515#gid=527529515
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1izAGDKzuElQHn4kb6RQe3NVB5L_jgtfA/edit?gid=527529515
+Aspeed BMC 2040->2700 IC Specs.xlsx
+2026-11_media/AHkbwyI5jYuTUae-dpTzIZ7BvE1kLje762ka6eHWvZ-0FDB7
+
+
+[2026-11-21 2:23 a.m.] mithro_
+@Paul -
+
+{Attachments}
+2026-11_media/image-00DFC.png
+
+
+[2026-11-21 2:24 a.m.] mithro_
+I was surprised at how "old" in terms of process technology the earlier BMC chips where
+
+
+[2026-11-21 2:27 a.m.] mithro_
+@Paul - https://bmc-open-firmware-docs.readthedocs.io/en/latest/
+
+
+[2026-11-21 3:18 a.m.] mithro_ (pinned)
+# Welcome to #♣️-kevins-club
+This channel is for discussion around projects connected to Kevin. @baragonaru and @Paul look after this channel.
+
+Post ideas, layouts, questions and results here.
+
+
+[2026-11-21 3:18 a.m.] mithro_
+Pinned a message.
+
+
+[2026-11-21 3:20 a.m.] velvetundergroundandy
+1st generation looks possible @asic destroyer
+
+
 ==============================================================
-Exported 94 message(s)
+Exported 114 message(s)
 ==============================================================

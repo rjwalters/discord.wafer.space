@@ -549,6 +549,26 @@ But this is just my few cents.
 Can someone post some links to available wire-bonders on ebay or somewhere? I am too stupid to find them apparently
 
 
+[2026-11-21 2:34 a.m.] mithro_
+BTW I met @Vik Olliver at SciFoo the other week and he was showing off the MicroRepRAP which can do pretty cool things. I was pondering if it could be used to print some type of "mask" on a wafer.space die?
+
+
+[2026-11-21 2:34 a.m.] mithro_
+I'm guessing it is probably US ebay verse EU ebay?
+
+
+[2026-11-21 2:35 a.m.] mithro_
+@Essen - Want to help out here?
+
+
+[2026-11-21 2:35 a.m.] namibj
+yes it should
+
+
+[2026-11-21 2:36 a.m.] namibj
+If someone with that kind of setup wants to try, give them a couple FC01 (doesn't need many at all) to try it on the big pads with, or if they're confident, just some meme dies
+
+
 ==============================================================
-Exported 81 message(s)
+Exported 86 message(s)
 ==============================================================

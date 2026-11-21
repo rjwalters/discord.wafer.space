@@ -1,1 +1,18 @@
 AuthorID,Author,Date,Content,Attachments,Reactions
+"169786952432746498","mithro_","2026-11-21T03:17:55.0420000+00:00","# Welcome to #🥟-bio
+This channel is for **BIO**, the Bao I/O coprocessor from bunnie's Baochip-1x, and work on improving it. @bunnie and @Xobs look after this channel.
+
+**On wafer.space**
+- [DPK1 bio180](<https://wafer.space/ws-run2/projects/DPK1.html>) (Run 2, 0.5x1 slot): dual core BIO with 4 KB of SRAM and an SPI host on GF180MCU, by Deepak Sharda. Source: [bio-core](<https://github.com/dpks2003/bio-core>)
+
+**Read first**
+- [BIO: The Bao I/O Coprocessor](<https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/>)
+- [Baochip](<https://baochip.com/>): chip, docs, tools and hardware
+
+**Source**
+- [baochip-1x](<https://github.com/baochip/baochip-1x>): the chip source
+- [bio-sim](<https://github.com/baochip/bio-sim>): RTL simulation of the BIO CPU
+- [bio-loader](<https://github.com/baochip/bio-loader>): load BIO code onto a Dabao board
+
+Post your BIO code, simulation results, bring-up results and ideas for improving the design here.","",""
+"169786952432746498","mithro_","2026-11-21T03:18:00.8700000+00:00","Pinned a message.","",""

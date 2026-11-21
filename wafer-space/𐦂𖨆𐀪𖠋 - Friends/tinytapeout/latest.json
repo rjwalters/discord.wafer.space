@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T22:26:54.0499643+00:00",
+  "exportedAt": "2026-11-21T03:49:34.9670065+00:00",
   "messages": [
     {
       "id": "1566399554033680425",
@@ -4004,7 +4004,155 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1573517664045768858",
+      "type": "Default",
+      "timestamp": "2026-11-21T01:57:25.653+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New tapeout: Basil Wright submitted Analog Neuron Test Bench (https://github.com/basilwright0/Neuron-Tiny-Tapeout)",
+      "author": {
+        "id": "1167741026950197258",
+        "name": "TTBot",
+        "discriminator": "6027",
+        "nickname": "TTBot",
+        "color": null,
+        "isBot": true,
+        "roles": [
+          {
+            "id": "1439357874168926249",
+            "name": "TTBot",
+            "color": null,
+            "position": 2
+          }
+        ],
+        "avatarUrl": "2026-11_media/a244356b12ec079a6c73b0b535d1cc67-73745.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - basilwright0/Neuron-Tiny-Tapeout",
+          "url": "https://github.com/basilwright0/Neuron-Tiny-Tapeout",
+          "timestamp": null,
+          "description": "Contribute to basilwright0/Neuron-Tiny-Tapeout development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/Neuron-Tiny-Tapeout-ADE71",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573538274000117771",
+      "type": "Default",
+      "timestamp": "2026-11-21T03:19:19.449+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "# Welcome to #\uD83E\uDDE9-tinytapeout\nThis channel is for **Tiny Tapeout** on GF180MCU: the quicker, easier and cheaper way to get your own design made on a real chip. @tnt, @Matt Venn and @urish look after this channel. TTBot posts new submissions here.\n\n**[Tiny Tapeout on wafer.space](<https://wafer.space/tinytapeouts>)**: every chip, every project on it, and what is coming next.\n\n**Chips made on wafer.space**\n- Run 1: [TTP2](<https://wafer.space/ws-run1/projects/TTP2.html>), GF 0.2 standard ([52 projects](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttp2/>))\n- Run 1: [TTPG](<https://wafer.space/ws-run1/projects/TTPG.html>), GF 0.2 power-gated ([52 projects](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttpg/>))\n- Run 2: [T0P3](<https://wafer.space/ws-run2/projects/T0P3.html>), GF 0.3 ([32 projects](<https://wafer.space/tinytapeouts/ttgf0p3/ws-run2-t0p3/>))\n- Run 2: [T26A](<https://wafer.space/ws-run2/projects/T26A.html>), GF 26a ([95 projects](<https://wafer.space/tinytapeouts/ttgf26a/ws-run2-t26a/>))\n- Run 2: [T26B](<https://wafer.space/ws-run2/projects/T26B.html>), GF 26b ([90 projects](<https://wafer.space/tinytapeouts/ttgf26b/ws-run2-t26b/>))\n\n**Next chips**: [GF 26c](<https://app.tinytapeout.com/shuttles/ttgf26c>) and [GF 26d](<https://app.tinytapeout.com/shuttles/ttgf26d>), to be made on wafer.space Run 3. Projects close 7 December 2026.\n\n**Get started**\n- [tinytapeout.com](<https://tinytapeout.com/>)\n- [ttgf-verilog-template](<https://github.com/TinyTapeout/ttgf-verilog-template>)\n- [ttgf-wokwi-template](<https://github.com/TinyTapeout/ttgf-wokwi-template>)\n- [Tiny Tapeout Discord](<https://discord.gg/qZHPrPsmt6>) for help and support",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "492702620759228416",
+          "name": "mattvenn",
+          "discriminator": "0000",
+          "nickname": "Matt Venn",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/aa8560ba40f1f3d339d044dee6970630-97A62.png"
+        },
+        {
+          "id": "732347216412278825",
+          "name": "urish",
+          "discriminator": "0000",
+          "nickname": "urish",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+        },
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573538297869901935",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2026-11-21T03:19:25.14+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1573538274000117771",
+        "channelId": "1409664261952639098",
+        "guildId": null
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 78
+  "messageCount": 81
 }

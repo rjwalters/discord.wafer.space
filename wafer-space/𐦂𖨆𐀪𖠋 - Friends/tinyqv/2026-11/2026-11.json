@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-20T22:22:56.9441604+00:00",
+  "exportedAt": "2026-11-21T03:45:47.7880413+00:00",
   "messages": [
     {
       "id": "1572529340833603674",
@@ -1253,7 +1253,73 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573538220875190364",
+      "type": "Default",
+      "timestamp": "2026-11-21T03:19:06.783+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "# Welcome to #\uD83D\uDC2D-tinyqv\nThis channel is for **TinyQV**, @RebelMike's (Mike Bell) small RISC-V SoC, first built for Tiny Tapeout, and the chips made on wafer.space runs. @RebelMike looks after this channel.\n\n**Chips**\n- Run 1: [TQVA](<https://wafer.space/ws-run1/projects/TQVA.html>), [TQVB](<https://wafer.space/ws-run1/projects/TQVB.html>) and [TQVC](<https://wafer.space/ws-run1/projects/TQVC.html>)\n- Run 2: [TQVA](<https://wafer.space/ws-run2/projects/TQVA.html>), [TQVC](<https://wafer.space/ws-run2/projects/TQVC.html>), [TQVD](<https://wafer.space/ws-run2/projects/TQVD.html>) (HDMI output) and [TQVE](<https://wafer.space/ws-run2/projects/TQVE.html>) (experimental pad setup)\n\n**Source**\n- [tinyQV](<https://github.com/MichaelBell/tinyQV>): the core, for Tiny Tapeout\n- [ws01-tinyQV](<https://github.com/MichaelBell/ws01-tinyQV>): Run 1\n- [ws02-tinyQV](<https://github.com/MichaelBell/ws02-tinyQV>): Run 2\n\nIf you have one of these chips, please post your bring-up results, boards, firmware and questions here.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573538245156016129",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2026-11-21T03:19:12.572+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1573538220875190364",
+        "channelId": "1572479109676793856",
+        "guildId": null
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 33
+  "messageCount": 35
 }

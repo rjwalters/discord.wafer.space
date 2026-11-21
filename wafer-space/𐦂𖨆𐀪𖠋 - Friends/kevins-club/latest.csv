@@ -152,3 +152,33 @@ In simulations we have seen that these LDMOS are way better than 3V3 devices",""
 "220639106915368960","tholin","2026-11-20T16:24:57.5540000+00:00","Ah","",""
 "220639106915368960","tholin","2026-11-20T16:24:58.7060000+00:00","Hmmmm","",""
 "220639106915368960","tholin","2026-11-20T16:25:18.6080000+00:00","I’ll see about exposing one on my battery charge controller IC","",""
+"1232935707782152264","velvetundergroundandy","2026-11-20T22:56:09.5420000+00:00","let’s fill up the space ! 😀","",""
+"1232935707782152264","velvetundergroundandy","2026-11-20T22:57:00.1010000+00:00","@asic destroyer @Leo Moser (mole99) have you seen OpenBMC? If your FPGA + Kian V can run it and use the functions, that would actually be a practical industry standard platform controller for servers / laptops 
+
+https://github.com/openbmc","",""
+"1232935707782152264","velvetundergroundandy","2026-11-20T22:57:21.4200000+00:00","I used to work for Meta designing servers and i’d know exactly how to implement it in our laptop","","🔥 (1)"
+"1232935707782152264","velvetundergroundandy","2026-11-20T23:00:55.9860000+00:00","still looking for people to do the porting of Sky130 analog characterization chip to GF180!","",""
+"169786952432746498","mithro_","2026-11-20T23:46:29.9910000+00:00","OpenBMC is pretty heavy","",""
+"169786952432746498","mithro_","2026-11-20T23:46:51.0500000+00:00","https://github.com/tenstorrent-riscv-software/wallabmc is probably a better starting point","",""
+"169786952432746498","mithro_","2026-11-20T23:47:24.1230000+00:00","(It's based on Zephyr -- which is the ""I really wanted Linux but it wouldn't fit"" of the embedded OS world)","",""
+"169786952432746498","mithro_","2026-11-20T23:47:58.0650000+00:00","@Paul - I know the people responsible for maintaining the upstream kernel support for things like the ASpeed BMC ICs 🙂","",""
+"169786952432746498","mithro_","2026-11-20T23:51:14.5720000+00:00","@Paul - I was also behind the ""FPGA based BMC"" work that Antmicro and friends did for OpenPOWER
+ * https://codeconstruct.com.au/docs/dcscm-openbmc/
+ * https://antmicro.com/blog/2021/07/dc-scm-open-hardware-for-fpga-bmc
+ * https://github.com/OpenPOWERFoundation/librebmc
+
+It is why I have two AC922 power systems sitting my home server rack 😛","",""
+"1232935707782152264","velvetundergroundandy","2026-11-21T00:15:56.6390000+00:00","woah! @Tim 'mithro' Ansell yeah spent so many hundred of hours on that aspeed","",""
+"1232935707782152264","velvetundergroundandy","2026-11-21T00:16:20.6140000+00:00","what do you think of using the kian v run 3 and leo’s fpga to run openbmc?","",""
+"169786952432746498","mithro_","2026-11-21T02:20:42.8280000+00:00","@Paul - I think the first step would be wallabmc","",""
+"169786952432746498","mithro_","2026-11-21T02:21:35.1280000+00:00","@Paul - I have no idea how @asic destroyer's ""KIAN v3"" compares to the performance of things like the ASpeed parts.","",""
+"169786952432746498","mithro_","2026-11-21T02:22:20.7100000+00:00","@Paul - https://docs.google.com/spreadsheets/d/1izAGDKzuElQHn4kb6RQe3NVB5L_jgtfA/edit?gid=527529515#gid=527529515","",""
+"169786952432746498","mithro_","2026-11-21T02:23:47.3070000+00:00","@Paul -","2026-11_media/image-00DFC.png",""
+"169786952432746498","mithro_","2026-11-21T02:24:06.2680000+00:00","I was surprised at how ""old"" in terms of process technology the earlier BMC chips where","",""
+"169786952432746498","mithro_","2026-11-21T02:27:23.6970000+00:00","@Paul - https://bmc-open-firmware-docs.readthedocs.io/en/latest/","",""
+"169786952432746498","mithro_","2026-11-21T03:18:29.0560000+00:00","# Welcome to #♣️-kevins-club
+This channel is for discussion around projects connected to Kevin. @baragonaru and @Paul look after this channel.
+
+Post ideas, layouts, questions and results here.","",""
+"169786952432746498","mithro_","2026-11-21T03:18:34.8380000+00:00","Pinned a message.","",""
+"1232935707782152264","velvetundergroundandy","2026-11-21T03:20:37.9620000+00:00","1st generation looks possible @asic destroyer","",""

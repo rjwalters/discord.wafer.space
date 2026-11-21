@@ -43,3 +43,18 @@ _He_ does, however :D.","",""
 "262706220073222144","namibj","2026-11-20T05:14:22.4660000+00:00","Did you ask in the siliconprawn server about tips/guidance on the subject of ""re-digitalize physical mask""?","",""
 "169786952432746498","mithro_","2026-11-20T05:21:19.8340000+00:00","No, but I probably should","","ferristhumbsup (1)"
 "262706220073222144","namibj","2026-11-20T05:22:21.7900000+00:00","Can you throw your device statistics script against Run1 OASIS?","",""
+"169786952432746498","mithro_","2026-11-21T02:24:50.8940000+00:00","Here is one I prepared earlier - https://github.com/wafer-space/ws-run1/tree/density-report","",""
+"169786952432746498","mithro_","2026-11-21T02:25:42.8960000+00:00","@namibj - Also https://wafer.space/ws-run1/#features","",""
+"262706220073222144","namibj","2026-11-21T02:26:31.8400000+00:00","ahhh yeah I'll check them out","",""
+"169786952432746498","mithro_","2026-11-21T03:20:33.3340000+00:00","# Welcome to #🔬-charz
+This channel is for better **characterization** of open source process technologies, starting with GF180MCU: designing test structures, simulating them (including TCAD), measuring them on real silicon, and making sense of the PCM structures that already exist.
+
+The flow we are building is shown below.
+
+**Read first**
+- [test-open-pdk](<https://bit.ly/test-open-pdk>): Building out (automated) test generation and measurement for open source PDKs (including TCAD)
+- [Characterization Flow slide](<https://docs.google.com/presentation/d/1lMfMHNLSb8cuPYUNfC6DerJhv1ddvy7ec7QQRA_eJcc/edit#slide=id.h165676b788ae975d_0_0>)
+- [gf180-tcad](<https://gf180-tcad.readthedocs.io/en/latest/>): open-source TCAD for the GF180MCU 5 V transistors, compared against the PDK
+
+Post test structure layouts, simulation and measurement results, and questions here.","2026-11_media/characterization-flow-97804.png",""
+"169786952432746498","mithro_","2026-11-21T03:20:41.4160000+00:00","Pinned a message.","",""

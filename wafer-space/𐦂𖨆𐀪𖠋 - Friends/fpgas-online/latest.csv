@@ -7,3 +7,23 @@ Codename:       bookworm","",""
 "443147704126668801","carlfk","2026-11-13T17:11:39.8650000+00:00","that should be trixie.  i need trixie :p","",""
 "443147704126668801","carlfk","2026-11-13T17:11:54.3880000+00:00","the video is super cool 🙂","",""
 "169786952432746498","mithro_","2026-11-14T00:46:41.8130000+00:00","They are currently offline.","",""
+"169786952432746498","mithro_","2026-11-21T03:18:16.5470000+00:00","# Welcome to #📡-fpgas-online
+This channel is for developing **fpgas.online**: free remote access to real FPGA development boards, and now Tiny Tapeout boards too, from your browser. Build a bitstream with whatever toolchain you like, upload it, and watch the board on a live camera. @Tim 'mithro' Ansell and @carlfk look after this channel.
+
+**FPGA boards**
+- [ps1.fpgas.online](<https://ps1.fpgas.online/>): Pumping Station: One, Chicago (Arty A7 and LiteFury)
+- [welland.fpgas.online](<https://welland.fpgas.online/>): near Adelaide, Australia (Arty, NeTV2, Fomu and Acorn)
+
+**Tiny Tapeout boards**
+- [tinytapeout.fpgas.online](<https://tinytapeout.fpgas.online/>): Tiny Tapeout demo boards with real open source silicon
+
+**Docs**
+- [docs.fpgas.online](<https://docs.fpgas.online/>)
+- [Getting Started](<https://github.com/CarlFK/pici/wiki/Getting-Started>)
+
+**Source**
+- [fpgas-online](<https://github.com/fpgas-online>)
+- [pici](<https://github.com/CarlFK/pici>)
+
+Report broken boards, suggest features, or help with the infrastructure here.","",""
+"169786952432746498","mithro_","2026-11-21T03:18:22.3260000+00:00","Pinned a message.","",""

@@ -49,6 +49,8 @@ Breaking Taps Designed a Working Silicon Chip and Got It Back Alive
 Zachary Tong had never designed a chip. He had never programmed an FPGA either, and he will tell you his electrical skills were rough. With about a month left before the first wafer.space deadline, he still decided to write a microprocessor, send the file to a real foundry, and wait to see if silicon came back alive. After researching old proces...
 2026-11_media/breaking-taps-diy-homemade-silicon-chip-co-F20F9.jpg
 
+{Reactions}
+💙
 
 ==============================================================
 Exported 6 message(s)

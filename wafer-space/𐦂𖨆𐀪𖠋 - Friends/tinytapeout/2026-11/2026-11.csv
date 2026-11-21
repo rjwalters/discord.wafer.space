@@ -104,3 +104,24 @@ Also was able to control the DAC peripheral using `machine.mem8[0x80000034]`, th
 "1167741026950197258","TTBot#6027","2026-11-20T15:04:43.6880000+00:00","New tapeout: Tiny Tapeout submitted Tiny Tapeout Factory Test (https://github.com/tinytapeout/ttgf26c-factory-test)","",""
 "1167741026950197258","TTBot#6027","2026-11-20T15:12:26.5250000+00:00","New tapeout: @urish submitted Chip ROM (https://github.com/tinytapeout/tt-chip-rom)","",""
 "1167741026950197258","TTBot#6027","2026-11-20T22:19:41.9790000+00:00","New tapeout: Daniel submitted tinyrv32e (https://github.com/dssoftx/tinyrv32e)","",""
+"1167741026950197258","TTBot#6027","2026-11-21T01:57:25.6530000+00:00","New tapeout: Basil Wright submitted Analog Neuron Test Bench (https://github.com/basilwright0/Neuron-Tiny-Tapeout)","",""
+"169786952432746498","mithro_","2026-11-21T03:19:19.4490000+00:00","# Welcome to #🧩-tinytapeout
+This channel is for **Tiny Tapeout** on GF180MCU: the quicker, easier and cheaper way to get your own design made on a real chip. @tnt, @Matt Venn and @urish look after this channel. TTBot posts new submissions here.
+
+**[Tiny Tapeout on wafer.space](<https://wafer.space/tinytapeouts>)**: every chip, every project on it, and what is coming next.
+
+**Chips made on wafer.space**
+- Run 1: [TTP2](<https://wafer.space/ws-run1/projects/TTP2.html>), GF 0.2 standard ([52 projects](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttp2/>))
+- Run 1: [TTPG](<https://wafer.space/ws-run1/projects/TTPG.html>), GF 0.2 power-gated ([52 projects](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttpg/>))
+- Run 2: [T0P3](<https://wafer.space/ws-run2/projects/T0P3.html>), GF 0.3 ([32 projects](<https://wafer.space/tinytapeouts/ttgf0p3/ws-run2-t0p3/>))
+- Run 2: [T26A](<https://wafer.space/ws-run2/projects/T26A.html>), GF 26a ([95 projects](<https://wafer.space/tinytapeouts/ttgf26a/ws-run2-t26a/>))
+- Run 2: [T26B](<https://wafer.space/ws-run2/projects/T26B.html>), GF 26b ([90 projects](<https://wafer.space/tinytapeouts/ttgf26b/ws-run2-t26b/>))
+
+**Next chips**: [GF 26c](<https://app.tinytapeout.com/shuttles/ttgf26c>) and [GF 26d](<https://app.tinytapeout.com/shuttles/ttgf26d>), to be made on wafer.space Run 3. Projects close 7 December 2026.
+
+**Get started**
+- [tinytapeout.com](<https://tinytapeout.com/>)
+- [ttgf-verilog-template](<https://github.com/TinyTapeout/ttgf-verilog-template>)
+- [ttgf-wokwi-template](<https://github.com/TinyTapeout/ttgf-wokwi-template>)
+- [Tiny Tapeout Discord](<https://discord.gg/qZHPrPsmt6>) for help and support","",""
+"169786952432746498","mithro_","2026-11-21T03:19:25.1400000+00:00","Pinned a message.","",""
