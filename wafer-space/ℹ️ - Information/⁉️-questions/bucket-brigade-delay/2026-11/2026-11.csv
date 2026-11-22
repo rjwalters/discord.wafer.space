@@ -199,3 +199,5 @@ And the 3-phase clock is needed with that. And make the gates be nice long chann
 "262706220073222144","namibj","2026-11-20T00:32:48.1520000+00:00","well that's a buried channel thing","",""
 "155452674286813194","brookieoz","2026-11-21T04:01:54.3860000+00:00","MOS caps *very much do have nonlinear capacitance vs voltage*","",""
 "155452674286813194","brookieoz","2026-11-21T08:22:37.7300000+00:00","You could play some fun games with DC bias voltages to get around it, aka don't bias close to V=0 and instead always have some positive DC bias to avoid the worst of the nonlinearity, but at the end of the day metal caps are your gold standard for linearity","",""
+"756011607603019777","anfroholic","2026-11-21T21:10:01.4280000+00:00","@carlfk Is this what you're wanting to see built?","",""
+"443147704126668801","carlfk","2026-11-21T22:43:56.2580000+00:00","is there a simulation of the delay?","",""

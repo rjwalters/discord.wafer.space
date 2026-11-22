@@ -591,6 +591,14 @@ MOS caps *very much do have nonlinear capacitance vs voltage*
 You could play some fun games with DC bias voltages to get around it, aka don't bias close to V=0 and instead always have some positive DC bias to avoid the worst of the nonlinearity, but at the end of the day metal caps are your gold standard for linearity
 
 
+[2026-11-21 9:10 p.m.] anfroholic
+@carlfk Is this what you're wanting to see built?
+
+
+[2026-11-21 10:43 p.m.] carlfk
+is there a simulation of the delay?
+
+
 ==============================================================
-Exported 113 message(s)
+Exported 115 message(s)
 ==============================================================

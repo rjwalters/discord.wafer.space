@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-21T18:11:27.4610702+00:00",
+  "exportedAt": "2026-11-21T23:52:37.3634835+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -1099,7 +1099,113 @@
           "imageUrl": "2026-11_media/1f602-168C5.svg"
         }
       ]
+    },
+    {
+      "id": "1573765361621541070",
+      "type": "Default",
+      "timestamp": "2026-11-21T18:21:41.357+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "New video from @Matt Venn \nhttps://www.youtube.com/watch?v=A3AAiumuSs8",
+      "author": {
+        "id": "756011607603019777",
+        "name": "anfroholic",
+        "discriminator": "0000",
+        "nickname": "Andrew Wingate",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Designing Analog Chips with AI Agents: Harald Pretl & Carsten Wulff",
+          "url": "https://www.youtube.com/watch?v=A3AAiumuSs8",
+          "timestamp": null,
+          "description": "Six months ago, AI models were scoring around 50% on Behzad Razavi's analog design benchmark. Now that benchmark is saturated. I talked to two experienced chip designers, Harald Pretl and Carsten Wulff, about what that actually means in practice.\n\nCarsten is principal radio architect at Nordic Semiconductor and teaches advanced integrated circui...",
+          "color": "#FF0000",
+          "author": {
+            "name": "Zero To ASIC Course",
+            "url": "https://www.youtube.com/channel/UCImT1ATbb3a4W6oswCd-vfQ"
+          },
+          "thumbnail": {
+            "url": "2026-11_media/maxresdefault-1DF44.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "video": {
+            "url": "2026-11_media/A3AAiumuSs8-62914",
+            "width": 1280,
+            "height": 720
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\ud83d\udc4d",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            },
+            {
+              "id": "492702620759228416",
+              "name": "mattvenn",
+              "discriminator": "0000",
+              "nickname": "Matt Venn",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/aa8560ba40f1f3d339d044dee6970630-97A62.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "492702620759228416",
+          "name": "mattvenn",
+          "discriminator": "0000",
+          "nickname": "Matt Venn",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/aa8560ba40f1f3d339d044dee6970630-97A62.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 20
+  "messageCount": 21
 }

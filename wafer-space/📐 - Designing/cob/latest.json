@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-21T19:25:12.3644157+00:00",
+  "exportedAt": "2026-11-22T01:07:17.5559653+00:00",
   "messages": [
     {
       "id": "1569316415276589168",
@@ -3734,7 +3734,145 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573792575205409011",
+      "type": "Reply",
+      "timestamp": "2026-11-21T20:09:49.581+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I was thinking the latter mostly.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "774148827828453397",
+          "name": "thatreprapguy",
+          "discriminator": "0000",
+          "nickname": "Vik Olliver",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/057b8c04e4db3d9435b7d83b65992f5a-41587.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573542952402165872",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573820254860222517",
+      "type": "Reply",
+      "timestamp": "2026-11-21T21:59:48.925+00:00",
+      "timestampEdited": "2026-11-21T22:00:25.652+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Sure, I will get in touch with him over DM \uD83E\uDEE1",
+      "author": {
+        "id": "509798510170865675",
+        "name": "essen__",
+        "discriminator": "0000",
+        "nickname": "Essen",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/80e086280c9caadd9c05998c3254c9a9-25B3D.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573527163540480164",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDEE1",
+          "code": "\uD83E\uDEE1",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1fae1-B19DE.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573823418334191819",
+      "type": "Reply",
+      "timestamp": "2026-11-21T22:12:23.156+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Also, I've read at <https://youtube.com/shorts/O6T0xFj_LAk?lc=UgxEK8i35h13IolGBYZ4AaABAg> earlier today this comment:\n\nMight be interesting if the forces are indeed just vertical, to similarly employ a weak mechanism that moves a carriage over a bed with that bed being a simple ground-flat slab of stone/cast-iron with a \"plain bearing\" (greased-up e.g. brass feet just sliding over the plate) setup, as the forces might not involve force-while-moving-sideways? \nThough if they do move with sideways force, this won't apply.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [
+        {
+          "id": "1573823417835323554",
+          "url": "2026-11_media/Screenshot_2026-11-21-23-05-45-43_f9ee0578-FC554.jpg",
+          "fileName": "Screenshot_2026-11-21-23-05-45-43_f9ee0578fe1cc94de7482bd41accb329.jpg",
+          "fileSizeBytes": 161348
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1442743623857995798",
+          "name": "maxclerkwell",
+          "discriminator": "0000",
+          "nickname": "Stephan Bökelmann",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/fc930ff7370fc3891d279ac9b94e6782-A5B96.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573348783348256821",
+        "channelId": "1408134567491145728",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 91
+  "messageCount": 94
 }

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-21T19:52:02.0359443+00:00",
+  "exportedAt": "2026-11-22T01:34:13.5631728+00:00",
   "messages": [
     {
       "id": "1566728348502065234",
@@ -1316,7 +1316,129 @@
         "guildId": null
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573826428804530217",
+      "type": "Default",
+      "timestamp": "2026-11-21T22:24:20.908+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@BreakingTaps do you think we could get some appropriate photodiode DUTs covered on Run3 with a \"sensor/specialties\" shared test die?\nI'd think to include it with @Andrew Wingate 's Hall Effect DUT.\nAnd I should try if the **symmetric gated SCR/TRIAC** \"Magic-only PCell\"  (which we got in the SG13G2 PDK) can be DRC-legally be ported to gf180mcuD, which _I think_ is the case, and get that in as well because it's not suitable to co-exist with the normal chip ESD structures if it's to be tested.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        },
+        {
+          "id": "384390069412429834",
+          "name": "polyfractal",
+          "discriminator": "0000",
+          "nickname": "BreakingTaps",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573863429192818830",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:51:22.488+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Tim Edwards RE: PEX & process variations: any plans to support in any practical way an extraction methodology that could be used with Xyce to model-fit (via Xyce's sensitivity analysis to get a gradient, and a useful gradient-descent solver on top, against e-test data for a specific individual DUT die ideally at various voltage and temperature conditions;  https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements is what @carlfk asked about (and other than the testbench setup with no good voltage and no temperature control let alone any variation in those two influences, it seems fairly suited to the \"project task\")) the full Monte-Carlo statical variation \"random variables\" including ones that adequately handle the interconnect (PEX!)?\n\nAny idea regarding how much variations in individual vias/contacts may be (the PDK only specified min/max bounds and a typical value)?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - mattvenn/ttgf0p2-vgaringosc-measurements: Silicon measurem...",
+          "url": "https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements",
+          "timestamp": null,
+          "description": "Silicon measurements of tt_um_algofoogle_vgaringosc (Ring osc on VGA) on Tiny Tapeout ttgf0p2 - mattvenn/ttgf0p2-vgaringosc-measurements",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ttgf0p2-vgaringosc-measurements-AA3C5",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        },
+        {
+          "id": "1365118310701600900",
+          "name": "rtimothyedwards_19428",
+          "discriminator": "0000",
+          "nickname": "Tim Edwards",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/6bcc8e61db497b620550682309ace5d5-D89B4.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 33
+  "messageCount": 35
 }

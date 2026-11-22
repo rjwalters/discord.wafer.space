@@ -58,3 +58,9 @@ The flow we are building is shown below.
 
 Post test structure layouts, simulation and measurement results, and questions here.","2026-11_media/characterization-flow-97804.png",""
 "169786952432746498","mithro_","2026-11-21T03:20:41.4160000+00:00","Pinned a message.","",""
+"262706220073222144","namibj","2026-11-21T22:24:20.9080000+00:00","@BreakingTaps do you think we could get some appropriate photodiode DUTs covered on Run3 with a ""sensor/specialties"" shared test die?
+I'd think to include it with @Andrew Wingate 's Hall Effect DUT.
+And I should try if the **symmetric gated SCR/TRIAC** ""Magic-only PCell""  (which we got in the SG13G2 PDK) can be DRC-legally be ported to gf180mcuD, which _I think_ is the case, and get that in as well because it's not suitable to co-exist with the normal chip ESD structures if it's to be tested.","",""
+"262706220073222144","namibj","2026-11-22T00:51:22.4880000+00:00","@Tim Edwards RE: PEX & process variations: any plans to support in any practical way an extraction methodology that could be used with Xyce to model-fit (via Xyce's sensitivity analysis to get a gradient, and a useful gradient-descent solver on top, against e-test data for a specific individual DUT die ideally at various voltage and temperature conditions;  https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements is what @carlfk asked about (and other than the testbench setup with no good voltage and no temperature control let alone any variation in those two influences, it seems fairly suited to the ""project task"")) the full Monte-Carlo statical variation ""random variables"" including ones that adequately handle the interconnect (PEX!)?
+
+Any idea regarding how much variations in individual vias/contacts may be (the PDK only specified min/max bounds and a typical value)?","",""

@@ -589,6 +589,24 @@ well, actual metal layer/via layer is also something to think about but harder
 Couple of approaches: (1) Dipping the probe and using it as a pen. This produces dots 20-4μm diameter and you get about 100 dots before you need to re-dip the probe (depends on viscosity, exact probe dimensions, phase of moon etc.) (2) Use a negative photoresist and a UV head. This doesn't need a thin film like chip production does (though it can work with one) because it only sets the resist between the probe tip and the substrate. The height of the probe determines the thickness of the solidified resist. This can get down to 4-5μm and is considerably faster than (1).
 
 
+[2026-11-21 8:09 p.m.] namibj
+I was thinking the latter mostly.
+
+
+[2026-11-21 9:59 p.m.] essen__
+Sure, I will get in touch with him over DM 🫡
+
+
+[2026-11-21 10:12 p.m.] namibj
+Also, I've read at <https://youtube.com/shorts/O6T0xFj_LAk?lc=UgxEK8i35h13IolGBYZ4AaABAg> earlier today this comment:
+
+Might be interesting if the forces are indeed just vertical, to similarly employ a weak mechanism that moves a carriage over a bed with that bed being a simple ground-flat slab of stone/cast-iron with a "plain bearing" (greased-up e.g. brass feet just sliding over the plate) setup, as the forces might not involve force-while-moving-sideways? 
+Though if they do move with sideways force, this won't apply.
+
+{Attachments}
+2026-11_media/Screenshot_2026-11-21-23-05-45-43_f9ee0578-FC554.jpg
+
+
 ==============================================================
-Exported 91 message(s)
+Exported 94 message(s)
 ==============================================================

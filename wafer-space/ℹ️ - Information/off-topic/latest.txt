@@ -157,6 +157,22 @@ I would enjoy some barbeque though 😂
 {Reactions}
 🤣
 
+[2026-11-21 6:21 p.m.] anfroholic
+New video from @Matt Venn 
+https://www.youtube.com/watch?v=A3AAiumuSs8
+
+{Embed}
+Zero To ASIC Course
+https://www.youtube.com/watch?v=A3AAiumuSs8
+Designing Analog Chips with AI Agents: Harald Pretl & Carsten Wulff
+Six months ago, AI models were scoring around 50% on Behzad Razavi's analog design benchmark. Now that benchmark is saturated. I talked to two experienced chip designers, Harald Pretl and Carsten Wulff, about what that actually means in practice.
+
+Carsten is principal radio architect at Nordic Semiconductor and teaches advanced integrated circui...
+2026-11_media/maxresdefault-1DF44.jpg
+
+{Reactions}
+👍 (2)
+
 ==============================================================
-Exported 20 message(s)
+Exported 21 message(s)
 ==============================================================
