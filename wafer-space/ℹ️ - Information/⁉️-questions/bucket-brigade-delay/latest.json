@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-21T23:03:13.8279954+00:00",
+  "exportedAt": "2026-11-22T03:02:50.5708367+00:00",
   "messages": [
     {
       "id": "1570885229223215147",
@@ -4079,7 +4079,1975 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573836494160793714",
+      "type": "Reply",
+      "timestamp": "2026-11-21T23:04:20.676+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The Bucket Brigade is a switched capacitor delay chip.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573831358579744830",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573836851175755791",
+      "type": "Default",
+      "timestamp": "2026-11-21T23:05:45.795+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "can it be simulated?",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573837017140306022",
+      "type": "Reply",
+      "timestamp": "2026-11-21T23:06:25.364+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCAF",
+            "code": "100",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f4af-4CFF5.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573836851175755791",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573837386847359117",
+      "type": "Default",
+      "timestamp": "2026-11-21T23:07:53.509+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "has or will the chip be fabbed?",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573847018693201972",
+      "type": "Reply",
+      "timestamp": "2026-11-21T23:46:09.92+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "He's planning on something like it, AFAIK",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573837386847359117",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573849264055132202",
+      "type": "Default",
+      "timestamp": "2026-11-21T23:55:05.256+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "good - what do we need to simulate the delay?",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573850084158865471",
+      "type": "Reply",
+      "timestamp": "2026-11-21T23:58:20.784+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "a couple of days, depending on size \uD83D\uDE05",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573849264055132202",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE05",
+          "code": "sweat_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f605-42B43.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573850131801841707",
+      "type": "Default",
+      "timestamp": "2026-11-21T23:58:32.143+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i only did up to 256 buckets",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573850210050777092",
+      "type": "Default",
+      "timestamp": "2026-11-21T23:58:50.799+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "but you can likely get away with simulating a few and extrapolating from there",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573851193141371015",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:02:45.186+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "well.. the goal is to see how close the simulation is to reality.  extrapolating adds error",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573851355032846397",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:03:23.784+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "can we add a tap to a pin so we can measure what is simulated?",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573851523463651422",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:04:03.941+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Xyce can simulate it effectively even with many buckets.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573851355032846397",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573851690816372817",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:04:43.841+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Maybe not real-time for audio but that's not needed.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573851838732574772",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:05:19.107+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yes, that's how i'm tracing input-to-output insertion loss or per-bucket-transfer numbers",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573851355032846397",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573852178790092922",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:06:40.183+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "doesn't need to be realtime - it can take 100x to get as accurate as the math allows",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573852186482311252",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:06:42.017+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it would never be realtime. we're talking days to weeks for a couple of ms",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573851690816372817",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573852247270494334",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:06:56.51+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yep",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573852321044111421",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:07:14.099+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So the big problem natively is process variations.\nBest we can reasonably hope for is to fit/solve process variation randomness modeling variables to observed behavior and then testing how well that simulation then predicts behavior under different voltage and/or temperature for the very same die we fitted model variables ty.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573851193141371015",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573852330426638520",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:07:16.336+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I guess thats a bit more than 100x :p",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573852421342371841",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:07:38.012+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "wait, let me get you the actual timing \uD83D\uDE0E",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573852330426638520",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE0E",
+          "code": "sunglasses",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f60e-FF6EB.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573852877083119728",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:09:26.669+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "theorycraft: in an FPAA with Jumperless-style programmable routing and 2 BBDs (or a longer line that can split in 2), you can route: 1st -> 2nd -> 1st, with the 2nd being clocked higher so that samples take less time to travel through it \uD83D\uDE01",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE01",
+          "code": "grin",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f601-4E9BD.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573853033186730017",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:10:03.887+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "No, audio-frequency bucket brigade delay can run fast with Xyce, on the order of less than 1000x slowdown _easily._\nAnd realistically close to real-time if we can tune the solver stuff sufficiently and run on a cluster with little MPI latency.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573852186482311252",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573853387127263305",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:11:28.273+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Oh the fitting itself isn't real-time; I'm referring to the subsequent computational emulation of the ASIC die once the process randomness variations have been measured for the die.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573852330426638520",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573854007347388479",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:13:56.145+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "256-bucket BBD pulse run (excluding queue time, readout, and post-processing):\n- took 27 h 57 min 23 s on one Windows worker core to simulate 7.0088 ms\n- 14.36 million times slower than real time\n- ~4 wall-clock hours per simulated millisecond",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1573852421342371841",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573854474219561072",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:15:47.456+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "neat!   please save this with the chip design so we have it when real chips arrive",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573854808610316359",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:17:07.181+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Oh also if you'd want to run it against physical surrounding hardware in real-time, say a live music concert (example), you'd have to patch Xyce to support streamed-in sources that aren't known in their entirety up-front.\nAlgorithmically that's trivial though. The machinery just isn't set up to do that today.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573854876692127806",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:17:23.413+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What clock is that BDD run at?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573854007347388479",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573854947265740871",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:17:40.239+00:00",
+      "timestampEdited": "2026-11-22T00:20:43.085+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i'm deleting the waveform capture, it's like 400GB on disk for 512 buckets (2.2TB if you save every node). since my disk is only 1TB on that machine, i'm only keeping the scripts/results",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573854474219561072",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573854971189788694",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:17:45.943+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Also that's single-core, which I want to cleanly point out!",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573855349746696253",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:19:16.198+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "For audio you explicitly want to run it with a low clock to need/require fewer buckets for a target delay.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCAF",
+            "code": "100",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f4af-4CFF5.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573855470295457827",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:19:44.939+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "sure, sinc interpolator on input and output \uD83D\uDE09",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573854808610316359",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE09",
+          "code": "wink",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f609-9EC67.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573855927444967495",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:21:33.932+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's a separate matter. \nXyce doesn't have code for streaming in any waveforms that aren't provided up-front/batch. \nIt only streams output live.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573855470295457827",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573855980213768193",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:21:46.513+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(that's not an algorithmic issue though, l",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573856118394982542",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:22:19.458+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "60.24 kHz two-phase BBD clock",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573854876692127806",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573856495794262178",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:23:49.437+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "my experience with realtime audio simulations is that the core-to-core latency negates any gain from parallelization. but i've never run anything as peculiar as a full BBD sim",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573856850196041792",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:25:13.933+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "....did you set some aggressive minimum time step size?\nXyce has the nice behavior of forcing breakpoints at transitions of piece-wise-linear sources so you get large steps in-between without the integrator freaking out to hit the (from it's POV, very sudden) start of a sharp clock edge.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573856118394982542",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573857205818757222",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:26:38.72+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "rendering a couple of offline clips with real audio input would do wonders for marketing the \"darker sound\" \uD83E\uDEBD",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDEBD",
+          "code": "\uD83E\uDEBD",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1fabd-C8A1C.svg"
+        }
+      ]
+    },
+    {
+      "id": "1573857404834287749",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:27:26.169+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmmm",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573857597054914712",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:28:11.998+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yeah, QSPICE i think has better functionality for hybrid analog/digital simulations (with C++ callbacks you can write)",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573856850196041792",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573857670006444126",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:28:29.391+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I gotta do work for the boss now though.\nI'll see about the settings I used with Xyce to get it at least not-that-slow recently.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE4F",
+            "code": "pray",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f64f-22B8D.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "211112896833257472",
+              "name": "archit3ch",
+              "discriminator": "0000",
+              "nickname": "Archit3ch (George)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573857755255673065",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:28:49.716+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "but that's halfway through \"implementing your own solver\", so you might as well do it properly",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573858188632268896",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:30:33.041+00:00",
+      "timestampEdited": "2026-11-22T00:30:55.791+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You can write custom behavior ~~plugging~~**plugins** for Xyce as well. \nThe IHP open PDK uses that for its specific versions of PSP103 and I think also it's specific models for the heterojunction bipolar NPN's of the SG13G2 process.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573857597054914712",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573858451828768919",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:31:35.792+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "QSpice is proprietary and last I tried didn't run on Linux",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573858632817184828",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:32:18.943+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "what is needed to simulate these measurements? https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - mattvenn/ttgf0p2-vgaringosc-measurements: Silicon measurem...",
+          "url": "https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements",
+          "timestamp": null,
+          "description": "Silicon measurements of tt_um_algofoogle_vgaringosc (Ring osc on VGA) on Tiny Tapeout ttgf0p2 - mattvenn/ttgf0p2-vgaringosc-measurements",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ttgf0p2-vgaringosc-measurements-AA3C5",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573858698453852172",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:32:34.592+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Xyce is opened technology from the US nuclear program where they kept all the radiation modeling and unspecified other aspects secret.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573859620210876477",
+      "type": "Reply",
+      "timestamp": "2026-11-22T00:36:14.356+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's going to be easy at least for some of the tapped ring oscillator behavior.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573858632817184828",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573859761118777395",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:36:47.951+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Well, not _tooo_ easy sadly but still.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573861649578725377",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:44:18.195+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@carlfk \nIt'd be great if someone could vibe code a batch-acting back-propagation mode/variant of the current time-step-by-time-step \"transient adjoint sensitivity\" compute mode we got in Xyce.\n\nWith such, it would be far far far more compute-economical to fit the process randomness variables for a die from the measurements.\n\nIdeally we'd also have those measurements with varying VDDs and varying temperatures to more effectively fit the models.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "443147704126668801",
+          "name": "carlfk",
+          "discriminator": "0000",
+          "nickname": "carlfk",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573862047551062158",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:45:53.079+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Tim 'mithro' Ansell   ^^^ we need you and Claude",
+      "author": {
+        "id": "443147704126668801",
+        "name": "carlfk",
+        "discriminator": "0000",
+        "nickname": "carlfk",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/1a82fc0f66527d60b3c96bb31aabbbea-CF9A7.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573863766716719105",
+      "type": "Default",
+      "timestamp": "2026-11-22T00:52:42.96+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(Cya later then)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573867924530270279",
+      "type": "Reply",
+      "timestamp": "2026-11-22T01:09:14.26+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "should already exist in Julia. the problem there is the lack of BSIM\\*/PSP\\* models",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573861649578725377",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1573869663312416851",
+      "type": "Default",
+      "timestamp": "2026-11-22T01:16:08.818+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hmmm. Xyce reports no speedup at 2 cores, 32 buckets. even at 1 core it's slower than ngspice",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 115
+  "messageCount": 167
 }

@@ -201,3 +201,71 @@ And the 3-phase clock is needed with that. And make the gates be nice long chann
 "155452674286813194","brookieoz","2026-11-21T08:22:37.7300000+00:00","You could play some fun games with DC bias voltages to get around it, aka don't bias close to V=0 and instead always have some positive DC bias to avoid the worst of the nonlinearity, but at the end of the day metal caps are your gold standard for linearity","",""
 "756011607603019777","anfroholic","2026-11-21T21:10:01.4280000+00:00","@carlfk Is this what you're wanting to see built?","",""
 "443147704126668801","carlfk","2026-11-21T22:43:56.2580000+00:00","is there a simulation of the delay?","",""
+"262706220073222144","namibj","2026-11-21T23:04:20.6760000+00:00","The Bucket Brigade is a switched capacitor delay chip.","",""
+"443147704126668801","carlfk","2026-11-21T23:05:45.7950000+00:00","can it be simulated?","",""
+"262706220073222144","namibj","2026-11-21T23:06:25.3640000+00:00","Yeah.","","💯 (1)"
+"443147704126668801","carlfk","2026-11-21T23:07:53.5090000+00:00","has or will the chip be fabbed?","",""
+"262706220073222144","namibj","2026-11-21T23:46:09.9200000+00:00","He's planning on something like it, AFAIK","","👍 (1)"
+"443147704126668801","carlfk","2026-11-21T23:55:05.2560000+00:00","good - what do we need to simulate the delay?","",""
+"211112896833257472","archit3ch","2026-11-21T23:58:20.7840000+00:00","a couple of days, depending on size 😅","",""
+"211112896833257472","archit3ch","2026-11-21T23:58:32.1430000+00:00","i only did up to 256 buckets","",""
+"211112896833257472","archit3ch","2026-11-21T23:58:50.7990000+00:00","but you can likely get away with simulating a few and extrapolating from there","",""
+"443147704126668801","carlfk","2026-11-22T00:02:45.1860000+00:00","well.. the goal is to see how close the simulation is to reality.  extrapolating adds error","",""
+"443147704126668801","carlfk","2026-11-22T00:03:23.7840000+00:00","can we add a tap to a pin so we can measure what is simulated?","",""
+"262706220073222144","namibj","2026-11-22T00:04:03.9410000+00:00","Xyce can simulate it effectively even with many buckets.","",""
+"262706220073222144","namibj","2026-11-22T00:04:43.8410000+00:00","Maybe not real-time for audio but that's not needed.","",""
+"211112896833257472","archit3ch","2026-11-22T00:05:19.1070000+00:00","yes, that's how i'm tracing input-to-output insertion loss or per-bucket-transfer numbers","",""
+"443147704126668801","carlfk","2026-11-22T00:06:40.1830000+00:00","doesn't need to be realtime - it can take 100x to get as accurate as the math allows","",""
+"211112896833257472","archit3ch","2026-11-22T00:06:42.0170000+00:00","it would never be realtime. we're talking days to weeks for a couple of ms","",""
+"443147704126668801","carlfk","2026-11-22T00:06:56.5100000+00:00","yep","",""
+"262706220073222144","namibj","2026-11-22T00:07:14.0990000+00:00","So the big problem natively is process variations.
+Best we can reasonably hope for is to fit/solve process variation randomness modeling variables to observed behavior and then testing how well that simulation then predicts behavior under different voltage and/or temperature for the very same die we fitted model variables ty.","",""
+"443147704126668801","carlfk","2026-11-22T00:07:16.3360000+00:00","I guess thats a bit more than 100x :p","",""
+"211112896833257472","archit3ch","2026-11-22T00:07:38.0120000+00:00","wait, let me get you the actual timing 😎","",""
+"211112896833257472","archit3ch","2026-11-22T00:09:26.6690000+00:00","theorycraft: in an FPAA with Jumperless-style programmable routing and 2 BBDs (or a longer line that can split in 2), you can route: 1st -> 2nd -> 1st, with the 2nd being clocked higher so that samples take less time to travel through it 😁","",""
+"262706220073222144","namibj","2026-11-22T00:10:03.8870000+00:00","No, audio-frequency bucket brigade delay can run fast with Xyce, on the order of less than 1000x slowdown _easily._
+And realistically close to real-time if we can tune the solver stuff sufficiently and run on a cluster with little MPI latency.","",""
+"262706220073222144","namibj","2026-11-22T00:11:28.2730000+00:00","Oh the fitting itself isn't real-time; I'm referring to the subsequent computational emulation of the ASIC die once the process randomness variations have been measured for the die.","",""
+"211112896833257472","archit3ch","2026-11-22T00:13:56.1450000+00:00","256-bucket BBD pulse run (excluding queue time, readout, and post-processing):
+- took 27 h 57 min 23 s on one Windows worker core to simulate 7.0088 ms
+- 14.36 million times slower than real time
+- ~4 wall-clock hours per simulated millisecond","",""
+"443147704126668801","carlfk","2026-11-22T00:15:47.4560000+00:00","neat!   please save this with the chip design so we have it when real chips arrive","",""
+"262706220073222144","namibj","2026-11-22T00:17:07.1810000+00:00","Oh also if you'd want to run it against physical surrounding hardware in real-time, say a live music concert (example), you'd have to patch Xyce to support streamed-in sources that aren't known in their entirety up-front.
+Algorithmically that's trivial though. The machinery just isn't set up to do that today.","",""
+"262706220073222144","namibj","2026-11-22T00:17:23.4130000+00:00","What clock is that BDD run at?","",""
+"211112896833257472","archit3ch","2026-11-22T00:17:40.2390000+00:00","i'm deleting the waveform capture, it's like 400GB on disk for 512 buckets (2.2TB if you save every node). since my disk is only 1TB on that machine, i'm only keeping the scripts/results","",""
+"262706220073222144","namibj","2026-11-22T00:17:45.9430000+00:00","Also that's single-core, which I want to cleanly point out!","",""
+"262706220073222144","namibj","2026-11-22T00:19:16.1980000+00:00","For audio you explicitly want to run it with a low clock to need/require fewer buckets for a target delay.","","💯 (1)"
+"211112896833257472","archit3ch","2026-11-22T00:19:44.9390000+00:00","sure, sinc interpolator on input and output 😉","",""
+"262706220073222144","namibj","2026-11-22T00:21:33.9320000+00:00","That's a separate matter. 
+Xyce doesn't have code for streaming in any waveforms that aren't provided up-front/batch. 
+It only streams output live.","",""
+"262706220073222144","namibj","2026-11-22T00:21:46.5130000+00:00","(that's not an algorithmic issue though, l","",""
+"211112896833257472","archit3ch","2026-11-22T00:22:19.4580000+00:00","60.24 kHz two-phase BBD clock","",""
+"211112896833257472","archit3ch","2026-11-22T00:23:49.4370000+00:00","my experience with realtime audio simulations is that the core-to-core latency negates any gain from parallelization. but i've never run anything as peculiar as a full BBD sim","",""
+"262706220073222144","namibj","2026-11-22T00:25:13.9330000+00:00","....did you set some aggressive minimum time step size?
+Xyce has the nice behavior of forcing breakpoints at transitions of piece-wise-linear sources so you get large steps in-between without the integrator freaking out to hit the (from it's POV, very sudden) start of a sharp clock edge.","",""
+"211112896833257472","archit3ch","2026-11-22T00:26:38.7200000+00:00","rendering a couple of offline clips with real audio input would do wonders for marketing the ""darker sound"" 🪽","",""
+"262706220073222144","namibj","2026-11-22T00:27:26.1690000+00:00","Hmmm","",""
+"211112896833257472","archit3ch","2026-11-22T00:28:11.9980000+00:00","yeah, QSPICE i think has better functionality for hybrid analog/digital simulations (with C++ callbacks you can write)","",""
+"262706220073222144","namibj","2026-11-22T00:28:29.3910000+00:00","I gotta do work for the boss now though.
+I'll see about the settings I used with Xyce to get it at least not-that-slow recently.","","🙏 (1)"
+"211112896833257472","archit3ch","2026-11-22T00:28:49.7160000+00:00","but that's halfway through ""implementing your own solver"", so you might as well do it properly","",""
+"262706220073222144","namibj","2026-11-22T00:30:33.0410000+00:00","You can write custom behavior ~~plugging~~**plugins** for Xyce as well. 
+The IHP open PDK uses that for its specific versions of PSP103 and I think also it's specific models for the heterojunction bipolar NPN's of the SG13G2 process.","",""
+"262706220073222144","namibj","2026-11-22T00:31:35.7920000+00:00","QSpice is proprietary and last I tried didn't run on Linux","",""
+"443147704126668801","carlfk","2026-11-22T00:32:18.9430000+00:00","what is needed to simulate these measurements? https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements","",""
+"262706220073222144","namibj","2026-11-22T00:32:34.5920000+00:00","Xyce is opened technology from the US nuclear program where they kept all the radiation modeling and unspecified other aspects secret.","",""
+"262706220073222144","namibj","2026-11-22T00:36:14.3560000+00:00","That's going to be easy at least for some of the tapped ring oscillator behavior.","",""
+"262706220073222144","namibj","2026-11-22T00:36:47.9510000+00:00","Well, not _tooo_ easy sadly but still.","",""
+"262706220073222144","namibj","2026-11-22T00:44:18.1950000+00:00","@carlfk 
+It'd be great if someone could vibe code a batch-acting back-propagation mode/variant of the current time-step-by-time-step ""transient adjoint sensitivity"" compute mode we got in Xyce.
+
+With such, it would be far far far more compute-economical to fit the process randomness variables for a die from the measurements.
+
+Ideally we'd also have those measurements with varying VDDs and varying temperatures to more effectively fit the models.","",""
+"443147704126668801","carlfk","2026-11-22T00:45:53.0790000+00:00","@Tim 'mithro' Ansell   ^^^ we need you and Claude","",""
+"262706220073222144","namibj","2026-11-22T00:52:42.9600000+00:00","(Cya later then)","",""
+"211112896833257472","archit3ch","2026-11-22T01:09:14.2600000+00:00","should already exist in Julia. the problem there is the lack of BSIM\*/PSP\* models","",""
+"211112896833257472","archit3ch","2026-11-22T01:16:08.8180000+00:00","hmmm. Xyce reports no speedup at 2 cores, 32 buckets. even at 1 core it's slower than ngspice","",""

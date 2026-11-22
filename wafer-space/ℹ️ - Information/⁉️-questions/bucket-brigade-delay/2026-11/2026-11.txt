@@ -599,6 +599,244 @@ You could play some fun games with DC bias voltages to get around it, aka don't 
 is there a simulation of the delay?
 
 
+[2026-11-21 11:04 p.m.] namibj
+The Bucket Brigade is a switched capacitor delay chip.
+
+
+[2026-11-21 11:05 p.m.] carlfk
+can it be simulated?
+
+
+[2026-11-21 11:06 p.m.] namibj
+Yeah.
+
+{Reactions}
+💯
+
+[2026-11-21 11:07 p.m.] carlfk
+has or will the chip be fabbed?
+
+
+[2026-11-21 11:46 p.m.] namibj
+He's planning on something like it, AFAIK
+
+{Reactions}
+👍
+
+[2026-11-21 11:55 p.m.] carlfk
+good - what do we need to simulate the delay?
+
+
+[2026-11-21 11:58 p.m.] archit3ch
+a couple of days, depending on size 😅
+
+
+[2026-11-21 11:58 p.m.] archit3ch
+i only did up to 256 buckets
+
+
+[2026-11-21 11:58 p.m.] archit3ch
+but you can likely get away with simulating a few and extrapolating from there
+
+
+[2026-11-22 12:02 a.m.] carlfk
+well.. the goal is to see how close the simulation is to reality.  extrapolating adds error
+
+
+[2026-11-22 12:03 a.m.] carlfk
+can we add a tap to a pin so we can measure what is simulated?
+
+
+[2026-11-22 12:04 a.m.] namibj
+Xyce can simulate it effectively even with many buckets.
+
+
+[2026-11-22 12:04 a.m.] namibj
+Maybe not real-time for audio but that's not needed.
+
+
+[2026-11-22 12:05 a.m.] archit3ch
+yes, that's how i'm tracing input-to-output insertion loss or per-bucket-transfer numbers
+
+
+[2026-11-22 12:06 a.m.] carlfk
+doesn't need to be realtime - it can take 100x to get as accurate as the math allows
+
+
+[2026-11-22 12:06 a.m.] archit3ch
+it would never be realtime. we're talking days to weeks for a couple of ms
+
+
+[2026-11-22 12:06 a.m.] carlfk
+yep
+
+
+[2026-11-22 12:07 a.m.] namibj
+So the big problem natively is process variations.
+Best we can reasonably hope for is to fit/solve process variation randomness modeling variables to observed behavior and then testing how well that simulation then predicts behavior under different voltage and/or temperature for the very same die we fitted model variables ty.
+
+
+[2026-11-22 12:07 a.m.] carlfk
+I guess thats a bit more than 100x :p
+
+
+[2026-11-22 12:07 a.m.] archit3ch
+wait, let me get you the actual timing 😎
+
+
+[2026-11-22 12:09 a.m.] archit3ch
+theorycraft: in an FPAA with Jumperless-style programmable routing and 2 BBDs (or a longer line that can split in 2), you can route: 1st -> 2nd -> 1st, with the 2nd being clocked higher so that samples take less time to travel through it 😁
+
+
+[2026-11-22 12:10 a.m.] namibj
+No, audio-frequency bucket brigade delay can run fast with Xyce, on the order of less than 1000x slowdown _easily._
+And realistically close to real-time if we can tune the solver stuff sufficiently and run on a cluster with little MPI latency.
+
+
+[2026-11-22 12:11 a.m.] namibj
+Oh the fitting itself isn't real-time; I'm referring to the subsequent computational emulation of the ASIC die once the process randomness variations have been measured for the die.
+
+
+[2026-11-22 12:13 a.m.] archit3ch
+256-bucket BBD pulse run (excluding queue time, readout, and post-processing):
+- took 27 h 57 min 23 s on one Windows worker core to simulate 7.0088 ms
+- 14.36 million times slower than real time
+- ~4 wall-clock hours per simulated millisecond
+
+
+[2026-11-22 12:15 a.m.] carlfk
+neat!   please save this with the chip design so we have it when real chips arrive
+
+
+[2026-11-22 12:17 a.m.] namibj
+Oh also if you'd want to run it against physical surrounding hardware in real-time, say a live music concert (example), you'd have to patch Xyce to support streamed-in sources that aren't known in their entirety up-front.
+Algorithmically that's trivial though. The machinery just isn't set up to do that today.
+
+
+[2026-11-22 12:17 a.m.] namibj
+What clock is that BDD run at?
+
+
+[2026-11-22 12:17 a.m.] archit3ch
+i'm deleting the waveform capture, it's like 400GB on disk for 512 buckets (2.2TB if you save every node). since my disk is only 1TB on that machine, i'm only keeping the scripts/results
+
+
+[2026-11-22 12:17 a.m.] namibj
+Also that's single-core, which I want to cleanly point out!
+
+
+[2026-11-22 12:19 a.m.] namibj
+For audio you explicitly want to run it with a low clock to need/require fewer buckets for a target delay.
+
+{Reactions}
+💯
+
+[2026-11-22 12:19 a.m.] archit3ch
+sure, sinc interpolator on input and output 😉
+
+
+[2026-11-22 12:21 a.m.] namibj
+That's a separate matter. 
+Xyce doesn't have code for streaming in any waveforms that aren't provided up-front/batch. 
+It only streams output live.
+
+
+[2026-11-22 12:21 a.m.] namibj
+(that's not an algorithmic issue though, l
+
+
+[2026-11-22 12:22 a.m.] archit3ch
+60.24 kHz two-phase BBD clock
+
+
+[2026-11-22 12:23 a.m.] archit3ch
+my experience with realtime audio simulations is that the core-to-core latency negates any gain from parallelization. but i've never run anything as peculiar as a full BBD sim
+
+
+[2026-11-22 12:25 a.m.] namibj
+....did you set some aggressive minimum time step size?
+Xyce has the nice behavior of forcing breakpoints at transitions of piece-wise-linear sources so you get large steps in-between without the integrator freaking out to hit the (from it's POV, very sudden) start of a sharp clock edge.
+
+
+[2026-11-22 12:26 a.m.] archit3ch
+rendering a couple of offline clips with real audio input would do wonders for marketing the "darker sound" 🪽
+
+
+[2026-11-22 12:27 a.m.] namibj
+Hmmm
+
+
+[2026-11-22 12:28 a.m.] archit3ch
+yeah, QSPICE i think has better functionality for hybrid analog/digital simulations (with C++ callbacks you can write)
+
+
+[2026-11-22 12:28 a.m.] namibj
+I gotta do work for the boss now though.
+I'll see about the settings I used with Xyce to get it at least not-that-slow recently.
+
+{Reactions}
+🙏
+
+[2026-11-22 12:28 a.m.] archit3ch
+but that's halfway through "implementing your own solver", so you might as well do it properly
+
+
+[2026-11-22 12:30 a.m.] namibj
+You can write custom behavior ~~plugging~~**plugins** for Xyce as well. 
+The IHP open PDK uses that for its specific versions of PSP103 and I think also it's specific models for the heterojunction bipolar NPN's of the SG13G2 process.
+
+
+[2026-11-22 12:31 a.m.] namibj
+QSpice is proprietary and last I tried didn't run on Linux
+
+
+[2026-11-22 12:32 a.m.] carlfk
+what is needed to simulate these measurements? https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements
+
+{Embed}
+https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements
+GitHub - mattvenn/ttgf0p2-vgaringosc-measurements: Silicon measurem...
+Silicon measurements of tt_um_algofoogle_vgaringosc (Ring osc on VGA) on Tiny Tapeout ttgf0p2 - mattvenn/ttgf0p2-vgaringosc-measurements
+2026-11_media/ttgf0p2-vgaringosc-measurements-AA3C5
+
+
+[2026-11-22 12:32 a.m.] namibj
+Xyce is opened technology from the US nuclear program where they kept all the radiation modeling and unspecified other aspects secret.
+
+
+[2026-11-22 12:36 a.m.] namibj
+That's going to be easy at least for some of the tapped ring oscillator behavior.
+
+
+[2026-11-22 12:36 a.m.] namibj
+Well, not _tooo_ easy sadly but still.
+
+
+[2026-11-22 12:44 a.m.] namibj
+@carlfk 
+It'd be great if someone could vibe code a batch-acting back-propagation mode/variant of the current time-step-by-time-step "transient adjoint sensitivity" compute mode we got in Xyce.
+
+With such, it would be far far far more compute-economical to fit the process randomness variables for a die from the measurements.
+
+Ideally we'd also have those measurements with varying VDDs and varying temperatures to more effectively fit the models.
+
+
+[2026-11-22 12:45 a.m.] carlfk
+@Tim 'mithro' Ansell   ^^^ we need you and Claude
+
+
+[2026-11-22 12:52 a.m.] namibj
+(Cya later then)
+
+
+[2026-11-22 1:09 a.m.] archit3ch
+should already exist in Julia. the problem there is the lack of BSIM\*/PSP\* models
+
+
+[2026-11-22 1:16 a.m.] archit3ch
+hmmm. Xyce reports no speedup at 2 cores, 32 buckets. even at 1 core it's slower than ngspice
+
+
 ==============================================================
-Exported 115 message(s)
+Exported 167 message(s)
 ==============================================================
