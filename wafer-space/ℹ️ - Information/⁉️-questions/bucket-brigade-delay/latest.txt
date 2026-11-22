@@ -837,6 +837,49 @@ should already exist in Julia. the problem there is the lack of BSIM\*/PSP\* mod
 hmmm. Xyce reports no speedup at 2 cores, 32 buckets. even at 1 core it's slower than ngspice
 
 
+[2026-11-22 4:36 a.m.] namibj
+You're using wrong configuration.
+
+
+[2026-11-22 6:44 a.m.] mithro_
+I was working on a random problem and Claude just accidentally discovered you can build a "crappy" FET using the aluminium metal layer as a gate.
+
+
+[2026-11-22 6:56 a.m.] namibj
+Well, yeah, sure.
+
+
+[2026-11-22 7:11 a.m.] 246tnt
+Not really actually.
+And by that I mean I'm not sure what valid / DRC compliant combination of layer would produce the stackup you'd want.
+
+
+[2026-11-22 7:41 a.m.] namibj
+Abusing M1 as a gate should work though?
+It'd not be good.
+I guess (floating)poly could shield it unless you're possibly getting something with native nmos with SAB where it might let you dope a "channel" without relying on gate mask for blocking SD implants from tainting the well surface forming the channel?
+
+
+[2026-11-22 7:44 a.m.] namibj
+(but certainly it's not useful other than perhaps as floating gate flash storage, which you might have to buy as the marking layers give you the DRC exceptions that apparently are needed for good flash cells on the process?)
+
+
+[2026-11-22 7:45 a.m.] 246tnt
+SAB will just block silicide, not the N+ implant, you're basically making a diffusion resistors.  ( assuming you're talking nmos here but it's symmetrical ).
+
+
+[2026-11-22 7:55 a.m.] 246tnt
+And `NAT.11 -- NCOMP not intersecting to Poly2, is not allowed inside “NAT” layer`
+
+
+[2026-11-22 7:57 a.m.] namibj
+I didn't say the DRC would let you draw it with no poly nearby
+
+
+[2026-11-22 7:57 a.m.] namibj
+But yeah I guess
+
+
 ==============================================================
-Exported 167 message(s)
+Exported 177 message(s)
 ==============================================================

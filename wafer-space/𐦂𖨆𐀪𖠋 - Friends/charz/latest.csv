@@ -64,3 +64,10 @@ And I should try if the **symmetric gated SCR/TRIAC** ""Magic-only PCell""  (whi
 "262706220073222144","namibj","2026-11-22T00:51:22.4880000+00:00","@Tim Edwards RE: PEX & process variations: any plans to support in any practical way an extraction methodology that could be used with Xyce to model-fit (via Xyce's sensitivity analysis to get a gradient, and a useful gradient-descent solver on top, against e-test data for a specific individual DUT die ideally at various voltage and temperature conditions;  https://github.com/mattvenn/ttgf0p2-vgaringosc-measurements is what @carlfk asked about (and other than the testbench setup with no good voltage and no temperature control let alone any variation in those two influences, it seems fairly suited to the ""project task"")) the full Monte-Carlo statical variation ""random variables"" including ones that adequately handle the interconnect (PEX!)?
 
 Any idea regarding how much variations in individual vias/contacts may be (the PDK only specified min/max bounds and a typical value)?","",""
+"262706220073222144","namibj","2026-11-22T11:01:33.8080000+00:00","@InfoSecDJ sorry wrong nick I got them mixed up my bad.","",""
+"424865332075954196","infosecdj","2026-11-22T11:03:30.6610000+00:00","eh? eh? what? 😁  no worries","",""
+"262706220073222144","namibj","2026-11-22T11:05:09.8240000+00:00","Well so, see, _geonzee_ is the one who sounds to be in more comfortable shipping distance to me (and by extension, you), and in posession of some of these from how that sounded in the message I replied to there.
+On the other server I accidentally mentioned the wrong person as I got the usernames briefly confused.","",""
+"424865332075954196","infosecdj","2026-11-22T11:06:09.7420000+00:00","ah right, gotcha, thanks for clarification.","",""
+"424865332075954196","infosecdj","2026-11-22T11:06:42.4210000+00:00","yeah if someone has the right piece, just ship it to me and I'll get it imaged","",""
+"262706220073222144","namibj","2026-11-22T11:20:04.1790000+00:00","@geonzee ?","",""

@@ -311,6 +311,10 @@ I will check the other sample that I have that's shorted and see if it could be 
 Is there a chance this is not a bond issue but a die yield aspect?
 
 
+[2026-11-22 6:49 a.m.] mithro_
+I think we can just say that a design which shorts other pins to GND is not wafer.space CoB bonding compatible?
+
+
 ==============================================================
-Exported 59 message(s)
+Exported 60 message(s)
 ==============================================================

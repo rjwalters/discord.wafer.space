@@ -269,3 +269,16 @@ Ideally we'd also have those measurements with varying VDDs and varying temperat
 "262706220073222144","namibj","2026-11-22T00:52:42.9600000+00:00","(Cya later then)","",""
 "211112896833257472","archit3ch","2026-11-22T01:09:14.2600000+00:00","should already exist in Julia. the problem there is the lack of BSIM\*/PSP\* models","",""
 "211112896833257472","archit3ch","2026-11-22T01:16:08.8180000+00:00","hmmm. Xyce reports no speedup at 2 cores, 32 buckets. even at 1 core it's slower than ngspice","",""
+"262706220073222144","namibj","2026-11-22T04:36:23.8950000+00:00","You're using wrong configuration.","",""
+"169786952432746498","mithro_","2026-11-22T06:44:20.9280000+00:00","I was working on a random problem and Claude just accidentally discovered you can build a ""crappy"" FET using the aluminium metal layer as a gate.","",""
+"262706220073222144","namibj","2026-11-22T06:56:13.0710000+00:00","Well, yeah, sure.","",""
+"596068704471482370","246tnt","2026-11-22T07:11:17.3210000+00:00","Not really actually.
+And by that I mean I'm not sure what valid / DRC compliant combination of layer would produce the stackup you'd want.","",""
+"262706220073222144","namibj","2026-11-22T07:41:58.6650000+00:00","Abusing M1 as a gate should work though?
+It'd not be good.
+I guess (floating)poly could shield it unless you're possibly getting something with native nmos with SAB where it might let you dope a ""channel"" without relying on gate mask for blocking SD implants from tainting the well surface forming the channel?","",""
+"262706220073222144","namibj","2026-11-22T07:44:18.8830000+00:00","(but certainly it's not useful other than perhaps as floating gate flash storage, which you might have to buy as the marking layers give you the DRC exceptions that apparently are needed for good flash cells on the process?)","",""
+"596068704471482370","246tnt","2026-11-22T07:45:05.4320000+00:00","SAB will just block silicide, not the N+ implant, you're basically making a diffusion resistors.  ( assuming you're talking nmos here but it's symmetrical ).","",""
+"596068704471482370","246tnt","2026-11-22T07:55:01.3910000+00:00","And `NAT.11 -- NCOMP not intersecting to Poly2, is not allowed inside “NAT” layer`","",""
+"262706220073222144","namibj","2026-11-22T07:57:26.8010000+00:00","I didn't say the DRC would let you draw it with no poly nearby","",""
+"262706220073222144","namibj","2026-11-22T07:57:54.6740000+00:00","But yeah I guess","",""

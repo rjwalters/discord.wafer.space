@@ -73,6 +73,26 @@ Report broken boards, suggest features, or help with the infrastructure here.
 Pinned a message.
 
 
+[2026-11-22 5:44 a.m.] mithro_
+I've been burning tokens on having a bunch of small independent libraries around both capture and "decoding VGA" pmod signals and presenting the video feed in a number of different ways.
+
+My current "capture targets" are:
+ * (a) The PIO in RPi MCU capture the VGA data
+ * (b) The PIO in the RP1 found in the RPi 5 capture the VGA data
+ * (c) The RPi 3B+ GPIO (can't remember if I proved this possible/impossible in the end)
+ * (d) waveform files
+
+IIRC On the RPi MCU, I've been looking at piping the video up USB both using just the serial port (so you get the raw wave forms) and pretending to be a UVC webcam. The 12Mbit speed is a bit of a issue. With the RPi MCU I can just manually "under clock" the design.
+
+On the RPi 5 I'm exploring appearing as a v4l device or just directly feeding a gstreamer plugin.
+
+The decoding the VGA stuff is just a very small pure-C library that the others depend on and works both on Linux and embedded C and supports both "incremental" feeding without any memory allocations. Should also be usable in things like verilator / cocotb and such.
+
+This was kind of a follow on of the follow on from generating videos for all the tt designs @  https://data.wafer.space/big-storage/tinytapeout-vga-videos/ and wanting something for https://tinytapeout.fpgas.online
+
+All the work was being done before the Run #2 trip and so I'm unsure what the state everything got to and haven't picked it back up quite yet.
+
+
 ==============================================================
-Exported 9 message(s)
+Exported 10 message(s)
 ==============================================================

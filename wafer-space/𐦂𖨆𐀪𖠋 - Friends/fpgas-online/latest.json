@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-22T05:33:04.5520975+00:00",
+  "exportedAt": "2026-11-22T13:29:02.0672647+00:00",
   "messages": [
     {
       "id": "1570847998068400148",
@@ -336,7 +336,32 @@
         "guildId": null
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1573937253666001067",
+      "type": "Default",
+      "timestamp": "2026-11-22T05:44:43.614+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I've been burning tokens on having a bunch of small independent libraries around both capture and \"decoding VGA\" pmod signals and presenting the video feed in a number of different ways.\n\nMy current \"capture targets\" are:\n * (a) The PIO in RPi MCU capture the VGA data\n * (b) The PIO in the RP1 found in the RPi 5 capture the VGA data\n * (c) The RPi 3B+ GPIO (can't remember if I proved this possible/impossible in the end)\n * (d) waveform files\n\nIIRC On the RPi MCU, I've been looking at piping the video up USB both using just the serial port (so you get the raw wave forms) and pretending to be a UVC webcam. The 12Mbit speed is a bit of a issue. With the RPi MCU I can just manually \"under clock\" the design.\n\nOn the RPi 5 I'm exploring appearing as a v4l device or just directly feeding a gstreamer plugin.\n\nThe decoding the VGA stuff is just a very small pure-C library that the others depend on and works both on Linux and embedded C and supports both \"incremental\" feeding without any memory allocations. Should also be usable in things like verilator / cocotb and such.\n\nThis was kind of a follow on of the follow on from generating videos for all the tt designs @  https://data.wafer.space/big-storage/tinytapeout-vga-videos/ and wanting something for https://tinytapeout.fpgas.online\n\nAll the work was being done before the Run #2 trip and so I'm unsure what the state everything got to and haven't picked it back up quite yet.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 9
+  "messageCount": 10
 }

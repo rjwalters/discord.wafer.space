@@ -21,6 +21,19 @@ Codename:       bookworm</span></div></div></div></div><div id=chatlog__message-
 <strong>Source</strong><ul><li><a href="&lt;https://github.com/fpgas-online&gt;">fpgas-online</a></li><li><a href="&lt;https://github.com/CarlFK/pici&gt;">pici</a></li></ul>
 Report broken boards, suggest features, or help with the infrastructure here.</span></div></div></div></div></div>
 <div class=chatlog__message-group><div id=chatlog__message-container-1573538034408882257 class=chatlog__message-container data-message-id=1573538034408882257><div class=chatlog__message><div class=chatlog__message-aside><svg class=chatlog__system-notification-icon><use href=#pin-icon></use></svg></div><div class=chatlog__message-primary><span class=chatlog__system-notification-author title=mithro_ data-user-id=169786952432746498>Tim &#x27;mithro&#x27; Ansell</span> <span> </span> <span class=chatlog__system-notification-content> <span>pinned </span> <a class=chatlog__system-notification-link href=#chatlog__message-container-1573538010169876562>a message</a> <span> to this channel.</span> </span> <span class=chatlog__system-notification-timestamp title="Saturday, November 21, 2026 3:18 a.m."> <a href=#chatlog__message-container-1573538034408882257>2026-11-21 3:18 a.m.</a> </span></div></div></div></div>
+<div class=chatlog__message-group><div id=chatlog__message-container-1573937253666001067 class=chatlog__message-container data-message-id=1573937253666001067><div class=chatlog__message><div class=chatlog__message-aside><img class=chatlog__avatar src=2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png alt=Avatar loading=lazy></div><div class=chatlog__message-primary><div class=chatlog__header><span class=chatlog__author title=mithro_ data-user-id=169786952432746498>Tim &#x27;mithro&#x27; Ansell</span> <span class=chatlog__timestamp title="Sunday, November 22, 2026 5:44 a.m."><a href=#chatlog__message-container-1573937253666001067>2026-11-22 5:44 a.m.</a></span></div><div class="chatlog__content chatlog__markdown"><span class=chatlog__markdown-preserve>I&#39;ve been burning tokens on having a bunch of small independent libraries around both capture and &quot;decoding VGA&quot; pmod signals and presenting the video feed in a number of different ways.
+
+My current &quot;capture targets&quot; are:
+<ul><li>(a) The PIO in RPi MCU capture the VGA data</li></ul><ul><li>(b) The PIO in the RP1 found in the RPi 5 capture the VGA data</li></ul><ul><li>(c) The RPi 3B+ GPIO (can&#39;t remember if I proved this possible/impossible in the end)</li></ul><ul><li>(d) waveform files</li></ul>
+IIRC On the RPi MCU, I&#39;ve been looking at piping the video up USB both using just the serial port (so you get the raw wave forms) and pretending to be a UVC webcam. The 12Mbit speed is a bit of a issue. With the RPi MCU I can just manually &quot;under clock&quot; the design.
+
+On the RPi 5 I&#39;m exploring appearing as a v4l device or just directly feeding a gstreamer plugin.
+
+The decoding the VGA stuff is just a very small pure-C library that the others depend on and works both on Linux and embedded C and supports both &quot;incremental&quot; feeding without any memory allocations. Should also be usable in things like verilator / cocotb and such.
+
+This was kind of a follow on of the follow on from generating videos for all the tt designs @  <a href="https://data.wafer.space/big-storage/tinytapeout-vga-videos/">https://data.wafer.space/big-storage/tinytapeout-vga-videos/</a> and wanting something for <a href="https://tinytapeout.fpgas.online">https://tinytapeout.fpgas.online</a>
+
+All the work was being done before the Run #2 trip and so I&#39;m unsure what the state everything got to and haven&#39;t picked it back up quite yet.</span></div></div></div></div></div>
 
 </div>
-<div class=postamble><div class=postamble__entry>Exported 9 message(s)</div><div class=postamble__entry>Timezone: UTC+0</div></div>
+<div class=postamble><div class=postamble__entry>Exported 10 message(s)</div><div class=postamble__entry>Timezone: UTC+0</div></div>
