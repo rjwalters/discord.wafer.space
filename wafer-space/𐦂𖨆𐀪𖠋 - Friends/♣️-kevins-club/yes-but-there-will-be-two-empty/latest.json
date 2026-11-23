@@ -1,0 +1,323 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1574107089456992398",
+    "type": "GuildPublicThread",
+    "categoryId": "1566353341028765736",
+    "category": "♣️-kevins-club",
+    "name": "Yes. But there will be two empty \"",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-23T02:40:09.8041087+00:00",
+  "messages": [
+    {
+      "id": "1574107382366212308",
+      "type": "21",
+      "timestamp": "2026-11-22T17:00:45.457+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574107089456992398",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574107388653604995",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:00:46.956+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Rather off topic here, but could a design like this be accommodated by putting it at the end of the row and cutting off met5 after the last met4 stripe?",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574107473089003673",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:01:07.087+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "No.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574107549513416819",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:01:25.308+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If we cut met5 you're doubling the PDN impedance for evey other project. That's unacceptable.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574107912098418929",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:02:51.755+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ah because ground needs to connect to an outer ring - makes sense.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574109790282715368",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:10:19.549+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Both ground and the two power rails need connections on the outer rings and there are GND and power pins on both opposite corners on purpose.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574113769737429023",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:26:08.325+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ah, I didn't realise there were ungated power stripes going over the projects, but I guess that also makes sense",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574115511401193543",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:33:03.57+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Where did you think the power gates got power from ? \uD83D\uDE05",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE06",
+            "code": "laughing",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f606-BE94E.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "691780627338625077",
+              "name": "rebelmike",
+              "discriminator": "0000",
+              "nickname": "RebelMike",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE05",
+          "code": "sweat_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f605-42B43.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574118461351657513",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:44:46.893+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Inductive coupling?",
+      "author": {
+        "id": "732347216412278825",
+        "name": "urish",
+        "discriminator": "0000",
+        "nickname": "urish",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE02",
+            "code": "joy",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f602-168C5.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "596068704471482370",
+              "name": "246tnt",
+              "discriminator": "0000",
+              "nickname": "tnt",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 9
+}

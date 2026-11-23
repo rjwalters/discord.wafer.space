@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-22T13:28:51.0492074+00:00",
+  "exportedAt": "2026-11-23T02:42:04.0843319+00:00",
   "messages": [
     {
       "id": "1573188719366774824",
@@ -66,7 +66,57 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1574090800495599648",
+      "type": "Default",
+      "timestamp": "2026-11-22T15:54:52.031+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think spinning and patterning is relatively accessible. It doesnt need nanometer level precision or vacuum equipment. I'm trying some experiments with a chemist friend on aluminum foil pulled from a capacitor before we try on a die.",
+      "author": {
+        "id": "1170784850874220707",
+        "name": "fossify_37988",
+        "discriminator": "0000",
+        "nickname": "Christopher",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574227527889846304",
+      "type": "Default",
+      "timestamp": "2026-11-23T00:58:10.382+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Gallium nitrate is an interesting alternative material for breaking the aluminium oxide layer.",
+      "author": {
+        "id": "774148827828453397",
+        "name": "thatreprapguy",
+        "discriminator": "0000",
+        "nickname": "Vik Olliver",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/057b8c04e4db3d9435b7d83b65992f5a-41587.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 1
+  "messageCount": 3
 }

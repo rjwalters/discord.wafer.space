@@ -674,6 +674,171 @@ Pinned a message.
 1st generation looks possible @asic destroyer
 
 
+[2026-11-22 1:32 p.m.] rebelmike
+Hey @Paul, I'm not sure if you are still looking for projects but this is shaping up to the point it could possibly be ready by run 3.  It needs a half slot, room to spare in a full slot: https://github.com/MichaelBell/ws03-tinyqv-bio
+As discussed before, this is not really "experimental" in the sense you were looking for, but it might make a good control chip for you (though I don't think TinyQV can run Zephyr, at least not without some work - from a brief look FreeRTOS might be easier if you do want an RTOS).
+
+{Embed}
+https://github.com/MichaelBell/ws03-tinyqv-bio
+GitHub - MichaelBell/ws03-tinyqv-bio: TinyQV with Femto BIO for Waf...
+TinyQV with Femto BIO for Wafer Space. Contribute to MichaelBell/ws03-tinyqv-bio development by creating an account on GitHub.
+2026-11_media/ws03-tinyqv-bio-6132F
+
+
+[2026-11-22 1:45 p.m.] velvetundergroundandy
+@namibj how about your progress? will you need the full slot?
+
+
+[2026-11-22 2:16 p.m.] namibj
+I fear not, time has been running away and no one came up who wanted to do the scripting work for it (and as I had expected, I didn't manage to get to it personally). 🙁
+
+
+[2026-11-22 2:16 p.m.] velvetundergroundandy
+ok let’s find someone else then
+
+
+[2026-11-22 2:16 p.m.] velvetundergroundandy
+@everyone we have an open slot!!
+
+
+[2026-11-22 2:17 p.m.] namibj
+But we have the hall sensor and I'd quite want to have a photodiode or two or three this run; I want one for receiving multimode fiber data; others would be an image sensor and maybe a variant if details are unclear.
+
+
+[2026-11-22 2:17 p.m.] velvetundergroundandy
+ok that sounds interesting
+
+
+[2026-11-22 2:18 p.m.] velvetundergroundandy
+we could have an optical chip and the image sensor would be interesting quite analog
+
+
+[2026-11-22 2:18 p.m.] namibj
+That's just on the order of a corner piece though
+
+
+[2026-11-22 2:18 p.m.] velvetundergroundandy
+i believe @Andrew Wingate component couldn’t work with thorlins so we could put it on this
+
+
+[2026-11-22 2:19 p.m.] namibj
+full sensor is too much work for the deadline, but for the data receiver it shouldn't need that much iirc in terms of amplifier to handle it well enough for measurements/characterizations.
+
+
+[2026-11-22 2:19 p.m.] namibj
+yeah that's the hall sensor
+
+
+[2026-11-22 2:21 p.m.] rebelmike
+I'm not sure what's available on Tholin's chip, but it's very easy to plug a peripheral into TinyQV if that would be helpful for configuration and read out
+
+
+[2026-11-22 2:21 p.m.] velvetundergroundandy
+i believe @asic destroyer ‘s risc v chip is the best open source risc v chip to date
+
+
+[2026-11-22 2:21 p.m.] velvetundergroundandy
+so hard to justify another risc v chip that’s not as performant
+
+
+[2026-11-22 2:22 p.m.] rebelmike
+Fair enough - if you are looking for raw CPU speed and not something more like an MCU (lots of IOs and programmeable IO control)
+
+
+[2026-11-22 2:23 p.m.] namibj
+oh and I should try to port the gated bidirectional SCR from the SG13G2 Magic "Pcell" (it's coded as a PCell but there's nothing adjustable to it), because when I looked at it I concluded that it should be possible to make it DRC-legal on gf180mcuD.
+That needs 2 direct pins (at most ESD-protected with a reverse polarity diode to ground/substrate; the device itself is primarily intended to be an ESD clamp anyways).
+Not much area though.
+
+
+[2026-11-22 2:25 p.m.] namibj
+The issue is that no one has yet drawn a 2D array sensor that's open on this PDK. At least nothing good. (Maybe someone tried to draw some small diodes manually and go from there, just assembling with PCell transistors?)
+
+
+[2026-11-22 2:26 p.m.] namibj
+I propose to just put the hard part of a single pixel cell or possibly like a 2x2 array form.
+
+{Reactions}
+👍
+
+[2026-11-22 3:06 p.m.] tholin
+I have a 8-bit microcontroller on my die already with a free block of addresses in its MMIO range.
+
+
+[2026-11-22 3:58 p.m.] 246tnt
+That's a 2D image sensor on TT
+
+{Attachments}
+2026-11_media/2026-11-22_1104x1035_scrot-18ED0.png
+
+{Reactions}
+💜 (2)
+
+[2026-11-22 4:44 p.m.] rebelmike
+But it'll be mostly covered by metal5?
+
+
+[2026-11-22 4:59 p.m.] 246tnt
+Yes. But there will be two empty "stripes" exposing some of the pixels.
+
+
+[2026-11-22 5:39 p.m.] mole99
+Do you know the designer's nickname? It would be great if they could design a full-chip version, just in case a paid ws slot isn't submitted. With control over Metal5 and transparent epoxy, this would be even cooler.
+
+{Reactions}
+🔥
+
+[2026-11-22 5:42 p.m.] 246tnt
+https://discord.com/channels/1009193568256135208/1549377220730949684/1552625427988746351
+
+{Reactions}
+👍 (2)
+
+[2026-11-22 10:29 p.m.] logic_destroyer
+I’m currently working on my Linux StealthV Lite SoC  with a five-stage pipeline, targeting 20 MIPS at 50 MHz. It currently meets timing at 45 MHz, and I’m working toward 50 MHz.
+
+
+[2026-11-22 10:30 p.m.] logic_destroyer
+
+
+{Attachments}
+2026-11_media/image-74558.png
+
+
+[2026-11-22 10:39 p.m.] logic_destroyer
+The ASIC, if it works, will behave exactly the same way.
+
+{Attachments}
+2026-11_media/Screencast_from_2026-11-22_23-38-00-02242.mp4
+
+
+[2026-11-22 10:41 p.m.] logic_destroyer
+The bottleneck here is actually the SPI Ethernet connection.
+
+
+[2026-11-22 10:46 p.m.] logic_destroyer
+KianV Legacy was my old multicycle CPU. For GF180MCU, I stripped my five-stage, quad-core StealthV down to one core, reworked the memory interface, and kept basic branch prediction and a return address stack.
+
+
+[2026-11-22 10:47 p.m.] logic_destroyer
+
+
+{Attachments}
+2026-11_media/image-1B5BD.png
+
+
+[2026-11-22 10:58 p.m.] logic_destroyer
+I ran these benchmarks under Linux, but they can also run bare metal without an MMU. With code running from cache at 1.492 CPI, that would work out to about 33.5 MIPS at 50 MHz.
+
+
+[2026-11-22 11:47 p.m.] namibj
+don't you really want compressed instructions for instruction fetch bandwidth and I-cache efficciency?
+
+
+[2026-11-23 12:01 a.m.] logic_destroyer
+it's basically a stripped-down version of my quad-core. rvc would help with i-cache efficiency, but i didn't want to add it to this version. it's planned for the next one. the current design runs fine, and we're pretty close to tapeout.
+
+
 ==============================================================
-Exported 114 message(s)
+Exported 148 message(s)
 ==============================================================

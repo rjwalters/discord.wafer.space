@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-22T13:17:22.4086565+00:00",
+  "exportedAt": "2026-11-23T02:30:04.7780847+00:00",
   "messages": [
     {
       "id": "1569171678020243629",
@@ -1193,7 +1193,29 @@
       "attachments": [],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "329773739061411861",
+              "name": "_mwelling_",
+              "discriminator": "0000",
+              "nickname": "m_w",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/259607fccdf8d83e030ced4bc4a1a996-1EE8C.png"
+            }
+          ]
+        }
+      ],
       "mentions": [],
       "inlineEmojis": [
         {

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-22T11:33:26.936769+00:00",
+  "exportedAt": "2026-11-23T00:44:55.4430764+00:00",
   "messages": [
     {
       "id": "1572155685934997504",
@@ -1993,7 +1993,68 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574025501482295420",
+      "type": "Default",
+      "timestamp": "2026-11-22T11:35:23.533+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Lauri I checked on a sample I have that had power short to gnd and it's not the capacitor, I removed them and short is still present.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "908721221682733106",
+          "name": "lauri4332",
+          "discriminator": "0000",
+          "nickname": "Lauri",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/5-E9BDB.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574027019694375003",
+      "type": "Default",
+      "timestamp": "2026-11-22T11:41:25.503+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "But your comment made me think too ... if it's not a bond issue, something else that all the power rails have in common is that they are exposed on the top metal so could be susceptible to die damage. Especially true for TT which runs a very dense PDN grid because we have hundreds of power domains with all the power switching per-project.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 60
+  "messageCount": 62
 }

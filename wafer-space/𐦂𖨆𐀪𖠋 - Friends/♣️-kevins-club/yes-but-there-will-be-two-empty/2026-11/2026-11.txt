@@ -1,0 +1,50 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 𐦂𖨆𐀪𖠋 - Friends / ♣️-kevins-club / Yes. But there will be two empty "
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-22 5:00 p.m.] rebelmike
+
+
+
+[2026-11-22 5:00 p.m.] rebelmike
+Rather off topic here, but could a design like this be accommodated by putting it at the end of the row and cutting off met5 after the last met4 stripe?
+
+
+[2026-11-22 5:01 p.m.] 246tnt
+No.
+
+
+[2026-11-22 5:01 p.m.] 246tnt
+If we cut met5 you're doubling the PDN impedance for evey other project. That's unacceptable.
+
+
+[2026-11-22 5:02 p.m.] rebelmike
+Ah because ground needs to connect to an outer ring - makes sense.
+
+
+[2026-11-22 5:10 p.m.] 246tnt
+Both ground and the two power rails need connections on the outer rings and there are GND and power pins on both opposite corners on purpose.
+
+
+[2026-11-22 5:26 p.m.] rebelmike
+Ah, I didn't realise there were ungated power stripes going over the projects, but I guess that also makes sense
+
+
+[2026-11-22 5:33 p.m.] 246tnt
+Where did you think the power gates got power from ? 😅
+
+{Reactions}
+😆
+
+[2026-11-22 5:44 p.m.] urish
+Inductive coupling?
+
+{Reactions}
+😂
+
+==============================================================
+Exported 9 message(s)
+==============================================================

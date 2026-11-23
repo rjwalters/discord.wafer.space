@@ -1,0 +1,10 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"691780627338625077","rebelmike","2026-11-22T17:00:45.4570000+00:00","","",""
+"691780627338625077","rebelmike","2026-11-22T17:00:46.9560000+00:00","Rather off topic here, but could a design like this be accommodated by putting it at the end of the row and cutting off met5 after the last met4 stripe?","",""
+"596068704471482370","246tnt","2026-11-22T17:01:07.0870000+00:00","No.","",""
+"596068704471482370","246tnt","2026-11-22T17:01:25.3080000+00:00","If we cut met5 you're doubling the PDN impedance for evey other project. That's unacceptable.","",""
+"691780627338625077","rebelmike","2026-11-22T17:02:51.7550000+00:00","Ah because ground needs to connect to an outer ring - makes sense.","",""
+"596068704471482370","246tnt","2026-11-22T17:10:19.5490000+00:00","Both ground and the two power rails need connections on the outer rings and there are GND and power pins on both opposite corners on purpose.","",""
+"691780627338625077","rebelmike","2026-11-22T17:26:08.3250000+00:00","Ah, I didn't realise there were ungated power stripes going over the projects, but I guess that also makes sense","",""
+"596068704471482370","246tnt","2026-11-22T17:33:03.5700000+00:00","Where did you think the power gates got power from ? 😅","","😆 (1)"
+"732347216412278825","urish","2026-11-22T17:44:46.8930000+00:00","Inductive coupling?","","😂 (1)"

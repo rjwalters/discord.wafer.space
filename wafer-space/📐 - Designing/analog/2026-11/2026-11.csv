@@ -51,7 +51,7 @@ And _I guess_ ESD-behavior-relevant SPICE for ESD implant is also lacking?","","
 "262706220073222144","namibj","2026-11-19T22:29:09.5180000+00:00","interestingly, `MVNVT` described as `5V or 6V NLDD` _is_ mentioned....","",""
 "596068704471482370","246tnt","2026-11-19T22:30:35.8690000+00:00","","2026-11_media/2026-11-19_978x53_scrot-438C6.png",""
 "262706220073222144","namibj","2026-11-19T22:38:31.4230000+00:00","Yeah I don't care much about it, as it's very hard to reason about anyways without extensive TCAD abilities we're not even close to scratching at, so I'll just ignore that for the time being as far as simulation prediction magic goes.
-If needed _perhaps_ Design rule guided or with a test copy of the target/desired structure taped out and e-tested prior 😄","",""
+If needed _perhaps_ Design rule guided or with a test copy of the target/desired structure taped out and e-tested prior 😄","","👍 (1)"
 "262706220073222144","namibj","2026-11-19T22:40:40.7700000+00:00","I see no evidence we can't use them; I suggest trying to draw one and filing for the platform.wafer.space DRC check to check if it really is accepted by the submission would be good?
 I also did check the Run2 reticle public OASIS and no one used LDNMOS/LDPMOS.","","👍 (1)"
 "169786952432746498","mithro_","2026-11-19T23:27:23.2230000+00:00","@namibj - I was doing some analysis of what people where using in the public OASIS files (take it with a grain of salt as it was vibe coded / done with AI) which ended up under https://wafer.space/ws-run2/#devices","",""

@@ -190,6 +190,8 @@ interestingly, `MVNVT` described as `5V or 6V NLDD` _is_ mentioned....
 Yeah I don't care much about it, as it's very hard to reason about anyways without extensive TCAD abilities we're not even close to scratching at, so I'll just ignore that for the time being as far as simulation prediction magic goes.
 If needed _perhaps_ Design rule guided or with a test copy of the target/desired structure taped out and e-tested prior 😄
 
+{Reactions}
+👍
 
 [2026-11-19 10:40 p.m.] namibj
 I see no evidence we can't use them; I suggest trying to draw one and filing for the platform.wafer.space DRC check to check if it really is accepted by the submission would be good?

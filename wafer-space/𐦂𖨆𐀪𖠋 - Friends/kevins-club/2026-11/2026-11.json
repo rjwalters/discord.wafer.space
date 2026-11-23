@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-22T13:25:57.2469913+00:00",
+  "exportedAt": "2026-11-23T02:38:44.1145849+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -4563,7 +4563,1174 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574055062186234038",
+      "type": "Default",
+      "timestamp": "2026-11-22T13:32:51.354+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hey @Paul, I'm not sure if you are still looking for projects but this is shaping up to the point it could possibly be ready by run 3.  It needs a half slot, room to spare in a full slot: https://github.com/MichaelBell/ws03-tinyqv-bio\nAs discussed before, this is not really \"experimental\" in the sense you were looking for, but it might make a good control chip for you (though I don't think TinyQV can run Zephyr, at least not without some work - from a brief look FreeRTOS might be easier if you do want an RTOS).",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - MichaelBell/ws03-tinyqv-bio: TinyQV with Femto BIO for Waf...",
+          "url": "https://github.com/MichaelBell/ws03-tinyqv-bio",
+          "timestamp": null,
+          "description": "TinyQV with Femto BIO for Wafer Space. Contribute to MichaelBell/ws03-tinyqv-bio development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ws03-tinyqv-bio-6132F",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574058357583642637",
+      "type": "Default",
+      "timestamp": "2026-11-22T13:45:57.038+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@namibj how about your progress? will you need the full slot?",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574065925995368580",
+      "type": "Reply",
+      "timestamp": "2026-11-22T14:16:01.488+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I fear not, time has been running away and no one came up who wanted to do the scripting work for it (and as I had expected, I didn't manage to get to it personally). \uD83D\uDE41",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574058357583642637",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE41",
+          "code": "slight_frown",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f641-E1429.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574066059911110829",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:16:33.416+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ok let’s find someone else then",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066105993928890",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:16:44.403+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@everyone we have an open slot!!",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066316703305769",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:17:34.64+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "But we have the hall sensor and I'd quite want to have a photodiode or two or three this run; I want one for receiving multimode fiber data; others would be an image sensor and maybe a variant if details are unclear.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066373846634567",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:17:48.264+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "ok that sounds interesting",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066459548586102",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:18:08.697+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "we could have an optical chip and the image sensor would be interesting quite analog",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066471716392992",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:18:11.598+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's just on the order of a corner piece though",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066608266023013",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:18:44.154+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i believe @Andrew Wingate component couldn’t work with thorlins so we could put it on this",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066738977439957",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:19:15.318+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "full sensor is too much work for the deadline, but for the data receiver it shouldn't need that much iirc in terms of amplifier to handle it well enough for measurements/characterizations.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574066790944870411",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:19:27.708+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "yeah that's the hall sensor",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574067192889090089",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:21:03.539+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm not sure what's available on Tholin's chip, but it's very easy to plug a peripheral into TinyQV if that would be helpful for configuration and read out",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574067239399985303",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:21:14.628+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i believe @asic destroyer ‘s risc v chip is the best open source risc v chip to date",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "840182560252624916",
+          "name": "logic_destroyer",
+          "discriminator": "0000",
+          "nickname": "asic destroyer",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574067315065098372",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:21:32.668+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "so hard to justify another risc v chip that’s not as performant",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574067510049767566",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:22:19.156+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Fair enough - if you are looking for raw CPU speed and not something more like an MCU (lots of IOs and programmeable IO control)",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574067892947910758",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:23:50.446+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "oh and I should try to port the gated bidirectional SCR from the SG13G2 Magic \"Pcell\" (it's coded as a PCell but there's nothing adjustable to it), because when I looked at it I concluded that it should be possible to make it DRC-legal on gf180mcuD.\nThat needs 2 direct pins (at most ESD-protected with a reverse polarity diode to ground/substrate; the device itself is primarily intended to be an ESD clamp anyways).\nNot much area though.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574068358142234686",
+      "type": "Reply",
+      "timestamp": "2026-11-22T14:25:41.357+00:00",
+      "timestampEdited": "2026-11-22T14:26:01.11+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The issue is that no one has yet drawn a 2D array sensor that's open on this PDK. At least nothing good. (Maybe someone tried to draw some small diodes manually and go from there, just assembling with PCell transistors?)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574067192889090089",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574068654440587396",
+      "type": "Default",
+      "timestamp": "2026-11-22T14:26:52+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I propose to just put the hard part of a single pixel cell or possibly like a 2x2 array form.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "691780627338625077",
+              "name": "rebelmike",
+              "discriminator": "0000",
+              "nickname": "RebelMike",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574078589484404828",
+      "type": "Default",
+      "timestamp": "2026-11-22T15:06:20.699+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I have a 8-bit microcontroller on my die already with a free block of addresses in its MMIO range.",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574091815869743154",
+      "type": "Default",
+      "timestamp": "2026-11-22T15:58:54.115+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's a 2D image sensor on TT",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [
+        {
+          "id": "1574091815429218415",
+          "url": "2026-11_media/2026-11-22_1104x1035_scrot-18ED0.png",
+          "fileName": "2026-11-22_1104x1035_scrot.png",
+          "fileSizeBytes": 856268
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "756011607603019777",
+              "name": "anfroholic",
+              "discriminator": "0000",
+              "nickname": "Andrew Wingate",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            },
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574103223906865213",
+      "type": "Default",
+      "timestamp": "2026-11-22T16:44:14.003+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "But it'll be mostly covered by metal5?",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574107089456992398",
+      "type": "Default",
+      "timestamp": "2026-11-22T16:59:35.622+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yes. But there will be two empty \"stripes\" exposing some of the pixels.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574117037746167860",
+      "type": "Reply",
+      "timestamp": "2026-11-22T17:39:07.479+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Do you know the designer's nickname? It would be great if they could design a full-chip version, just in case a paid ws slot isn't submitted. With control over Metal5 and transparent epoxy, this would be even cooler.",
+      "author": {
+        "id": "323371864074485771",
+        "name": "mole99",
+        "discriminator": "0000",
+        "nickname": "Leo Moser (mole99)",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDD25",
+            "code": "fire",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f525-8FE4F.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574091815869743154",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574117898673455197",
+      "type": "Default",
+      "timestamp": "2026-11-22T17:42:32.74+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://discord.com/channels/1009193568256135208/1549377220730949684/1552625427988746351",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "323371864074485771",
+              "name": "mole99",
+              "discriminator": "0000",
+              "nickname": "Leo Moser (mole99)",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+            },
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574190061484769494",
+      "type": "Reply",
+      "timestamp": "2026-11-22T22:29:17.695+00:00",
+      "timestampEdited": "2026-11-22T22:30:34.125+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I’m currently working on my Linux StealthV Lite SoC  with a five-stage pipeline, targeting 20 MIPS at 50 MHz. It currently meets timing at 45 MHz, and I’m working toward 50 MHz.",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574067315065098372",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574190345820971119",
+      "type": "Default",
+      "timestamp": "2026-11-22T22:30:25.486+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [
+        {
+          "id": "1574190345208471552",
+          "url": "2026-11_media/image-74558.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 5907472
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574192614637445302",
+      "type": "Default",
+      "timestamp": "2026-11-22T22:39:26.414+00:00",
+      "timestampEdited": "2026-11-22T22:39:39.857+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The ASIC, if it works, will behave exactly the same way.",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [
+        {
+          "id": "1574192613483876493",
+          "url": "2026-11_media/Screencast_from_2026-11-22_23-38-00-02242.mp4",
+          "fileName": "Screencast_from_2026-11-22_23-38-00.mp4",
+          "fileSizeBytes": 12884713
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574193130771583168",
+      "type": "Default",
+      "timestamp": "2026-11-22T22:41:29.47+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The bottleneck here is actually the SPI Ethernet connection.",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574194317495369750",
+      "type": "Reply",
+      "timestamp": "2026-11-22T22:46:12.407+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "KianV Legacy was my old multicycle CPU. For GF180MCU, I stripped my five-stage, quad-core StealthV down to one core, reworked the memory interface, and kept basic branch prediction and a return address stack.",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1571093044164304997",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574194765484793896",
+      "type": "Default",
+      "timestamp": "2026-11-22T22:47:59.216+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [
+        {
+          "id": "1574194765078208622",
+          "url": "2026-11_media/image-1B5BD.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 267776
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574197317777489971",
+      "type": "Default",
+      "timestamp": "2026-11-22T22:58:07.73+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I ran these benchmarks under Linux, but they can also run bare metal without an MMU. With code running from cache at 1.492 CPI, that would work out to about 33.5 MIPS at 50 MHz.",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574209619796955137",
+      "type": "Reply",
+      "timestamp": "2026-11-22T23:47:00.76+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "don't you really want compressed instructions for instruction fetch bandwidth and I-cache efficciency?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "840182560252624916",
+          "name": "logic_destroyer",
+          "discriminator": "0000",
+          "nickname": "asic destroyer",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574194765484793896",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574213207910907976",
+      "type": "Reply",
+      "timestamp": "2026-11-23T00:01:16.233+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it's basically a stripped-down version of my quad-core. rvc would help with i-cache efficiency, but i didn't want to add it to this version. it's planned for the next one. the current design runs fine, and we're pretty close to tapeout.",
+      "author": {
+        "id": "840182560252624916",
+        "name": "logic_destroyer",
+        "discriminator": "0000",
+        "nickname": "asic destroyer",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574209619796955137",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 114
+  "messageCount": 148
 }

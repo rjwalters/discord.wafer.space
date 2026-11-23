@@ -315,6 +315,14 @@ Is there a chance this is not a bond issue but a die yield aspect?
 I think we can just say that a design which shorts other pins to GND is not wafer.space CoB bonding compatible?
 
 
+[2026-11-22 11:35 a.m.] 246tnt
+@Lauri I checked on a sample I have that had power short to gnd and it's not the capacitor, I removed them and short is still present.
+
+
+[2026-11-22 11:41 a.m.] 246tnt
+But your comment made me think too ... if it's not a bond issue, something else that all the power rails have in common is that they are exposed on the top metal so could be susceptible to die damage. Especially true for TT which runs a very dense PDN grid because we have hundreds of power domains with all the power switching per-project.
+
+
 ==============================================================
-Exported 60 message(s)
+Exported 62 message(s)
 ==============================================================

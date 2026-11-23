@@ -39,6 +39,14 @@ Join the wafer.space Community Discord Server!
 Discord community for the https://wafer.space -- Service providing budget silicon manufacturing. | 647 members
 
 
+[2026-11-22 3:54 p.m.] fossify_37988
+I think spinning and patterning is relatively accessible. It doesnt need nanometer level precision or vacuum equipment. I'm trying some experiments with a chemist friend on aluminum foil pulled from a capacitor before we try on a die.
+
+
+[2026-11-23 12:58 a.m.] thatreprapguy
+Gallium nitrate is an interesting alternative material for breaking the aluminium oxide layer.
+
+
 ==============================================================
-Exported 1 message(s)
+Exported 3 message(s)
 ==============================================================

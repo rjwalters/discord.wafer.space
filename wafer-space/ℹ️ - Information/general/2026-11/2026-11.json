@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-22T11:55:35.6400209+00:00",
+  "exportedAt": "2026-11-23T01:07:24.2409975+00:00",
   "messages": [
     {
       "id": "1566249659117211830",
@@ -7391,7 +7391,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f929-12865.svg"
           },
-          "count": 5,
+          "count": 6,
           "users": [
             {
               "id": "323371864074485771",
@@ -7437,6 +7437,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            },
+            {
+              "id": "1386929896323944612",
+              "name": "thorben_61995",
+              "discriminator": "0000",
+              "nickname": "Thorben",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
             }
           ]
         },
@@ -7448,8 +7457,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f49c-71A75.svg"
           },
-          "count": 1,
+          "count": 3,
           "users": [
+            {
+              "id": "326650576412737536",
+              "name": "infuriatingpixels",
+              "discriminator": "0000",
+              "nickname": "infuriatingpixels",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/1-B2132.png"
+            },
             {
               "id": "756011607603019777",
               "name": "anfroholic",
@@ -7458,6 +7476,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+            },
+            {
+              "id": "1386929896323944612",
+              "name": "thorben_61995",
+              "discriminator": "0000",
+              "nickname": "Thorben",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
             }
           ]
         }
