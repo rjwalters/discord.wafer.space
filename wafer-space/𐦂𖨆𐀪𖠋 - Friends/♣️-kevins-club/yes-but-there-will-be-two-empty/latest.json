@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T02:40:09.8041087+00:00",
+  "exportedAt": "2026-11-23T11:18:48.2354776+00:00",
   "messages": [
     {
       "id": "1574107382366212308",
@@ -239,8 +239,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f606-BE94E.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
+            {
+              "id": "543162393413287956",
+              "name": "h.tamas",
+              "discriminator": "0000",
+              "nickname": "htamas",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/1-B2132.png"
+            },
             {
               "id": "691780627338625077",
               "name": "rebelmike",
@@ -301,8 +310,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f602-168C5.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
+            {
+              "id": "543162393413287956",
+              "name": "h.tamas",
+              "discriminator": "0000",
+              "nickname": "htamas",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/1-B2132.png"
+            },
             {
               "id": "596068704471482370",
               "name": "246tnt",

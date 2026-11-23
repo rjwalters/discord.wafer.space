@@ -1113,6 +1113,52 @@ in fact, we do not know what this is. I do not have access to a SEM to take real
 My guess is as good as yours. I didn't notice that during the final mask review, but I also didn't specifically look for them.
 
 
+[2026-11-23 1:22 a.m.] mithro_
+I'd like to add them to data.wafer.space and reference them from https://wafer.space/ws-run2/ (like I did for the Run #1 ones).
+
+@digshadow - Do you think it would also be good if these wafer.space die shots end up on Silicon Prawn?
+
+{Embed}
+https://wafer.space/ws-run2/
+wafer.space Run 2 — wafer.space
+Designs, density statistics and layout renders from wafer.space GF180MCU Run 2.
+2026-11_media/reticle-81EC2.webp
+
+
+[2026-11-23 2:45 a.m.] digshadow
+I'm happy to host them. Generally I would suggest that if you want them easily findable along other images
+
+
+[2026-11-23 2:49 a.m.] mithro_
+Could it be GF's own fill scripts doing something like that?
+
+
+[2026-11-23 2:49 a.m.] mithro_
+I'm all for having copies at multiple independent places in case one disappears.
+
+{Reactions}
+👍
+
+[2026-11-23 2:50 a.m.] digshadow
+@InfoSecDJ has upload access already. The easiest would be to have them upload it directly
+
+
+[2026-11-23 2:51 a.m.] mithro_
+@InfoSecDJ -^
+
+
+[2026-11-23 3:45 a.m.] mithro_
+At KiCon Asia in Shenzhen, @vowstar presented his work around using KiCAD for packaging various silicon chips, see https://drive.google.com/file/d/116uUkALArM2HZ-yYuyE6KBAtSNW578gc/view -- I even got to see some of the chips in person!
+
+{Embed}
+https://drive.google.com/file/d/116uUkALArM2HZ-yYuyE6KBAtSNW578gc/view
+KiCon Asia 2026 - FOPLP - Huang Rui - slides with speaker notes.pdf
+
+
+[2026-11-23 3:54 a.m.] vowstar
+Thanks for the shout-out, Tim! Glad you got to see the chips in person. Happy to answer any questions about how I used KiCad for the packaging.
+
+
 ==============================================================
-Exported 213 message(s)
+Exported 221 message(s)
 ==============================================================

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T01:07:24.2409975+00:00",
+  "exportedAt": "2026-11-23T09:46:04.051534+00:00",
   "messages": [
     {
       "id": "1566249659117211830",
@@ -7830,7 +7830,384 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574233764345810944",
+      "type": "Reply",
+      "timestamp": "2026-11-23T01:22:57.269+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'd like to add them to data.wafer.space and reference them from https://wafer.space/ws-run2/ (like I did for the Run #1 ones).\n\n@digshadow - Do you think it would also be good if these wafer.space die shots end up on Silicon Prawn?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "wafer.space Run 2 — wafer.space",
+          "url": "https://wafer.space/ws-run2/",
+          "timestamp": null,
+          "description": "Designs, density statistics and layout renders from wafer.space GF180MCU Run 2.",
+          "thumbnail": {
+            "url": "2026-11_media/reticle-81EC2.webp",
+            "width": 3000,
+            "height": 2338
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "643551115920670720",
+          "name": "digshadow",
+          "discriminator": "0000",
+          "nickname": "digshadow",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/38ad149bfaf01f9bfd8fd61426532426-34CB5.png"
+        },
+        {
+          "id": "424865332075954196",
+          "name": "infosecdj",
+          "discriminator": "0000",
+          "nickname": "InfoSecDJ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573370196486525023",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574254473134604289",
+      "type": "Reply",
+      "timestamp": "2026-11-23T02:45:14.629+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm happy to host them. Generally I would suggest that if you want them easily findable along other images",
+      "author": {
+        "id": "643551115920670720",
+        "name": "digshadow",
+        "discriminator": "0000",
+        "nickname": "digshadow",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/38ad149bfaf01f9bfd8fd61426532426-34CB5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574233764345810944",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574255473828298953",
+      "type": "Reply",
+      "timestamp": "2026-11-23T02:49:13.213+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Could it be GF's own fill scripts doing something like that?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "323371864074485771",
+          "name": "mole99",
+          "discriminator": "0000",
+          "nickname": "Leo Moser (mole99)",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1573402354856886374",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574255571589140562",
+      "type": "Reply",
+      "timestamp": "2026-11-23T02:49:36.521+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I'm all for having copies at multiple independent places in case one disappears.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "643551115920670720",
+              "name": "digshadow",
+              "discriminator": "0000",
+              "nickname": "digshadow",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/38ad149bfaf01f9bfd8fd61426532426-34CB5.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "643551115920670720",
+          "name": "digshadow",
+          "discriminator": "0000",
+          "nickname": "digshadow",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/38ad149bfaf01f9bfd8fd61426532426-34CB5.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574254473134604289",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574255850388848723",
+      "type": "Default",
+      "timestamp": "2026-11-23T02:50:42.992+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@InfoSecDJ has upload access already. The easiest would be to have them upload it directly",
+      "author": {
+        "id": "643551115920670720",
+        "name": "digshadow",
+        "discriminator": "0000",
+        "nickname": "digshadow",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/38ad149bfaf01f9bfd8fd61426532426-34CB5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "424865332075954196",
+          "name": "infosecdj",
+          "discriminator": "0000",
+          "nickname": "InfoSecDJ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574255977853751319",
+      "type": "Default",
+      "timestamp": "2026-11-23T02:51:13.382+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@InfoSecDJ -^",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "424865332075954196",
+          "name": "infosecdj",
+          "discriminator": "0000",
+          "nickname": "InfoSecDJ",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/7b42ed38737b5cc35a03514495f26ca8-AA6F6.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574269739323105290",
+      "type": "Default",
+      "timestamp": "2026-11-23T03:45:54.372+00:00",
+      "timestampEdited": "2026-11-23T03:47:50.781+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "At KiCon Asia in Shenzhen, @vowstar presented his work around using KiCAD for packaging various silicon chips, see https://drive.google.com/file/d/116uUkALArM2HZ-yYuyE6KBAtSNW578gc/view -- I even got to see some of the chips in person!",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "KiCon Asia 2026 - FOPLP - Huang Rui - slides with speaker notes.pdf",
+          "url": "https://drive.google.com/file/d/116uUkALArM2HZ-yYuyE6KBAtSNW578gc/view",
+          "timestamp": null,
+          "description": "",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1087946008853487687",
+          "name": "vowstar",
+          "discriminator": "0000",
+          "nickname": "vowstar",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/6e713189ec3aac143acca071566e5498-86016.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574271858306588716",
+      "type": "Reply",
+      "timestamp": "2026-11-23T03:54:19.577+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thanks for the shout-out, Tim! Glad you got to see the chips in person. Happy to answer any questions about how I used KiCad for the packaging.",
+      "author": {
+        "id": "1087946008853487687",
+        "name": "vowstar",
+        "discriminator": "0000",
+        "nickname": "vowstar",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6e713189ec3aac143acca071566e5498-86016.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574269739323105290",
+        "channelId": "1361349523724570941",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 213
+  "messageCount": 221
 }

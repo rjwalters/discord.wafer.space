@@ -839,6 +839,19 @@ don't you really want compressed instructions for instruction fetch bandwidth an
 it's basically a stripped-down version of my quad-core. rvc would help with i-cache efficiency, but i didn't want to add it to this version. it's planned for the next one. the current design runs fine, and we're pretty close to tapeout.
 
 
+[2026-11-23 10:46 a.m.] sudonet
+Hack Club ASIC progress as of 23rd November AEDT. Projects include VGA pong, 16-bit MPU capable of running SwapForth and other J1 binaries, and RISC-V console, all submitted through http://asic.free.nf. OASIS file is attached as well. For more info, check out http://github.com/sud0net/hackclub-asic.
+
+{Attachments}
+2026-11_media/image-EDC70.png
+2026-11_media/asic-nov-snapshot-2B76B.oas
+
+{Embed}
+http://github.com/sud0net/hackclub-asic
+GitHub - SUD0NET/hackclub-asic: Hack Club "ASIC" repo (fork of Tiny...
+Hack Club "ASIC" repo (fork of Tiny Tapeout shuttle gf-26d) - SUD0NET/hackclub-asic
+
+
 ==============================================================
-Exported 148 message(s)
+Exported 149 message(s)
 ==============================================================

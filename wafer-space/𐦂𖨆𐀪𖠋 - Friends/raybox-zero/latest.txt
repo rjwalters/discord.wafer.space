@@ -1,0 +1,45 @@
+==============================================================
+Guild: wafer.space Community
+Channel: 𐦂𖨆𐀪𖠋 - Friends / 📺-raybox-zero
+Topic: **raybox-zero** by Anton Maurovic (algofoogle): a minimalist hardware ray caster that races the beam of a VGA display to draw a Wolf3D-style "3D" world, with chips on wafer.space runs.
+
+**Run 1** (inside Tiny Tapeout GF 0.2)
+• [TTP2](https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttp2/projects/135.html) and [TTPG](https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttpg/projects/135.html) (3x4 tiles)
+**Run 2**
+• [AMM1](https://wafer.space/ws-run2/projects/AMM1.html) (1x0.5 slot): SPI control, optional QSPI texture ROM, RGB222 VGA
+**Source**
+• [raybox-zero](https://github.com/algofoogle/raybox-zero): the design
+• [gf180ws2-raybox-zero](https://github.com/algofoogle/gf180ws2-raybox-zero): the Run 2 chip
+• [gf180ws2rbz](https://github.com/algofoogle/gf180ws2rbz): bring-up and devkit boards
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-23 1:32 a.m.] mithro_ (pinned)
+# Welcome to #📺-raybox-zero
+**raybox-zero** is @algofoogle (Anton Maurovic)'s hardware ray caster: a tiny GPU that races the beam of a VGA display to draw a Wolf3D-style "3D" world. Anton looks after this channel.
+
+It has flown on Tiny Tapeout several times and now has wafer.space silicon too:
+- Run 1: inside both Tiny Tapeout GF 0.2 chips, [TTP2](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttp2/projects/135.html>) and [TTPG](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttpg/projects/135.html>)
+- Run 2: a die of its own, [AMM1](<https://wafer.space/ws-run2/projects/AMM1.html>) (1x0.5 slot), with SPI control, an optional QSPI texture ROM and Tiny VGA compatible RGB222 output
+
+The design lives in [raybox-zero](<https://github.com/algofoogle/raybox-zero>), the Run 2 chip in [gf180ws2-raybox-zero](<https://github.com/algofoogle/gf180ws2-raybox-zero>), and the bring-up and devkit boards in [gf180ws2rbz](<https://github.com/algofoogle/gf180ws2rbz>).
+
+Anton will post his bring-up board progress here. If you have one of these chips, share your boards, videos and questions too.
+
+
+[2026-11-23 1:32 a.m.] mithro_
+Pinned a message.
+
+
+[2026-11-23 1:52 a.m.] algofoogle
+Cheers a ton, Tim, and howdy everyone! Looking forward to sharing some more information and bringup board details soon while I work towards some actual demo boards and eagerly await silicon 🙂 I’m hoping some clever people can make some fun demos with this soon.
+
+
+[2026-11-23 1:54 a.m.] algofoogle
+I’m prototyping with earlier runs (including a GFMPW1 version from way back in 2023), so will share fresh results when I’ve got initial boards built 🙂
+
+
+==============================================================
+Exported 4 message(s)
+==============================================================

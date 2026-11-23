@@ -285,3 +285,13 @@ let me know if you need single jpegs for any of these right now. I will upload t
 "220639106915368960","tholin","2026-11-20T16:55:07.9410000+00:00","I should’ve put fill block over the DACs! Oh well.","2026-11_media/image-A884E.png",""
 "424865332075954196","infosecdj","2026-11-20T17:24:34.3450000+00:00","in fact, we do not know what this is. I do not have access to a SEM to take really good pictures, but will try to snap some at higher res.","",""
 "323371864074485771","mole99","2026-11-20T18:19:13.8000000+00:00","My guess is as good as yours. I didn't notice that during the final mask review, but I also didn't specifically look for them.","",""
+"169786952432746498","mithro_","2026-11-23T01:22:57.2690000+00:00","I'd like to add them to data.wafer.space and reference them from https://wafer.space/ws-run2/ (like I did for the Run #1 ones).
+
+@digshadow - Do you think it would also be good if these wafer.space die shots end up on Silicon Prawn?","",""
+"643551115920670720","digshadow","2026-11-23T02:45:14.6290000+00:00","I'm happy to host them. Generally I would suggest that if you want them easily findable along other images","",""
+"169786952432746498","mithro_","2026-11-23T02:49:13.2130000+00:00","Could it be GF's own fill scripts doing something like that?","",""
+"169786952432746498","mithro_","2026-11-23T02:49:36.5210000+00:00","I'm all for having copies at multiple independent places in case one disappears.","","👍 (1)"
+"643551115920670720","digshadow","2026-11-23T02:50:42.9920000+00:00","@InfoSecDJ has upload access already. The easiest would be to have them upload it directly","",""
+"169786952432746498","mithro_","2026-11-23T02:51:13.3820000+00:00","@InfoSecDJ -^","",""
+"169786952432746498","mithro_","2026-11-23T03:45:54.3720000+00:00","At KiCon Asia in Shenzhen, @vowstar presented his work around using KiCAD for packaging various silicon chips, see https://drive.google.com/file/d/116uUkALArM2HZ-yYuyE6KBAtSNW578gc/view -- I even got to see some of the chips in person!","",""
+"1087946008853487687","vowstar","2026-11-23T03:54:19.5770000+00:00","Thanks for the shout-out, Tim! Glad you got to see the chips in person. Happy to answer any questions about how I used KiCad for the packaging.","",""

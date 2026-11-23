@@ -1,0 +1,155 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1574235395049132082",
+    "type": "GuildTextChat",
+    "categoryId": "1524223345443340439",
+    "category": "\uD802\uDD82\uD81A\uDE06\uD800\uDC2A\uD81A\uDC0B - Friends",
+    "name": "\uD83D\uDCFA-raybox-zero",
+    "topic": "**raybox-zero** by Anton Maurovic (algofoogle): a minimalist hardware ray caster that races the beam of a VGA display to draw a Wolf3D-style \"3D\" world, with chips on wafer.space runs.\n\n**Run 1** (inside Tiny Tapeout GF 0.2)\n• [TTP2](https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttp2/projects/135.html) and [TTPG](https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttpg/projects/135.html) (3x4 tiles)\n**Run 2**\n• [AMM1](https://wafer.space/ws-run2/projects/AMM1.html) (1x0.5 slot): SPI control, optional QSPI texture ROM, RGB222 VGA\n**Source**\n• [raybox-zero](https://github.com/algofoogle/raybox-zero): the design\n• [gf180ws2-raybox-zero](https://github.com/algofoogle/gf180ws2-raybox-zero): the Run 2 chip\n• [gf180ws2rbz](https://github.com/algofoogle/gf180ws2rbz): bring-up and devkit boards"
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-23T11:21:45.4087173+00:00",
+  "messages": [
+    {
+      "id": "1574236046072356975",
+      "type": "Default",
+      "timestamp": "2026-11-23T01:32:01.275+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": true,
+      "content": "# Welcome to #\uD83D\uDCFA-raybox-zero\n**raybox-zero** is @algofoogle (Anton Maurovic)'s hardware ray caster: a tiny GPU that races the beam of a VGA display to draw a Wolf3D-style \"3D\" world. Anton looks after this channel.\n\nIt has flown on Tiny Tapeout several times and now has wafer.space silicon too:\n- Run 1: inside both Tiny Tapeout GF 0.2 chips, [TTP2](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttp2/projects/135.html>) and [TTPG](<https://wafer.space/tinytapeouts/ttgf0p2/ws-run1-ttpg/projects/135.html>)\n- Run 2: a die of its own, [AMM1](<https://wafer.space/ws-run2/projects/AMM1.html>) (1x0.5 slot), with SPI control, an optional QSPI texture ROM and Tiny VGA compatible RGB222 output\n\nThe design lives in [raybox-zero](<https://github.com/algofoogle/raybox-zero>), the Run 2 chip in [gf180ws2-raybox-zero](<https://github.com/algofoogle/gf180ws2-raybox-zero>), and the bring-up and devkit boards in [gf180ws2rbz](<https://github.com/algofoogle/gf180ws2rbz>).\n\nAnton will post his bring-up board progress here. If you have one of these chips, share your boards, videos and questions too.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1071653002986926112",
+          "name": "algofoogle",
+          "discriminator": "0000",
+          "nickname": "algofoogle (Anton Maurovic)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/943b637dbdf34731305e66dde0369276-F77A2.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574236116880597074",
+      "type": "ChannelPinnedMessage",
+      "timestamp": "2026-11-23T01:32:18.157+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinned a message.",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "messageId": "1574236046072356975",
+        "channelId": "1574235395049132082",
+        "guildId": null
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574241289015267491",
+      "type": "Default",
+      "timestamp": "2026-11-23T01:52:51.29+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cheers a ton, Tim, and howdy everyone! Looking forward to sharing some more information and bringup board details soon while I work towards some actual demo boards and eagerly await silicon \uD83D\uDE42 I’m hoping some clever people can make some fun demos with this soon.",
+      "author": {
+        "id": "1071653002986926112",
+        "name": "algofoogle",
+        "discriminator": "0000",
+        "nickname": "algofoogle (Anton Maurovic)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/943b637dbdf34731305e66dde0369276-F77A2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574241644448977030",
+      "type": "Default",
+      "timestamp": "2026-11-23T01:54:16.032+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I’m prototyping with earlier runs (including a GFMPW1 version from way back in 2023), so will share fresh results when I’ve got initial boards built \uD83D\uDE42",
+      "author": {
+        "id": "1071653002986926112",
+        "name": "algofoogle",
+        "discriminator": "0000",
+        "nickname": "algofoogle (Anton Maurovic)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/943b637dbdf34731305e66dde0369276-F77A2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
+    }
+  ],
+  "messageCount": 4
+}
