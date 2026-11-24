@@ -89,3 +89,6 @@ Though they are talking about different power levels, storing into a 180V energy
 "323371864074485771","mole99","2026-11-20T08:49:14.2340000+00:00","Started a thread.","",""
 "596068704471482370","246tnt","2026-11-20T10:05:26.5870000+00:00","Should diffusion resistors be covered by `RES_MK` ?","",""
 "596068704471482370","246tnt","2026-11-20T10:18:42.1380000+00:00","Started a thread.","",""
+"1537695219812663387","baal86","2026-11-23T16:50:42.7650000+00:00","Is there already a guide how to get started with an analog design in magic? I’d need to generate the pad frame, no logic gates on pads and then add one or more existing magic blocks (through GDS?). There’s also a bit of mixed signal that could either be synthesised on the top level or included through layout","",""
+"262706220073222144","namibj","2026-11-23T21:32:54.1860000+00:00","I suggest you investigate the guideance available at TinyTapeous for analog and mixed-signal design.
+It's basically applicable the same way as you're going to interface with a COB pad frame. At least it's expected you would do the latter.","",""

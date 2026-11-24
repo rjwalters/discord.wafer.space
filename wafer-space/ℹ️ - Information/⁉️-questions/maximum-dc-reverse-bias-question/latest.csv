@@ -1,0 +1,4 @@
+AuthorID,Author,Date,Content,Attachments,Reactions
+"913146020798562314","wyomingspopulation","2026-11-23T18:36:33.8680000+00:00","In gf180mcuD, what is the maximum DC reverse bias allowed between N-well and P-substrate, and between deep N-well (DNWELL) and P-substrate, for reliable operation? The electrical spec gives Nwell/Psub breakdown >= 10 V but I can't find an operating limit for either.","",""
+"262706220073222144","namibj","2026-11-23T21:27:26.2580000+00:00","I wish I knew.
+If you're offering to draw sufficciently targeted test structures maybe we have a test die/part-of-a-die-doing-testing on the next run, see #♣️-kevins-club .","",""

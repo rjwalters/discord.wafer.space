@@ -852,6 +852,37 @@ GitHub - SUD0NET/hackclub-asic: Hack Club "ASIC" repo (fork of Tiny...
 Hack Club "ASIC" repo (fork of Tiny Tapeout shuttle gf-26d) - SUD0NET/hackclub-asic
 
 
+[2026-11-23 7:48 p.m.] tholin
+Okay, I have 3 unused analog pads on my charge controller IC that are next to each other. I can tape out a LDMOS device and break out all of its terminals. What exactly should I do?
+
+
+[2026-11-23 8:36 p.m.] tholin
+If we still have no takers for the free die area soon, I’ll start filling it with digital projects of my own.
+
+
+[2026-11-23 9:27 p.m.] namibj
+The full slot?
+
+
+[2026-11-23 9:30 p.m.] namibj
+IMO draw a big LD NMOS PCell worth one wire bond of normal-bias-point current handling and make sure there's no ESD protection on the drain side. The LDMOS itself should provide that ESD protection, it's drain-to-gate distance should keep it's gate safe from ESD events.
+
+
+[2026-11-23 10:26 p.m.] tholin
+Slight update, still DRC clean
+
+{Attachments}
+2026-11_media/chip_top-81298.png
+
+
+[2026-11-23 10:27 p.m.] tholin
+Reminder that there is a microcontroller on there with free addresses in its MMIO space.
+
+
+[2026-11-23 10:27 p.m.] tholin
+Might be useful for anything to put in the unused area
+
+
 ==============================================================
-Exported 149 message(s)
+Exported 156 message(s)
 ==============================================================

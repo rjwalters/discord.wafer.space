@@ -282,3 +282,5 @@ I guess (floating)poly could shield it unless you're possibly getting something 
 "596068704471482370","246tnt","2026-11-22T07:55:01.3910000+00:00","And `NAT.11 -- NCOMP not intersecting to Poly2, is not allowed inside “NAT” layer`","",""
 "262706220073222144","namibj","2026-11-22T07:57:26.8010000+00:00","I didn't say the DRC would let you draw it with no poly nearby","",""
 "262706220073222144","namibj","2026-11-22T07:57:54.6740000+00:00","But yeah I guess","",""
+"356185479911047169",".dmv","2026-11-23T15:36:20.6070000+00:00","Yes, I spent the last few months designing a BBD on the wafer.space PDK.","",""
+"211112896833257472","archit3ch","2026-11-23T15:49:49.9000000+00:00","Any insights? I assume you used official cells? How many buckets? 👀","",""

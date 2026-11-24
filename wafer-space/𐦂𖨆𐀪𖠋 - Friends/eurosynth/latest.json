@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T11:19:03.0334751+00:00",
+  "exportedAt": "2026-11-23T23:37:24.139923+00:00",
   "messages": [
     {
       "id": "1573542934761181315",
@@ -157,8 +157,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 1,
+          "count": 2,
           "users": [
+            {
+              "id": "356185479911047169",
+              "name": ".dmv",
+              "discriminator": "0000",
+              "nickname": "dmv",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/cf91f9947bc37b8a1071311863f9c4b7-14667.png"
+            },
             {
               "id": "1161210755169919007",
               "name": "sudonet",

@@ -295,3 +295,20 @@ let me know if you need single jpegs for any of these right now. I will upload t
 "169786952432746498","mithro_","2026-11-23T02:51:13.3820000+00:00","@InfoSecDJ -^","",""
 "169786952432746498","mithro_","2026-11-23T03:45:54.3720000+00:00","At KiCon Asia in Shenzhen, @vowstar presented his work around using KiCAD for packaging various silicon chips, see https://drive.google.com/file/d/116uUkALArM2HZ-yYuyE6KBAtSNW578gc/view -- I even got to see some of the chips in person!","",""
 "1087946008853487687","vowstar","2026-11-23T03:54:19.5770000+00:00","Thanks for the shout-out, Tim! Glad you got to see the chips in person. Happy to answer any questions about how I used KiCad for the packaging.","",""
+"424865332075954196","infosecdj","2026-11-23T10:39:44.5940000+00:00","done.","",""
+"691780627338625077","rebelmike","2026-11-23T10:41:46.3310000+00:00","So I thought I had fd_sc_mcu7t5v0 and as_sc_mcu7t3v3 cells playing nicely together, but I forgot I'd never actually run DRC on a design with both in.  Turns out lots of errors, which I suspect is because they can't actually be mixed.
+For now I will just eliminate the clock gate - but it would be really nice to have a supported clock gate in the 3v3 library!","",""
+"596068704471482370","246tnt","2026-11-23T10:56:26.8020000+00:00","Heh yeah, you can't abutt HV and LV nwell and there are minimum distance for the `dualgate` marker as well.","",""
+"323371864074485771","mole99","2026-11-23T11:01:25.3380000+00:00","Pinging @Tholin. Perhaps adding a clock gate is possible :)","",""
+"262706220073222144","namibj","2026-11-23T15:57:46.9040000+00:00","the thick oxide design should work directly if you just make the same structure as thin oxide.
+Just remove dualgate and adjust how the other marking layers about HV/LV are applied.","",""
+"596068704471482370","246tnt","2026-11-23T16:06:02.0010000+00:00","Heh ... that makes it slower than the 5V version and you'd want to make sure whatever internal timing is needed for proper operation still works out.","",""
+"596068704471482370","246tnt","2026-11-23T16:07:24.1350000+00:00","At first (before even the first wafer space run), I was thinking I could just remove the dual gate laer to easily get a faster standard cell library ... but that doesn't work like that. The increased gate capacitance of the thinner oxide makes is quite a bit slower if you don't also adjust the gate lengths.","",""
+"262706220073222144","namibj","2026-11-23T17:03:53.1280000+00:00","narrowing the gates afterwards should be easy if some are too slow.
+Are you sure they'd be slower though?
+thick oxide on 3v3 supply as I'd assume was implied for interop should be much slower than thin oxide.","",""
+"262706220073222144","namibj","2026-11-23T17:04:49.1300000+00:00","that said, as merely a clock gate, I assume it would be relatively minorly impaired by speed until you're pushing clock frequency a lot.","",""
+"596068704471482370","246tnt","2026-11-23T17:05:15.7040000+00:00","Back then I tried a few logic gates ( inverter / and / ... ) , then simulated in spice and they were slower.","",""
+"596068704471482370","246tnt","2026-11-23T17:07:23.2470000+00:00","My worry for clock gate is that they need to provide glitch free operation and so the matching between the .lib and what actually happens and some internal race between various paths ...","",""
+"262706220073222144","namibj","2026-11-23T21:25:58.7440000+00:00","I mean you'd have to extract it anyways.
+I'm just suggesting that it's likely not going to be unusable performance to do it that way.","",""

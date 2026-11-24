@@ -313,6 +313,15 @@ Should diffusion resistors be covered by `RES_MK` ?
 Started a thread.
 
 
+[2026-11-23 4:50 p.m.] baal86
+Is there already a guide how to get started with an analog design in magic? I’d need to generate the pad frame, no logic gates on pads and then add one or more existing magic blocks (through GDS?). There’s also a bit of mixed signal that could either be synthesised on the top level or included through layout
+
+
+[2026-11-23 9:32 p.m.] namibj
+I suggest you investigate the guideance available at TinyTapeous for analog and mixed-signal design.
+It's basically applicable the same way as you're going to interface with a COB pad frame. At least it's expected you would do the latter.
+
+
 ==============================================================
-Exported 58 message(s)
+Exported 60 message(s)
 ==============================================================

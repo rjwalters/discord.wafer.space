@@ -1159,6 +1159,59 @@ KiCon Asia 2026 - FOPLP - Huang Rui - slides with speaker notes.pdf
 Thanks for the shout-out, Tim! Glad you got to see the chips in person. Happy to answer any questions about how I used KiCad for the packaging.
 
 
+[2026-11-23 10:39 a.m.] infosecdj
+done.
+
+
+[2026-11-23 10:41 a.m.] rebelmike
+So I thought I had fd_sc_mcu7t5v0 and as_sc_mcu7t3v3 cells playing nicely together, but I forgot I'd never actually run DRC on a design with both in.  Turns out lots of errors, which I suspect is because they can't actually be mixed.
+For now I will just eliminate the clock gate - but it would be really nice to have a supported clock gate in the 3v3 library!
+
+
+[2026-11-23 10:56 a.m.] 246tnt
+Heh yeah, you can't abutt HV and LV nwell and there are minimum distance for the `dualgate` marker as well.
+
+
+[2026-11-23 11:01 a.m.] mole99
+Pinging @Tholin. Perhaps adding a clock gate is possible :)
+
+
+[2026-11-23 3:57 p.m.] namibj
+the thick oxide design should work directly if you just make the same structure as thin oxide.
+Just remove dualgate and adjust how the other marking layers about HV/LV are applied.
+
+
+[2026-11-23 4:06 p.m.] 246tnt
+Heh ... that makes it slower than the 5V version and you'd want to make sure whatever internal timing is needed for proper operation still works out.
+
+
+[2026-11-23 4:07 p.m.] 246tnt
+At first (before even the first wafer space run), I was thinking I could just remove the dual gate laer to easily get a faster standard cell library ... but that doesn't work like that. The increased gate capacitance of the thinner oxide makes is quite a bit slower if you don't also adjust the gate lengths.
+
+
+[2026-11-23 5:03 p.m.] namibj
+narrowing the gates afterwards should be easy if some are too slow.
+Are you sure they'd be slower though?
+thick oxide on 3v3 supply as I'd assume was implied for interop should be much slower than thin oxide.
+
+
+[2026-11-23 5:04 p.m.] namibj
+that said, as merely a clock gate, I assume it would be relatively minorly impaired by speed until you're pushing clock frequency a lot.
+
+
+[2026-11-23 5:05 p.m.] 246tnt
+Back then I tried a few logic gates ( inverter / and / ... ) , then simulated in spice and they were slower.
+
+
+[2026-11-23 5:07 p.m.] 246tnt
+My worry for clock gate is that they need to provide glitch free operation and so the matching between the .lib and what actually happens and some internal race between various paths ...
+
+
+[2026-11-23 9:25 p.m.] namibj
+I mean you'd have to extract it anyways.
+I'm just suggesting that it's likely not going to be unusable performance to do it that way.
+
+
 ==============================================================
-Exported 221 message(s)
+Exported 233 message(s)
 ==============================================================

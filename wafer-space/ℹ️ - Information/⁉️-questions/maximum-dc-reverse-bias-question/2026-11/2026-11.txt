@@ -1,0 +1,19 @@
+==============================================================
+Guild: wafer.space Community
+Channel: ℹ️ - Information / ⁉️-questions / Maximum DC Reverse Bias Question
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-23 6:36 p.m.] wyomingspopulation
+In gf180mcuD, what is the maximum DC reverse bias allowed between N-well and P-substrate, and between deep N-well (DNWELL) and P-substrate, for reliable operation? The electrical spec gives Nwell/Psub breakdown >= 10 V but I can't find an operating limit for either.
+
+
+[2026-11-23 9:27 p.m.] namibj
+I wish I knew.
+If you're offering to draw sufficciently targeted test structures maybe we have a test die/part-of-a-die-doing-testing on the next run, see #♣️-kevins-club .
+
+
+==============================================================
+Exported 2 message(s)
+==============================================================

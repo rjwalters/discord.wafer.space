@@ -880,6 +880,14 @@ I didn't say the DRC would let you draw it with no poly nearby
 But yeah I guess
 
 
+[2026-11-23 3:36 p.m.] .dmv
+Yes, I spent the last few months designing a BBD on the wafer.space PDK.
+
+
+[2026-11-23 3:49 p.m.] archit3ch
+Any insights? I assume you used official cells? How many buckets? 👀
+
+
 ==============================================================
-Exported 177 message(s)
+Exported 179 message(s)
 ==============================================================

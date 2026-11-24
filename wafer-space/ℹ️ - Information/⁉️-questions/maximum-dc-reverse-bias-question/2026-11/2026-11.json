@@ -1,0 +1,73 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1574493880814936155",
+    "type": "GuildPublicThread",
+    "categoryId": "1409660288822673408",
+    "category": "⁉️-questions",
+    "name": "Maximum DC Reverse Bias Question",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-23T21:30:09.2218849+00:00",
+  "messages": [
+    {
+      "id": "1574493880814936155",
+      "type": "Default",
+      "timestamp": "2026-11-23T18:36:33.868+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "In gf180mcuD, what is the maximum DC reverse bias allowed between N-well and P-substrate, and between deep N-well (DNWELL) and P-substrate, for reliable operation? The electrical spec gives Nwell/Psub breakdown >= 10 V but I can't find an operating limit for either.",
+      "author": {
+        "id": "913146020798562314",
+        "name": "wyomingspopulation",
+        "discriminator": "0000",
+        "nickname": "uoıʇɐlndoԀsƃuıɯoʎʍ",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/00500421b32e2f455945bff85cd13884-5C3BC.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574536882455449770",
+      "type": "Default",
+      "timestamp": "2026-11-23T21:27:26.258+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I wish I knew.\nIf you're offering to draw sufficciently targeted test structures maybe we have a test die/part-of-a-die-doing-testing on the next run, see #♣️-kevins-club .",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 2
+}
