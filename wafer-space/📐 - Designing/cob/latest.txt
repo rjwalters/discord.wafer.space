@@ -643,6 +643,20 @@ Most of my tests are done poking holes in Bic Vivid permanent marker 'cos it's a
 {Reactions}
 👍
 
+[2026-11-24 6:26 p.m.] rebelmike
+https://wafer.space/bondtester gives a 404 for me, is that expected?
+
+
+[2026-11-24 6:27 p.m.] anfroholic
+This may be the same bug as thw last time @Tim 'mithro' Ansell
+
+
+[2026-11-24 6:33 p.m.] rebelmike
+Ah cool it looks like the results in https://github.com/wafer-space/ws-run1-cob/blob/main/TQVA correspond to the CoBs I've been shipped, so looks like you've already checked and all the bonds are good - that's great I'll go straight to testing on my host board.
+
+{Reactions}
+💜
+
 ==============================================================
-Exported 100 message(s)
+Exported 103 message(s)
 ==============================================================

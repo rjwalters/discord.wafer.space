@@ -38,3 +38,22 @@ Already found a few very silly bugs in the hardware (and confirmed a few I alrea
 "262706220073222144","namibj","2026-11-24T02:37:33.1280000+00:00","@BreakingTaps any hope of your works towards photodiodes becoming something we could put an experimental receiver on Run3? Like, some easy to demodulate scheme aimed at just pointing a multimode fiber at the die? I'm thinking like maybe Manchester or such.","",""
 "384390069412429834","polyfractal","2026-11-24T04:51:43.2460000+00:00","i'm afraid I dont really have much done on that end 🙁 just a few quick ""sketches"" but never really got far enough to have anything approaching usable","",""
 "384390069412429834","polyfractal","2026-11-24T04:52:22.5690000+00:00","i got distracted by other stuff and never got back to working on the photodiodes","",""
+"262706220073222144","namibj","2026-11-24T06:17:33.6770000+00:00","","",""
+"262706220073222144","namibj","2026-11-24T06:20:37.5930000+00:00","From that works, did you catch info on the doping stuffs which would tell us if this linked paper might translate sufficiently-directly map to gf180mcuD? The structure they employ sounds quite useful. And they do get decent QE out of it (20%) even after accounting for the reflectivity loss and the metal obstructions.","",""
+"262706220073222144","namibj","2026-11-24T06:21:10.8480000+00:00","","2026-11_media/Process-parameters-of-the-standard-018-m-e-066F2.png",""
+"262706220073222144","namibj","2026-11-24T06:21:56.1730000+00:00","I guess we might be more limited in how weak the ""Isolated p - region"" can be doped.","",""
+"262706220073222144","namibj","2026-11-24T06:24:40.3390000+00:00","(Also I guess you were working on accumulation-mode self-integrating CMOS pixels rather than TIA-buffered high-speed receivers.)","",""
+"262706220073222144","namibj","2026-11-24T08:21:58.4940000+00:00","Arguably properly off-topic:
+Anyone have a setup to recommend where I could let Antigravity work on Rust/C/C++ code (which doesn't run on the host) to make an SPI transaction log of a Rust soft-MAC match the vendor SDK's SPI transaction log?
+
+With a notable preference of mine towards needing fewer iterations, though tokens don't grow on trees:
+it's just that I kinda have to review the code to check that it's not introducing behavior that (at a glance) causes writes to OTP or other irreversible actions like breaking my ability to access it through SWD (turn off reset pin, go to very deep sleep where SWD circuitry is too power gated to wake up from my programmer).","",""
+"262706220073222144","namibj","2026-11-24T08:22:49.7180000+00:00","The other places I could easily ask seem to have turned to a hard anti-AI stance.","",""
+"262706220073222144","namibj","2026-11-24T11:02:47.3910000+00:00","Huh, Antigravity comes with user namespaces based sandboxing...
+Might suffice in place of some per-agent VM stuff and under sufficiently restrictive access to information.","",""
+"384390069412429834","polyfractal","2026-11-24T16:30:21.5330000+00:00","will compile my notes today! my recollection is that a bad photodiode would be trivial to build, but since we lack the ability to pin diodes with buried layers, and don't have STI, it's tough to make anything too high performance. And CCDs are tricky because we only have one Poly layer
+
+Will take a look at that paper!","",""
+"262706220073222144","namibj","2026-11-24T17:17:30.8160000+00:00","We have practically mandatory STI....","",""
+"262706220073222144","namibj","2026-11-24T17:24:17.8160000+00:00","And to be clear: I'm more interested in attaching a multimode 850nm fiber to a die (or multiple for HA).
+Transmit doesn't seem like it'd work but 1000BASE-SX isn't unthinkable (that'd probably need a fairly nice equalizer though, I'm reaching more for Manchester at a (couple) hundred Mbit/s.","",""

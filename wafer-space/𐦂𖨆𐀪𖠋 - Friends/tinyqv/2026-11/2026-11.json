@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-24T07:50:28.591459+00:00",
+  "exportedAt": "2026-11-24T19:50:41.1633145+00:00",
   "messages": [
     {
       "id": "1572529340833603674",
@@ -1319,7 +1319,259 @@
         "guildId": null
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574864048057614406",
+      "type": "Default",
+      "timestamp": "2026-11-24T19:07:28.616+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "TQVA works! https://hachyderm.io/@rebelmike/117672965853907011",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Mike Bell (@rebelmike@hachyderm.io)",
+          "url": "https://hachyderm.io/@rebelmike/117672965853907011",
+          "timestamp": null,
+          "description": "Attached: 1 image\n\nI just received 50 of my TinyQV chip from Wafer Space!\nThese are the “quarter slot” variant, the smallest amount of silicon you can get through wafer space. This design was on run 1 where there was only one quarter slot, for which this design was chosen as a test.\n\nThe chips are tiny on the CoB!",
+          "color": "#FFFFFF",
+          "author": {
+            "name": "Mike Bell",
+            "url": "https://hachyderm.io/@rebelmike"
+          },
+          "thumbnail": {
+            "url": "2026-11_media/ac0eb634c4b54dd3-F7A8D.jpeg",
+            "width": 2629,
+            "height": 2646
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83C\uDF89",
+            "code": "tada",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f389-5C738.svg"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "323371864074485771",
+              "name": "mole99",
+              "discriminator": "0000",
+              "nickname": "mole99",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+            },
+            {
+              "id": "543162393413287956",
+              "name": "h.tamas",
+              "discriminator": "0000",
+              "nickname": "htamas",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/1-B2132.png"
+            },
+            {
+              "id": "596068704471482370",
+              "name": "246tnt",
+              "discriminator": "0000",
+              "nickname": "tnt",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+            },
+            {
+              "id": "732347216412278825",
+              "name": "urish",
+              "discriminator": "0000",
+              "nickname": "urish",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574864527143477459",
+      "type": "Default",
+      "timestamp": "2026-11-24T19:09:22.839+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Congrats !",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC9C",
+            "code": "purple_heart",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f49c-71A75.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "691780627338625077",
+              "name": "rebelmike",
+              "discriminator": "0000",
+              "nickname": "RebelMike",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574868203128230040",
+      "type": "Default",
+      "timestamp": "2026-11-24T19:23:59.262+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Some VGA",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [
+        {
+          "id": "1574868202071007252",
+          "url": "2026-11_media/IMG_7141-2C22B.jpg",
+          "fileName": "IMG_7141.jpg",
+          "fileSizeBytes": 403608
+        },
+        {
+          "id": "1574868202624917595",
+          "url": "2026-11_media/IMG_7143-56320.jpg",
+          "fileName": "IMG_7143.jpg",
+          "fileSizeBytes": 482884
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574869474715377717",
+      "type": "Default",
+      "timestamp": "2026-11-24T19:29:02.432+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I should see if I can port @urish 's Breakout when he releases it \uD83D\uDE42",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83C\uDD92",
+            "code": "cool",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f192-38F23.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "732347216412278825",
+              "name": "urish",
+              "discriminator": "0000",
+              "nickname": "urish",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "732347216412278825",
+          "name": "urish",
+          "discriminator": "0000",
+          "nickname": "urish",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+        }
+      ],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDE42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
     }
   ],
-  "messageCount": 35
+  "messageCount": 39
 }

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-24T07:48:01.8231015+00:00",
+  "exportedAt": "2026-11-24T19:48:02.3235738+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -6193,7 +6193,430 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1574734851242991658",
+      "type": "Default",
+      "timestamp": "2026-11-24T10:34:05.695+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hi everyone!",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574735125562921024",
+      "type": "Default",
+      "timestamp": "2026-11-24T10:35:11.098+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "talking to a guy named Robb of 2amlogic who might do the SKY130 characterization porting",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574735267045052517",
+      "type": "Default",
+      "timestamp": "2026-11-24T10:35:44.83+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "did we decide what to do about nam’s old slot",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574738523213271152",
+      "type": "Default",
+      "timestamp": "2026-11-24T10:48:41.161+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "We might want to put some test structures for characterizing noise performance? After having done some looking, photodiode (of the style: for fiber optic data receiver) should also be fairly straight-forward to do but would need analog IO to not be forced to include equalizer and some CDR machinery on the die just to be able to characterize it into the 100's of Mbit/s.\nThe hall sensor should also still find some spot, and even if only rudimentary, taping out at least one \"realistic-usage-size\" (and then array'd up to get decent IO-suitable impedance) thin-oxide native-Vt-NMOS, would be great to have as that would e.g. allow anchoring the SPICE model somewhat to it (and the known models for thin and thick oxide normal threshold and the known model for thick oxide NVT NMOS) for doing the \"muxed e-test\" in a much less haphazard way for Run4 (notably, simulate DUTs to know expected currents and spend MUX cross-point parasitic capacitance/leakage/area more efficiently.\nAlso should see to port the SG13G2 Magic Pcell of a gated bipolar SCR (basically acts as a DIAC) to gf180mcuD and then that would need two non-separately-ESD-protected pads.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574746697844785243",
+      "type": "Default",
+      "timestamp": "2026-11-24T11:21:10.145+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Ah I think we don't want to fall into a pattern of talking about big dreams and then not delivering.",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574746702282227713",
+      "type": "Default",
+      "timestamp": "2026-11-24T11:21:11.203+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "```\nRUN 3 SLOTS (GF180, 10 full slots)\n\n#   holder                  project\n1   Sureshot Labs           first tape-out\n2   Sureshot Labs           first tape-out\n3   Mill Computing          first Mill chip\n4   USB 2.0 team (Nikola)   CPU + USB 2.0 transceiver\n5   Hack Club               student designs\n6   Tholin                  multi-project die (ws-as06)\n7   Deep AI (Kevin)         multi-protocol RF transceiver\n8   Hirosh                  KianV RISC-V Linux SoC\n9   Leo Moser               FPGA\n10  Deep AI                 characterization die (NIST/Michigan sky130 port)\n```",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDD25",
+            "code": "fire",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f525-8FE4F.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574746868812877888",
+      "type": "Default",
+      "timestamp": "2026-11-24T11:21:50.907+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I am confident in most of these projects",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574746999402660002",
+      "type": "Default",
+      "timestamp": "2026-11-24T11:22:22.042+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "But i think we can collect a bunch of favorite proposals from the community and  I think there's a 70% chance we have about 2 spare slots",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574747081111769109",
+      "type": "Default",
+      "timestamp": "2026-11-24T11:22:41.523+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "and I think if someone was to help us do the NIST SKY130 characterization port, we could guarantee them another slot",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574793476002943149",
+      "type": "Reply",
+      "timestamp": "2026-11-24T14:27:02.927+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Do I see that this is going to tape out a belt processor?\nAt least that's the plan?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574746702282227713",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574796280864047115",
+      "type": "Reply",
+      "timestamp": "2026-11-24T14:38:11.658+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah.\nIf we think we'll find space somewhere for the mentioned (or whichever of them get ready in time), I'd try to get them drawn ASAP so they _are_ ready. \nAnd the hall sensor from @Andrew Wingate has been ready for a couple weeks. (It might need a couple antenna diodes added around the analog MUX it's integrating, but that's it.)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        },
+        {
+          "id": "756011607603019777",
+          "name": "anfroholic",
+          "discriminator": "0000",
+          "nickname": "Andrew Wingate",
+          "color": null,
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1423020172595298314",
+              "name": "Mod",
+              "color": null,
+              "position": 4
+            }
+          ],
+          "avatarUrl": "2026-11_media/67bd670a335a2f955fb2ded57088a2cb-675B3.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574746697844785243",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574818256735310007",
+      "type": "Default",
+      "timestamp": "2026-11-24T16:05:31.114+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "sorry belt processor?",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574818619928346725",
+      "type": "Reply",
+      "timestamp": "2026-11-24T16:06:57.706+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Mill: https://millcomputing.com/docs/#the-belt",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "docs / videos / slides",
+          "url": "https://millcomputing.com/docs/",
+          "timestamp": null,
+          "description": "The Mill general purpose CPU architecture takes new approaches in most major areas of processor architecture. We have public presentation video recordings for most of the topics listed below, with more to come.\nNOTE: the slides require genuine Microsoft PowerPoint to view; open source PowerPoint clones are unable to show the animations, which ar...",
+          "color": "#FFFFFF",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574818256735310007",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 161
+  "messageCount": 174
 }

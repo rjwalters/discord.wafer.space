@@ -224,6 +224,44 @@ If you have one of these chips, please post your bring-up results, boards, firmw
 Pinned a message.
 
 
+[2026-11-24 7:07 p.m.] rebelmike
+TQVA works! https://hachyderm.io/@rebelmike/117672965853907011
+
+{Embed}
+Mike Bell
+https://hachyderm.io/@rebelmike/117672965853907011
+Mike Bell (@rebelmike@hachyderm.io)
+Attached: 1 image
+
+I just received 50 of my TinyQV chip from Wafer Space!
+These are the “quarter slot” variant, the smallest amount of silicon you can get through wafer space. This design was on run 1 where there was only one quarter slot, for which this design was chosen as a test.
+
+The chips are tiny on the CoB!
+2026-11_media/ac0eb634c4b54dd3-F7A8D.jpeg
+
+{Reactions}
+🎉 (4)
+
+[2026-11-24 7:09 p.m.] 246tnt
+Congrats !
+
+{Reactions}
+💜
+
+[2026-11-24 7:23 p.m.] rebelmike
+Some VGA
+
+{Attachments}
+2026-11_media/IMG_7141-2C22B.jpg
+2026-11_media/IMG_7143-56320.jpg
+
+
+[2026-11-24 7:29 p.m.] rebelmike
+I should see if I can port @urish 's Breakout when he releases it 🙂
+
+{Reactions}
+🆒
+
 ==============================================================
-Exported 35 message(s)
+Exported 39 message(s)
 ==============================================================

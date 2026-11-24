@@ -907,6 +907,85 @@ There's certainly possibility though, see the https://gf180mcu-pdk.readthedocs.i
 I think there was some work on sky130A which should be sufficiently similar to this process for the design methodology they employed to make it work on there to also work for gf180mcuD.
 
 
+[2026-11-24 10:34 a.m.] velvetundergroundandy
+hi everyone!
+
+
+[2026-11-24 10:35 a.m.] velvetundergroundandy
+talking to a guy named Robb of 2amlogic who might do the SKY130 characterization porting
+
+
+[2026-11-24 10:35 a.m.] velvetundergroundandy
+did we decide what to do about nam’s old slot
+
+
+[2026-11-24 10:48 a.m.] namibj
+We might want to put some test structures for characterizing noise performance? After having done some looking, photodiode (of the style: for fiber optic data receiver) should also be fairly straight-forward to do but would need analog IO to not be forced to include equalizer and some CDR machinery on the die just to be able to characterize it into the 100's of Mbit/s.
+The hall sensor should also still find some spot, and even if only rudimentary, taping out at least one "realistic-usage-size" (and then array'd up to get decent IO-suitable impedance) thin-oxide native-Vt-NMOS, would be great to have as that would e.g. allow anchoring the SPICE model somewhat to it (and the known models for thin and thick oxide normal threshold and the known model for thick oxide NVT NMOS) for doing the "muxed e-test" in a much less haphazard way for Run4 (notably, simulate DUTs to know expected currents and spend MUX cross-point parasitic capacitance/leakage/area more efficiently.
+Also should see to port the SG13G2 Magic Pcell of a gated bipolar SCR (basically acts as a DIAC) to gf180mcuD and then that would need two non-separately-ESD-protected pads.
+
+
+[2026-11-24 11:21 a.m.] velvetundergroundandy
+Ah I think we don't want to fall into a pattern of talking about big dreams and then not delivering.
+
+
+[2026-11-24 11:21 a.m.] velvetundergroundandy
+```
+RUN 3 SLOTS (GF180, 10 full slots)
+
+#   holder                  project
+1   Sureshot Labs           first tape-out
+2   Sureshot Labs           first tape-out
+3   Mill Computing          first Mill chip
+4   USB 2.0 team (Nikola)   CPU + USB 2.0 transceiver
+5   Hack Club               student designs
+6   Tholin                  multi-project die (ws-as06)
+7   Deep AI (Kevin)         multi-protocol RF transceiver
+8   Hirosh                  KianV RISC-V Linux SoC
+9   Leo Moser               FPGA
+10  Deep AI                 characterization die (NIST/Michigan sky130 port)
+```
+
+{Reactions}
+🔥
+
+[2026-11-24 11:21 a.m.] velvetundergroundandy
+I am confident in most of these projects
+
+
+[2026-11-24 11:22 a.m.] velvetundergroundandy
+But i think we can collect a bunch of favorite proposals from the community and  I think there's a 70% chance we have about 2 spare slots
+
+
+[2026-11-24 11:22 a.m.] velvetundergroundandy
+and I think if someone was to help us do the NIST SKY130 characterization port, we could guarantee them another slot
+
+
+[2026-11-24 2:27 p.m.] namibj
+Do I see that this is going to tape out a belt processor?
+At least that's the plan?
+
+
+[2026-11-24 2:38 p.m.] namibj
+Yeah.
+If we think we'll find space somewhere for the mentioned (or whichever of them get ready in time), I'd try to get them drawn ASAP so they _are_ ready. 
+And the hall sensor from @Andrew Wingate has been ready for a couple weeks. (It might need a couple antenna diodes added around the analog MUX it's integrating, but that's it.)
+
+
+[2026-11-24 4:05 p.m.] velvetundergroundandy
+sorry belt processor?
+
+
+[2026-11-24 4:06 p.m.] namibj
+Mill: https://millcomputing.com/docs/#the-belt
+
+{Embed}
+https://millcomputing.com/docs/
+docs / videos / slides
+The Mill general purpose CPU architecture takes new approaches in most major areas of processor architecture. We have public presentation video recordings for most of the topics listed below, with more to come.
+NOTE: the slides require genuine Microsoft PowerPoint to view; open source PowerPoint clones are unable to show the animations, which ar...
+
+
 ==============================================================
-Exported 161 message(s)
+Exported 174 message(s)
 ==============================================================

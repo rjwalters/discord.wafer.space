@@ -1240,6 +1240,30 @@ Someone over here offered a different Liberty-generating timing extractor to try
 (Also maybe someone with Cadence could extract the timing for us into a Liberty file?)
 
 
+[2026-11-24 10:35 a.m.] namibj
+https://github.com/stineje/CharLib might be capable?
+
+{Embed}
+https://github.com/stineje/CharLib
+GitHub - stineje/CharLib: Open-source repository for a standard-cel...
+Open-source repository for a standard-cell library characterizer using complete open-source tools - stineje/CharLib
+2026-11_media/CharLib-F875B
+
+
+[2026-11-24 10:36 a.m.] namibj
+It at least should (also) extract power consumption, AFAIK.
+
+
+[2026-11-24 1:25 p.m.] tholin
+I tried CharLib before and it had problems
+
+{Reactions}
+ferrisballSweat
+
+[2026-11-24 1:25 p.m.] tholin
+There is apparently another characterization program in the works, but I’m still waiting on that one
+
+
 ==============================================================
-Exported 240 message(s)
+Exported 244 message(s)
 ==============================================================

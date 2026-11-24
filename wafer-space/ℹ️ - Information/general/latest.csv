@@ -319,3 +319,7 @@ I'm just suggesting that it's likely not going to be unusable performance to do 
 "220639106915368960","tholin","2026-11-24T00:24:21.3580000+00:00","I will do my bring-up once I have the CoBs, though","",""
 "262706220073222144","namibj","2026-11-24T02:10:19.6630000+00:00","Someone over here offered a different Liberty-generating timing extractor to try. Maybe that one would work.","",""
 "262706220073222144","namibj","2026-11-24T02:10:41.4300000+00:00","(Also maybe someone with Cadence could extract the timing for us into a Liberty file?)","",""
+"262706220073222144","namibj","2026-11-24T10:35:57.7970000+00:00","https://github.com/stineje/CharLib might be capable?","",""
+"262706220073222144","namibj","2026-11-24T10:36:47.6620000+00:00","It at least should (also) extract power consumption, AFAIK.","",""
+"220639106915368960","tholin","2026-11-24T13:25:41.9120000+00:00","I tried CharLib before and it had problems","","ferrisballSweat (1)"
+"220639106915368960","tholin","2026-11-24T13:25:58.7220000+00:00","There is apparently another characterization program in the works, but I’m still waiting on that one","",""

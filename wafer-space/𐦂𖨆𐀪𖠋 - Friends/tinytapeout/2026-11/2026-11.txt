@@ -770,6 +770,75 @@ Contribute to kdp1965/ttgf26c-um-pettit-glyph development by creating an account
 2026-11_media/a885bd2a-82da-4dd2-83ca-2712f67be4da-44B3E
 
 
+[2026-11-24 9:07 a.m.] TTBot#6027
+New tapeout: Sasha Bao submitted Sasha's First Chip (https://github.com/starspangledsky/tt-sashas-first-chip)
+
+{Embed}
+https://github.com/starspangledsky/tt-sashas-first-chip
+GitHub - starspangledsky/tt-sashas-first-chip: Sasha's first chip (...
+Sasha's first chip (Singapore). Contribute to starspangledsky/tt-sashas-first-chip development by creating an account on GitHub.
+2026-11_media/tt-sashas-first-chip-5E53C
+
+
+[2026-11-24 9:07 a.m.] TTBot#6027
+New tapeout: Dasha Sychova submitted Dasha Chip (https://github.com/dasha3412/tt-dasha-chip)
+
+{Embed}
+https://github.com/dasha3412/tt-dasha-chip
+GitHub - dasha3412/tt-dasha-chip: Snake!
+Snake! Contribute to dasha3412/tt-dasha-chip development by creating an account on GitHub.
+
+
+[2026-11-24 9:08 a.m.] TTBot#6027
+New tapeout: Xiong Jun Bo submitted Tiny Tapeout Template Eric Version (https://github.com/EricXiong420/loss-by-eric-tt)
+
+{Embed}
+https://github.com/EricXiong420/loss-by-eric-tt
+GitHub - EricXiong420/loss-by-eric-tt: Loss
+Loss. Contribute to EricXiong420/loss-by-eric-tt development by creating an account on GitHub.
+2026-11_media/loss-by-eric-tt-899B7
+
+
+[2026-11-24 9:08 a.m.] TTBot#6027
+New tapeout: leongpants submitted Single Digit Sums (https://github.com/chenyikaithegoat/tt-single-digit-sums)
+
+{Embed}
+https://github.com/chenyikaithegoat/tt-single-digit-sums
+GitHub - chenyikaithegoat/tt-single-digit-sums: sum of single digit
+sum of single digit. Contribute to chenyikaithegoat/tt-single-digit-sums development by creating an account on GitHub.
+2026-11_media/tt-single-digit-sums-CFACF
+
+
+[2026-11-24 9:13 a.m.] TTBot#6027
+New tapeout: Yixin Chen submitted Secret Initial (https://github.com/cyxwh/tt-secret-initial)
+
+{Embed}
+https://github.com/cyxwh/tt-secret-initial
+GitHub - cyxwh/tt-secret-initial: 4-bit code detector: 1011 shows C...
+4-bit code detector: 1011 shows C and 0110 shows Y on the 7-segment display. - cyxwh/tt-secret-initial
+2026-11_media/tt-secret-initial-57E3B
+
+
+[2026-11-24 9:18 a.m.] TTBot#6027
+New tapeout: Shermaine submitted [24112026] Tiny Tapeout Workshop (https://github.com/rpshermaine-wq/tt-24112026-tiny-tapeout)
+
+{Embed}
+https://github.com/rpshermaine-wq/tt-24112026-tiny-tapeout
+GitHub - rpshermaine-wq/tt-24112026-tiny-tapeout: Learning the very...
+Learning the very basics of chips with Tiny Tapeout! - rpshermaine-wq/tt-24112026-tiny-tapeout
+2026-11_media/tt-24112026-tiny-tapeout-A2DAE
+
+
+[2026-11-24 9:44 a.m.] TTBot#6027
+New tapeout: Tianyue-C submitted 0-DSP Spiking Neural Network XOR (https://github.com/Tianyue-C/Tiny-tapeout)
+
+{Embed}
+https://github.com/Tianyue-C/Tiny-tapeout
+GitHub - Tianyue-C/Tiny-tapeout
+Contribute to Tianyue-C/Tiny-tapeout development by creating an account on GitHub.
+2026-11_media/Tiny-tapeout-8B6A0
+
+
 ==============================================================
-Exported 83 message(s)
+Exported 90 message(s)
 ==============================================================

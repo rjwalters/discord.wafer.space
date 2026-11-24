@@ -211,6 +211,61 @@ i'm afraid I dont really have much done on that end 🙁 just a few quick "sketc
 i got distracted by other stuff and never got back to working on the photodiodes
 
 
+[2026-11-24 6:17 a.m.] namibj
+
+
+
+[2026-11-24 6:20 a.m.] namibj
+From that works, did you catch info on the doping stuffs which would tell us if this linked paper might translate sufficiently-directly map to gf180mcuD? The structure they employ sounds quite useful. And they do get decent QE out of it (20%) even after accounting for the reflectivity loss and the metal obstructions.
+
+
+[2026-11-24 6:21 a.m.] namibj
+
+
+{Attachments}
+2026-11_media/Process-parameters-of-the-standard-018-m-e-066F2.png
+
+
+[2026-11-24 6:21 a.m.] namibj
+I guess we might be more limited in how weak the "Isolated p - region" can be doped.
+
+
+[2026-11-24 6:24 a.m.] namibj
+(Also I guess you were working on accumulation-mode self-integrating CMOS pixels rather than TIA-buffered high-speed receivers.)
+
+
+[2026-11-24 8:21 a.m.] namibj
+Arguably properly off-topic:
+Anyone have a setup to recommend where I could let Antigravity work on Rust/C/C++ code (which doesn't run on the host) to make an SPI transaction log of a Rust soft-MAC match the vendor SDK's SPI transaction log?
+
+With a notable preference of mine towards needing fewer iterations, though tokens don't grow on trees:
+it's just that I kinda have to review the code to check that it's not introducing behavior that (at a glance) causes writes to OTP or other irreversible actions like breaking my ability to access it through SWD (turn off reset pin, go to very deep sleep where SWD circuitry is too power gated to wake up from my programmer).
+
+
+[2026-11-24 8:22 a.m.] namibj
+The other places I could easily ask seem to have turned to a hard anti-AI stance.
+
+
+[2026-11-24 11:02 a.m.] namibj
+Huh, Antigravity comes with user namespaces based sandboxing...
+Might suffice in place of some per-agent VM stuff and under sufficiently restrictive access to information.
+
+
+[2026-11-24 4:30 p.m.] polyfractal
+will compile my notes today! my recollection is that a bad photodiode would be trivial to build, but since we lack the ability to pin diodes with buried layers, and don't have STI, it's tough to make anything too high performance. And CCDs are tricky because we only have one Poly layer
+
+Will take a look at that paper!
+
+
+[2026-11-24 5:17 p.m.] namibj
+We have practically mandatory STI....
+
+
+[2026-11-24 5:24 p.m.] namibj
+And to be clear: I'm more interested in attaching a multimode 850nm fiber to a die (or multiple for HA).
+Transmit doesn't seem like it'd work but 1000BASE-SX isn't unthinkable (that'd probably need a fairly nice equalizer though, I'm reaching more for Manchester at a (couple) hundred Mbit/s.
+
+
 ==============================================================
-Exported 30 message(s)
+Exported 41 message(s)
 ==============================================================
