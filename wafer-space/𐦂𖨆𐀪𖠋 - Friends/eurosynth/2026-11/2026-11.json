@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T23:37:24.139923+00:00",
+  "exportedAt": "2026-11-24T07:49:40.3938896+00:00",
   "messages": [
     {
       "id": "1573542934761181315",
@@ -157,8 +157,17 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f525-8FE4F.svg"
           },
-          "count": 2,
+          "count": 3,
           "users": [
+            {
+              "id": "169368687701131266",
+              "name": "proppysh",
+              "discriminator": "0000",
+              "nickname": "proppy",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/73958cf9317d2cd2bbee370af84aa045-67F44.png"
+            },
             {
               "id": "356185479911047169",
               "name": ".dmv",
@@ -182,7 +191,47 @@
       ],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1574584763212111914",
+      "type": "Default",
+      "timestamp": "2026-11-24T00:37:41.92+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "presented the megabytebeat TT chip at the IRCAM forum Tokyo \uD83D\uDDFC:\nhttps://bytebeat.exe.xyz/!",
+      "author": {
+        "id": "169368687701131266",
+        "name": "proppysh",
+        "discriminator": "0000",
+        "nickname": "proppy",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/73958cf9317d2cd2bbee370af84aa045-67F44.png"
+      },
+      "attachments": [
+        {
+          "id": "1574584762922831993",
+          "url": "2026-11_media/Screenshot_20261123-194008-7B8DE.png",
+          "fileName": "Screenshot_20261123-194008.png",
+          "fileSizeBytes": 2043770
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDDFC",
+          "code": "tokyo_tower",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f5fc-A4887.svg"
+        }
+      ]
     }
   ],
-  "messageCount": 3
+  "messageCount": 4
 }

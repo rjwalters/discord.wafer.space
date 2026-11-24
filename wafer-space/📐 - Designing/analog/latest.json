@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T23:27:02.5667458+00:00",
+  "exportedAt": "2026-11-24T07:39:28.6446356+00:00",
   "messages": [
     {
       "id": "1569171678020243629",
@@ -2083,7 +2083,189 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1574640435614449767",
+      "type": "Default",
+      "timestamp": "2026-11-24T04:18:55.255+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I’ve done a TT submission. But there they had dedicated analog templates. With wafer.space I get, at a minimum,  some digital interface circuits (for analog I’d have to replace with my own ESD cells), filler cells and SRAM if I compile the basic example. In the end I’ll want to use the nix workflow and .sv top level file but for getting started it’s a steep entrance curve so I was wondering if there’s examples of a wafer.space + Magic setup. And yes, I tried AI and it did horrible things to the template (quite funny actually)",
+      "author": {
+        "id": "1537695219812663387",
+        "name": "baal86",
+        "discriminator": "0000",
+        "nickname": "Mathias",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/1768f8b3ac9e7594c2df40874c96b6ef-4FF76.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574646906431217808",
+      "type": "Reply",
+      "timestamp": "2026-11-24T04:44:38.018+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "No you can take the wafer.space template and just select different IO cells; there's a foundry offer of an ESD protecting analog one.\nFiller generation is automatic through iirc-KLayout script.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1537695219812663387",
+          "name": "baal86",
+          "discriminator": "0000",
+          "nickname": "Mathias",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/1768f8b3ac9e7594c2df40874c96b6ef-4FF76.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574640435614449767",
+        "channelId": "1408135265427394661",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574647257142267914",
+      "type": "Default",
+      "timestamp": "2026-11-24T04:46:01.634+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "You can piggyback on the https://github.com/AvalonSemiconductors/ws-charge-controller setup for example.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - AvalonSemiconductors/ws-charge-controller: AIO charge cont...",
+          "url": "https://github.com/AvalonSemiconductors/ws-charge-controller",
+          "timestamp": null,
+          "description": "AIO charge controller and overdischarge protection IC for Li+, LiFePo, LTO and Na+ cells on wafer.space gf180mcu - AvalonSemiconductors/ws-charge-controller",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/ws-charge-controller-F4E2E",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574647332325294173",
+      "type": "Default",
+      "timestamp": "2026-11-24T04:46:19.559+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "A Run3 submission on nix flow.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574647399174115452",
+      "type": "Default",
+      "timestamp": "2026-11-24T04:46:35.497+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "And done with Magic instead of KLayout (AFAIK).",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574665922302582846",
+      "type": "Default",
+      "timestamp": "2026-11-24T06:00:11.755+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That’s what I was looking for! Thank you!",
+      "author": {
+        "id": "1537695219812663387",
+        "name": "baal86",
+        "discriminator": "0000",
+        "nickname": "Mathias",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/1768f8b3ac9e7594c2df40874c96b6ef-4FF76.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 60
+  "messageCount": 66
 }

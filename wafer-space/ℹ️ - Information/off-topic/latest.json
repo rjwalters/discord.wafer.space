@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T21:58:26.6529047+00:00",
+  "exportedAt": "2026-11-24T06:12:45.1539379+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -1205,7 +1205,307 @@
         }
       ],
       "inlineEmojis": []
+    },
+    {
+      "id": "1574575680933331098",
+      "type": "Default",
+      "timestamp": "2026-11-24T00:01:36.536+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I have to say, modern agent AIs are pretty awesome at smoke testing chips. My breakout board has a small MCU on it (acts as bootloader for my chip lol) and USB connection. So the test cycle is: write test for X functionality, transfer program to MCU, it flashes my chip then waits for response over serial, forwards back to PC for evaluation. The agent is slowly working through all the instructions and constructing tests for expected behavior and edge-cases. It also executes the tests against the RTL as a comparison.\n\nAlready found a few very silly bugs in the hardware (and confirmed a few I already knew about). I was going to do some of this testing for my self, but being able to automate testing of all major functionality is pretty rad",
+      "author": {
+        "id": "384390069412429834",
+        "name": "polyfractal",
+        "discriminator": "0000",
+        "nickname": "BreakingTaps",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574607682139201547",
+      "type": "Reply",
+      "timestamp": "2026-11-24T02:08:46.218+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I wish I could do that risk-free with some HW I got where the PDF docs for the SPI interface's registers are wrong and I want it to run in Rust not C; sadly there's OTP on it and the host MCU on the boards can be bricked through fuses as well \ud83d\ude41",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "384390069412429834",
+          "name": "polyfractal",
+          "discriminator": "0000",
+          "nickname": "BreakingTaps",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574575680933331098",
+        "channelId": "1361349523724570943",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\ud83d\ude41",
+          "code": "slight_frown",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f641-E1429.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574611242994110588",
+      "type": "Default",
+      "timestamp": "2026-11-24T02:22:55.192+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "oh boo, yeah that wouldn't be fun",
+      "author": {
+        "id": "384390069412429834",
+        "name": "polyfractal",
+        "discriminator": "0000",
+        "nickname": "BreakingTaps",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574611325982736545",
+      "type": "Default",
+      "timestamp": "2026-11-24T02:23:14.978+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "luckily this thing is idiot proof and transient. if it gets wedged a power cycle forgives all sins \ud83d\ude42",
+      "author": {
+        "id": "384390069412429834",
+        "name": "polyfractal",
+        "discriminator": "0000",
+        "nickname": "BreakingTaps",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\ud83d\ude42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574611459042844723",
+      "type": "Default",
+      "timestamp": "2026-11-24T02:23:46.702+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(otoh, it requires an MCU to be usable at all which was hilariously short sighted but oh well \ud83d\ude02 )",
+      "author": {
+        "id": "384390069412429834",
+        "name": "polyfractal",
+        "discriminator": "0000",
+        "nickname": "BreakingTaps",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\ud83d\ude02",
+          "code": "joy",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f602-168C5.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574613290175176776",
+      "type": "Reply",
+      "timestamp": "2026-11-24T02:31:03.278+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah, I should still set it up get at least RADAR recording levels of capability implemented by christmas.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "384390069412429834",
+          "name": "polyfractal",
+          "discriminator": "0000",
+          "nickname": "BreakingTaps",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574611242994110588",
+        "channelId": "1361349523724570943",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574614925324587139",
+      "type": "Default",
+      "timestamp": "2026-11-24T02:37:33.128+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@BreakingTaps any hope of your works towards photodiodes becoming something we could put an experimental receiver on Run3? Like, some easy to demodulate scheme aimed at just pointing a multimode fiber at the die? I'm thinking like maybe Manchester or such.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "384390069412429834",
+          "name": "polyfractal",
+          "discriminator": "0000",
+          "nickname": "BreakingTaps",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574648689966850059",
+      "type": "Default",
+      "timestamp": "2026-11-24T04:51:43.246+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i'm afraid I dont really have much done on that end \ud83d\ude41 just a few quick \"sketches\" but never really got far enough to have anything approaching usable",
+      "author": {
+        "id": "384390069412429834",
+        "name": "polyfractal",
+        "discriminator": "0000",
+        "nickname": "BreakingTaps",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\ud83d\ude41",
+          "code": "slight_frown",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f641-E1429.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574648854899466314",
+      "type": "Default",
+      "timestamp": "2026-11-24T04:52:22.569+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "i got distracted by other stuff and never got back to working on the photodiodes",
+      "author": {
+        "id": "384390069412429834",
+        "name": "polyfractal",
+        "discriminator": "0000",
+        "nickname": "BreakingTaps",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 21
+  "messageCount": 30
 }

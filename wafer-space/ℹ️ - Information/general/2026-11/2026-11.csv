@@ -312,3 +312,10 @@ thick oxide on 3v3 supply as I'd assume was implied for interop should be much s
 "596068704471482370","246tnt","2026-11-23T17:07:23.2470000+00:00","My worry for clock gate is that they need to provide glitch free operation and so the matching between the .lib and what actually happens and some internal race between various paths ...","",""
 "262706220073222144","namibj","2026-11-23T21:25:58.7440000+00:00","I mean you'd have to extract it anyways.
 I'm just suggesting that it's likely not going to be unusable performance to do it that way.","",""
+"220639106915368960","tholin","2026-11-24T00:22:35.2360000+00:00","I am unlikely to do any more layouts","",""
+"220639106915368960","tholin","2026-11-24T00:22:42.8830000+00:00","I also cannot characterize clock gates","",""
+"220639106915368960","tholin","2026-11-24T00:22:55.0780000+00:00","lctime can’t do it","",""
+"220639106915368960","tholin","2026-11-24T00:24:12.3280000+00:00","I just got done organizing and hosting an event for over 200 people last weekend, I am BEAT and will be for a while.","",""
+"220639106915368960","tholin","2026-11-24T00:24:21.3580000+00:00","I will do my bring-up once I have the CoBs, though","",""
+"262706220073222144","namibj","2026-11-24T02:10:19.6630000+00:00","Someone over here offered a different Liberty-generating timing extractor to try. Maybe that one would work.","",""
+"262706220073222144","namibj","2026-11-24T02:10:41.4300000+00:00","(Also maybe someone with Cadence could extract the timing for us into a Liberty file?)","",""

@@ -851,6 +851,8 @@ http://github.com/sud0net/hackclub-asic
 GitHub - SUD0NET/hackclub-asic: Hack Club "ASIC" repo (fork of Tiny...
 Hack Club "ASIC" repo (fork of Tiny Tapeout shuttle gf-26d) - SUD0NET/hackclub-asic
 
+{Reactions}
+🔥 👍
 
 [2026-11-23 7:48 p.m.] tholin
 Okay, I have 3 unused analog pads on my charge controller IC that are next to each other. I can tape out a LDMOS device and break out all of its terminals. What exactly should I do?
@@ -883,6 +885,28 @@ Reminder that there is a microcontroller on there with free addresses in its MMI
 Might be useful for anything to put in the unused area
 
 
+[2026-11-24 1:48 a.m.] namibj
+If I'd cook up a photodiode w/ demodulator to try and receive signal from an aligned fiber optic pointing straight in at the right spot, would that be ok? I guess it should?
+I know there's no analog pins left.
+
+
+[2026-11-24 1:50 a.m.] tholin
+Would probably work
+
+
+[2026-11-24 3:15 a.m.] baragonaru
+has anyone tried to make a flash memory cell yet?
+
+
+[2026-11-24 4:41 a.m.] namibj
+Not really on gf180mcuD AFAIK. Well, none that are open.
+There's certainly possibility though, see the https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_15.html DRCs for https://www.ememory.com.tw/en-US/Products/MTP/NeoEE .
+
+
+[2026-11-24 4:43 a.m.] namibj
+I think there was some work on sky130A which should be sufficiently similar to this process for the design methodology they employed to make it work on there to also work for gf180mcuD.
+
+
 ==============================================================
-Exported 156 message(s)
+Exported 161 message(s)
 ==============================================================

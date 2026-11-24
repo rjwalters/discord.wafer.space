@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T21:07:32.8345102+00:00",
+  "exportedAt": "2026-11-24T05:23:06.5483951+00:00",
   "messages": [
     {
       "id": "1570885229223215147",
@@ -6451,7 +6451,48 @@
           "imageUrl": "2026-11_media/1f440-6C64D.svg"
         }
       ]
+    },
+    {
+      "id": "1574611747208433676",
+      "type": "Reply",
+      "timestamp": "2026-11-24T02:24:55.406+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is it open source?",
+      "author": {
+        "id": "169786952432746498",
+        "name": "mithro_",
+        "discriminator": "0000",
+        "nickname": "Tim 'mithro' Ansell",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "356185479911047169",
+          "name": ".dmv",
+          "discriminator": "0000",
+          "nickname": "dmv",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/cf91f9947bc37b8a1071311863f9c4b7-14667.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574448526711062721",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 179
+  "messageCount": 180
 }

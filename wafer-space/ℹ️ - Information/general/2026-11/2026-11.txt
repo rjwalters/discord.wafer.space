@@ -1212,6 +1212,34 @@ I mean you'd have to extract it anyways.
 I'm just suggesting that it's likely not going to be unusable performance to do it that way.
 
 
+[2026-11-24 12:22 a.m.] tholin
+I am unlikely to do any more layouts
+
+
+[2026-11-24 12:22 a.m.] tholin
+I also cannot characterize clock gates
+
+
+[2026-11-24 12:22 a.m.] tholin
+lctime can’t do it
+
+
+[2026-11-24 12:24 a.m.] tholin
+I just got done organizing and hosting an event for over 200 people last weekend, I am BEAT and will be for a while.
+
+
+[2026-11-24 12:24 a.m.] tholin
+I will do my bring-up once I have the CoBs, though
+
+
+[2026-11-24 2:10 a.m.] namibj
+Someone over here offered a different Liberty-generating timing extractor to try. Maybe that one would work.
+
+
+[2026-11-24 2:10 a.m.] namibj
+(Also maybe someone with Cadence could extract the timing for us into a Liberty file?)
+
+
 ==============================================================
-Exported 233 message(s)
+Exported 240 message(s)
 ==============================================================

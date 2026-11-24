@@ -322,6 +322,37 @@ I suggest you investigate the guideance available at TinyTapeous for analog and 
 It's basically applicable the same way as you're going to interface with a COB pad frame. At least it's expected you would do the latter.
 
 
+[2026-11-24 4:18 a.m.] baal86
+I’ve done a TT submission. But there they had dedicated analog templates. With wafer.space I get, at a minimum,  some digital interface circuits (for analog I’d have to replace with my own ESD cells), filler cells and SRAM if I compile the basic example. In the end I’ll want to use the nix workflow and .sv top level file but for getting started it’s a steep entrance curve so I was wondering if there’s examples of a wafer.space + Magic setup. And yes, I tried AI and it did horrible things to the template (quite funny actually)
+
+
+[2026-11-24 4:44 a.m.] namibj
+No you can take the wafer.space template and just select different IO cells; there's a foundry offer of an ESD protecting analog one.
+Filler generation is automatic through iirc-KLayout script.
+
+
+[2026-11-24 4:46 a.m.] namibj
+You can piggyback on the https://github.com/AvalonSemiconductors/ws-charge-controller setup for example.
+
+{Embed}
+https://github.com/AvalonSemiconductors/ws-charge-controller
+GitHub - AvalonSemiconductors/ws-charge-controller: AIO charge cont...
+AIO charge controller and overdischarge protection IC for Li+, LiFePo, LTO and Na+ cells on wafer.space gf180mcu - AvalonSemiconductors/ws-charge-controller
+2026-11_media/ws-charge-controller-F4E2E
+
+
+[2026-11-24 4:46 a.m.] namibj
+A Run3 submission on nix flow.
+
+
+[2026-11-24 4:46 a.m.] namibj
+And done with Magic instead of KLayout (AFAIK).
+
+
+[2026-11-24 6:00 a.m.] baal86
+That’s what I was looking for! Thank you!
+
+
 ==============================================================
-Exported 60 message(s)
+Exported 66 message(s)
 ==============================================================

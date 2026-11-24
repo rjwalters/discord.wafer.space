@@ -888,6 +888,10 @@ Yes, I spent the last few months designing a BBD on the wafer.space PDK.
 Any insights? I assume you used official cells? How many buckets? 👀
 
 
+[2026-11-24 2:24 a.m.] mithro_
+Is it open source?
+
+
 ==============================================================
-Exported 179 message(s)
+Exported 180 message(s)
 ==============================================================

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T22:03:47.1939467+00:00",
+  "exportedAt": "2026-11-24T06:17:13.6049972+00:00",
   "messages": [
     {
       "id": "1566249659117211830",
@@ -8616,7 +8616,182 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574580960303775795",
+      "type": "Default",
+      "timestamp": "2026-11-24T00:22:35.236+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I am unlikely to do any more layouts",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574580992377753713",
+      "type": "Default",
+      "timestamp": "2026-11-24T00:22:42.883+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I also cannot characterize clock gates",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574581043527422154",
+      "type": "Default",
+      "timestamp": "2026-11-24T00:22:55.078+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "lctime can’t do it",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574581367537148051",
+      "type": "Default",
+      "timestamp": "2026-11-24T00:24:12.328+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I just got done organizing and hosting an event for over 200 people last weekend, I am BEAT and will be for a while.",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574581405411708959",
+      "type": "Default",
+      "timestamp": "2026-11-24T00:24:21.358+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I will do my bring-up once I have the CoBs, though",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574608074075934752",
+      "type": "Default",
+      "timestamp": "2026-11-24T02:10:19.663+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Someone over here offered a different Liberty-generating timing extractor to try. Maybe that one would work.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574608165373349991",
+      "type": "Default",
+      "timestamp": "2026-11-24T02:10:41.43+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(Also maybe someone with Cadence could extract the timing for us into a Liberty file?)",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 233
+  "messageCount": 240
 }

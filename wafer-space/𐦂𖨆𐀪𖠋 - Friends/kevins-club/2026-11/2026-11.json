@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-23T23:35:48.832829+00:00",
+  "exportedAt": "2026-11-24T07:48:01.8231015+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -5776,7 +5776,50 @@
         }
       ],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDD25",
+            "code": "fire",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f525-8FE4F.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "656862288099409940",
+              "name": "baragonaru",
+              "discriminator": "0000",
+              "nickname": "baragonaru",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1146677029178179584",
+              "name": "myyerrol",
+              "discriminator": "0000",
+              "nickname": "Yuyang Miao",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/bfe14e3e1a32aef00b7c4eadb60c7ead-53D81.png"
+            }
+          ]
+        }
+      ],
       "mentions": [],
       "inlineEmojis": []
     },
@@ -5993,7 +6036,164 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1574602456220958812",
+      "type": "Reply",
+      "timestamp": "2026-11-24T01:48:00.262+00:00",
+      "timestampEdited": "2026-11-24T01:48:03.618+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If I'd cook up a photodiode w/ demodulator to try and receive signal from an aligned fiber optic pointing straight in at the right spot, would that be ok? I guess it should?\nI know there's no analog pins left.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "220639106915368960",
+          "name": "tholin",
+          "discriminator": "0000",
+          "nickname": "Tholin",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574551920524267581",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574603202534576149",
+      "type": "Default",
+      "timestamp": "2026-11-24T01:50:58.197+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Would probably work",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574624474035257498",
+      "type": "Default",
+      "timestamp": "2026-11-24T03:15:29.718+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "has anyone tried to make a flash memory cell yet?",
+      "author": {
+        "id": "656862288099409940",
+        "name": "baragonaru",
+        "discriminator": "0000",
+        "nickname": "baragonaru",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574646011358609550",
+      "type": "Reply",
+      "timestamp": "2026-11-24T04:41:04.616+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Not really on gf180mcuD AFAIK. Well, none that are open.\nThere's certainly possibility though, see the https://gf180mcu-pdk.readthedocs.io/en/latest/physical_verification/design_manual/drm_10_15.html DRCs for https://www.ememory.com.tw/en-US/Products/MTP/NeoEE .",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "656862288099409940",
+          "name": "baragonaru",
+          "discriminator": "0000",
+          "nickname": "baragonaru",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/c6bdd965ea6645bd4df4c6a309f3d843-C2042.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574624474035257498",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574646579191750818",
+      "type": "Default",
+      "timestamp": "2026-11-24T04:43:19.998+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think there was some work on sky130A which should be sufficiently similar to this process for the design methodology they employed to make it work on there to also work for gf180mcuD.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 156
+  "messageCount": 161
 }

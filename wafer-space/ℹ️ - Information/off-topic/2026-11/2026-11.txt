@@ -173,6 +173,44 @@ Carsten is principal radio architect at Nordic Semiconductor and teaches advance
 {Reactions}
 👍 (2)
 
+[2026-11-24 12:01 a.m.] polyfractal
+I have to say, modern agent AIs are pretty awesome at smoke testing chips. My breakout board has a small MCU on it (acts as bootloader for my chip lol) and USB connection. So the test cycle is: write test for X functionality, transfer program to MCU, it flashes my chip then waits for response over serial, forwards back to PC for evaluation. The agent is slowly working through all the instructions and constructing tests for expected behavior and edge-cases. It also executes the tests against the RTL as a comparison.
+
+Already found a few very silly bugs in the hardware (and confirmed a few I already knew about). I was going to do some of this testing for my self, but being able to automate testing of all major functionality is pretty rad
+
+
+[2026-11-24 2:08 a.m.] namibj
+I wish I could do that risk-free with some HW I got where the PDF docs for the SPI interface's registers are wrong and I want it to run in Rust not C; sadly there's OTP on it and the host MCU on the boards can be bricked through fuses as well 🙁
+
+
+[2026-11-24 2:22 a.m.] polyfractal
+oh boo, yeah that wouldn't be fun
+
+
+[2026-11-24 2:23 a.m.] polyfractal
+luckily this thing is idiot proof and transient. if it gets wedged a power cycle forgives all sins 🙂
+
+
+[2026-11-24 2:23 a.m.] polyfractal
+(otoh, it requires an MCU to be usable at all which was hilariously short sighted but oh well 😂 )
+
+
+[2026-11-24 2:31 a.m.] namibj
+Yeah, I should still set it up get at least RADAR recording levels of capability implemented by christmas.
+
+
+[2026-11-24 2:37 a.m.] namibj
+@BreakingTaps any hope of your works towards photodiodes becoming something we could put an experimental receiver on Run3? Like, some easy to demodulate scheme aimed at just pointing a multimode fiber at the die? I'm thinking like maybe Manchester or such.
+
+
+[2026-11-24 4:51 a.m.] polyfractal
+i'm afraid I dont really have much done on that end 🙁 just a few quick "sketches" but never really got far enough to have anything approaching usable
+
+
+[2026-11-24 4:52 a.m.] polyfractal
+i got distracted by other stuff and never got back to working on the photodiodes
+
+
 ==============================================================
-Exported 21 message(s)
+Exported 30 message(s)
 ==============================================================
