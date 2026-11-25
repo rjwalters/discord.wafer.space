@@ -1,0 +1,114 @@
+{
+  "guild": {
+    "id": "1361349522684510449",
+    "name": "wafer.space Community",
+    "iconUrl": "2026-11_media/fb143eaa45770cbb40493d09b625e98b-09FD1.png"
+  },
+  "channel": {
+    "id": "1574967055785001070",
+    "type": "GuildPublicThread",
+    "categoryId": "1409660288822673408",
+    "category": "⁉️-questions",
+    "name": "Do we have known carrier board parasitics for the default COB option?",
+    "topic": null
+  },
+  "dateRange": {
+    "after": "2026-10-31T23:59:59.999+00:00",
+    "before": "2026-12-01T00:00:00+00:00"
+  },
+  "exportedAt": "2026-11-25T02:16:18.9898451+00:00",
+  "messages": [
+    {
+      "id": "1574967055785001070",
+      "type": "Default",
+      "timestamp": "2026-11-25T01:56:47.572+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I need them to simulate daisy chained analog chiplets. Even an estimate is better than nothing.",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574969360517169364",
+      "type": "Reply",
+      "timestamp": "2026-11-25T02:05:57.063+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Nothing better than you taking one of the 3D models we AFAIK have and handing it to OpenEMS or AWS Palace.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574967055785001070",
+        "channelId": "1574967055785001070",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574970379867525182",
+      "type": "Default",
+      "timestamp": "2026-11-25T02:10:00.095+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmmm. But previous runs have arrived and been measured presumably?",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 3
+}

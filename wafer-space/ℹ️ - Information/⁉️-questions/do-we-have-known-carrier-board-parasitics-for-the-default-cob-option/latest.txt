@@ -1,0 +1,22 @@
+==============================================================
+Guild: wafer.space Community
+Channel: ℹ️ - Information / ⁉️-questions / Do we have known carrier board parasitics for the default COB option?
+After: 2026-10-31 11:59 p.m.
+Before: 2026-12-01 12:00 a.m.
+==============================================================
+
+[2026-11-25 1:56 a.m.] archit3ch
+I need them to simulate daisy chained analog chiplets. Even an estimate is better than nothing.
+
+
+[2026-11-25 2:05 a.m.] namibj
+Nothing better than you taking one of the 3D models we AFAIK have and handing it to OpenEMS or AWS Palace.
+
+
+[2026-11-25 2:10 a.m.] archit3ch
+Hmmm. But previous runs have arrived and been measured presumably?
+
+
+==============================================================
+Exported 3 message(s)
+==============================================================

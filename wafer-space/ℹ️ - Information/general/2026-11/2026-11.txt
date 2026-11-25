@@ -1264,6 +1264,30 @@ ferrisballSweat
 There is apparently another characterization program in the works, but I’m still waiting on that one
 
 
+[2026-11-24 8:51 p.m.] rebelmike
+Is there an SVG of the wafer space logo about?
+
+
+[2026-11-25 2:11 a.m.] bailey8889
+There's this https://github.com/snishizawa/libretto
+
+{Embed}
+https://github.com/snishizawa/libretto
+GitHub - snishizawa/libretto: Characterizer
+Characterizer. Contribute to snishizawa/libretto development by creating an account on GitHub.
+2026-11_media/libretto-143CF
+
+
+[2026-11-25 2:21 a.m.] namibj
+https://github.com/snishizawa/libretto/issues/3
+
+{Embed}
+https://github.com/snishizawa/libretto/issues/3
+CharLib and Libretto: Clarifying the relationship · Issue #3 · sn...
+Hi there! I'm one of the primary developers behind CharLib, another open-source cell library characterizer that you mention in your README. Since you mention the similarities between CharLib (a...
+2026-11_media/3-0B6B2
+
+
 ==============================================================
-Exported 244 message(s)
+Exported 247 message(s)
 ==============================================================

@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-24T19:50:41.1633145+00:00",
+  "exportedAt": "2026-11-25T04:38:45.1252102+00:00",
   "messages": [
     {
       "id": "1572529340833603674",
@@ -1370,7 +1370,7 @@
             "isAnimated": false,
             "imageUrl": "2026-11_media/1f389-5C738.svg"
           },
-          "count": 4,
+          "count": 5,
           "users": [
             {
               "id": "323371864074485771",
@@ -1407,6 +1407,15 @@
               "color": null,
               "isBot": false,
               "avatarUrl": "2026-11_media/2b6c3aac0ae09fc8a72a4b2e17d7f9c9-39032.png"
+            },
+            {
+              "id": "1146677029178179584",
+              "name": "myyerrol",
+              "discriminator": "0000",
+              "nickname": "Yuyang Miao",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/bfe14e3e1a32aef00b7c4eadb60c7ead-53D81.png"
             }
           ]
         }

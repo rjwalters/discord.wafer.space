@@ -266,6 +266,30 @@ And to be clear: I'm more interested in attaching a multimode 850nm fiber to a d
 Transmit doesn't seem like it'd work but 1000BASE-SX isn't unthinkable (that'd probably need a fairly nice equalizer though, I'm reaching more for Manchester at a (couple) hundred Mbit/s.
 
 
+[2026-11-24 6:25 p.m.] vpro
+it's always a bit finicky, but in my experience with llm use, hooks are the best way to _enforce_ a rule that absolutely must not be broken. That being said, it does unfortunately cause some token churn in triggering them.
+
+
+[2026-11-24 6:26 p.m.] vpro
+https://antigravity.google/docs/hooks/
+
+{Embed}
+https://antigravity.google/docs/hooks/
+Hooks | Google Antigravity Docs
+Hooks allow you to run custom scripts or shell commands at specific points during Antigravity's execution loop to enforce rules, execute linters, or capture…
+2026-11_media/hooks-1199F.png
+
+
+[2026-11-24 6:26 p.m.] vpro
+looks like antigravity has support for it
+
+
+[2026-11-25 1:41 a.m.] namibj
+So far I've not gotten around to setting the programmer (back) up, but Neon's been quite vigilant to check for potential accidental contamination of the code base/"driver"/firmware with `OTP_WDATA`/`OTP_WRITE`/`OTP_PROG` mentions, as well as logging/flagging in case it somehow manages to weasel one into where it'd show up in an SPI transaction (between μC and radio transceiver) log.
+
+So, yeah, that hook check doesn't really seem too well suited to the task other than maybe being a way to trigger a guardian agent to sniff the code for suspicious/dangerous practices and escalate to me (the human) to prevent the eager code writing agent from interactively learning from the guardian.
+
+
 ==============================================================
-Exported 41 message(s)
+Exported 45 message(s)
 ==============================================================

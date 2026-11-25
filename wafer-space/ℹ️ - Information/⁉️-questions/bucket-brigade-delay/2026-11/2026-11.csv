@@ -285,3 +285,6 @@ I guess (floating)poly could shield it unless you're possibly getting something 
 "356185479911047169",".dmv","2026-11-23T15:36:20.6070000+00:00","Yes, I spent the last few months designing a BBD on the wafer.space PDK.","",""
 "211112896833257472","archit3ch","2026-11-23T15:49:49.9000000+00:00","Any insights? I assume you used official cells? How many buckets? 👀","",""
 "169786952432746498","mithro_","2026-11-24T02:24:55.4060000+00:00","Is it open source?","",""
+"211112896833257472","archit3ch","2026-11-24T20:40:53.7620000+00:00","https://youtu.be/Nat7S3OKDV0","",""
+"211112896833257472","archit3ch","2026-11-24T20:41:16.3780000+00:00","Implementable on my FPAA 🧙","",""
+"356185479911047169",".dmv","2026-11-24T21:39:34.8370000+00:00","Not yet. Probably will? There's a lot of interconnected magic, because as I have noted privately to @Archit3ch (George) -- noisy audio techniques like BBD are particularly hard to outrun in a 5V process. I had set a goal for ""not much worse than Reticon"", which was a notoriously noisy and glitchy process. Barely achieved in simulation (who knows in practice)... but then, Reticon chips now go for hundreds of dollars each.","",""

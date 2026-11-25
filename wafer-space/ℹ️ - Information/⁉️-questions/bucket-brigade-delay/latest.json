@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-24T17:20:29.6755344+00:00",
+  "exportedAt": "2026-11-25T02:09:43.4915176+00:00",
   "messages": [
     {
       "id": "1570885229223215147",
@@ -6492,7 +6492,141 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574887557743775876",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:40:53.762+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://youtu.be/Nat7S3OKDV0",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "This analog circuit can sound like any room",
+          "url": "https://www.youtube.com/watch?v=Nat7S3OKDV0",
+          "timestamp": null,
+          "description": "Can a handful of analog chips sound like a real room? In this video, I build a reverb from two bucket brigade delay chips.\n\nBuild your own as a DIY Eurorack kit: https://www.ericasynths.lv/edu-diy-reverb-3946/\nFull build guide: https://www.ericasynths.lv/service/file/download/product_id/1650/file_id/673/\nGet LABOR here: https://www.ericasynths.l...",
+          "color": "#FF0000",
+          "author": {
+            "name": "Moritz Klein",
+            "url": "https://www.youtube.com/channel/UCzfW6SlNEyxmAPtdr3n-_Og"
+          },
+          "thumbnail": {
+            "url": "2026-11_media/maxresdefault-2EA40.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "video": {
+            "url": "2026-11_media/Nat7S3OKDV0-7E2F8",
+            "width": 1280,
+            "height": 720
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574887652602290247",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:41:16.378+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Implementable on my FPAA \uD83E\uDDD9",
+      "author": {
+        "id": "211112896833257472",
+        "name": "archit3ch",
+        "discriminator": "0000",
+        "nickname": "Archit3ch (George)",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83E\uDDD9",
+          "code": "mage",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f9d9-72E2E.svg"
+        }
+      ]
+    },
+    {
+      "id": "1574902326202867763",
+      "type": "Reply",
+      "timestamp": "2026-11-24T21:39:34.837+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Not yet. Probably will? There's a lot of interconnected magic, because as I have noted privately to @Archit3ch (George) -- noisy audio techniques like BBD are particularly hard to outrun in a 5V process. I had set a goal for \"not much worse than Reticon\", which was a notoriously noisy and glitchy process. Barely achieved in simulation (who knows in practice)... but then, Reticon chips now go for hundreds of dollars each.",
+      "author": {
+        "id": "356185479911047169",
+        "name": ".dmv",
+        "discriminator": "0000",
+        "nickname": "dmv",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/cf91f9947bc37b8a1071311863f9c4b7-14667.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "211112896833257472",
+          "name": "archit3ch",
+          "discriminator": "0000",
+          "nickname": "Archit3ch (George)",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        },
+        {
+          "id": "169786952432746498",
+          "name": "mithro_",
+          "discriminator": "0000",
+          "nickname": "Tim 'mithro' Ansell",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/9679bb77da48d47c905b398d98a83780-75B68.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574611747208433676",
+        "channelId": "1558150228555595997",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 180
+  "messageCount": 183
 }

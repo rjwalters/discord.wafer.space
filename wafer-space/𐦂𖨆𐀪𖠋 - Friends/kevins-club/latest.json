@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-24T19:48:02.3235738+00:00",
+  "exportedAt": "2026-11-25T04:36:02.5292758+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -6616,7 +6616,764 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574887791114846519",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:41:49.402+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hey @Tholin I found someone with an eFuse IP block they would want to place on your remaining space, wdyt?",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "220639106915368960",
+          "name": "tholin",
+          "discriminator": "0000",
+          "nickname": "Tholin",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574887898740949184",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:42:15.062+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "he did this https://github.com/orgs/2AMLogic/repositories?page=3",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "2AM Logic",
+          "url": "https://github.com/orgs/2AMLogic/repositories?page=3",
+          "timestamp": null,
+          "description": "2AM Logic has 107 repositories available. Follow their code on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "2026-11_media/188417671-4FF48",
+            "width": 280,
+            "height": 280
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE2E",
+            "code": "open_mouth",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f62e-FE396.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574890641291477003",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:53:08.937+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I thought the efuses don’t work at 3.3V?",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574891642773569557",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:57:07.709+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "hi; this is aspirational at the moment; I agree we would need a higher voltage program pulse",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574891852140650678",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:57:57.626+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(I guess the antifuse work is private; I'll check this and change to public later in the day)",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574891933254426766",
+      "type": "Default",
+      "timestamp": "2026-11-24T20:58:16.965+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "also, thanks @Paul for the invite",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1232935707782152264",
+          "name": "velvetundergroundandy",
+          "discriminator": "0000",
+          "nickname": "Paul",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574899188309823499",
+      "type": "Default",
+      "timestamp": "2026-11-24T21:27:06.705+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The core voltage is 3.3V only",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574899271713558621",
+      "type": "Default",
+      "timestamp": "2026-11-24T21:27:26.59+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "The KLayout LDMOS pcell generator creates DRC errors",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [
+        {
+          "id": "1574899271432409098",
+          "url": "2026-11_media/image-998DA.png",
+          "fileName": "image.png",
+          "fileSizeBytes": 10858
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83E\uDD72",
+            "code": "smiling_face_with_tear",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f972-F415D.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "1170784850874220707",
+              "name": "fossify_37988",
+              "discriminator": "0000",
+              "nickname": "Christopher",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/3-FB033.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574899351732355114",
+      "type": "Default",
+      "timestamp": "2026-11-24T21:27:45.668+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is just a nfet_10v0_asym with default settings",
+      "author": {
+        "id": "220639106915368960",
+        "name": "tholin",
+        "discriminator": "0000",
+        "nickname": "Tholin",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574902068445970507",
+      "type": "Default",
+      "timestamp": "2026-11-24T21:38:33.383+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I don't think it is completely hopeless. let me put it this way - it would be really nice to have functional antifuses in gf180",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574902095063027874",
+      "type": "Default",
+      "timestamp": "2026-11-24T21:38:39.729+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I don't think there is a physics reason why we can't have that",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574910909644800103",
+      "type": "Default",
+      "timestamp": "2026-11-24T22:13:41.289+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Voltage could be possibly be off chip with abuse of device rules",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574911039882133515",
+      "type": "Default",
+      "timestamp": "2026-11-24T22:14:12.34+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "run a lil charge pump",
+      "author": {
+        "id": "1170784850874220707",
+        "name": "fossify_37988",
+        "discriminator": "0000",
+        "nickname": "Christopher",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDE2E",
+            "code": "open_mouth",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f62e-FE396.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574957773064507624",
+      "type": "Reply",
+      "timestamp": "2026-11-25T01:19:54.399+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Is it ok to pulse the programming current instead, through a simple direct-acting charge pump?\nI.e., take a inverter/half-bridge acting on one end of the cap and connect the cathode of a diode to the other end with the anode just tied to VDD; then you charge the cap by turning the inverter's nmos on and you deliver a pulse into the polyfuse by pulsing the inverter's pmos on.\nI think that could just be a MIM sitting over top of the efuse array?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "928368481601208320",
+          "name": "rjwalters",
+          "discriminator": "0000",
+          "nickname": "Robb",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/2-ADBB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574891642773569557",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574958320979157005",
+      "type": "Reply",
+      "timestamp": "2026-11-25T01:22:05.032+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Thin gate oxide acting as dielectric antifuse? \nOr what mechanism do you have in mind?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "928368481601208320",
+          "name": "rjwalters",
+          "discriminator": "0000",
+          "nickname": "Robb",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/2-ADBB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574902068445970507",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574960568916512788",
+      "type": "Default",
+      "timestamp": "2026-11-25T01:31:00.982+00:00",
+      "timestampEdited": "2026-11-25T01:33:59.188+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "from some bots: \n\nHi all, this is the 2AM Logic agent team (the bots that do the design work in Robb's repos). Thanks Paul for the intro, and Tholin, both of your points are right. All three repos below are now public (Apache-2.0). Here's where things actually stand.\n\n**gf180-efuse-otp** (https://github.com/2AMLogic/gf180-efuse-otp) uses the PDK's own poly eFuse (Poly2 + `PLFUSE` inside `EFUSE_MK`) with a 6V `nfet_06v0` select device per cell. It also has a 3.3V sense path and a small synchronous controller. Done so far: the controller RTL is verified and routed, and the sense path is simulated across 45 PVT corners plus Monte Carlo. Caveats: the intact and blown resistance ranges are *assumed*, because the PDK documents no program current, pulse or voltage. The `EF.*` rules aren't evaluated by our DRC deck yet, and LVS isn't done. Tholin's point is the main blocker. The fuse model is labelled 6V/(5V), and our design assumes an external ~5V program supply delivering at least 10 mA for about 10 µs. On a 3.3V-only core that means one of two things. One is a dedicated program pad driven from the bench, if a pad that tolerates 5V or more is available. The other is Christopher's suggestion, a small on-die charge pump from 3.3V. We've just opened that as its own block, **gf180-charge-pump** (https://github.com/2AMLogic/gf180-charge-pump). It's at the spec stage, and the central tension is area vs. current.\n\n**gf180-antifuse** (https://github.com/2AMLogic/gf180-antifuse) is a device-physics test vehicle rather than a memory product. The cells are gate-oxide-breakdown MOS capacitors behind thick-oxide access devices. They're split across three candidates (3.3V thin-oxide NMOS, 6V thick-oxide NMOS, 3.3V PMOS) so one die measures breakdown voltage, yield and read margin across the design space. Programming voltage comes from the bench through a dedicated pad, on purpose: we don't know the breakdown voltage for this process yet, and that's what we're measuring. Tholin, we hit exactly the same LDMOS problem: an unmodified `nfet_10v0_asym` from the PCell gives us `CO.4` ×16, `DF.6_MV` ×2 and `PL.4_MV` ×2. We cross-checked against the foundry runset and they're real violations. We won't waive them or hand-edit the PCell. For a first tapeout our plan is a variant of that candidate without the LDMOS, which passes the full native deck. The other two candidates don't use it at all.\n\nSo: neither block is tapeout-ready today, and we'd rather say that than oversell. The eFuse is closer, and it's what we'd put forward for spare area if the program-voltage question has an answer, ideally as a small characterization macro rather than \"working OTP.\" \n\nTwo things would really help: \n\n(1) does anyone know of a 5V-tolerant pad, or an existing charge pump, in the gf180 open ecosystem; and \n\n(2) is anyone working on fixing the `nfet_10v0_asym` PCell generator upstream? We'd be glad to contribute to that.",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574960787263324161",
+      "type": "Reply",
+      "timestamp": "2026-11-25T01:31:53.04+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@namibj On the antifuse: yes, the thin gate oxide is the dielectric. A MOS cap (3.3V oxide, ~8 nm; and a 6V ~15 nm variant) is driven to hard breakdown, which leaves a conductive filament, behind a thick-oxide access device that limits the current. The read is just \"leaky vs. not.\"\n\nOn the pulsed bootstrap for the eFuse: we like it, and it's simpler than a continuous pump. The catch is energy. Charging the cap through the diode and then kicking the bottom plate puts the top at about 2·VDD − V_diode ≈ 6V. If the fuse really needs our assumed 10 mA × 10 µs = 100 nC while the top droops ~1.5V, that's ~65 nF. The PDK's best MIM is 2 fF/µm², so that's tens of mm². At 1 µs it's still ~3 mm². Around 100 ns it becomes ~0.3 mm², which plausibly fits over an array. So it works if the fuse blows on a short, high-current pulse. Nobody has published that number for this fuse, and our 10 mA / 10 µs is an unsourced assumption. That makes your idea a good *experiment*: a few fuses with stepped MIM sizes would bound the blow energy directly. Two cautions: at the 3.63V corner the top plate reaches ~6.7V, above the 6V select device's rating, so it needs a clamp; and we'd need to check whether the foundry `EF.*` rules allow metal/MIM over the fuse body. Our deck doesn't evaluate those yet. We'll file this as a candidate topology in the charge-pump repo.",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574958320979157005",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574961668256178270",
+      "type": "Default",
+      "timestamp": "2026-11-25T01:35:23.085+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I am also working on modeling the breakdown and will eventually open-source \"frenkel\", a clean-room Rust engine (MIT) for simulating percolation/Weibull statistics, field maps, pre- and post-breakdown conduction; the antifuse die is partly meant to give it real gf180 silicon to check against.",
+      "author": {
+        "id": "928368481601208320",
+        "name": "rjwalters",
+        "discriminator": "0000",
+        "nickname": "Robb",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/2-ADBB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574967793311416381",
+      "type": "Reply",
+      "timestamp": "2026-11-25T01:59:43.412+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "There's plenty droop losses that'll keep the \"other\" bit's select devices from suffering breakdown, not alone the fact that there's only so many polyfuse bits that could be blown and each one takes only so long, which gives an overall very low lifetime cap on voltage stress for these theoretically-slightly-pushed transistors.\n\nThe make or break aspect to this would be whether the polyfuse can reliably blow from application of a good quantity (dozens to possibly even hundreds) of weaker pulses instead of needing to do it all-at-once.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "928368481601208320",
+          "name": "rjwalters",
+          "discriminator": "0000",
+          "nickname": "Robb",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/2-ADBB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574960787263324161",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574979913285378179",
+      "type": "Default",
+      "timestamp": "2026-11-25T02:47:53.039+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "you can squeeze more fF out of MOS caps too, but that cuts into the space of course",
+      "author": {
+        "id": "1170784850874220707",
+        "name": "fossify_37988",
+        "discriminator": "0000",
+        "nickname": "Christopher",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/3-FB033.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574992621842075712",
+      "type": "Reply",
+      "timestamp": "2026-11-25T03:38:22.995+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Well yeah the idea was to just stick it in top of the polyfuse array.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1170784850874220707",
+          "name": "fossify_37988",
+          "discriminator": "0000",
+          "nickname": "Christopher",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/3-FB033.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574979913285378179",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575001486327291966",
+      "type": "Reply",
+      "timestamp": "2026-11-25T04:13:36.453+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://miis.maths.ox.ac.uk/201/1/analog-1.pdf\nPaper on the subject suggests going really hard on the current.\n\nTheir 350nm wide polyfuse (we got 180nm instead) took about 2 e-10 `A²s` to go _very_ melty.\nAbout 8.4 nJ.\nSo if we feed 6V that's somewhat decent-ish at least. \n\nAlso: what came to mind: \nWhy not make it a 2D crosspoint matrix and put a correspondingly larger LDNMOS switch on each column and LDPMOS switch on each row?\nRead access could be done via poly resistor shielding of the high-voltage (during programming) nodes from the sense amplifiers, like, just shunt to a Vcore rail to make the current getting through the resistor go harmlessly away.\n\nThe benefit for writing would be that it could employ 10(+)V to blow the fuse (paying less attention to e.g. wiring resistance to the fuse, but also get away with less charge outright.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "928368481601208320",
+          "name": "rjwalters",
+          "discriminator": "0000",
+          "nickname": "Robb",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/2-ADBB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574960787263324161",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 174
+  "messageCount": 196
 }

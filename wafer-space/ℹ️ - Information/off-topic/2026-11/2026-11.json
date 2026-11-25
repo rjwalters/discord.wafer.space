@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-24T18:11:06.3707405+00:00",
+  "exportedAt": "2026-11-25T02:59:48.1978542+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -1861,7 +1861,159 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1574853609483407511",
+      "type": "Reply",
+      "timestamp": "2026-11-24T18:25:59.866+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "it's always a bit finicky, but in my experience with llm use, hooks are the best way to _enforce_ a rule that absolutely must not be broken. That being said, it does unfortunately cause some token churn in triggering them.",
+      "author": {
+        "id": "265875544552243200",
+        "name": "vpro",
+        "discriminator": "0000",
+        "nickname": "vpro",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7907c915e9f750831cdd05e822c1093a-BEBAC.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574701602151866379",
+        "channelId": "1361349523724570943",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574853633902772224",
+      "type": "Default",
+      "timestamp": "2026-11-24T18:26:05.688+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://antigravity.google/docs/hooks/",
+      "author": {
+        "id": "265875544552243200",
+        "name": "vpro",
+        "discriminator": "0000",
+        "nickname": "vpro",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7907c915e9f750831cdd05e822c1093a-BEBAC.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Hooks | Google Antigravity Docs",
+          "url": "https://antigravity.google/docs/hooks/",
+          "timestamp": null,
+          "description": "Hooks allow you to run custom scripts or shell commands at specific points during Antigravity's execution loop to enforce rules, execute linters, or capture\u2026",
+          "thumbnail": {
+            "url": "2026-11_media/hooks-1199F.png",
+            "width": 1200,
+            "height": 630
+          },
+          "video": {
+            "url": "2026-11_media/hooks-65290.mp4",
+            "width": 1200,
+            "height": 630
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574853667935223831",
+      "type": "Default",
+      "timestamp": "2026-11-24T18:26:13.802+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "looks like antigravity has support for it",
+      "author": {
+        "id": "265875544552243200",
+        "name": "vpro",
+        "discriminator": "0000",
+        "nickname": "vpro",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7907c915e9f750831cdd05e822c1093a-BEBAC.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1574963085490266115",
+      "type": "Reply",
+      "timestamp": "2026-11-25T01:41:00.98+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So far I've not gotten around to setting the programmer (back) up, but Neon's been quite vigilant to check for potential accidental contamination of the code base/\"driver\"/firmware with `OTP_WDATA`/`OTP_WRITE`/`OTP_PROG` mentions, as well as logging/flagging in case it somehow manages to weasel one into where it'd show up in an SPI transaction (between \u03bcC and radio transceiver) log.\n\nSo, yeah, that hook check doesn't really seem too well suited to the task other than maybe being a way to trigger a guardian agent to sniff the code for suspicious/dangerous practices and escalate to me (the human) to prevent the eager code writing agent from interactively learning from the guardian.",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "265875544552243200",
+          "name": "vpro",
+          "discriminator": "0000",
+          "nickname": "vpro",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/7907c915e9f750831cdd05e822c1093a-BEBAC.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574853609483407511",
+        "channelId": "1361349523724570943",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 41
+  "messageCount": 45
 }

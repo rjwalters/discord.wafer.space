@@ -892,6 +892,29 @@ Any insights? I assume you used official cells? How many buckets? 👀
 Is it open source?
 
 
+[2026-11-24 8:40 p.m.] archit3ch
+https://youtu.be/Nat7S3OKDV0
+
+{Embed}
+Moritz Klein
+https://www.youtube.com/watch?v=Nat7S3OKDV0
+This analog circuit can sound like any room
+Can a handful of analog chips sound like a real room? In this video, I build a reverb from two bucket brigade delay chips.
+
+Build your own as a DIY Eurorack kit: https://www.ericasynths.lv/edu-diy-reverb-3946/
+Full build guide: https://www.ericasynths.lv/service/file/download/product_id/1650/file_id/673/
+Get LABOR here: https://www.ericasynths.l...
+2026-11_media/maxresdefault-2EA40.jpg
+
+
+[2026-11-24 8:41 p.m.] archit3ch
+Implementable on my FPAA 🧙
+
+
+[2026-11-24 9:39 p.m.] .dmv
+Not yet. Probably will? There's a lot of interconnected magic, because as I have noted privately to @Archit3ch (George) -- noisy audio techniques like BBD are particularly hard to outrun in a 5V process. I had set a goal for "not much worse than Reticon", which was a notoriously noisy and glitchy process. Barely achieved in simulation (who knows in practice)... but then, Reticon chips now go for hundreds of dollars each.
+
+
 ==============================================================
-Exported 180 message(s)
+Exported 183 message(s)
 ==============================================================

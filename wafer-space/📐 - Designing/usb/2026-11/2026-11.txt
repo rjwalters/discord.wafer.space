@@ -8,6 +8,113 @@ After: 2026-10-31 11:59 p.m.
 Before: 2026-12-01 12:00 a.m.
 ==============================================================
 
+[2026-11-24 10:05 p.m.] rebelmike
+Question for people doing USB: Has anyone made a pad with a ~1.5k pull up resistor instead of the standard ~80k?  The USB peripheral on TQVE, like the original on Tiny Tapeout, uses a separate pin with an external 1.5k resistor, and I'm wondering if I can save the pin.
+
+
+[2026-11-24 10:07 p.m.] tholin
+Is the pull-up needed to achieve a particular slew rate?
+
+
+[2026-11-24 10:07 p.m.] 246tnt
+The pull-up trigger hot plug detection on the host side.
+
+
+[2026-11-24 10:07 p.m.] 246tnt
+A pull up on DP is full speed, a pull on on DM is low speed.
+
+
+[2026-11-24 10:15 p.m.] 246tnt
+@RebelMike Did you measure 80k ? It should be more like 120k 🤔
+
+
+[2026-11-24 10:15 p.m.] rebelmike
+No, that was just from memory - probably remembering the wrong thing
+
+
+[2026-11-24 10:17 p.m.] rebelmike
+Ah, the PDK says 80 - 210k, I must have been thinking of the lower bound there.
+
+
+[2026-11-24 10:26 p.m.] 246tnt
+
+
+{Attachments}
+2026-11_media/gf180mcu_ocd_io__bi_24t_5lm.gds-DB8B1.gz
+
+
+[2026-11-24 10:26 p.m.] 246tnt
+Resized the pull up poly resistor to be ~ 1.5k
+
+
+[2026-11-24 10:26 p.m.] rebelmike
+Awesome - thank you!
+
+
+[2026-11-24 10:29 p.m.] 246tnt
+I'm not sure how effective it'll be ... the trouble is that the driver might be a bit weak. Driving 120k resistor is quite different from driving a 1.5k one.
+
+
+[2026-11-24 10:29 p.m.] rebelmike
+Ah, I was wondering how close making that edit might get me 🙂
+
+
+[2026-11-24 10:30 p.m.] 246tnt
+Let me run a quick sim.
+
+
+[2026-11-24 10:30 p.m.] rebelmike
+Thanks!
+
+
+[2026-11-24 10:36 p.m.] 246tnt
+Yeah, ok never mind doesn't work so great. The driver can't do much more than 220 uA which is about 10x less than what a 1.5k should provide.
+
+
+[2026-11-24 10:37 p.m.] rebelmike
+Ah I see you did more than just connect all the ends, also shortened all the resistors (and in particular the one on the right).  Though is it shortened by enough?  Eyeballing it looks like it's about 1/3rd of the length of the original resistors and there were originally ~7 and 2/3 of them
+
+
+[2026-11-24 10:39 p.m.] 246tnt
+Yeah, I shorted the one on the end because I didn't want to change the wiring to/from the resistor. Originally there were in series. I put 7 in parallel and shortened them to 25.7u  so at ~ 330 ohm/sq  that should be (25.7 / 0.8) / 7 * 330 which is 1514 ohm nominal.
+
+
+[2026-11-24 10:41 p.m.] rebelmike
+But isn't there still the resistance of the one on the right in series with that?
+
+
+[2026-11-24 10:41 p.m.] rebelmike
+Ah no I just couldn't see the metal you added
+
+
+[2026-11-24 10:42 p.m.] rebelmike
+Sorry still somewhat novice at magic
+
+
+[2026-11-24 11:07 p.m.] 246tnt
+Gotta go now but there might be enough space to make the pmos driver larger shuffling things around a bit.
+
+
+[2026-11-24 11:10 p.m.] rebelmike
+Great - thanks for taking a look!  One obvious thing is the pull down side isn't required for this pin.
+
+
+[2026-11-25 1:48 a.m.] namibj
+Also if the 1.5kΩ have enough tolerance you could probably use a DSS pmos transistor driven into strong inversion directly as the driver+pull-up-resistor. If tolerances are borderline for process variation, perhaps a small trim-finger who's participation is gated by a trim bit.
+
+
+[2026-11-25 1:55 a.m.] tholin
+What’s special about a DSS transistor?
+
+
+[2026-11-25 2:02 a.m.] namibj
+Long term stable "threshold voltage" even after years of exposure to drain-source voltages near the rated blocking voltage _but while the gate is very strongly on, i.e., strong inversion._
+
+
+[2026-11-25 2:04 a.m.] namibj
+(the surface resistivity at the drain funnels the carriers deeper into the well, further away from the oxide, thus substantially reducing hot carrier injection effects.)
+
+
 ==============================================================
-Exported 0 message(s)
+Exported 26 message(s)
 ==============================================================
