@@ -839,6 +839,16 @@ Contribute to Tianyue-C/Tiny-tapeout development by creating an account on GitHu
 2026-11_media/Tiny-tapeout-8B6A0
 
 
+[2026-11-25 9:36 a.m.] TTBot#6027
+New tapeout: Chinmay Pendharkar submitted 1bit-match (https://github.com/notthetup/tt-notthetup-gf26d)
+
+{Embed}
+https://github.com/notthetup/tt-notthetup-gf26d
+GitHub - notthetup/tt-notthetup-gf26d: 1bit-match
+1bit-match. Contribute to notthetup/tt-notthetup-gf26d development by creating an account on GitHub.
+2026-11_media/tt-notthetup-gf26d-D8BE3
+
+
 ==============================================================
-Exported 90 message(s)
+Exported 91 message(s)
 ==============================================================

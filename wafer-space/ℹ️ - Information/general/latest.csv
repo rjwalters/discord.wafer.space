@@ -325,4 +325,5 @@ I'm just suggesting that it's likely not going to be unusable performance to do 
 "220639106915368960","tholin","2026-11-24T13:25:58.7220000+00:00","There is apparently another characterization program in the works, but I’m still waiting on that one","",""
 "691780627338625077","rebelmike","2026-11-24T20:51:52.1840000+00:00","Is there an SVG of the wafer space logo about?","",""
 "738396032295108721","bailey8889","2026-11-25T02:11:03.1080000+00:00","There's this https://github.com/snishizawa/libretto","",""
-"262706220073222144","namibj","2026-11-25T02:21:46.9750000+00:00","https://github.com/snishizawa/libretto/issues/3","",""
+"262706220073222144","namibj","2026-11-25T02:21:46.9750000+00:00","https://github.com/snishizawa/libretto/issues/3","","😁 (1)"
+"928368481601208320","rjwalters","2026-11-25T08:34:35.2250000+00:00","@Mod Would you be OK with me adding a small read-only bot with View Channels + Read Message History permisssions? It can't post, react or DM. I would use this to catch up on discussions I miss. Link (needs Manage Server): https://discord.com/oauth2/authorize?client_id=1575062929047552025&scope=bot&permissions=66560","",""

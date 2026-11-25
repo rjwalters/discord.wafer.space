@@ -290,6 +290,18 @@ So far I've not gotten around to setting the programmer (back) up, but Neon's be
 So, yeah, that hook check doesn't really seem too well suited to the task other than maybe being a way to trigger a guardian agent to sniff the code for suspicious/dangerous practices and escalate to me (the human) to prevent the eager code writing agent from interactively learning from the guardian.
 
 
+[2026-11-25 4:37 a.m.] vpro
+Glad to hear
+
+
+[2026-11-25 4:38 a.m.] vpro
+Been enjoying Neon so far, have had it churning on some work and the Swarm orchestration is quite helpful
+
+
+[2026-11-25 7:05 a.m.] namibj
+Yeah then it just hit me with filter for.... USB-DFU+USB-CDC for an nRF52833? Huh?
+
+
 ==============================================================
-Exported 45 message(s)
+Exported 48 message(s)
 ==============================================================

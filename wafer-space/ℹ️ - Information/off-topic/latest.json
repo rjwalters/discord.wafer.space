@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-25T02:59:48.1978542+00:00",
+  "exportedAt": "2026-11-25T12:10:00.6197595+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -2013,7 +2013,98 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1575007622388781109",
+      "type": "Reply",
+      "timestamp": "2026-11-25T04:37:59.404+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Glad to hear",
+      "author": {
+        "id": "265875544552243200",
+        "name": "vpro",
+        "discriminator": "0000",
+        "nickname": "vpro",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7907c915e9f750831cdd05e822c1093a-BEBAC.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574963085490266115",
+        "channelId": "1361349523724570943",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575007714516402301",
+      "type": "Default",
+      "timestamp": "2026-11-25T04:38:21.369+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Been enjoying Neon so far, have had it churning on some work and the Swarm orchestration is quite helpful",
+      "author": {
+        "id": "265875544552243200",
+        "name": "vpro",
+        "discriminator": "0000",
+        "nickname": "vpro",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/7907c915e9f750831cdd05e822c1093a-BEBAC.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575044829660971019",
+      "type": "Default",
+      "timestamp": "2026-11-25T07:05:50.309+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah then it just hit me with filter for.... USB-DFU+USB-CDC for an nRF52833? Huh?",
+      "author": {
+        "id": "262706220073222144",
+        "name": "namibj",
+        "discriminator": "0000",
+        "nickname": "namibj",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 45
+  "messageCount": 48
 }

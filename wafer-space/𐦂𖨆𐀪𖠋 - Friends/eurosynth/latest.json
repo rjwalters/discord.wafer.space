@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-25T04:37:47.5256215+00:00",
+  "exportedAt": "2026-11-25T13:48:48.6080691+00:00",
   "messages": [
     {
       "id": "1573542934761181315",
@@ -196,10 +196,10 @@
       "id": "1574584763212111914",
       "type": "Default",
       "timestamp": "2026-11-24T00:37:41.92+00:00",
-      "timestampEdited": null,
+      "timestampEdited": "2026-11-25T05:24:40.3+00:00",
       "callEndedTimestamp": null,
       "isPinned": false,
-      "content": "presented the megabytebeat TT chip at the IRCAM forum Tokyo \uD83D\uDDFC:\nhttps://bytebeat.exe.xyz/!",
+      "content": "presented the megabytebeat TT chip at the IRCAM forum Tokyo \uD83D\uDDFC:\nhttps://bytebeat.exe.xyz/ !",
       "author": {
         "id": "169368687701131266",
         "name": "proppysh",
@@ -275,7 +275,50 @@
       "attachments": [],
       "embeds": [],
       "stickers": [],
-      "reactions": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC4D",
+            "code": "thumbsup",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f44d-27259.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "169368687701131266",
+              "name": "proppysh",
+              "discriminator": "0000",
+              "nickname": "proppy",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/73958cf9317d2cd2bbee370af84aa045-67F44.png"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "✅",
+            "code": "white_check_mark",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/2705-0589F.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "169368687701131266",
+              "name": "proppysh",
+              "discriminator": "0000",
+              "nickname": "proppy",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/73958cf9317d2cd2bbee370af84aa045-67F44.png"
+            }
+          ]
+        }
+      ],
       "mentions": [
         {
           "id": "169368687701131266",

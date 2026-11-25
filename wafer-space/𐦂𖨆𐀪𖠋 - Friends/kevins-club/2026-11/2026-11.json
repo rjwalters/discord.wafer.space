@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-25T04:36:02.5292758+00:00",
+  "exportedAt": "2026-11-25T13:46:53.4694979+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -7373,7 +7373,91 @@
         "guildId": "1361349522684510449"
       },
       "inlineEmojis": []
+    },
+    {
+      "id": "1575045927163527178",
+      "type": "Reply",
+      "timestamp": "2026-11-25T07:10:11.974+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Did you try the latest PDK version? I implemented some fixes which are not yet part of the precheck. See https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50\n\nIf you still get DRC errors, please open another issue so I can take a look before the tapeout.",
+      "author": {
+        "id": "323371864074485771",
+        "name": "mole99",
+        "discriminator": "0000",
+        "nickname": "Leo Moser (mole99)",
+        "color": null,
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1423020172595298314",
+            "name": "Mod",
+            "color": null,
+            "position": 4
+          }
+        ],
+        "avatarUrl": "2026-11_media/3c7c17f3225f6e56f4dccd83f14383f2-73F83.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "gf180mcuD KLayout DRC: DF.6_MV / PL.4_MV false positives on stock n...",
+          "url": "https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50",
+          "timestamp": null,
+          "description": "Note: Attempted to file on google/globalfoundries-pdk-libs-gf180mcu_fd_pr (owns the original KLayout DRC decks) but that repository is archived / read-only. Filing here on the active fossi-foundati...",
+          "color": "#1E2327",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "220639106915368960",
+          "name": "tholin",
+          "discriminator": "0000",
+          "nickname": "Tholin",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/edae5aadf146133e0448bfb1f0fa91c4-62B19.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574899271713558621",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575116541111042120",
+      "type": "Default",
+      "timestamp": "2026-11-25T11:50:47.651+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If someone has a spare couple of pins it might be worth including this for verification: https://discord.com/channels/1361349522684510449/1508725695805919245/1575114184994324591\n\nI’ll get it in for TinyQV but there’s no guarantee there’ll be a space available for TQV on run 3.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 196
+  "messageCount": 198
 }

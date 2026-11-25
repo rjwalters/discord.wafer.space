@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-25T04:35:35.0778362+00:00",
+  "exportedAt": "2026-11-25T13:46:19.5870478+00:00",
   "messages": [
     {
       "id": "1574908771635957871",
@@ -733,7 +733,132 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1575114184994324591",
+      "type": "Default",
+      "timestamp": "2026-11-25T11:41:25.909+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@RebelMike There is one. It should be spec compliant  pull-up ( at least for `typical` corners ). It passes DRC and LVS.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [
+        {
+          "id": "1575114184201478174",
+          "url": "2026-11_media/gf180mcu_ocd_io__bi_24t_5lm.gds-07F42.gz",
+          "fileName": "gf180mcu_ocd_io__bi_24t_5lm.gds.gz",
+          "fileSizeBytes": 1565355
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575114702781026435",
+      "type": "Default",
+      "timestamp": "2026-11-25T11:43:29.359+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's the simulated resistance it presents at various voltage and when powered with worst case 3.0V and against the worst case host pull down of 14.25k, it still generates a 2.7V on the line which is in spec.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [
+        {
+          "id": "1575114702516912158",
+          "url": "2026-11_media/2026-11-25_1918x1178_scrot-296E6.png",
+          "fileName": "2026-11-25_1918x1178_scrot.png",
+          "fileSizeBytes": 33226
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575115052799893616",
+      "type": "Default",
+      "timestamp": "2026-11-25T11:44:52.81+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It probably needs to be flattened and renamed so you can just change one single IO and not all of them ...",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575115494678077441",
+      "type": "Default",
+      "timestamp": "2026-11-25T11:46:38.162+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Brilliant, thank you! I’ll try to get that integrated this evening.",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 26
+  "messageCount": 30
 }

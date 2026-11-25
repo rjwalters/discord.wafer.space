@@ -320,3 +320,9 @@ Why not make it a 2D crosspoint matrix and put a correspondingly larger LDNMOS s
 Read access could be done via poly resistor shielding of the high-voltage (during programming) nodes from the sense amplifiers, like, just shunt to a Vcore rail to make the current getting through the resistor go harmlessly away.
 
 The benefit for writing would be that it could employ 10(+)V to blow the fuse (paying less attention to e.g. wiring resistance to the fuse, but also get away with less charge outright.","",""
+"323371864074485771","mole99","2026-11-25T07:10:11.9740000+00:00","Did you try the latest PDK version? I implemented some fixes which are not yet part of the precheck. See https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50
+
+If you still get DRC errors, please open another issue so I can take a look before the tapeout.","",""
+"691780627338625077","rebelmike","2026-11-25T11:50:47.6510000+00:00","If someone has a spare couple of pins it might be worth including this for verification: https://discord.com/channels/1361349522684510449/1508725695805919245/1575114184994324591
+
+I’ll get it in for TinyQV but there’s no guarantee there’ll be a space available for TQV on run 3.","",""

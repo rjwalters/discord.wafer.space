@@ -1121,6 +1121,23 @@ Read access could be done via poly resistor shielding of the high-voltage (durin
 The benefit for writing would be that it could employ 10(+)V to blow the fuse (paying less attention to e.g. wiring resistance to the fuse, but also get away with less charge outright.
 
 
+[2026-11-25 7:10 a.m.] mole99
+Did you try the latest PDK version? I implemented some fixes which are not yet part of the precheck. See https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50
+
+If you still get DRC errors, please open another issue so I can take a look before the tapeout.
+
+{Embed}
+https://github.com/fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_pr/issues/50
+gf180mcuD KLayout DRC: DF.6_MV / PL.4_MV false positives on stock n...
+Note: Attempted to file on google/globalfoundries-pdk-libs-gf180mcu_fd_pr (owns the original KLayout DRC decks) but that repository is archived / read-only. Filing here on the active fossi-foundati...
+
+
+[2026-11-25 11:50 a.m.] rebelmike
+If someone has a spare couple of pins it might be worth including this for verification: https://discord.com/channels/1361349522684510449/1508725695805919245/1575114184994324591
+
+I’ll get it in for TinyQV but there’s no guarantee there’ll be a space available for TQV on run 3.
+
+
 ==============================================================
-Exported 196 message(s)
+Exported 198 message(s)
 ==============================================================

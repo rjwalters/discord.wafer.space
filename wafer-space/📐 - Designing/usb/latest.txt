@@ -115,6 +115,28 @@ Long term stable "threshold voltage" even after years of exposure to drain-sourc
 (the surface resistivity at the drain funnels the carriers deeper into the well, further away from the oxide, thus substantially reducing hot carrier injection effects.)
 
 
+[2026-11-25 11:41 a.m.] 246tnt
+@RebelMike There is one. It should be spec compliant  pull-up ( at least for `typical` corners ). It passes DRC and LVS.
+
+{Attachments}
+2026-11_media/gf180mcu_ocd_io__bi_24t_5lm.gds-07F42.gz
+
+
+[2026-11-25 11:43 a.m.] 246tnt
+That's the simulated resistance it presents at various voltage and when powered with worst case 3.0V and against the worst case host pull down of 14.25k, it still generates a 2.7V on the line which is in spec.
+
+{Attachments}
+2026-11_media/2026-11-25_1918x1178_scrot-296E6.png
+
+
+[2026-11-25 11:44 a.m.] 246tnt
+It probably needs to be flattened and renamed so you can just change one single IO and not all of them ...
+
+
+[2026-11-25 11:46 a.m.] rebelmike
+Brilliant, thank you! I’ll try to get that integrated this evening.
+
+
 ==============================================================
-Exported 26 message(s)
+Exported 30 message(s)
 ==============================================================

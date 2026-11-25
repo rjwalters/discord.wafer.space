@@ -44,7 +44,7 @@ Pinned a message.
 
 [2026-11-24 12:37 a.m.] proppysh
 presented the megabytebeat TT chip at the IRCAM forum Tokyo 🗼:
-https://bytebeat.exe.xyz/!
+https://bytebeat.exe.xyz/ !
 
 {Attachments}
 2026-11_media/Screenshot_20261123-194008-7B8DE.png
@@ -55,6 +55,8 @@ https://bytebeat.exe.xyz/!
 [2026-11-25 2:19 a.m.] bailey8889
 Unclickable link. Try removing the last !.
 
+{Reactions}
+👍 ✅
 
 ==============================================================
 Exported 5 message(s)

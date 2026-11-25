@@ -1287,7 +1287,13 @@ CharLib and Libretto: Clarifying the relationship · Issue #3 · sn...
 Hi there! I'm one of the primary developers behind CharLib, another open-source cell library characterizer that you mention in your README. Since you mention the similarities between CharLib (a...
 2026-11_media/3-0B6B2
 
+{Reactions}
+😁
+
+[2026-11-25 8:34 a.m.] rjwalters
+@Mod Would you be OK with me adding a small read-only bot with View Channels + Read Message History permisssions? It can't post, react or DM. I would use this to catch up on discussions I miss. Link (needs Manage Server): https://discord.com/oauth2/authorize?client_id=1575062929047552025&scope=bot&permissions=66560
+
 
 ==============================================================
-Exported 247 message(s)
+Exported 248 message(s)
 ==============================================================
