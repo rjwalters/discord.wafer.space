@@ -5,7 +5,7 @@ import json
 import shutil
 import sys
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -285,7 +285,7 @@ def generate_site_index(config: dict, servers: list[dict], output_path: Path) ->
     html = template.render(
         site=config["site"],
         servers=servers,
-        last_updated=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        last_updated=datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC"),
     )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -546,7 +546,7 @@ def organize_data(exports: list[dict], public_dir: Path) -> dict:
             "name": server,
             "display_name": server.replace("-", " ").title(),
             "channels": {},
-            "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+            "last_updated": datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC"),
         }
 
         # Top-level entries = every distinct channel/forum level. A forum has

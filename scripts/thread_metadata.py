@@ -1,7 +1,7 @@
 """Thread metadata extraction from JSON exports."""
 
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 
@@ -51,7 +51,7 @@ def extract_thread_metadata(json_path: Path) -> dict | None:
         archived = False
         if messages and last_activity:
             last_dt = datetime.fromisoformat(last_activity + "T00:00:00+00:00")
-            age = datetime.now(timezone.utc) - last_dt
+            age = datetime.now(UTC) - last_dt
             archived = age > timedelta(days=180)
 
         return {

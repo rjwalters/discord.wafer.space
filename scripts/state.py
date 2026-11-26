@@ -2,7 +2,7 @@
 
 import json
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, cast
 
@@ -111,7 +111,7 @@ class StateManager:
         self.state[server]["forums"][forum]["threads"][thread_info.thread_id] = {
             "name": thread_info.thread_name,
             "title": thread_info.thread_title,
-            "last_export": datetime.now(timezone.utc).isoformat(),
+            "last_export": datetime.now(UTC).isoformat(),
             "last_message_id": thread_info.last_message_id,
             "archived": thread_info.archived,
         }
@@ -154,8 +154,6 @@ class StateManager:
         if forum not in self.state[server]["forums"]:
             self.state[server]["forums"][forum] = {}
 
-        self.state[server]["forums"][forum]["last_index_update"] = datetime.now(
-            timezone.utc
-        ).isoformat()
+        self.state[server]["forums"][forum]["last_index_update"] = datetime.now(UTC).isoformat()
 
         self.save()

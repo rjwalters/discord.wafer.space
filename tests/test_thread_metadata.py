@@ -2,7 +2,7 @@
 
 import json
 import tempfile
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from unittest.mock import patch
 
@@ -36,7 +36,7 @@ def test_extract_thread_metadata_basic() -> None:
         # Pretend "now" is two months after the latest message — less than the
         # 180-day archived threshold, so archived must be False.
         with patch("scripts.thread_metadata.datetime") as mock_dt:
-            mock_dt.now.return_value = datetime(2026, 1, 15, tzinfo=timezone.utc)
+            mock_dt.now.return_value = datetime(2026, 1, 15, tzinfo=UTC)
             mock_dt.fromisoformat.side_effect = datetime.fromisoformat
             metadata = extract_thread_metadata(temp_path)
 

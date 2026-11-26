@@ -2,6 +2,8 @@
 # https://docs.astral.sh/ruff/
 
 line-length = 100
+# The oldest Python CI runs (see pr-quality-checks.yml).
+target-version = "py311"
 
 [lint]
 # Enable rule sets:
@@ -25,6 +27,9 @@ ignore = [
     "S607",  # Starting a process with a partial executable path (intentional)
     # Jinja2 autoescape disabled intentionally for static site generation
     "S701",  # Using jinja2 templates with autoescape=False
+    # Too many positional arguments. The functions this flags already carry a
+    # reasoned `noqa: PLR0913` (too many arguments) for the same signature.
+    "PLR0917",
 ]
 
 # Exclude generated and temporary directories
@@ -48,6 +53,10 @@ exclude = [
 convention = "google"
 
 [format]
+# Newer ruff also formats Python code blocks inside Markdown. The plan
+# documents under docs/ are a record of what was written at the time.
+exclude = ["*.md"]
+
 # Use double quotes for strings
 quote-style = "double"
 
