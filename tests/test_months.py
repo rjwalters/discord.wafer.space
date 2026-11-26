@@ -1,6 +1,6 @@
 """Tests for the months module: month range computation and snowflake conversion."""
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from unittest.mock import patch
 
@@ -126,7 +126,7 @@ def test_snowflake_to_month_returns_yyyymm() -> None:
 def test_current_month_utc_format() -> None:
     """current_month_utc returns YYYY-MM format from UTC now."""
     with patch("scripts.months.datetime") as mock_dt:
-        mock_dt.now.return_value = datetime(2026, 5, 11, 12, 0, 0, tzinfo=timezone.utc)
+        mock_dt.now.return_value = datetime(2026, 5, 11, 12, 0, 0, tzinfo=UTC)
         mock_dt.side_effect = lambda *a, **kw: datetime(*a, **kw)
         result = current_month_utc()
         assert result == "2026-05"

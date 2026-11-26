@@ -16,7 +16,7 @@ correct month-based partitioning:
 
 import re
 from collections.abc import Iterator
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 # Discord uses 2015-01-01T00:00:00.000 UTC as the epoch for its snowflake IDs.
@@ -69,10 +69,10 @@ def month_bounds(month: str) -> tuple[str, str]:
     included regardless of which side of the boundary DCE rounds to.
     """
     year, mon = _parse_month(month)
-    start = datetime(year, mon, 1, tzinfo=timezone.utc)
+    start = datetime(year, mon, 1, tzinfo=UTC)
     # First instant of the month after `month`.
     next_year, next_mon = (year + 1, 1) if mon == LAST_MONTH else (year, mon + 1)
-    end = datetime(next_year, next_mon, 1, tzinfo=timezone.utc)
+    end = datetime(next_year, next_mon, 1, tzinfo=UTC)
     # Subtract 1 microsecond so the after-bound is exclusive-just-before-start.
     after = (start - timedelta(microseconds=1)).isoformat()
     before = end.isoformat()
@@ -102,7 +102,7 @@ def snowflake_to_datetime(snowflake: str) -> datetime:
     if not snowflake.isdigit():
         raise ValueError(f"Snowflake must be numeric, got {snowflake!r}")
     timestamp_ms = (int(snowflake) >> SNOWFLAKE_TIMESTAMP_SHIFT) + DISCORD_EPOCH_MS
-    return datetime.fromtimestamp(timestamp_ms / 1000.0, tz=timezone.utc)
+    return datetime.fromtimestamp(timestamp_ms / 1000.0, tz=UTC)
 
 
 def snowflake_to_month(snowflake: str) -> str:
@@ -113,7 +113,7 @@ def snowflake_to_month(snowflake: str) -> str:
 
 def current_month_utc() -> str:
     """Return the current month in UTC as a YYYY-MM string."""
-    return datetime.now(timezone.utc).strftime("%Y-%m")
+    return datetime.now(UTC).strftime("%Y-%m")
 
 
 def is_month_dir_name(name: str) -> bool:
