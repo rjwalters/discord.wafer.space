@@ -148,6 +148,13 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          # Publish gh-pages as a single commit instead of adding one per
+          # run. The branch is only ever read at its tip (the "Fetch existing
+          # gh-pages content" step above and GitHub Pages itself), and every
+          # commit carries the media, so its history is what makes the
+          # repository several GB. It also means a file removed from the
+          # site is really gone, not kept in an older commit.
+          force_orphan: true
           user_name: 'Discord Archive Bot'
           user_email: 'actions@github.com'
           commit_message: 'chore: deploy updated logs'
