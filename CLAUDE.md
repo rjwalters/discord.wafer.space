@@ -103,6 +103,14 @@ uv run python scripts/test_bot_access.py
      cleans up the legacy mixed-month files from the pre-refactor era.
    - Refreshes `latest.*` symlinks to point at the newest month present.
 
+   After organize, `scripts/prune_stale.py` reports directories that hold a
+   channel ID also published under a newer path (a channel or category was
+   renamed). With `[export] prune_stale_paths = true` it removes their
+   exports and leaves an `index.html` that redirects to the live path. A
+   stale directory with a non-empty month that the live path lacks is never
+   removed. Thread directories beneath a pruned channel are judged on their
+   own and left in place otherwise.
+
 3. **Navigate** (`scripts/generate_navigation.py`):
    - Generates navigation index pages using Jinja2 templates.
    - Scans `public/` directory to discover all exported files.
@@ -199,6 +207,7 @@ discord-download/
 │   ├── organize_exports.py    # File organization (per-month → public)
 │   ├── generate_navigation.py # Index page generation
 │   ├── generate_feeds.py      # index.json and Atom feeds
+│   ├── prune_stale.py         # Report/remove directories left by renames
 │   ├── months.py              # Month bounds, snowflake decoding, completion scan
 │   ├── state.py               # State tracking
 │   ├── config.py              # Configuration loading

@@ -101,6 +101,16 @@ jobs:
           uv run python scripts/organize_exports.py
         id: organize
 
+      # Reports directories left behind by channel/category renames. Removes
+      # them only when [export] prune_stale_paths = true in config.toml. Runs
+      # before navigation so the index pages are built from what is left.
+      - name: Prune directories left by renames
+        env:
+          PYTHONPATH: .
+        run: |
+          uv run python scripts/prune_stale.py
+        id: prune
+
       - name: Run navigation generator
         env:
           PYTHONPATH: .
