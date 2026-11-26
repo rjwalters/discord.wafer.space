@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-25T13:46:53.4694979+00:00",
+  "exportedAt": "2026-11-25T23:55:06.5515386+00:00",
   "messages": [
     {
       "id": "1566353535753261058",
@@ -7457,7 +7457,263 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1575198632523858102",
+      "type": "Reply",
+      "timestamp": "2026-11-25T17:16:59.769+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@J-Lo you guys are working on the usb 2.0 logic + async cpu - does @RebelMike 's thing make sense in yours?",
+      "author": {
+        "id": "1232935707782152264",
+        "name": "velvetundergroundandy",
+        "discriminator": "0000",
+        "nickname": "Paul",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/af7941bca04910bc145e64e81bef0c16-B19E1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "591049455499739147",
+          "name": "crockpotveggies",
+          "discriminator": "0000",
+          "nickname": "J-Lo",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/a16190d2d5fede6615285958e112627c-CB61D.png"
+        },
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1575116541111042120",
+        "channelId": "1566353341028765736",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575199354048749752",
+      "type": "Default",
+      "timestamp": "2026-11-25T17:19:51.794+00:00",
+      "timestampEdited": "2026-11-25T17:20:30.258+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pinging @Nikola we have an implementation we are verifying now without having looked at it yet I can say so far due to the limitations of gf180 it’s looking certain that max speeds will be 1Mbps without a lot more die area",
+      "author": {
+        "id": "591049455499739147",
+        "name": "crockpotveggies",
+        "discriminator": "0000",
+        "nickname": "J-Lo",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/a16190d2d5fede6615285958e112627c-CB61D.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1460520643706486927",
+          "name": "ncucuk",
+          "discriminator": "0000",
+          "nickname": "Nikola",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/6c5996770c985bcd6e5b68131ff2ba04-CBA05.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575200939340599297",
+      "type": "Default",
+      "timestamp": "2026-11-25T17:26:09.757+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think we do have some extra pins, @RebelMike can you elaborate on this a bit, sorry i have been synthesizing for days i am not paying attention.  This is a PAD?",
+      "author": {
+        "id": "1460520643706486927",
+        "name": "ncucuk",
+        "discriminator": "0000",
+        "nickname": "Nikola",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6c5996770c985bcd6e5b68131ff2ba04-CBA05.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "691780627338625077",
+          "name": "rebelmike",
+          "discriminator": "0000",
+          "nickname": "RebelMike",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575201457769160705",
+      "type": "Default",
+      "timestamp": "2026-11-25T17:28:13.36+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yes this is a pad with a 1.5k pull up resistor for USB hot plug detect",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575201700103462964",
+      "type": "Default",
+      "timestamp": "2026-11-25T17:29:11.137+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think that is also required for USB 2 high speed before you do the chirp",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575203500646735872",
+      "type": "Default",
+      "timestamp": "2026-11-25T17:36:20.42+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yes, we will definitely use this. Its essential,  we looked into viable solutions come with some options, this is perfect",
+      "author": {
+        "id": "1460520643706486927",
+        "name": "ncucuk",
+        "discriminator": "0000",
+        "nickname": "Nikola",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/6c5996770c985bcd6e5b68131ff2ba04-CBA05.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1575203976935243910",
+      "type": "Default",
+      "timestamp": "2026-11-25T17:38:13.976+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cool!  And to be clear - credit goes to @tnt, I just asked if anyone had done this and he made it!",
+      "author": {
+        "id": "691780627338625077",
+        "name": "rebelmike",
+        "discriminator": "0000",
+        "nickname": "RebelMike",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/49aaff687e56f04e7bbdedf0077bab75-7DDB4.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDD25",
+            "code": "fire",
+            "isAnimated": false,
+            "imageUrl": "2026-11_media/1f525-8FE4F.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "840182560252624916",
+              "name": "logic_destroyer",
+              "discriminator": "0000",
+              "nickname": "asic destroyer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "2026-11_media/6f21ec45bc9221220509b769f634344b-E96BD.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "id": "596068704471482370",
+          "name": "246tnt",
+          "discriminator": "0000",
+          "nickname": "tnt",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+        }
+      ],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 198
+  "messageCount": 205
 }

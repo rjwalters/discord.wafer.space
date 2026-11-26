@@ -16,7 +16,7 @@
     "after": "2026-10-31T23:59:59.999+00:00",
     "before": "2026-12-01T00:00:00+00:00"
   },
-  "exportedAt": "2026-11-25T12:10:00.6197595+00:00",
+  "exportedAt": "2026-11-25T22:19:02.3323127+00:00",
   "messages": [
     {
       "id": "1568417999952552151",
@@ -2104,7 +2104,81 @@
       "reactions": [],
       "mentions": [],
       "inlineEmojis": []
+    },
+    {
+      "id": "1575189524265439325",
+      "type": "Reply",
+      "timestamp": "2026-11-25T16:40:48.191+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "oh? I didn't think there was an STI layer we could use?  but yeah, as you can see I didn't look into it much in general \ud83d\ude42",
+      "author": {
+        "id": "384390069412429834",
+        "name": "polyfractal",
+        "discriminator": "0000",
+        "nickname": "BreakingTaps",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/8d8c1d8b8ad51d6cdb1a47512c39b297-42908.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "262706220073222144",
+          "name": "namibj",
+          "discriminator": "0000",
+          "nickname": "namibj",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "2026-11_media/f885abc0dddd0a33e4d4991b3c99091d-7ACD2.png"
+        }
+      ],
+      "reference": {
+        "messageId": "1574836374878691432",
+        "channelId": "1361349523724570943",
+        "guildId": "1361349522684510449"
+      },
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\ud83d\ude42",
+          "code": "slight_smile",
+          "isAnimated": false,
+          "imageUrl": "2026-11_media/1f642-83E8A.svg"
+        }
+      ]
+    },
+    {
+      "id": "1575237658605523048",
+      "type": "Default",
+      "timestamp": "2026-11-25T19:52:04.312+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "It's not a layer you can use directly. It's generated from `COMP`, you don't get a choice.",
+      "author": {
+        "id": "596068704471482370",
+        "name": "246tnt",
+        "discriminator": "0000",
+        "nickname": "tnt",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "2026-11_media/88d17af9d19ab43565b0c46751ef7d12-DFEE5.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
     }
   ],
-  "messageCount": 48
+  "messageCount": 50
 }

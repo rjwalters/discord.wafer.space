@@ -302,6 +302,14 @@ Been enjoying Neon so far, have had it churning on some work and the Swarm orche
 Yeah then it just hit me with filter for.... USB-DFU+USB-CDC for an nRF52833? Huh?
 
 
+[2026-11-25 4:40 p.m.] polyfractal
+oh? I didn't think there was an STI layer we could use?  but yeah, as you can see I didn't look into it much in general 🙂
+
+
+[2026-11-25 7:52 p.m.] 246tnt
+It's not a layer you can use directly. It's generated from `COMP`, you don't get a choice.
+
+
 ==============================================================
-Exported 48 message(s)
+Exported 50 message(s)
 ==============================================================
