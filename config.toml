@@ -28,6 +28,11 @@ partition_by = "month"
 include_threads = "all"
 download_media = true  # Download Discord CDN assets (avatars, images, attachments) locally
 reuse_media = true  # Reuse previously downloaded media to avoid redundant requests
+# A channel whose newest message is already published is not re-exported.
+# Edits and deletions do not change a channel's newest message, so a channel
+# that was active this month is still re-exported once its published copy is
+# this many hours old. 0 re-exports every active channel on every run.
+refresh_unchanged_hours = 24
 # Note: Media is automatically stored per-channel in {channel_name}_media/ directories
 
 [github]
