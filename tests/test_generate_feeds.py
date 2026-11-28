@@ -43,7 +43,7 @@ def _write_month(  # noqa: PLR0913  # A fixture export has this many independent
     path: str,
     month: str,
     channel: dict[str, Any],
-    messages: list[dict[str, Any]],
+    messages: list[Any],
     *,
     exported_at: str = "2026-11-25T22:24:08.3064344+00:00",
 ) -> None:
@@ -341,6 +341,33 @@ class TestFeeds:
         assert len(entries) == CHANNEL_FEED_LIMIT
         assert _text(entries[0], "id").endswith(f"/{1000 + CHANNEL_FEED_LIMIT + 24}")
 
+    def test_directory_holding_only_threads_gets_the_parent_feed(self, server_dir: Path) -> None:
+        # The exporter publishes the channel's months under "marketing" but
+        # its threads under "📢-marketing", which has an index page and no
+        # export of its own.
+        _write_month(
+            server_dir,
+            "Info/marketing",
+            "2026-11",
+            _text_channel("5", "📢-marketing"),
+            [_message(60, "channel message")],
+        )
+        _write_month(
+            server_dir,
+            "Info/📢-marketing/launch-plan",
+            "2026-11",
+            _thread("6", "Launch plan", "5", "📢-marketing"),
+            [_message(61, "thread message")],
+        )
+        index = _generate(server_dir)
+        holder = server_dir / "Info/📢-marketing/feed.atom"
+        assert holder.is_file()
+        assert holder.read_bytes() == (server_dir / "Info/marketing/feed.atom").read_bytes()
+        texts = {_text(e, "content") for e in _entries(holder)}
+        assert texts == {"channel message", "thread message"}
+        # It is a copy, not a new channel.
+        assert "Info/📢-marketing" not in {c["path"] for c in index["channels"]}
+
     def test_empty_channel_still_gets_a_valid_feed(self, server_dir: Path) -> None:
         _write_month(server_dir, "Info/quiet", "2026-11", _text_channel("8", "quiet"), [])
         _generate(server_dir)
@@ -361,6 +388,51 @@ class TestBadInput:
         assert channel is not None
         assert channel.months == ["2026-10", "2026-11"]
         assert "skipping unreadable export" in capsys.readouterr().out
+
+    def test_odd_values_in_a_readable_export_are_skipped_not_fatal(
+        self, server_dir: Path, capsys: pytest.CaptureFixture[str]
+    ) -> None:
+        _write_month(
+            server_dir,
+            "Info/general",
+            "2026-12",
+            {**_text_channel("1", "general"), "topic": 7, "category": ["Info"]},
+            [
+                _message(50, "author is a string", author="alice"),
+                _message(51, "attachments is a dict", attachments={"url": "x.png"}),
+                _message(52, "attachment entries are odd", attachments=["x.png", {"url": 3}]),
+                {**_message(53), "content": None, "timestampEdited": 12, "timestamp": None},
+                {**_message(54), "id": None},
+                {**_message(55), "id": {"nested": True}},
+                "not a message",
+                None,
+            ],
+            exported_at="2026-12-02T00:00:00+00:00",
+        )
+        index = _generate(server_dir)
+        general = _by_id(index)["1"]
+        assert general["months"][-1] == "2026-12"
+        assert general["topic"] is None
+        feed = server_dir / "Info/general/feed.atom"
+        texts = [e.findtext("a:content", "", ATOM) for e in _entries(feed)]
+        assert "author is a string" in texts
+        assert "attachments is a dict" in texts
+        assert "attachment entries are odd" in texts
+        out = capsys.readouterr().out
+        malformed = 4  # ids None and a dict, a string, and None
+        assert out.count("skipping malformed message") == malformed
+
+    def test_messages_that_are_not_a_list_skip_the_month(
+        self, server_dir: Path, capsys: pytest.CaptureFixture[str]
+    ) -> None:
+        broken = server_dir / "Info/general/2026-12"
+        broken.mkdir()
+        export = {"channel": _text_channel("1", "general"), "messages": {"id": "9"}}
+        (broken / "2026-12.json").write_text(json.dumps(export), encoding="utf-8")
+        channel = load_channel(server_dir / "Info/general", server_dir)
+        assert channel is not None
+        assert channel.months == ["2026-10", "2026-11"]
+        assert "messages is not a list" in capsys.readouterr().out
 
     def test_media_sidecar_json_is_not_a_channel(self, server_dir: Path) -> None:
         media = server_dir / "Info/general/2026-11/2026-11_media"
@@ -390,3 +462,16 @@ class TestTemplates:
             last_updated="",
         )
         assert 'href="feed.atom"' in channel_html
+        forum_html = env.get_template("forum_index.html.j2").render(
+            site=site, server=server, forum_name="questions", threads=[], last_updated=""
+        )
+        assert 'href="feed.atom"' in forum_html
+        thread_html = env.get_template("thread_index.html.j2").render(
+            site=site,
+            server=server,
+            forum_name="questions",
+            thread_title="How do I?",
+            archives_by_year={},
+            last_updated="",
+        )
+        assert 'href="feed.atom"' in thread_html

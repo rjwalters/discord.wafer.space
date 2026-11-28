@@ -108,23 +108,41 @@ def _newer(a: str | None, b: str | None) -> bool:
     return tb is None or ta > tb
 
 
+def _str_or_none(value: Any) -> str | None:
+    """A non-empty string field, or None for anything else."""
+    return value if isinstance(value, str) and value else None
+
+
 def _slim_message(raw: dict[str, Any], month: str) -> Message | None:
-    """Reduce an exported message to a Message, or None if it has no ID."""
-    message_id = str(raw.get("id") or "")
-    if not message_id:
+    """Reduce an exported message to a Message, or None if it cannot be used.
+
+    Every field is type-checked rather than trusted: this step runs between
+    navigation and deploy, so one odd value in an otherwise readable export
+    must cost that message (or that field), never the run.
+    """
+    message_id = raw.get("id")
+    if isinstance(message_id, int) and not isinstance(message_id, bool):
+        message_id = str(message_id)
+    if not isinstance(message_id, str) or not message_id.isdigit():
         return None
-    author = raw.get("author") or {}
-    attachments = [
-        (str(a.get("fileName") or a.get("url")), str(a["url"]))
-        for a in raw.get("attachments") or []
-        if isinstance(a, dict) and a.get("url")
-    ]
+    author = raw.get("author")
+    if not isinstance(author, dict):
+        author = {}
+    raw_attachments = raw.get("attachments")
+    if not isinstance(raw_attachments, list):
+        raw_attachments = []
+    attachments = []
+    for a in raw_attachments:
+        url = _str_or_none(a.get("url")) if isinstance(a, dict) else None
+        if url is not None:
+            attachments.append((_str_or_none(a.get("fileName")) or url, url))
+    name = _str_or_none(author.get("nickname")) or _str_or_none(author.get("name"))
     return Message(
         id=message_id,
-        timestamp=str(raw.get("timestamp") or ""),
-        edited=raw.get("timestampEdited") or None,
-        author=str(author.get("nickname") or author.get("name") or "unknown"),
-        content=str(raw.get("content") or ""),
+        timestamp=_str_or_none(raw.get("timestamp")) or "",
+        edited=_str_or_none(raw.get("timestampEdited")),
+        author=name or "unknown",
+        content=_str_or_none(raw.get("content")) or "",
         attachments=attachments,
         month=month,
     )
@@ -152,8 +170,13 @@ def _read_month(json_path: Path) -> tuple[dict[str, Any], list[Any], str | None]
         info = data["channel"]
         if not isinstance(info, dict):
             raise TypeError("channel is not an object")
-        return info, list(data.get("messages") or []), data.get("exportedAt")
-    except (OSError, json.JSONDecodeError, KeyError, TypeError) as e:
+        messages = data.get("messages")
+        if messages is None:
+            messages = []
+        if not isinstance(messages, list):
+            raise TypeError("messages is not a list")
+        return info, messages, _str_or_none(data.get("exportedAt"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError, KeyError, TypeError) as e:
         print(f"  WARNING: skipping unreadable export {json_path}: {e}")
         return None
 
@@ -166,6 +189,7 @@ def _absorb_messages(channel: Channel, raw_messages: list[Any], month: str) -> N
     for raw in raw_messages:
         message = _slim_message(raw, month) if isinstance(raw, dict) else None
         if message is None:
+            print(f"  WARNING: skipping malformed message in {channel.path} {month}")
             continue
         if message.sort_key > last_key:
             last_key = message.sort_key
@@ -174,6 +198,13 @@ def _absorb_messages(channel: Channel, raw_messages: list[Any], month: str) -> N
         if raw.get("type") in FEED_MESSAGE_TYPES:
             channel.recent.append(message)
     channel.recent = sorted(channel.recent, key=lambda m: m.sort_key)[-SERVER_FEED_LIMIT:]
+
+
+def _id_or_empty(value: Any) -> str:
+    """A Discord ID as a string of digits, or "" when absent or malformed."""
+    if isinstance(value, int) and not isinstance(value, bool):
+        value = str(value)
+    return value if isinstance(value, str) and value.isdigit() else ""
 
 
 def load_channel(channel_dir: Path, server_dir: Path) -> Channel | None:
@@ -188,11 +219,11 @@ def load_channel(channel_dir: Path, server_dir: Path) -> Channel | None:
             continue
         info, raw_messages, exported_at = loaded
 
-        channel_type = str(info.get("type") or "")
+        channel_type = _str_or_none(info.get("type")) or ""
         is_thread = channel_type in THREAD_TYPES
         if channel is None:
             channel = Channel(
-                id=str(info.get("id") or ""),
+                id=_id_or_empty(info.get("id")),
                 name=channel_dir.name,
                 type=channel_type,
                 topic=None,
@@ -202,14 +233,14 @@ def load_channel(channel_dir: Path, server_dir: Path) -> Channel | None:
             )
         # The newest month wins for facts that change over time (renames,
         # moved categories). Months arrive oldest first.
-        channel.name = str(info.get("name") or channel.name)
+        channel.name = _str_or_none(info.get("name")) or channel.name
         channel.type = channel_type or channel.type
-        channel.topic = info.get("topic") or None
+        channel.topic = _str_or_none(info.get("topic"))
         # For a thread the exporter records its parent channel in the
         # "category" fields.
-        parent_id = info.get("categoryId") if is_thread else None
-        channel.parent_id = str(parent_id) if parent_id else None
-        channel.category = None if is_thread else (info.get("category") or None)
+        parent_id = _id_or_empty(info.get("categoryId")) if is_thread else ""
+        channel.parent_id = parent_id or None
+        channel.category = None if is_thread else _str_or_none(info.get("category"))
         channel.months.append(month)
         if _newer(exported_at, channel.exported_at):
             channel.exported_at = exported_at
@@ -299,6 +330,32 @@ def infer_forums(scanned: list[Channel], known_ids: set[str]) -> list[Channel]:
             )
         )
     return forums
+
+
+def thread_holder_paths(scanned: list[Channel], channels: list[Channel]) -> dict[str, set[str]]:
+    """Directories that hold a known channel's threads but are not its own.
+
+    Some channels publish their months under one directory (``marketing/``)
+    and their threads under another (``📢-marketing/<thread>/``). The second
+    directory has a channel index page that links to ``feed.atom`` but no
+    export of its own, so it gets a copy of the parent channel's feed.
+
+    Returns ``{channel id: {extra directory, ...}}``.
+    """
+    by_id = {c.id: c for c in channels}
+    exported_paths = {c.path for c in scanned}
+    extra: dict[str, set[str]] = {}
+    for thread in scanned:
+        parent = by_id.get(thread.parent_id or "")
+        if not thread.is_thread or parent is None:
+            continue
+        holder = PurePosixPath(thread.path).parent.as_posix()
+        if holder in (".", "") or holder in exported_paths:
+            continue
+        if holder == parent.path or holder in parent.stale_paths:
+            continue
+        extra.setdefault(parent.id, set()).add(holder)
+    return extra
 
 
 def url_for(base_url: str, *parts: str) -> str:
@@ -475,6 +532,8 @@ def generate_for_server(
         if channel.parent_id:
             children.setdefault(channel.parent_id, []).append(channel)
 
+    holders = thread_holder_paths(scanned, channels)
+
     feeds = 0
     for channel in channels:
         members = [channel, *children.get(channel.id, [])]
@@ -490,9 +549,10 @@ def generate_for_server(
             server=server,
             limit=CHANNEL_FEED_LIMIT,
         )
-        # A renamed channel's old directory still has an index page that
-        # links to feed.atom, so it gets the same feed as the live path.
-        for path in [channel.path, *channel.stale_paths]:
+        # A renamed channel's old directory, and a directory that holds only
+        # its threads, still have an index page that links to feed.atom, so
+        # they get the same feed as the live path.
+        for path in [channel.path, *channel.stale_paths, *sorted(holders.get(channel.id, ()))]:
             (server_dir / path / "feed.atom").write_text(feed, encoding="utf-8")
             feeds += 1
 

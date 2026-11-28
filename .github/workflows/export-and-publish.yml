@@ -109,16 +109,6 @@ jobs:
           uv run python scripts/generate_navigation.py
         id: navigation
 
-      # Reads the JSON exports already in public/ and writes index.json plus
-      # Atom feeds beside them. No Discord API calls; a few seconds.
-      - name: Generate index.json and Atom feeds
-        env:
-          PYTHONPATH: .
-        run: |
-          echo "Generating index.json and Atom feeds..."
-          uv run python scripts/generate_feeds.py
-        id: feeds
-
       # GitHub rejects any file >100MB on push and Pages can't serve files
       # that big, so a single oversized Discord attachment (e.g. a 215MB GDS
       # dump) blocks the entire gh-pages deploy. Hold such files back from
@@ -134,6 +124,18 @@ jobs:
           echo "Checking for oversized media (>50MB)..."
           uv run python scripts/large_media.py
         id: large_media
+
+      # Reads the JSON exports already in public/ and writes index.json plus
+      # Atom feeds beside them. No Discord API calls; a few seconds. Runs
+      # after the oversized-media hold-back so attachment links in the feeds
+      # point at the LFS URL, not at a file that step removes.
+      - name: Generate index.json and Atom feeds
+        env:
+          PYTHONPATH: .
+        run: |
+          echo "Generating index.json and Atom feeds..."
+          uv run python scripts/generate_feeds.py
+        id: feeds
 
       - name: Check for changes
         id: check_changes
