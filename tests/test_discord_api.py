@@ -62,9 +62,11 @@ class TestFetchGuildActivity:
         )
         activity = fetch_guild_activity("1", api)
         assert activity == {
-            "10": ChannelActivity(4, None),
+            # No last_message_id key at all: unknown, not "no messages".
+            "10": ChannelActivity(4, None, last_message_known=False),
             "11": ChannelActivity(0, "900"),
             "12": ChannelActivity(15, "950"),
+            # An explicit null: the channel has no messages.
             "13": ChannelActivity(2, None),
             "20": ChannelActivity(11, "910"),
             "21": ChannelActivity(11, "800"),

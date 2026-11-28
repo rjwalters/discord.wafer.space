@@ -60,7 +60,11 @@ class ChannelActivity:
     """What the API says about one channel or thread."""
 
     channel_type: int
+    # None means the API says the channel has no messages, but only when
+    # last_message_known is True. Discord documents the field as optional as
+    # well as nullable; an absent field says nothing about the channel.
     last_message_id: str | None
+    last_message_known: bool = True
 
     @property
     def is_container(self) -> bool:
@@ -109,6 +113,9 @@ def _record(activity: dict[str, ChannelActivity], channel: Any) -> None:
         return
     channel_type = channel.get("type")
     if not isinstance(channel_type, int):
+        return
+    if "last_message_id" not in channel:
+        activity[str(channel["id"])] = ChannelActivity(channel_type, None, last_message_known=False)
         return
     last = channel.get("last_message_id")
     activity[str(channel["id"])] = ChannelActivity(channel_type, str(last) if last else None)

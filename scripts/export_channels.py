@@ -21,11 +21,13 @@ from scripts.discord_api import (
 )
 from scripts.export_plan import (
     CACHE_FILE,
+    DEFAULT_EMPTY_RECHECK_DAYS,
     DEFAULT_REFRESH_HOURS,
     PHASE_BACKFILL,
     PHASE_CURRENT,
     ExportCache,
     plan_months,
+    published_month_holds_messages,
 )
 from scripts.months import (
     count_divergent_months,
@@ -59,6 +61,7 @@ class ChannelExportContext:
     activity: dict[str, ChannelActivity] = field(default_factory=dict)
     cache: ExportCache | None = None
     refresh_hours: float = DEFAULT_REFRESH_HOURS
+    empty_recheck_days: float = DEFAULT_EMPTY_RECHECK_DAYS
 
 
 @dataclass
@@ -69,6 +72,8 @@ class ChannelInfo:
     channel_name: str
     safe_name: str
     forum_name: str
+    # Where this channel's months are published, when known.
+    public_channel_dir: Path | None = None
 
 
 @dataclass
@@ -286,11 +291,36 @@ def _export_one_month(
     # detect this via the JSON's messageCount and clean up the month.
     if exports_completed > 0 and not is_current_month:
         discarded = _discard_if_empty_month(channel_export_dir, month)
-        if discarded and failures == 0 and context.cache is not None:
-            # A past month cannot gain messages, so never ask for it again.
-            context.cache.record_empty(channel_info.channel_id, month)
+        if discarded and failures == 0:
+            _maybe_record_empty(context, channel_info, month)
 
     return exports_completed, failures, errors
+
+
+def _maybe_record_empty(
+    context: ChannelExportContext,
+    channel_info: ChannelInfo,
+    month: str,
+) -> None:
+    """Record a past month that exported empty, unless it should have content.
+
+    "Zero messages, exit 0" is also what a bot without Read Message History
+    gets, so a month that is known to hold messages is not recorded: the
+    month of the channel's newest message, or one whose published copy has
+    messages. The record itself expires (see ``CacheEntry.known_empty``).
+    """
+    if context.cache is None:
+        return
+    activity = context.activity.get(channel_info.channel_id)
+    newest = activity.last_message_id if activity is not None else None
+    if newest and newest.isdigit() and snowflake_to_month(newest) == month:
+        print(f"      ⚠ {month} exported empty but holds the newest message; not recorded")
+        return
+    public_channel_dir = channel_info.public_channel_dir
+    if public_channel_dir is not None and published_month_holds_messages(public_channel_dir, month):
+        print(f"      ⚠ {month} exported empty but its published copy has messages; not recorded")
+        return
+    context.cache.record_empty(channel_info.channel_id, month, datetime.now(UTC))
 
 
 def _discard_if_empty_month(channel_export_dir: Path, month: str) -> bool:
@@ -521,7 +551,7 @@ def _months_for_phase(  # noqa: PLR0913  # needs the channel's full planning con
     original one (current month always, every incomplete past month), minus
     past months already known to be empty.
     """
-    activity = context.activity.get(channel_id)
+    activity = _trusted_activity(context, phase, channel_id, public_channel_dir)
     entry = context.cache.get(channel_id) if context.cache is not None else None
     if activity is not None:
         return plan_months(
@@ -534,13 +564,39 @@ def _months_for_phase(  # noqa: PLR0913  # needs the channel's full planning con
             current_month=current_month,
             now=now,
             refresh_hours=context.refresh_hours,
+            empty_recheck_days=context.empty_recheck_days,
         )
     # planned == [current_month, *missing_past_months]
     planned = _determine_months_to_export(channel_id, public_channel_dir, current_month)
     if phase == PHASE_CURRENT:
         return [current_month]
-    known_empty = set(entry.empty_months) if entry else set()
+    known_empty = entry.known_empty(now, context.empty_recheck_days) if entry else set()
     return [m for m in planned if m != current_month and m not in known_empty]
+
+
+def _trusted_activity(
+    context: ChannelExportContext,
+    phase: str,
+    channel_id: str,
+    public_channel_dir: Path,
+) -> ChannelActivity | None:
+    """Return the API's activity facts for a channel if they can drive a plan.
+
+    None (plan as if the lookup had failed) when the API did not say what
+    the channel's newest message is, or said it has none although messages
+    from it are already published.
+    """
+    activity = context.activity.get(channel_id)
+    if activity is None or not activity.last_message_known:
+        return None
+    if activity.last_message_id is None and count_nonempty_months(public_channel_dir) > 0:
+        if phase == PHASE_CURRENT:
+            print(
+                f"    ⚠ API reports no messages for {channel_id} but {public_channel_dir} "
+                "has published messages; exporting as if activity were unknown"
+            )
+        return None
+    return activity
 
 
 def _record_exported(
@@ -636,16 +692,16 @@ def _process_single_channel(  # noqa: PLR0913,PLR0911,PLR0912,PLR0915,C901  # Or
             print(f"  Skipping {channel_name} (excluded by pattern)")
         return 0, 0, 0, 0, []
 
+    # Determine which months this phase is responsible for.
+    public_channel_dir = _public_channel_dir(
+        public_dir, context.server_key, channel_type, safe_name, forum_name
+    )
     channel_info = ChannelInfo(
         channel_id=channel_id,
         channel_name=channel_name,
         safe_name=safe_name,
         forum_name=forum_name,
-    )
-
-    # Determine which months this phase is responsible for.
-    public_channel_dir = _public_channel_dir(
-        public_dir, context.server_key, channel_type, safe_name, forum_name
+        public_channel_dir=public_channel_dir,
     )
     current_month = current_month_utc()
     now = datetime.now(UTC)
@@ -1111,6 +1167,9 @@ def export_all_channels(  # noqa: C901,PLR0915  # Orchestration top-level
             cache=cache,
             refresh_hours=float(
                 config["export"].get("refresh_unchanged_hours", DEFAULT_REFRESH_HOURS)
+            ),
+            empty_recheck_days=float(
+                config["export"].get("empty_month_recheck_days", DEFAULT_EMPTY_RECHECK_DAYS)
             ),
         )
 
